@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 import path from 'path';
 
-import { getAndroidToken, getIOSToken, getTokensData, getWebToken } from '../converters';
+import { getAndroidToken, getIOSToken, getReactNativeToken, getTokensData, getWebToken } from '../converters';
 
 const createThemeWithData = (dir: string, tokens: any, platform: string) => {
     const rootDir = path.join(dir, platform);
@@ -17,6 +17,7 @@ export const createThemeData = (dir: string, theme: any) => {
         { tokens: getTokensData(getWebToken, theme), platform: 'web' },
         { tokens: getTokensData(getAndroidToken, theme), platform: 'android' },
         { tokens: getTokensData(getIOSToken, theme), platform: 'ios' },
+        { tokens: getTokensData(getReactNativeToken, theme), platform: 'reactNative' },
     ];
 
     data.forEach(({ tokens, platform }) => {
