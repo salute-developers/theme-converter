@@ -1,22 +1,17 @@
 import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 
 import { TokenVariations } from '../types';
-import { calculateAngle } from '../utils';
+import { calculateAngle, getNormalizeValueWithAlpha } from '../utils';
 
 const defaultFontSize = 16;
 
+const fontWeightMap: Record<string, number> = {
+    normal: 400,
+    bold: 600,
+};
+
 export const getAndroidColorToken = (key: string, value: string) => {
-    let newValue = value;
-
-    const alfa = (value.match(/(-0\..\d)/gm) || [])[0];
-    if (alfa) {
-        const normalizeAlfa = Math.round((1 + Number(alfa)) * 100) / 100;
-        newValue = value.replace(/\[(-0\..*)\]/gm, `[${normalizeAlfa}]`);
-    }
-
-    newValue = getHEXAColor(newValue);
-
-    return { [key]: newValue };
+    return { [key]: getNormalizeValueWithAlpha(value) };
 };
 
 export const getAndroidGradientToken = (key: string, value: any) => {
@@ -180,14 +175,14 @@ export const getAndroidTypographyToken = (key: string, value: any) => {
 
     const textSize = Number(value['font-size'].replace(/r?em/gi, '')) * defaultFontSize;
     const lineHeight = Number(value['line-height'].replace(/r?em/gi, '')) * defaultFontSize;
-    const fontWeight = Number(value['font-weight']);
+    const fontWeight = fontWeightMap[value['font-weight']] || Number(value['font-weight']);
     const fontStyle = value['font-style'];
     const letterSpacing =
-        value['letter-spacing'] === 'normal' ? 'normal' : Number(value['letter-spacing'].replace(/r?em/gi, ''));
+        value['letter-spacing'] === 'normal' ? 0 : Number(value['letter-spacing'].replace(/r?em/gi, ''));
 
     return {
         [key]: {
-            fontFamilyRef: `font-family.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
             fontWeight,
             fontStyle,
             textSize,
@@ -197,13 +192,13 @@ export const getAndroidTypographyToken = (key: string, value: any) => {
     };
 };
 
-export const getAndroidFontFamily = (key: string, value: any) => {
+export const getAndroidFontFamilyToken = (key: string, value: any) => {
     const fonts = value['fonts'].map((font: any) => {
         const link = font.src[0].match(/https:.*\.woff2?/gim)[0]?.replace('woff2', 'otf');
 
         return {
             link,
-            fontWeight: Number(font.fontWeight) || 400,
+            fontWeight: fontWeightMap[font.fontWeight] || Number(font.fontWeight),
             fontStyle: font.fontStyle,
         };
     });
@@ -238,6 +233,6 @@ export const getAndroidToken = (type: keyof TokenVariations, name: string, value
     }
 
     if (type === 'fontFamily') {
-        return getAndroidFontFamily(name, value);
+        return getAndroidFontFamilyToken(name, value);
     }
 };

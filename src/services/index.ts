@@ -32,7 +32,9 @@ export const convertTheme = async (themeName: string, version = '0.1.0', branchN
 
     createThemeMeta(dir, themeName, version, theme);
 
-    createThemeData(dir, theme);
+    if (themeName !== 'default') {
+        createThemeData(dir, theme);
+    }
 
     await createThemeZip(dir, themeName, version);
 

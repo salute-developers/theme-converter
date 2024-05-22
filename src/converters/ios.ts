@@ -1,7 +1,7 @@
 import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 
 import { TokenVariations } from '../types';
-import { calculateAngle, roundTo } from '../utils';
+import { calculateAngle, getNormalizeValueWithAlpha, roundTo } from '../utils';
 
 const fontWeightMap: Record<string, string> = {
     100: 'ultraLight',
@@ -18,17 +18,7 @@ const fontWeightMap: Record<string, string> = {
 const defaultFontSize = 16;
 
 export const getIOSColorToken = (key: string, value: string) => {
-    let newValue = value;
-
-    const alfa = (value.match(/(-0\..\d)/gm) || [])[0];
-    if (alfa) {
-        const normalizeAlfa = roundTo(1 + Number(alfa));
-        newValue = value.replace(/\[(-0\..*)\]/gm, `[${normalizeAlfa}]`);
-    }
-
-    newValue = getHEXAColor(newValue);
-
-    return { [key]: newValue };
+    return { [key]: getNormalizeValueWithAlpha(value) };
 };
 
 export const getIOSGradientToken = (key: string, value: any) => {
@@ -204,13 +194,13 @@ export const getIOSTypographyToken = (key: string, value: any) => {
 
     const size = Number(value['font-size'].replace(/r?em/gi, '')) * defaultFontSize;
     const lineHeight = Number(value['line-height'].replace(/r?em/gi, '')) * defaultFontSize;
-    const weight = fontWeightMap[value['font-weight']];
+    const weight = fontWeightMap[value['font-weight']] || value['font-weight'];
     const style = value['font-style'];
     const kerning = value['letter-spacing'] === 'normal' ? 0 : Number(value['letter-spacing'].replace(/r?em/gi, ''));
 
     return {
         [key]: {
-            fontFamilyRef: `font-family.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
             weight,
             style,
             size,
@@ -220,14 +210,14 @@ export const getIOSTypographyToken = (key: string, value: any) => {
     };
 };
 
-export const getIOSFontFamily = (key: string, value: any) => {
+export const getIOSFontFamilyToken = (key: string, value: any) => {
     const fonts = value['fonts'].map((font: any) => {
         const link = font.src[0].match(/https:.*\.woff2?/gim)[0]?.replace('woff2', 'otf');
 
         return {
             link,
-            fontWeight: Number(font.fontWeight) || 400,
-            fontStyle: font.fontStyle,
+            weight: fontWeightMap[font.fontWeight] || font.fontWeight,
+            style: font.fontStyle,
         };
     });
 
@@ -261,6 +251,6 @@ export const getIOSToken = (type: keyof TokenVariations, name: string, value: an
     }
 
     if (type === 'fontFamily') {
-        return getIOSFontFamily(name, value);
+        return getIOSFontFamilyToken(name, value);
     }
 };

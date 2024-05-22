@@ -1,6 +1,7 @@
 import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 
 import { TokenVariations } from '../types';
+import { getNormalizeValueWithAlpha } from '../utils';
 
 const getGradientParts = (value: string) => {
     if (!value.includes('gradient')) {
@@ -33,22 +34,13 @@ export const getNormalizeGradient = (gradient: string) => {
 };
 
 export const getWebColorToken = (key: string, value: string) => {
-    let newValue = value;
-
-    const alfa = (value.match(/(-0\..\d)/gm) || [])[0];
-    if (alfa) {
-        const normalizeAlfa = Math.round((1 + Number(alfa)) * 100) / 100;
-        newValue = value.replace(/\[(-0\..*)\]/gm, `[${normalizeAlfa}]`);
-    }
-
-    newValue = getHEXAColor(newValue);
-
-    return { [key]: newValue };
+    return { [key]: getNormalizeValueWithAlpha(value) };
 };
 
 export const getWebGradientToken = (key: string, value: any) => {
     if (typeof value === 'string') {
-        const regex = /((rgba?|hsla?)\([\d.%\s,()#\w]*\))|(#\w{6,8})|(linear|radial)-gradient\([\d.%\s,()#\w]+?\)(?=,*\s*(linear|radial|$|rgb|hsl|#))/g;
+        const regex =
+            /((rgba?|hsla?)\([\d.%\s,()#\w]*\))|(#\w{6,8})|(linear|radial)-gradient\([\d.%\s,()#\w]+?\)(?=,*\s*(linear|radial|$|rgb|hsl|#))/g;
         const gradientArray = value.match(regex);
 
         const result = gradientArray?.map(getNormalizeGradient);
@@ -89,7 +81,7 @@ export const getWebTypographyToken = (key: string, value: any) => {
 
     return {
         [key]: {
-            fontFamilyRef: `font-family.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
             fontWeight: value['font-weight'],
             fontStyle: value['font-style'],
             fontSize: value['font-size'],
@@ -99,7 +91,7 @@ export const getWebTypographyToken = (key: string, value: any) => {
     };
 };
 
-export const getWebFontFamily = (key: string, value: any) => {
+export const getWebFontFamilyToken = (key: string, value: any) => {
     return {
         [key]: {
             name: value['name'],
@@ -130,6 +122,6 @@ export const getWebToken = (type: keyof TokenVariations, name: string, value: an
     }
 
     if (type === 'fontFamily') {
-        return getWebFontFamily(name, value);
+        return getWebFontFamilyToken(name, value);
     }
 };

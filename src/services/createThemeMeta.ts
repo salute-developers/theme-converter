@@ -84,7 +84,7 @@ export const createThemeMeta = (dir: string, themeName: string, version: string,
     const themeMeta = new ThemeMeta(themeName, version, tokens);
 
     existsSync(rootDir) || mkdirSync(rootDir);
-    writeFileSync(path.join(rootDir, `./${themeName}.json`), themeMeta.convertToJSON());
+    writeFileSync(path.join(rootDir, `./meta.json`), themeMeta.convertToJSON());
 
     console.log(`✓ Создание файла завершено`);
 };
