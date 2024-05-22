@@ -1,7 +1,7 @@
 import { TokenVariation } from '../types';
 import { camelToKebab } from '../utils';
 
-export const getType = (paths: string[], value?: any): TokenVariation => {
+export const getType = (paths: string[], value: any): TokenVariation => {
     if (
         paths.find((path) => path.toLowerCase().includes('gradient')) ||
         value?.xml ||

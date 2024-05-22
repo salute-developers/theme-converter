@@ -53,7 +53,7 @@ export const getDescription = (paths: string[], comment?: string) => {
 export const getTokenMeta = (paths: string[], key: string, oldToken: any): TokenMetaType => {
     const newPaths = [...paths, key];
 
-    const type = getType(newPaths);
+    const type = getType(newPaths, oldToken.value);
     const tags = getTags(newPaths, type);
     const name = getName(tags);
     const displayName = getDisplayName(newPaths, type);

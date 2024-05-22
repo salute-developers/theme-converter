@@ -4,7 +4,10 @@ export const roundTo = (value: number, precision = 2) =>
     Math.round(value * Math.pow(10, precision)) / Math.pow(10, precision);
 
 export const camelToKebab = (str: string) => {
-    return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+    return str
+        .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
+        .replace(/([A-Z])([A-Z][a-z])/g, '$1-$2')
+        .toLowerCase();
 };
 
 export const kebabToCamel = (str: string) => {
