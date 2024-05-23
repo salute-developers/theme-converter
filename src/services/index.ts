@@ -38,6 +38,8 @@ export const convertTheme = async (themeName: string, version = '0.1.0', branchN
 
     await createThemeZip(dir, themeName, version);
 
+    await createThemeZip(dir, themeName, 'latest');
+
     rmSync(dir, { recursive: true, force: true });
 };
 
