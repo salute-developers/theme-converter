@@ -7,7 +7,7 @@ const defaultFontSize = 16;
 
 const fontWeightMap: Record<string, number> = {
     normal: 400,
-    bold: 600,
+    bold: 700,
 };
 
 export const getAndroidColorToken = (key: string, value: string) => {
@@ -120,7 +120,7 @@ export const getAndroidGradientToken = (key: string, value: any) => {
         }
 
         if (value.linearGradient) {
-            const colors = getHEXAColor(value.linearGradient.colors);
+            const colors = value.linearGradient.colors.map(getHEXAColor);
 
             return {
                 [key]: [
@@ -168,10 +168,7 @@ export const getAndroidShapeToken = (key: string, value: any) => {
 };
 
 export const getAndroidTypographyToken = (key: string, value: any) => {
-    const fonts: Record<string, string> = {
-        'SB Sans Display': 'display',
-        'SB Sans Text': 'text',
-    };
+    const kind = key.split('.')[1];
 
     const textSize = Number(value['font-size'].replace(/r?em/gi, '')) * defaultFontSize;
     const lineHeight = Number(value['line-height'].replace(/r?em/gi, '')) * defaultFontSize;
@@ -182,7 +179,7 @@ export const getAndroidTypographyToken = (key: string, value: any) => {
 
     return {
         [key]: {
-            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${kind}`,
             fontWeight,
             fontStyle,
             textSize,

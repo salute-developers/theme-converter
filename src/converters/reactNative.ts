@@ -7,7 +7,7 @@ const defaultFontSize = 16;
 
 const fontWeightMap: Record<string, string> = {
     normal: '400',
-    bold: '600',
+    bold: '700',
 };
 
 export const getReactNativeColorToken = (key: string, value: string) => {
@@ -120,7 +120,7 @@ export const getReactNativeGradientToken = (key: string, value: any) => {
         }
 
         if (value.linearGradient) {
-            const colors = getHEXAColor(value.linearGradient.colors);
+            const colors = value.linearGradient.colors.map(getHEXAColor);
 
             return {
                 [key]: [
@@ -177,10 +177,7 @@ export const getReactNativeShapeToken = (key: string, value: any) => {
 };
 
 export const getReactNativeTypographyToken = (key: string, value: any) => {
-    const fonts: Record<string, string> = {
-        'SB Sans Display': 'display',
-        'SB Sans Text': 'text',
-    };
+    const kind = key.split('.')[1];
 
     const fontSize = Number(value['font-size'].replace(/r?em/gi, '')) * defaultFontSize;
     const lineHeight = Number(value['line-height'].replace(/r?em/gi, '')) * defaultFontSize;
@@ -191,7 +188,7 @@ export const getReactNativeTypographyToken = (key: string, value: any) => {
 
     return {
         [key]: {
-            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${kind}`,
             fontWeight,
             fontStyle,
             fontSize,

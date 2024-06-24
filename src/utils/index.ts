@@ -25,6 +25,8 @@ export const getNormalizeValueWithAlpha = (value: string) => {
         newValue = value.replace(/\[(-0\..*)\]/gm, `[${normalizeAlfa}]`);
     }
 
+    newValue = newValue === '#F' ? '#FFFFFF' : newValue;
+
     return getHEXAColor(newValue);
 };
 

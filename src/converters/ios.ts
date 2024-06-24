@@ -4,15 +4,17 @@ import { TokenVariations } from '../types';
 import { calculateAngle, getNormalizeValueWithAlpha, roundTo } from '../utils';
 
 const fontWeightMap: Record<string, string> = {
-    100: 'ultraLight',
+    100: 'ultralight',
     200: 'thin',
-    300: 'semibold',
+    300: 'light',
     400: 'regular',
     500: 'medium',
-    600: 'light',
-    700: 'heavy',
-    800: 'bold',
+    600: 'semibold',
+    700: 'bold',
+    800: 'heavy',
     900: 'black',
+    normal: 'regular',
+    bold: 'bold',
 };
 
 const defaultFontSize = 16;
@@ -43,10 +45,10 @@ export const getIOSGradientToken = (key: string, value: any) => {
                         kind: 'radial',
                         locations: [0, 1],
                         colors: ['#FFFFFF', '#000000'],
-                        startPointX: 0,
-                        startPointY: 0,
-                        endPointX: 1,
-                        endPointY: 1,
+                        centerX: 0,
+                        centerY: 0,
+                        startRadius: 0,
+                        endRadius: 1,
                     },
                 ],
             };
@@ -88,10 +90,10 @@ export const getIOSGradientToken = (key: string, value: any) => {
                     kind: 'radial',
                     locations: v.swift.locations,
                     colors,
-                    startPointX: v.swift.startPoint.x,
-                    startPointY: v.swift.startPoint.y,
-                    endPointX: v.swift.endPoint.x,
-                    endPointY: v.swift.endPoint.y,
+                    centerX: v.swift.startPoint.x,
+                    centerY: v.swift.startPoint.y,
+                    startRadius: 0,
+                    endRadius: v.swift.endPoint.y || v.swift.endPoint.x, // TODO: Обновить после #PLASMA-3068
                 };
             }
 
@@ -129,7 +131,7 @@ export const getIOSGradientToken = (key: string, value: any) => {
         }
 
         if (value.linearGradient) {
-            const colors = getHEXAColor(value.linearGradient.colors);
+            const colors = value.linearGradient.colors.map(getHEXAColor);
 
             return {
                 [key]: [
@@ -187,10 +189,7 @@ export const getIOSShapeToken = (key: string, value: any) => {
 };
 
 export const getIOSTypographyToken = (key: string, value: any) => {
-    const fonts: Record<string, string> = {
-        'SB Sans Display': 'display',
-        'SB Sans Text': 'text',
-    };
+    const kind = key.split('.')[1];
 
     const size = Number(value['font-size'].replace(/r?em/gi, '')) * defaultFontSize;
     const lineHeight = Number(value['line-height'].replace(/r?em/gi, '')) * defaultFontSize;
@@ -200,7 +199,7 @@ export const getIOSTypographyToken = (key: string, value: any) => {
 
     return {
         [key]: {
-            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${kind}`,
             weight,
             style,
             size,

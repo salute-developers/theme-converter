@@ -10,6 +10,48 @@ const getDefaultTokens = (type: string, fileName = 'standard') => {
     return JSON.parse(defaultTokens);
 };
 
+const addSkeletonGradients = (theme: any, gradient: any) => {
+    theme.dark.surface = {
+        ...theme.dark.surface,
+        default: {
+            ...theme.dark.surface.default,
+            ...gradient.dark.surface.default,
+        },
+        onDark: {
+            ...theme.dark.surface.onDark,
+            ...gradient.dark.surface.onDark,
+        },
+        onLight: {
+            ...theme.dark.surface.onLight,
+            ...gradient.dark.surface.onLight,
+        },
+        inverse: {
+            ...theme.dark.surface.inverse,
+            ...gradient.dark.surface.inverse,
+        },
+    };
+
+    theme.light.surface = {
+        ...theme.light.surface,
+        default: {
+            ...theme.light.surface.default,
+            ...gradient.light.surface.default,
+        },
+        onDark: {
+            ...theme.light.surface.onDark,
+            ...gradient.light.surface.onDark,
+        },
+        onLight: {
+            ...theme.light.surface.onLight,
+            ...gradient.light.surface.onLight,
+        },
+        inverse: {
+            ...theme.light.surface.inverse,
+            ...gradient.light.surface.inverse,
+        },
+    };
+};
+
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
     console.log(`• Загрузка темы '${themeName}' из ветки '${branchName}' в репозитории Plasma`);
 
@@ -38,9 +80,12 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     }
 
     if (!theme.typography) {
-        const specialFile = themeName.includes('sbermarket') ? 'sbermarket' : undefined;
-        theme.typography = getDefaultTokens('typography', specialFile);
+        const specialFileName = themeName.includes('sbermarket') ? 'sbermarket' : undefined;
+        theme.typography = getDefaultTokens('typography', specialFileName);
     }
+
+    const gradient = getDefaultTokens('gradient');
+    addSkeletonGradients(theme, gradient);
 
     // TODO: Удалить, когда появится обработка токенов "Отступы"
     if (theme.spacing) {

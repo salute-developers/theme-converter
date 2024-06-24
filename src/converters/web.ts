@@ -3,6 +3,10 @@ import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 import { TokenVariations } from '../types';
 import { getNormalizeValueWithAlpha } from '../utils';
 
+export const getWebColorToken = (key: string, value: string) => {
+    return { [key]: getNormalizeValueWithAlpha(value) };
+};
+
 const getGradientParts = (value: string) => {
     if (!value.includes('gradient')) {
         return undefined;
@@ -15,7 +19,7 @@ const getGradientParts = (value: string) => {
     return [type, ...parts];
 };
 
-export const getNormalizeGradient = (gradient: string) => {
+const getNormalizeGradient = (gradient: string) => {
     const gradients = getGradientParts(gradient);
 
     if (!gradients) {
@@ -31,10 +35,6 @@ export const getNormalizeGradient = (gradient: string) => {
     });
 
     return `${type}(${[angle, ...newLayers].join(', ')})`;
-};
-
-export const getWebColorToken = (key: string, value: string) => {
-    return { [key]: getNormalizeValueWithAlpha(value) };
 };
 
 export const getWebGradientToken = (key: string, value: any) => {
@@ -74,14 +74,11 @@ export const getWebShapeToken = (key: string, value: any) => {
 };
 
 export const getWebTypographyToken = (key: string, value: any) => {
-    const fonts: Record<string, string> = {
-        'SB Sans Display': 'display',
-        'SB Sans Text': 'text',
-    };
+    const kind = key.split('.')[1];
 
     return {
         [key]: {
-            fontFamilyRef: `fontFamily.${fonts[value['font-family']]}`,
+            fontFamilyRef: `fontFamily.${kind}`,
             fontWeight: value['font-weight'],
             fontStyle: value['font-style'],
             fontSize: value['font-size'],
