@@ -151,7 +151,7 @@ export const getAndroidShadowToken = (key: string, value: any) => {
 
         return {
             [key]: {
-                color: values.color,
+                color: getHEXAColor(values.color),
                 elevation: Number(values.elevation),
             },
         };

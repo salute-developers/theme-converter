@@ -167,7 +167,7 @@ export const getIOSShadowToken = (key: string, value: any) => {
 
         return {
             [key]: {
-                color: values.color,
+                color: getHEXAColor(values.color),
                 offset: {
                     width: values.offset.width,
                     height: values.offset.height,

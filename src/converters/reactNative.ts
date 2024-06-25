@@ -156,7 +156,7 @@ export const getReactNativeShadowToken = (key: string, value: any) => {
 
         return {
             [key]: {
-                color: androidValues.color,
+                color: getHEXAColor(androidValues.color),
                 elevation: Number(androidValues.elevation),
                 offsetWidth: iosValues.offset.width,
                 offsetHeight: iosValues.offset.height,

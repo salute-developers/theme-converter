@@ -11,7 +11,7 @@ export const camelToKebab = (str: string) => {
 };
 
 export const kebabToCamel = (str: string) => {
-    return str.replace(/-([a-z])/g, function (_, group) {
+    return str.replace(/-([a-z])/g, (_, group) => {
         return group.toUpperCase();
     });
 };

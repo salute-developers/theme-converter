@@ -63,7 +63,11 @@ export const getWebGradientToken = (key: string, value: any) => {
 
 export const getWebShadowToken = (key: string, value: any) => {
     if (Array.isArray(value)) {
-        const values = value.map((v) => v.origin);
+        const values = value.map((v) => {
+            return (v.origin as string).replace(/(rgb.*)/gim, (_, group) => {
+                return getHEXAColor(group);
+            });
+        });
 
         return { [key]: values };
     }
