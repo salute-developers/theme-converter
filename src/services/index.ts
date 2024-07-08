@@ -21,6 +21,7 @@ const themeList = [
     'sberonline',
     'sberprime',
     'sdds_serv',
+    'sdds_dfa',
     'stylesSalute',
 ];
 
