@@ -52,6 +52,15 @@ const addSkeletonGradients = (theme: any, gradient: any) => {
     };
 };
 
+const compatibleTypography: Record<string, string> = {
+    sbermarket: 'sbermarket',
+    sbermarket_business: 'sbermarket',
+    sbermarket_metro: 'sbermarket',
+    sbermarket_selgros: 'sbermarket',
+    sbermarket_wlbusiness: 'sbermarket',
+    sdds_cs: 'sdds_cs',
+};
+
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
     console.log(`• Загрузка темы '${themeName}' из ветки '${branchName}' в репозитории Plasma`);
 
@@ -80,7 +89,7 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     }
 
     if (!theme.typography) {
-        const specialFileName = themeName.includes('sbermarket') ? 'sbermarket' : undefined;
+        const specialFileName = compatibleTypography[themeName];
         theme.typography = getDefaultTokens('typography', specialFileName);
     }
 
