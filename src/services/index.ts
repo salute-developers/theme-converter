@@ -45,9 +45,9 @@ export const convertTheme = async (themeName: string, version = '0.1.0', branchN
     rmSync(dir, { recursive: true, force: true });
 };
 
-export const convertAllThemes = async () => {
+export const convertAllThemes = async (branchName = 'dev') => {
     for (const theme of themeList) {
-        await convertTheme(theme, '0.1.0', 'dev');
+        await convertTheme(theme, '0.1.0', branchName);
     }
 };
 
