@@ -7,9 +7,7 @@ import { createThemeMeta } from './createThemeMeta';
 import { createThemeZip } from './createThemeZip';
 
 const themeList = [
-    'caldera_online',
     'default',
-    'flamingo',
     'plasma_b2c',
     'plasma_web',
     'sberHealth',
