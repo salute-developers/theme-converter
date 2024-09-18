@@ -61,6 +61,11 @@ const compatibleTypography: Record<string, string> = {
     sdds_cs: 'sdds_cs',
 };
 
+const compatibleShape: Record<string, string> = {
+    stylesSalute: 'stylesSalute',
+    sdds_serv: 'stylesSalute',
+};
+
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
     console.log(`• Загрузка темы '${themeName}' из ветки '${branchName}' в репозитории Plasma`);
 
@@ -85,7 +90,8 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     }
 
     if (!theme.borderRadius) {
-        theme.borderRadius = getDefaultTokens('shape');
+        const specialFileName = compatibleShape[themeName];
+        theme.borderRadius = getDefaultTokens('shape', specialFileName);
     }
 
     if (!theme.typography) {
