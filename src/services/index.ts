@@ -22,6 +22,7 @@ const themeList = [
     'sdds_dfa',
     'sdds_cs',
     'sdds_finportal',
+    'sdds_os',
     'stylesSalute',
 ];
 
