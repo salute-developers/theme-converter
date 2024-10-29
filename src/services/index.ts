@@ -23,7 +23,7 @@ const themeList = [
     'sdds_cs',
     'sdds_finportal',
     'sdds_os',
-    'sdds_insurance',
+    'sdds_insol',
     'stylesSalute',
 ];
 
