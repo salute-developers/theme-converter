@@ -1,0 +1,214 @@
+{
+    "variations": {
+        "color": {
+            "default": {
+                "contentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.solid-default",
+                    "pressed": "surface.default.solid-default-active",
+                    "hovered": "surface.default.solid-default-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.inverse.secondary",
+                    "pressed": "text.inverse.secondary-active",
+                    "hovered": "text.inverse.secondary-hover"
+                }
+            },
+            "secondary": {
+                "contentColor": {
+                    "default": "text.default.primary",
+                    "pressed": "text.default.primary-active",
+                    "hovered": "text.default.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.transparent-secondary",
+                    "pressed": "surface.default.transparent-secondary-active",
+                    "hovered": "surface.default.transparent-secondary-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.default.secondary",
+                    "pressed": "text.default.secondary-active",
+                    "hovered": "text.default.secondary-hover"
+                }
+            },
+            "accent": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.accent",
+                    "pressed": "surface.default.accent-active",
+                    "hovered": "surface.default.accent-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "positive": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.positive",
+                    "pressed": "surface.default.positive-active",
+                    "hovered": "surface.default.positive-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "negative": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.negative",
+                    "pressed": "surface.default.negative-active",
+                    "hovered": "surface.default.negative-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "warning": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.warning",
+                    "pressed": "surface.default.warning-active",
+                    "hovered": "surface.default.warning-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "clear": {
+                "contentColor": {
+                    "default": "text.default.primary",
+                    "pressed": "text.default.primary-active",
+                    "hovered": "text.default.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.default.clear",
+                    "pressed": "surface.default.clear-active",
+                    "hovered": "surface.default.clear-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.default.secondary",
+                    "pressed": "text.default.secondary-active",
+                    "hovered": "text.default.secondary-hover"
+                }
+            },
+            "dark": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.on-light.transparent-deep",
+                    "pressed": "surface.on-light.transparent-deep-active",
+                    "hovered": "surface.on-light.transparent-deep-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "black": {
+                "contentColor": {
+                    "default": "text.on-dark.primary",
+                    "pressed": "text.on-dark.primary-active",
+                    "hovered": "text.on-dark.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.on-light.solid-default",
+                    "pressed": "surface.on-light.solid-default-active",
+                    "hovered": "surface.on-light.solid-default-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-dark.secondary",
+                    "pressed": "text.on-dark.secondary-active",
+                    "hovered": "text.on-dark.secondary-hover"
+                }
+            },
+            "white": {
+                "contentColor": {
+                    "default": "text.on-light.primary",
+                    "pressed": "text.on-light.primary-active",
+                    "hovered": "text.on-light.primary-hover"
+                }, 
+                "backgroundColor": {
+                    "default": "surface.on-light.solid-default",
+                    "pressed": "surface.on-light.solid-default-active",
+                    "hovered": "surface.on-light.solid-default-hover"
+                }, 
+                "valueColor": {
+                    "default": "text.on-light.secondary",
+                    "pressed": "text.on-light.secondary-active",
+                    "hovered": "text.on-light.secondary-hover"
+                }
+            }
+        },
+        "size": {
+            "l": {
+                "shape": "round.l",
+                "height": 56, 
+                "paddingStart": 16,
+                "paddingEnd": 16,
+                "minWidth": 56,
+                "iconSize": 24,
+                "spinnerSize": 22
+            },
+            "m": {
+                "shape": "round.m",
+                "height": 48,
+                "paddingStart": 12,
+                "paddingEnd": 12,
+                "minWidth": 48,
+                "iconSize": 24,
+                "spinnerSize": 22
+            },
+            "s": {
+                "shape": "round.s",
+                "height": 40,
+                "paddingStart": 8,
+                "paddingEnd": 8,
+                "minWidth": 40,
+                "iconSize": 24,
+                "spinnerSize": 22
+            },
+            "xs": {
+                "shape": "round.xs",
+                "height": 32,
+                "paddingStart": 8,
+                "paddingEnd": 8,
+                "minWidth": 32,
+                "iconSize": 16,
+                "spinnerSize": 16
+            }
+        }
+    }
+}
