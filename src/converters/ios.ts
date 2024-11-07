@@ -1,7 +1,13 @@
 import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 
 import { TokenVariations } from '../types';
-import { calculateAngle, getNormalizeValueWithAlpha, roundTo } from '../utils';
+import {
+    calculateAngle,
+    getGradientParts,
+    getNativeLinearGradients,
+    getNormalizeValueWithAlpha,
+    parseGradientsByLayer,
+} from '../utils';
 
 const fontWeightMap: Record<string, string> = {
     100: 'ultralight',
@@ -26,15 +32,20 @@ export const getIOSColorToken = (key: string, value: string) => {
 export const getIOSGradientToken = (key: string, value: any) => {
     if (typeof value === 'string') {
         if (value.includes('linear')) {
+            const gradientArray = parseGradientsByLayer(value);
+            const gradients = gradientArray?.map(getGradientParts);
+
             return {
-                [key]: [
-                    {
-                        kind: 'linear',
-                        locations: [0, 1],
-                        colors: ['#FFFFFF', '#000000'],
-                        angle: 90,
-                    },
-                ],
+                [key]: gradients
+                    ? gradients.map(getNativeLinearGradients)
+                    : [
+                          {
+                              kind: 'linear',
+                              locations: [0, 1],
+                              colors: ['#FFFFFF', '#000000'],
+                              angle: 90,
+                          },
+                      ],
             };
         }
 

@@ -41,3 +41,53 @@ export const calculateAngle = (pointA: { x: number; y: number }, pointB: { x: nu
 
     return roundTo(angle);
 };
+
+export const parseGradientsByLayer = (value: string) => {
+    const regex =
+        /((rgba?|hsla?)\([\d.%\s,()#\w]*\))|(#\w{6,8})|(linear|radial)-gradient\([\d.%\s,()#\w]+?\)(?=,*\s*(linear|radial|$|rgb|hsl|#))/g;
+    return value.match(regex);
+};
+
+export const getGradientParts = (value: string) => {
+    if (!value.includes('gradient')) {
+        return undefined;
+    }
+
+    const gradient = value.substring(value.indexOf('(') + 1, value.lastIndexOf(')'));
+    const type = value.substring(0, value.indexOf('('));
+    const parts = gradient.split(/,\s(?![^(]*\))(?![^"']*["'](?:[^"']*["'][^"']*["'])*[^"']*$)/gm);
+
+    return [type, ...parts];
+};
+
+export const getNativeLinearGradients = (gradient?: string[]) => {
+    if (!gradient) {
+        return null;
+    }
+
+    const [, ...parts] = gradient;
+    const [angle, ...layers] = parts;
+    const newLayers = layers.reduce(
+        (acc, layer) => {
+            const [color, location] = layer.split(/ (\d*\.?\d+%)/gim);
+
+            acc.locations = acc.locations || [];
+            acc.colors = acc.colors || [];
+
+            acc.locations.push(roundTo(parseFloat(location) / 100, 4));
+            acc.colors.push(getHEXAColor(color));
+
+            return acc;
+        },
+        {} as {
+            locations: number[];
+            colors: string[];
+        },
+    );
+
+    return {
+        kind: 'linear',
+        ...newLayers,
+        angle: parseFloat(angle),
+    };
+};

@@ -1,22 +1,10 @@
 import { getHEXAColor } from '@salutejs/plasma-tokens-utils';
 
 import { TokenVariations } from '../types';
-import { getNormalizeValueWithAlpha } from '../utils';
+import { getGradientParts, getNormalizeValueWithAlpha, parseGradientsByLayer } from '../utils';
 
 export const getWebColorToken = (key: string, value: string) => {
     return { [key]: getNormalizeValueWithAlpha(value) };
-};
-
-const getGradientParts = (value: string) => {
-    if (!value.includes('gradient')) {
-        return undefined;
-    }
-
-    const gradient = value.substring(value.indexOf('(') + 1, value.lastIndexOf(')'));
-    const type = value.substring(0, value.indexOf('('));
-    const parts = gradient.split(/,\s(?![^(]*\))(?![^"']*["'](?:[^"']*["'][^"']*["'])*[^"']*$)/gm);
-
-    return [type, ...parts];
 };
 
 const getNormalizeGradient = (gradient: string) => {
@@ -29,9 +17,9 @@ const getNormalizeGradient = (gradient: string) => {
     const [type, ...parts] = gradients;
     const [angle, ...layers] = parts;
     const newLayers = layers.map((layer) => {
-        const [color, angle] = layer.split(/ (\d*\.?\d+%)/gim);
+        const [color, location] = layer.split(/ (\d*\.?\d+%)/gim);
 
-        return `${getHEXAColor(color)} ${angle}`;
+        return `${getHEXAColor(color)} ${location}`;
     });
 
     return `${type}(${[angle, ...newLayers].join(', ')})`;
@@ -39,10 +27,7 @@ const getNormalizeGradient = (gradient: string) => {
 
 export const getWebGradientToken = (key: string, value: any) => {
     if (typeof value === 'string') {
-        const regex =
-            /((rgba?|hsla?)\([\d.%\s,()#\w]*\))|(#\w{6,8})|(linear|radial)-gradient\([\d.%\s,()#\w]+?\)(?=,*\s*(linear|radial|$|rgb|hsl|#))/g;
-        const gradientArray = value.match(regex);
-
+        const gradientArray = parseGradientsByLayer(value);
         const result = gradientArray?.map(getNormalizeGradient);
 
         return { [key]: result };
