@@ -1,4 +1,7 @@
 {
+    "invariant": {
+        "loadingAlpha": 0.06
+    },
     "variations": {
         "color": {
             "default": {
