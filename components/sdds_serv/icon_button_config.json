@@ -4,171 +4,531 @@
             "default": {
                 "contentColor": {
                     "default": "text.inverse.primary",
-                    "pressed": "text.inverse.primary-active",
-                    "hovered": "text.inverse.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.inverse.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.inverse.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.solid-default",
-                    "pressed": "surface.default.solid-default-active",
-                    "hovered": "surface.default.solid-default-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.solid-default-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.solid-default-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.inverse.secondary",
-                    "pressed": "text.inverse.secondary-active",
-                    "hovered": "text.inverse.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.inverse.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.inverse.secondary-hover"
+                        }
+                    ]
                 }
             },
             "secondary": {
                 "contentColor": {
                     "default": "text.default.primary",
-                    "pressed": "text.default.primary-active",
-                    "hovered": "text.default.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.transparent-secondary",
-                    "pressed": "surface.default.transparent-secondary-active",
-                    "hovered": "surface.default.transparent-secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.default.secondary",
-                    "pressed": "text.default.secondary-active",
-                    "hovered": "text.default.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
                 }
             },
             "accent": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.accent",
-                    "pressed": "surface.default.accent-active",
-                    "hovered": "surface.default.accent-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.accent-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.accent-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "positive": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.positive",
-                    "pressed": "surface.default.positive-active",
-                    "hovered": "surface.default.positive-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.positive-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.positive-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "negative": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.negative",
-                    "pressed": "surface.default.negative-active",
-                    "hovered": "surface.default.negative-hover"
-                }, 
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.negative-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.negative-hover"
+                        }
+                    ]
+                },
                 "valueColor": {
-                    "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                   "default": "text.on-dark.secondary",
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "warning": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.warning",
-                    "pressed": "surface.default.warning-active",
-                    "hovered": "surface.default.warning-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.warning-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.warning-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "clear": {
                 "contentColor": {
                     "default": "text.default.primary",
-                    "pressed": "text.default.primary-active",
-                    "hovered": "text.default.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.default.clear",
-                    "pressed": "surface.default.clear-active",
-                    "hovered": "surface.default.clear-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.default.clear-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.default.clear-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.default.secondary",
-                    "pressed": "text.default.secondary-active",
-                    "hovered": "text.default.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
                 }
             },
             "dark": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.on-light.transparent-deep",
-                    "pressed": "surface.on-light.transparent-deep-active",
-                    "hovered": "surface.on-light.transparent-deep-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.on-light.transparent-deep-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.on-light.transparent-deep-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "black": {
                 "contentColor": {
                     "default": "text.on-dark.primary",
-                    "pressed": "text.on-dark.primary-active",
-                    "hovered": "text.on-dark.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
-                    "default": "surface.on-light.solid-default",
-                    "pressed": "surface.on-light.solid-default-active",
-                    "hovered": "surface.on-light.solid-default-hover"
+                    "default": "tsurface.on-light.solid-default",
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.on-light.solid-default-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.on-light.solid-default-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-dark.secondary",
-                    "pressed": "text.on-dark.secondary-active",
-                    "hovered": "text.on-dark.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
                 }
             },
             "white": {
                 "contentColor": {
                     "default": "text.on-light.primary",
-                    "pressed": "text.on-light.primary-active",
-                    "hovered": "text.on-light.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-light.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-light.primary-hover"
+                        }
+                    ]
                 }, 
                 "backgroundColor": {
                     "default": "surface.on-light.solid-default",
-                    "pressed": "surface.on-light.solid-default-active",
-                    "hovered": "surface.on-light.solid-default-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "surface.on-light.solid-default-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "surface.on-light.solid-default-hover"
+                        }
+                    ]
                 }, 
                 "valueColor": {
                     "default": "text.on-light.secondary",
-                    "pressed": "text.on-light.secondary-active",
-                    "hovered": "text.on-light.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.on-light.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.on-light.secondary-hover"
+                        }
+                    ]
                 }
             }
         },

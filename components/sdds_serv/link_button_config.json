@@ -1,7 +1,9 @@
 {
     "invariant": {
         "loadingAlpha": 0.06,
-        "backgroundColor": "surface.default.clear"
+        "backgroundColor": { 
+            "default": "surface.default.clear"
+        }
     },
     
     "variations": {
@@ -9,43 +11,115 @@
             "default": {
                 "contentColor": {
                     "default": "text.default.primary",
-                    "pressed": "text.default.primary-active",
-                    "hovered": "text.default.primary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
                 }
             },
             "secondary": {
                 "contentColor": {
                     "default": "text.default.secondary",
-                    "pressed": "text.default.secondary-active",
-                    "hovered": "text.default.secondary-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
                 }
             },
             "accent": {
                 "contentColor": {
                     "default": "text.default.accent",
-                    "pressed": "text.default.accent-active",
-                    "hovered": "text.default.accent-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.accent-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.accent-hover"
+                        }
+                    ]
                 }
             },
             "positive": {
                 "contentColor": {
                     "default": "text.default.positive",
-                    "pressed": "text.default.positive-active",
-                    "hovered": "text.default.positive-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.positive-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.positive-hover"
+                        }
+                    ]
                 }
             },
             "negative": {
                 "contentColor": {
                     "default": "text.default.negative",
-                    "pressed": "text.default.negative-active",
-                    "hovered": "text.default.negative-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.negative-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.negative-hover"
+                        }
+                    ]
                 }
             },
             "warning": {
                 "contentColor": {
                     "default": "text.default.warning",
-                    "pressed": "text.default.warning-active",
-                    "hovered": "text.default.warning-hover"
+                    "states": [
+                        {
+                            "focused": false,
+                            "pressed": true,
+                            "hovered": false,
+                            "value": "text.default.warning-active"
+                        },
+                        {
+                            "focused": false,
+                            "pressed": false,
+                            "hovered": true,
+                            "value": "text.default.warning-hover"
+                        }
+                    ]
                 }
             }
         },
