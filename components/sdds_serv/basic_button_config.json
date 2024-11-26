@@ -9,15 +9,11 @@
                     "default": "text.inverse.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.inverse.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.inverse.primary-hover"
                         }
                     ]
@@ -26,15 +22,11 @@
                     "default": "surface.default.solid-default",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.solid-default-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.solid-default-hover"
                         }
                     ]
@@ -43,15 +35,11 @@
                     "default": "text.inverse.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.inverse.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.inverse.secondary-hover"
                         }
                     ]
@@ -62,15 +50,11 @@
                     "default": "text.default.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.primary-hover"
                         }
                     ]
@@ -79,15 +63,11 @@
                     "default": "surface.default.transparent-secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.transparent-secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.transparent-secondary-hover"
                         }
                     ]
@@ -96,15 +76,11 @@
                     "default": "text.default.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.secondary-hover"
                         }
                     ]
@@ -115,15 +91,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -132,15 +104,11 @@
                     "default": "surface.default.accent",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.accent-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.accent-hover"
                         }
                     ]
@@ -149,15 +117,11 @@
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -168,15 +132,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -185,15 +145,11 @@
                     "default": "surface.default.positive",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.positive-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.positive-hover"
                         }
                     ]
@@ -202,15 +158,11 @@
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -221,15 +173,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -238,15 +186,11 @@
                     "default": "surface.default.negative",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.negative-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.negative-hover"
                         }
                     ]
@@ -255,15 +199,11 @@
                    "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -274,15 +214,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -291,15 +227,11 @@
                     "default": "surface.default.warning",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.warning-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.warning-hover"
                         }
                     ]
@@ -308,15 +240,11 @@
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -327,15 +255,11 @@
                     "default": "text.default.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.primary-hover"
                         }
                     ]
@@ -344,15 +268,11 @@
                     "default": "surface.default.clear",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.default.clear-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.default.clear-hover"
                         }
                     ]
@@ -361,15 +281,11 @@
                     "default": "text.default.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.secondary-hover"
                         }
                     ]
@@ -380,15 +296,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -397,15 +309,11 @@
                     "default": "surface.on-light.transparent-deep",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.on-light.transparent-deep-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.on-light.transparent-deep-hover"
                         }
                     ]
@@ -414,15 +322,11 @@
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -433,15 +337,11 @@
                     "default": "text.on-dark.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-dark.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.primary-hover"
                         }
                     ]
@@ -450,15 +350,11 @@
                     "default": "tsurface.on-light.solid-default",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.on-light.solid-default-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.on-light.solid-default-hover"
                         }
                     ]
@@ -467,15 +363,11 @@
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                           "state": ["pressed"],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
@@ -486,15 +378,11 @@
                     "default": "text.on-light.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.on-light.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-light.primary-hover"
                         }
                     ]
@@ -503,15 +391,11 @@
                     "default": "surface.on-light.solid-default",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "surface.on-light.solid-default-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "surface.on-light.solid-default-hover"
                         }
                     ]
@@ -520,15 +404,11 @@
                     "default": "text.on-light.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                           "state": ["pressed"],
                             "value": "text.on-light.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.on-light.secondary-hover"
                         }
                     ]
