@@ -13,15 +13,11 @@
                     "default": "text.default.primary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.primary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.primary-hover"
                         }
                     ]
@@ -32,15 +28,11 @@
                     "default": "text.default.secondary",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.secondary-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                           "state": ["hovered"],
                             "value": "text.default.secondary-hover"
                         }
                     ]
@@ -51,15 +43,11 @@
                     "default": "text.default.accent",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.accent-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.accent-hover"
                         }
                     ]
@@ -70,15 +58,11 @@
                     "default": "text.default.positive",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.positive-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.positive-hover"
                         }
                     ]
@@ -89,15 +73,11 @@
                     "default": "text.default.negative",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.negative-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.negative-hover"
                         }
                     ]
@@ -108,15 +88,11 @@
                     "default": "text.default.warning",
                     "states": [
                         {
-                            "focused": false,
-                            "pressed": true,
-                            "hovered": false,
+                            "state": ["pressed"],
                             "value": "text.default.warning-active"
                         },
                         {
-                            "focused": false,
-                            "pressed": false,
-                            "hovered": true,
+                            "state": ["hovered"],
                             "value": "text.default.warning-hover"
                         }
                     ]
