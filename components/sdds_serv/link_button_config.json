@@ -7,7 +7,7 @@
     },
     
     "variations": {
-        "style": {
+        "color": {
             "default": {
                 "contentColor": {
                     "default": "text.default.primary",
