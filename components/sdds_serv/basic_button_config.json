@@ -417,10 +417,13 @@
         },
         "size": {
             "l": {
-                "shape": "round.l",
+                "shape": {
+                    "name": "round.l",
+                    "adjustment": -2
+                },
                 "labelStyle": "body.l.bold",
                 "valueStyle": "body.l.bold",
-                "height": 56, 
+                "height": 56,
                 "paddingStart": 24,
                 "paddingEnd": 24,
                 "minWidth": 98,
@@ -430,7 +433,9 @@
                 "valueMargin": 4
             },
             "m": {
-                "shape": "round.m",
+                "shape": {
+                    "name": "round.m"
+                },
                 "labelStyle": "body.m.bold",
                 "valueStyle": "body.m.bold",
                 "height": 48,
@@ -443,7 +448,10 @@
                 "valueMargin": 4
             },
             "s": {
-                "shape": "round.s",
+                "shape": {
+                    "name": "round.m",
+                    "adjustment": -2
+                },
                 "labelStyle": "body.s.bold",
                 "valueStyle": "body.s.bold",
                 "height": 40,
@@ -456,7 +464,9 @@
                 "valueMargin": 4
             },
             "xs": {
-                "shape": "round.xs",
+                "shape": {
+                    "name": "round.s"
+                },
                 "labelStyle": "body.xs.bold",
                 "valueStyle": "body.xs.bold",
                 "height": 32,

@@ -284,7 +284,10 @@
         },
         "size": {
             "l": {
-                "shape": "round.l",
+                "shape": {
+                    "name": "round.l",
+                    "adjustment": -2
+                },
                 "height": 56, 
                 "paddingStart": 16,
                 "paddingEnd": 16,
@@ -293,7 +296,9 @@
                 "spinnerSize": 22
             },
             "m": {
-                "shape": "round.m",
+                "shape": {
+                    "name": "round.m"
+                },
                 "height": 48,
                 "paddingStart": 12,
                 "paddingEnd": 12,
@@ -302,7 +307,10 @@
                 "spinnerSize": 22
             },
             "s": {
-                "shape": "round.s",
+                "shape": {
+                    "name": "round.m",
+                    "adjustment": -2
+                },
                 "height": 40,
                 "paddingStart": 8,
                 "paddingEnd": 8,
@@ -311,7 +319,9 @@
                 "spinnerSize": 22
             },
             "xs": {
-                "shape": "round.xs",
+                "shape": {
+                    "name": "round.s"
+                },
                 "height": 32,
                 "paddingStart": 8,
                 "paddingEnd": 8,
