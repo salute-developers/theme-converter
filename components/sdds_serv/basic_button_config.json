@@ -1,7 +1,4 @@
 {
-    "invariant": {
-        "loadingAlpha": 0.06
-    },
     "variations": {
         "color": {
             "default": {
@@ -43,7 +40,8 @@
                             "value": "text.inverse.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "secondary": {
                 "contentColor": {
@@ -84,7 +82,8 @@
                             "value": "text.default.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "accent": {
                 "contentColor": {
@@ -125,7 +124,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "positive": {
                 "contentColor": {
@@ -166,7 +166,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "negative": {
                 "contentColor": {
@@ -207,7 +208,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "warning": {
                 "contentColor": {
@@ -248,7 +250,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "clear": {
                 "contentColor": {
@@ -289,7 +292,8 @@
                             "value": "text.default.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0.06
             },
             "dark": {
                 "contentColor": {
@@ -330,7 +334,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "black": {
                 "contentColor": {
@@ -371,7 +376,8 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                }
+                },
+                "loadingAlpha": 0
             },
             "white": {
                 "contentColor": {
@@ -413,7 +419,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "loadingAlpha": 0
         },
         "size": {
             "l": {
