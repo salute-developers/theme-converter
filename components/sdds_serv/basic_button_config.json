@@ -418,9 +418,9 @@
                             "value": "text.on-light.secondary-hover"
                         }
                     ]
-                }
-            },
-            "loadingAlpha": 0
+                },
+                "loadingAlpha": 0
+            }
         },
         "size": {
             "l": {
