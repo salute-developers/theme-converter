@@ -243,7 +243,7 @@
                     ]
                 }, 
                 "backgroundColor": {
-                    "default": "tsurface.on-light.solid-default",
+                    "default": "surface.on-light.solid-default",
                     "states": [
                         {
                             "state": ["pressed"],
