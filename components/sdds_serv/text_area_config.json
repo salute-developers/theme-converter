@@ -1,0 +1,529 @@
+{
+    "invariant": {
+        "singleLine": false,
+        "disabledAlpha": 0.4,
+        "scrollBar": {
+            "indicatorThickness": 1.0,
+            "indicatorColor": "surface.default.transparent.tertiary",
+            "backgroundColor": "surface.default.transparent.primary",
+            "paddingTop": 1.0,
+            "paddingBottom": 1.0,
+            "paddingStart": 0.0,
+            "paddingEnd": 1.0
+        }
+    },    
+    "variations": {    
+        "color": {
+            "default": {
+                "valueColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "valueColorReadOnly": {
+                    "default": "surface.default.solid-default"
+                },
+                "innerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "captionColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "captionColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "startContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "endContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "optionalColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "counterColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "backgroundColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "backgroundColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "indicatorColor": {
+                    "default": "text.inverse.primary"
+                },
+                "cursorColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                }
+            },
+            "success": {
+                "valueColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "valueColorReadOnly": {
+                    "default": "surface.default.solid-default"
+                },
+                "innerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "captionColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "captionColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "startContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "endContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "optionalColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "counterColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "backgroundColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "backgroundColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "indicatorColor": {
+                    "default": "text.inverse.primary"
+                },
+                "cursorColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                }
+            },
+            "warning": {
+                "valueColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "valueColorReadOnly": {
+                    "default": "surface.default.solid-default"
+                },
+                "innerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "captionColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "captionColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "startContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "endContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "optionalColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "counterColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "backgroundColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "backgroundColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "indicatorColor": {
+                    "default": "text.inverse.primary"
+                },
+                "cursorColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                }
+            },
+            "error": {
+                "valueColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "valueColorReadOnly": {
+                    "default": "surface.default.solid-default"
+                },
+                "innerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "outerLabelColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "captionColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "captionColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "startContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "endContentColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "optionalColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "counterColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "placeholderColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "backgroundColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                },
+                "backgroundColorReadOnly": {
+                    "default": "text.inverse.primary"
+                },
+                "indicatorColor": {
+                    "default": "text.inverse.primary"
+                },
+                "cursorColor": {
+                    "default": "text.inverse.primary",
+                    "pressed": "text.inverse.primary-active",
+                    "hovered": "text.inverse.primary-hover"
+                }
+            }
+        },
+        "size": {
+            "xs": {
+                "shape": "round.xs",
+                "chipGroupStyle": "chipGroup.dense",
+                "chipStyle": "embeddedChip.xs.secondary",
+                "boxPaddingStart": 1.0,
+                "boxPaddingEnd": 1.0,
+                "boxPaddingTopInnerLabel": 1.0,
+                "boxPaddingTopOuterLabel": 1.0,
+                "boxPaddingBottomInnerLabel": 1.0,
+                "boxPaddingBottomOuterLabel": 1.0,
+                "innerLabelPadding": 1.0,
+                "outerLabelPadding": 1.0,
+                "optionalPadding": 1.0,
+                "innerHelperTextPadding": 1.0,
+                "outerHelperTextPadding": 1.0,
+                "startContentEndPadding": 1.0,
+                "endContentStartPadding": 1.0,
+                "chipsPadding": 1.0,
+                "boxMinHeight": 1.0,
+                "alignmentMinHeight": 1.0,
+                "iconSize": 1.0,
+                "innerLabelStyle": null,
+                "outerLabelStyle": "body.l.normal",
+                "innerOptionalStyle": "body.m.normal",
+                "outerOptionalStyle": "body.l.normal",
+                "valueStyle": "body.m.normal",
+                "captionStyle": "body.m.normal",
+                "counterStyle": "body.m.normal",
+                "placeholderStyle": "body.m.normal",
+                "indicator": {
+                    "labelStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "labelEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    }
+                }
+            },
+            "s": {
+                "shape": "round.s",
+                "chipGroupStyle": "chipGroup.dense",
+                "chipStyle": "embeddedChip.s.secondary",
+                "boxPaddingStart": 1.0,
+                "boxPaddingEnd": 1.0,
+                "boxPaddingTopInnerLabel": 1.0,
+                "boxPaddingTopOuterLabel": 1.0,
+                "boxPaddingBottomInnerLabel": 1.0,
+                "boxPaddingBottomOuterLabel": 1.0,
+                "innerLabelPadding": 1.0,
+                "outerLabelPadding": 1.0,
+                "optionalPadding": 1.0,
+                "innerHelperTextPadding": 1.0,
+                "outerHelperTextPadding": 1.0,
+                "startContentEndPadding": 1.0,
+                "endContentStartPadding": 1.0,
+                "chipsPadding": 1.0,
+                "boxMinHeight": 1.0,
+                "alignmentMinHeight": 1.0,
+                "iconSize": 1.0,
+                "innerLabelStyle": "body.m.normal",
+                "outerLabelStyle": "body.l.normal",
+                "innerOptionalStyle": "body.m.normal",
+                "outerOptionalStyle": "body.l.normal",
+                "valueStyle": "body.m.normal",
+                "captionStyle": "body.m.normal",
+                "counterStyle": "body.m.normal",
+                "placeholderStyle": "body.m.normal",
+                "indicator": {
+                    "labelStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "labelEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    }
+                }
+            },
+            "m": {
+                "shape": "round.m",
+                "chipGroupStyle": "chipGroup.dense",
+                "chipStyle": "embeddedChip.m.secondary",
+                "boxPaddingStart": 1.0,
+                "boxPaddingEnd": 1.0,
+                "boxPaddingTopInnerLabel": 1.0,
+                "boxPaddingTopOuterLabel": 1.0,
+                "boxPaddingBottomInnerLabel": 1.0,
+                "boxPaddingBottomOuterLabel": 1.0,
+                "innerLabelPadding": 1.0,
+                "outerLabelPadding": 1.0,
+                "optionalPadding": 1.0,
+                "innerHelperTextPadding": 1.0,
+                "outerHelperTextPadding": 1.0,
+                "startContentEndPadding": 1.0,
+                "endContentStartPadding": 1.0,
+                "chipsPadding": 1.0,
+                "boxMinHeight": 1.0,
+                "alignmentMinHeight": 1.0,
+                "iconSize": 1.0,
+                "innerLabelStyle": "body.m.normal",
+                "outerLabelStyle": "body.l.normal",
+                "innerOptionalStyle": "body.m.normal",
+                "outerOptionalStyle": "body.l.normal",
+                "valueStyle": "body.m.normal",
+                "captionStyle": "body.m.normal",
+                "counterStyle": "body.m.normal",
+                "placeholderStyle": "body.m.normal",
+                "indicator": {
+                    "labelStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "labelEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    }
+                }
+            },
+            "l": {
+                "shape": "round.l",
+                "chipGroupStyle": "chipGroup.dense",
+                "chipStyle": "embeddedChip.l.secondary",
+                "boxPaddingStart": 1.0,
+                "boxPaddingEnd": 1.0,
+                "boxPaddingTopInnerLabel": 1.0,
+                "boxPaddingTopOuterLabel": 1.0,
+                "boxPaddingBottomInnerLabel": 1.0,
+                "boxPaddingBottomOuterLabel": 1.0,
+                "innerLabelPadding": 1.0,
+                "outerLabelPadding": 1.0,
+                "optionalPadding": 1.0,
+                "innerHelperTextPadding": 1.0,
+                "outerHelperTextPadding": 1.0,
+                "startContentEndPadding": 1.0,
+                "endContentStartPadding": 1.0,
+                "chipsPadding": 1.0,
+                "boxMinHeight": 1.0,
+                "alignmentMinHeight": 1.0,
+                "iconSize": 1.0,
+                "innerLabelStyle": "body.m.normal",
+                "outerLabelStyle": "body.l.normal",
+                "innerOptionalStyle": "body.m.normal",
+                "outerOptionalStyle": "body.l.normal",
+                "valueStyle": "body.m.normal",
+                "captionStyle": "body.m.normal",
+                "counterStyle": "body.m.normal",
+                "placeholderStyle": "body.m.normal",
+                "indicator": {
+                    "labelStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "labelEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldStart": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    },
+                    "fieldEnd": {
+                        "size": 1.0,
+                        "horizontalPadding": 1.0,
+                        "verticalPadding": 1.0
+                    }
+                }
+            }
+        }
+    }
+}
