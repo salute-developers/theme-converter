@@ -1,0 +1,129 @@
+{
+    "view": {
+        "[view_variation#1]": {
+            "props": {
+                "[componentProp#1]": {
+                    "type": [
+                        "color",
+                        "dimension",
+                        "gradient",
+                        "typography",
+                        "shape",
+                        "component_style",
+                        "value"
+                    ],
+                    "valueProp#1": "зависит от type",
+                    "valueProp#2": "зависит от type",
+                    "и т.д.": "зависит от type"
+                }
+            }
+        }
+    },
+    "props": {
+        "[invariant_componentProp#1]": {
+            "type": [
+                "color",
+                "dimension",
+                "gradient",
+                "typography",
+                "shape",
+                "component_style",
+                "value"
+            ],
+            "valueProp#1": "зависит от type",
+            "valueProp#2": "зависит от type",
+            "и т.д.": "зависит от type"
+        }
+    },
+    "variations": [
+        {
+            "id": "variation#1",
+            "parent": "parentId",
+            "view": {
+                "[override_view_variation#1]": {
+                    "[componentProp#1]": {
+                        "type": [
+                            "Тип не нужен",
+                            "color",
+                            "dimension",
+                            "gradient",
+                            "typography",
+                            "shape",
+                            "component_style",
+                            "value"
+                        ],
+                        "valueProp#1": "зависит от type",
+                        "valueProp#2": "зависит от type",
+                        "и т.д.": "зависит от type"
+                    }
+                }
+            },
+            "props": {
+                "componentProp#1": {
+                    "type": [
+                        "Тип не нужен",
+                        "color",
+                        "dimension",
+                        "gradient",
+                        "typography",
+                        "shape",
+                        "component_style",
+                        "value"
+                    ],
+                    "valueProp#1": "зависит от type",
+                    "valueProp#2": "зависит от type",
+                    "и т.д.": "зависит от type"
+                },
+                "colorProp": {
+                    "type": "color",
+                    "default": "#token_value",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed",
+                                "focused",
+                                "hovered"
+                            ],
+                            "value": "#token_value"
+                        }
+                    ]
+                },
+                "gradientProp": {
+                    "type": "gradient",
+                    "default": "#token_value",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed",
+                                "focused",
+                                "hovered"
+                            ],
+                            "value": "#token_value"
+                        }
+                    ]
+                },
+                "shapeProp": {
+                    "type": "shape",
+                    "value": "#token_value",
+                    "adjustment": 0
+                },
+                "componentStyleProp": {
+                    "type": "component_style",
+                    "value": "#style_name"
+                },
+                "dimensionProp": {
+                    "type": "dimension",
+                    "value": 1.0
+                },
+                "typographyProp": {
+                    "type": "typography",
+                    "value": "#token_value"
+                },
+                "valueProp": {
+                    "type": "value",
+                    "value": "some_value"
+                }
+            }
+        }
+    ]
+}
