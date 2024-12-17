@@ -178,6 +178,14 @@ export const getAndroidShapeToken = (key: string, value: any) => {
     };
 };
 
+export const getAndroidSpacingToken = (key: string, value: any) => {
+    return {
+        [key]: {
+            value: Number(value.replace('px', '')),
+        },
+    };
+};
+
 export const getAndroidTypographyToken = (key: string, value: any) => {
     const kind = key.split('.')[1];
 
@@ -234,6 +242,10 @@ export const getAndroidToken = (type: keyof TokenVariations, name: string, value
 
     if (type === 'shape') {
         return getAndroidShapeToken(name, value);
+    }
+
+    if (type === 'spacing') {
+        return getAndroidSpacingToken(name, value);
     }
 
     if (type === 'typography') {

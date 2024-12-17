@@ -21,6 +21,11 @@ export interface ShapeMeta {
     size: Array<string>;
 }
 
+export interface SpacingMeta {
+    kind: Array<string>;
+    size: Array<string>;
+}
+
 export interface TypographyMeta {
     screen: Array<string>;
     kind: Array<string>;
@@ -37,6 +42,7 @@ export interface TokenVariations {
     gradient: GradientMeta;
     shadow: ShadowMeta;
     shape: ShapeMeta;
+    spacing: SpacingMeta;
     typography: TypographyMeta;
     fontFamily: FontFamilyMeta;
 }

@@ -199,6 +199,14 @@ export const getIOSShapeToken = (key: string, value: any) => {
     };
 };
 
+export const getIOSSpacingToken = (key: string, value: any) => {
+    return {
+        [key]: {
+            value: Number(value.replace('px', '')),
+        },
+    };
+};
+
 export const getIOSTypographyToken = (key: string, value: any) => {
     const kind = key.split('.')[1];
 
@@ -254,6 +262,10 @@ export const getIOSToken = (type: keyof TokenVariations, name: string, value: an
 
     if (type === 'shape') {
         return getIOSShapeToken(name, value);
+    }
+
+    if (type === 'spacing') {
+        return getIOSSpacingToken(name, value);
     }
 
     if (type === 'typography') {

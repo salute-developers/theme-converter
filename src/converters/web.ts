@@ -62,6 +62,10 @@ export const getWebShapeToken = (key: string, value: any) => {
     return { [key]: value };
 };
 
+export const getWebSpacingToken = (key: string, value: any) => {
+    return { [key]: value };
+};
+
 export const getWebTypographyToken = (key: string, value: any) => {
     const kind = key.split('.')[1];
 
@@ -101,6 +105,10 @@ export const getWebToken = (type: keyof TokenVariations, name: string, value: an
 
     if (type === 'shape') {
         return getWebShapeToken(name, value);
+    }
+
+    if (type === 'spacing') {
+        return getWebSpacingToken(name, value);
     }
 
     if (type === 'typography') {

@@ -23,6 +23,14 @@ export const getDisplayName = (paths: string[], type: TokenVariation): string =>
         return kebabToCamel(name);
     }
 
+    if (type === 'spacing') {
+        //@ts-ignore
+        const [, size] = paths;
+        const name = `spacing-${size}`;
+
+        return kebabToCamel(name);
+    }
+
     if (type === 'typography') {
         //@ts-ignore
         const [, ...rest] = paths;

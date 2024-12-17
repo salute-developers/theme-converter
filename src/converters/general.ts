@@ -20,6 +20,10 @@ export const getType = (paths: string[], value: any): TokenVariation => {
         return 'shape';
     }
 
+    if (paths.find((path) => path.includes('spacing'))) {
+        return 'spacing';
+    }
+
     if (paths.find((path) => path.includes('typography'))) {
         return 'typography';
     }
@@ -42,6 +46,10 @@ export const getTags = (paths: string[], type: TokenVariation): string[] => {
 
         rest.unshift('round');
         return rest.map(camelToKebab);
+    }
+
+    if (type === 'spacing') {
+        return paths.map(camelToKebab);
     }
 
     if (type === 'color' || type === 'gradient') {

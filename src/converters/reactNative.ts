@@ -187,6 +187,14 @@ export const getReactNativeShapeToken = (key: string, value: any) => {
     };
 };
 
+export const getReactNativeSpacingToken = (key: string, value: any) => {
+    return {
+        [key]: {
+            value: Number(value.replace('px', '')),
+        },
+    };
+};
+
 export const getReactNativeTypographyToken = (key: string, value: any) => {
     const kind = key.split('.')[1];
 
@@ -243,6 +251,10 @@ export const getReactNativeToken = (type: keyof TokenVariations, name: string, v
 
     if (type === 'shape') {
         return getReactNativeShapeToken(name, value);
+    }
+
+    if (type === 'spacing') {
+        return getReactNativeSpacingToken(name, value);
     }
 
     if (type === 'typography') {

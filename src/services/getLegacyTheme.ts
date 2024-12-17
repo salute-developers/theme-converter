@@ -104,9 +104,8 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     const gradient = getDefaultTokens('gradient');
     addSkeletonGradients(theme, gradient);
 
-    // TODO: Удалить, когда появится обработка токенов "Отступы"
-    if (theme.spacing) {
-        theme.spacing = {};
+    if (!theme.spacing) {
+        theme.spacing = getDefaultTokens('spacing');
     }
 
     console.log(`✓ Загрузка темы завершена`);

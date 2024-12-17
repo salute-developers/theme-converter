@@ -13,6 +13,7 @@ import {
     TokenVariations,
     TokenVariation,
     TokenVariationTuples,
+    SpacingMeta,
 } from '../types';
 import { existsSync, mkdirSync, writeFileSync } from 'fs';
 
@@ -24,6 +25,7 @@ class ThemeMeta implements ThemeMetaType {
     gradient?: GradientMeta;
     shadow?: ShadowMeta;
     shape?: ShapeMeta;
+    spacing?: SpacingMeta;
     typography?: TypographyMeta;
     fontFamily?: FontFamilyMeta;
 
@@ -38,6 +40,7 @@ class ThemeMeta implements ThemeMetaType {
         this.gradient = this.getMeta('gradient', ['mode', 'category', 'subcategory']);
         this.shadow = this.getMeta('shadow', ['direction', 'kind', 'size']);
         this.shape = this.getMeta('shape', ['kind', 'size']);
+        this.spacing = this.getMeta('spacing', ['kind', 'size']);
         this.typography = this.getMeta('typography', ['screen', 'kind', 'size', 'weight']);
         this.fontFamily = this.getMeta('fontFamily', ['kind']);
     }
