@@ -59,6 +59,7 @@ const compatibleTypography: Record<string, string> = {
     sbermarket_selgros: 'sbermarket',
     sbermarket_wlbusiness: 'sbermarket',
     sdds_cs: 'sdds_cs',
+    plasma_giga: 'plasma_giga',
 };
 
 const compatibleShape: Record<string, string> = {
