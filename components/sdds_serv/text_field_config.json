@@ -18,7 +18,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.transparent-secondary"
             }
@@ -34,7 +34,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -58,7 +58,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.transparent-secondary"
             }
@@ -74,7 +74,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -98,7 +98,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.transparent-secondary"
             }
@@ -114,7 +114,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -138,7 +138,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.transparent-secondary"
             }
@@ -150,6 +150,14 @@
   "props": {
     "disableAlpha": 0.4,
     "enableAlpha": 1.0,
+    "captionPlacement": {
+      "type": "value",
+      "value": "outer"
+    },
+    "counterPlacement": {
+      "type": "value",
+      "value": "outer"
+    },
     "captionStyle": {
       "type": "typography",
       "value": "body.xs.normal"
@@ -222,7 +230,7 @@
       "states": [
         {
           "state": [
-            "focused"
+            "activated"
           ],
           "value": "text.default.tertiary"
         },
@@ -330,9 +338,6 @@
         "fieldType": {
           "type": "value",
           "value": "requiredStart"
-        },
-        "labelPlacement": {
-          "value": "none"
         },
         "indicatorSize": {
           "type": "dimension",
