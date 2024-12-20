@@ -22,7 +22,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.tertiary"
             }
@@ -34,7 +34,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.accent"
             },
@@ -66,7 +66,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.primary"
             }
@@ -84,7 +84,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.tertiary"
             }
@@ -96,7 +96,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -114,7 +114,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.accent"
             },
@@ -132,7 +132,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -160,7 +160,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.primary"
             }
@@ -178,7 +178,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.tertiary"
             }
@@ -190,7 +190,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -208,7 +208,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.accent"
             },
@@ -226,7 +226,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -254,7 +254,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.primary"
             }
@@ -272,7 +272,7 @@
             },
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.tertiary"
             }
@@ -284,7 +284,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -302,7 +302,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "surface.default.accent"
             },
@@ -320,7 +320,7 @@
           "states": [
             {
               "state": [
-                "focused"
+                "activated"
               ],
               "value": "text.default.secondary"
             },
@@ -338,7 +338,11 @@
   "props": {
     "disableAlpha": 0.4,
     "enableAlpha": 1.0,
-    "helperTextPlacement": {
+    "captionPlacement": {
+      "type": "value",
+      "value": "outer"
+    },
+    "counterPlacement": {
       "type": "value",
       "value": "outer"
     },
