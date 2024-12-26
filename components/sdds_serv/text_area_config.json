@@ -2,94 +2,32 @@
   "view": {
     "default": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.secondary"
         },
-        "placeholderColor": {
+        "backgroundColor": {
           "type": "color",
-          "default": "text.default.secondary",
+          "default": "surface.default.transparent-primary",
           "states": [
             {
               "state": [
                 "pressed"
               ],
-              "value": "text.default.tertiary"
+              "value": "surface.default.transparent-secondary"
             },
             {
               "state": [
                 "activated"
               ],
-              "value": "text.default.tertiary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
-        },
-        "dividerColor": {
-          "type": "color",
-          "default": "surface.default.transparent-tertiary",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "surface.default.accent"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.secondary"
         }
       }
     },
     "success": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.positive",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.positive",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.tertiary"
-            }
-          ]
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.positive",
@@ -108,39 +46,21 @@
             }
           ]
         },
-        "dividerColor": {
+        "backgroundColor": {
           "type": "color",
           "default": "surface.default.positive",
           "states": [
             {
               "state": [
-                "activated"
-              ],
-              "value": "surface.default.accent"
-            },
-            {
-              "state": [
                 "pressed"
               ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.positive",
-          "states": [
+              "value": "surface.default.transparent-secondary"
+            },
             {
               "state": [
                 "activated"
               ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
         }
@@ -148,42 +68,6 @@
     },
     "warning": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.tertiary"
-            }
-          ]
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.warning",
@@ -202,39 +86,21 @@
             }
           ]
         },
-        "dividerColor": {
+        "backgroundColor": {
           "type": "color",
           "default": "surface.default.warning",
           "states": [
             {
               "state": [
-                "activated"
-              ],
-              "value": "surface.default.accent"
-            },
-            {
-              "state": [
                 "pressed"
               ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
+              "value": "surface.default.transparent-secondary"
+            },
             {
               "state": [
                 "activated"
               ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
         }
@@ -242,42 +108,6 @@
     },
     "error": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.tertiary"
-            }
-          ]
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.negative",
@@ -296,39 +126,21 @@
             }
           ]
         },
-        "dividerColor": {
+        "backgroundColor": {
           "type": "color",
           "default": "surface.default.negative",
           "states": [
             {
               "state": [
-                "activated"
-              ],
-              "value": "surface.default.accent"
-            },
-            {
-              "state": [
                 "pressed"
               ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
+              "value": "surface.default.transparent-secondary"
+            },
             {
               "state": [
                 "activated"
               ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
         }
@@ -338,17 +150,37 @@
   "props": {
     "disableAlpha": 0.4,
     "enableAlpha": 1.0,
-    "dividerHeight": {
+    "scrollBarThickness": {
       "type": "dimension",
       "value": 1.0
     },
+    "scrollBarPaddingTop": {
+      "type": "dimension",
+      "value": 18.0
+    },
+    "scrollBarPaddingBottom": {
+      "type": "dimension",
+      "value": 36.0
+    },
+    "scrollBarPaddingEnd": {
+      "type": "dimension",
+      "value": 2.0
+    },
+    "scrollBarTrackColor": {
+      "type": "color",
+      "value": "surface.default.transparent-tertiary"
+    },
+    "scrollBarThumbColor": {
+      "type": "color",
+      "value": "surface.default.transparent-primary"
+    },
     "captionPlacement": {
       "type": "value",
-      "value": "outer"
+      "value": "inner"
     },
     "counterPlacement": {
       "type": "value",
-      "value": "outer"
+      "value": "inner"
     },
     "captionStyle": {
       "type": "typography",
@@ -374,19 +206,19 @@
       "type": "dimension",
       "value": 6.0
     },
-    "boxPaddingStart": {
-      "type": "dimension",
-      "value": 0.0
-    },
-    "boxPaddingEnd": {
-      "type": "dimension",
-      "value": 0.0
+    "valueColor": {
+      "type": "color",
+      "default": "text.default.primary"
     },
     "valueColorReadOnly": {
       "type": "color",
       "default": "text.default.secondary"
     },
     "captionColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
+    "startContentColor": {
       "type": "color",
       "default": "text.default.secondary"
     },
@@ -416,9 +248,31 @@
       "type": "color",
       "default": "text.default.secondary"
     },
+    "placeholderColor": {
+      "type": "color",
+      "default": "text.default.secondary",
+      "states": [
+        {
+          "state": [
+            "activated"
+          ],
+          "value": "text.default.tertiary"
+        },
+        {
+          "state": [
+            "pressed"
+          ],
+          "value": "text.default.tertiary"
+        }
+      ]
+    },
     "placeholderColorReadOnly": {
       "type": "color",
       "default": "text.default.secondary"
+    },
+    "backgroundColorReadOnly": {
+      "type": "color",
+      "default": "surface.default.solid-default"
     },
     "indicatorColor": {
       "type": "color",
@@ -438,9 +292,22 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.s",
+          "adjustment": 0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.xs.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 8.0
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -499,14 +366,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 13.0
         }
       }
     },
@@ -521,14 +380,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 13.0
         }
       }
     },
@@ -550,7 +401,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 2.0
+          "value": 6.0
         },
         "labelStyle": {
           "type": "typography",
@@ -588,7 +439,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 4.0
+          "value": 0.0
         }
       }
     },
@@ -622,9 +473,22 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.m",
+          "adjustment": -2.0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.s.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 12.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 12.0
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -632,7 +496,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 8.0
+          "value": 12.0
         },
         "startContentPadding": {
           "type": "dimension",
@@ -683,14 +547,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -705,14 +561,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -734,7 +582,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 8.0
         },
         "labelStyle": {
           "type": "typography",
@@ -764,7 +612,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 6.0
+          "value": 0.0
         }
       }
     },
@@ -820,7 +668,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 4.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -839,14 +687,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -861,14 +701,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -879,6 +711,10 @@
         "labelPlacement": {
           "type": "value",
           "value": "none"
+        },
+        "shape": {
+          "type": "shape",
+          "value": "round.m"
         },
         "chipStyle": {
           "type": "component_style",
@@ -949,14 +785,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -971,14 +799,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -1000,7 +820,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 10.0
         },
         "labelStyle": {
           "type": "typography",
@@ -1030,7 +850,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 7.0
+          "value": 0.0
         }
       }
     },
@@ -1086,7 +906,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 6.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -1105,14 +925,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -1127,14 +939,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -1146,9 +950,22 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.m",
+          "adjustment": 2.0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.l.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 16.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 16.0
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -1156,7 +973,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 16.0
+          "value": 12.0
         },
         "startContentPadding": {
           "type": "dimension",
@@ -1207,14 +1024,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1229,14 +1038,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1258,7 +1059,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 12.0
         },
         "labelStyle": {
           "type": "typography",
@@ -1288,7 +1089,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 8.0
+          "value": 0.0
         }
       }
     },
@@ -1344,7 +1145,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 9.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -1363,14 +1164,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1385,14 +1178,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     }
