@@ -168,11 +168,11 @@
     },
     "scrollBarTrackColor": {
       "type": "color",
-      "value": "surface.default.transparent-tertiary"
+      "default": "surface.default.transparent-tertiary"
     },
     "scrollBarThumbColor": {
       "type": "color",
-      "value": "surface.default.transparent-primary"
+      "default": "surface.default.transparent-primary"
     },
     "captionPlacement": {
       "type": "value",
