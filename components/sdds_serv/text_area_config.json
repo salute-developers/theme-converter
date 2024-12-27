@@ -198,10 +198,6 @@
       "type": "dimension",
       "value": 4.0
     },
-    "helperTextPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
     "chipsPadding": {
       "type": "dimension",
       "value": 6.0
@@ -314,6 +310,10 @@
           "value": 8.0
         },
         "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "helperTextPadding": {
           "type": "dimension",
           "value": 8.0
         },
@@ -495,6 +495,10 @@
           "value": 8.0
         },
         "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 12.0
+        },
+        "helperTextPadding": {
           "type": "dimension",
           "value": 12.0
         },
@@ -736,6 +740,10 @@
           "type": "dimension",
           "value": 12.0
         },
+        "helperTextPadding": {
+          "type": "dimension",
+          "value": 12.0
+        },
         "startContentPadding": {
           "type": "dimension",
           "value": 6.0
@@ -972,6 +980,10 @@
           "value": 16.0
         },
         "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 12.0
+        },
+        "helperTextPadding": {
           "type": "dimension",
           "value": 12.0
         },
