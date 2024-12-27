@@ -48,7 +48,7 @@
         },
         "backgroundColor": {
           "type": "color",
-          "default": "surface.default.positive",
+          "default": "surface.default.transparent-positive",
           "states": [
             {
               "state": [
@@ -88,7 +88,7 @@
         },
         "backgroundColor": {
           "type": "color",
-          "default": "surface.default.warning",
+          "default": "surface.default.transparent-warning",
           "states": [
             {
               "state": [
@@ -128,7 +128,7 @@
         },
         "backgroundColor": {
           "type": "color",
-          "default": "surface.default.negative",
+          "default": "surface.default.transparent-negative",
           "states": [
             {
               "state": [
