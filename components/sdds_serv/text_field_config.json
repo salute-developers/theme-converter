@@ -415,7 +415,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 0.0
+          "value": 4.0
         }
       }
     },
@@ -588,7 +588,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 0.0
+          "value": 6.0
         }
       }
     },
@@ -826,7 +826,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 0.0
+          "value": 7.0
         }
       }
     },
@@ -1065,7 +1065,7 @@
         },
         "indicatorOffsetY": {
           "type": "dimension",
-          "value": 0.0
+          "value": 8.0
         }
       }
     },
