@@ -149,7 +149,15 @@
   },
   "props": {
     "disableAlpha": 0.4,
-    "enableAlpha": 1.0,
+    "readOnlyAlpha": 0.4,
+    "prefixPadding": {
+      "type": "dimension",
+      "value": 6.0
+    },
+    "suffixPadding": {
+      "type": "dimension",
+      "value": 6.0
+    },
     "captionPlacement": {
       "type": "value",
       "value": "outer"
@@ -248,7 +256,7 @@
     },
     "backgroundColorReadOnly": {
       "type": "color",
-      "default": "surface.default.solid-default"
+      "default": "surface.default.solid-primary"
     },
     "indicatorColor": {
       "type": "color",
