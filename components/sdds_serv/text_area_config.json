@@ -149,7 +149,14 @@
   },
   "props": {
     "disableAlpha": 0.4,
-    "enableAlpha": 1.0,
+    "prefixPadding": {
+      "type": "dimension",
+      "value": 6.0
+    },
+    "suffixPadding": {
+      "type": "dimension",
+      "value": 6.0
+    },
     "scrollBarThickness": {
       "type": "dimension",
       "value": 1.0
@@ -206,14 +213,6 @@
       "type": "color",
       "default": "text.default.primary"
     },
-    "valueColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "captionColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
     "startContentColor": {
       "type": "color",
       "default": "text.default.secondary"
@@ -235,6 +234,11 @@
           "value": "text.default.secondary-hover"
         }
       ]
+    },
+    "endContentColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary",
+      "alpha": 0.4
     },
     "optionalColor": {
       "type": "color",
@@ -262,13 +266,10 @@
         }
       ]
     },
-    "placeholderColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
     "backgroundColorReadOnly": {
       "type": "color",
-      "default": "surface.default.solid-default"
+      "default": "surface.default.solid-primary",
+      "alpha": 0.4
     },
     "indicatorColor": {
       "type": "color",
@@ -390,10 +391,6 @@
         "labelColor": {
           "type": "color",
           "default": "text.default.primary"
-        },
-        "labelColorReadOnly": {
-          "type": "color",
-          "default": "text.default.secondary"
         },
         "labelPlacement": {
           "type": "value",
@@ -576,10 +573,6 @@
           "type": "color",
           "default": "text.default.primary"
         },
-        "labelColorReadOnly": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -647,10 +640,6 @@
       "parent": "s",
       "props": {
         "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
@@ -818,10 +807,6 @@
           "type": "color",
           "default": "text.default.primary"
         },
-        "labelColorReadOnly": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -889,10 +874,6 @@
       "parent": "m",
       "props": {
         "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
@@ -1061,10 +1042,6 @@
           "type": "color",
           "default": "text.default.primary"
         },
-        "labelColorReadOnly": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -1132,10 +1109,6 @@
       "parent": "l",
       "props": {
         "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
