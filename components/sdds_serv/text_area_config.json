@@ -148,7 +148,10 @@
     }
   },
   "props": {
-    "disableAlpha": 0.4,
+    "disableAlpha": {
+      "type": "float",
+      "value": 0.4
+    },
     "prefixPadding": {
       "type": "dimension",
       "value": 6.0
