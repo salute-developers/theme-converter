@@ -337,14 +337,7 @@
   },
   "props": {
     "disableAlpha": 0.4,
-    "prefixPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
-    "suffixPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
+    "enableAlpha": 1.0,
     "dividerHeight": {
       "type": "dimension",
       "value": 1.0
@@ -389,6 +382,14 @@
       "type": "dimension",
       "value": 0.0
     },
+    "valueColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
+    "captionColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
     "endContentColor": {
       "type": "color",
       "default": "text.default.secondary",
@@ -407,16 +408,15 @@
         }
       ]
     },
-    "endContentColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "alpha": 0.4
-    },
     "optionalColor": {
       "type": "color",
       "default": "text.default.tertiary"
     },
     "counterColor": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
+    "placeholderColorReadOnly": {
       "type": "color",
       "default": "text.default.secondary"
     },
@@ -427,10 +427,6 @@
     "cursorColor": {
       "type": "color",
       "default": "text.default.accent"
-    },
-    "dividerColorReadOnly": {
-      "type": "color",
-      "default": "surface.default.transparent-primary"
     }
   },
   "variations": [
@@ -543,6 +539,10 @@
         "labelColor": {
           "type": "color",
           "default": "text.default.primary"
+        },
+        "labelColorReadOnly": {
+          "type": "color",
+          "default": "text.default.secondary"
         },
         "labelPlacement": {
           "type": "value",
@@ -724,6 +724,10 @@
           "type": "color",
           "default": "text.default.primary"
         },
+        "labelColorReadOnly": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -791,6 +795,10 @@
       "parent": "s",
       "props": {
         "labelColor": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
+        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
@@ -982,6 +990,10 @@
           "type": "color",
           "default": "text.default.primary"
         },
+        "labelColorReadOnly": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -1049,6 +1061,10 @@
       "parent": "m",
       "props": {
         "labelColor": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
+        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
@@ -1232,6 +1248,10 @@
           "type": "color",
           "default": "text.default.primary"
         },
+        "labelColorReadOnly": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
         "labelPlacement": {
           "type": "value",
           "value": "outer"
@@ -1299,6 +1319,10 @@
       "parent": "l",
       "props": {
         "labelColor": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
+        "labelColorReadOnly": {
           "type": "color",
           "default": "text.default.secondary"
         },
