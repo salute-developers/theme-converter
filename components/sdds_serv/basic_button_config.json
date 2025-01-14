@@ -671,6 +671,16 @@
             }
         },
         {
+            "id": "l.pilled",
+            "parent": "l",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "name": "round.circle"
+                }
+            }
+        },
+        {
             "id": "m",
             "parent": null,
             "props": {
@@ -717,6 +727,16 @@
                 "valueMargin": {
                     "type": "dimension",
                     "value": 4
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "name": "round.circle"
                 }
             }
         },
@@ -772,6 +792,16 @@
             }
         },
         {
+            "id": "s.pilled",
+            "parent": "s",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "name": "round.circle"
+                }
+            }
+        },
+        {
             "id": "xs",
             "parent": null,
             "props": {
@@ -818,6 +848,16 @@
                 "valueMargin": {
                     "type": "dimension",
                     "value": 2
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "name": "round.circle"
                 }
             }
         }
