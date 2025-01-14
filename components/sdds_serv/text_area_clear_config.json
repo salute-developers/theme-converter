@@ -879,14 +879,6 @@
           "type": "component_style",
           "value": "embedded-chip.m.secondary"
         },
-        "boxPaddingStart": {
-          "type": "dimension",
-          "value": 14.0
-        },
-        "boxPaddingEnd": {
-          "type": "dimension",
-          "value": 14.0
-        },
         "boxPaddingTop": {
           "type": "dimension",
           "value": 12.0
