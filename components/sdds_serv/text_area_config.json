@@ -162,7 +162,7 @@
     },
     "scrollBarThickness": {
       "type": "dimension",
-      "value": 1.0
+      "value": 2.0
     },
     "scrollBarPaddingTop": {
       "type": "dimension",
@@ -178,11 +178,11 @@
     },
     "scrollBarTrackColor": {
       "type": "color",
-      "default": "surface.default.transparent-tertiary"
+      "default": "surface.default.transparent-primary"
     },
     "scrollBarThumbColor": {
       "type": "color",
-      "default": "surface.default.transparent-primary"
+      "default": "surface.default.transparent-tertiary"
     },
     "captionPlacement": {
       "type": "value",
