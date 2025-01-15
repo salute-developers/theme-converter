@@ -414,7 +414,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.l",
+                    "value": "round.l",
                     "adjustment": -2
                 },
                 "height": {
@@ -449,7 +449,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.circle"
+                    "value": "round.circle"
                 }
             }
         },
@@ -459,7 +459,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.m"
+                    "value": "round.m"
                 },
                 "height": {
                     "type": "dimension",
@@ -493,7 +493,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.circle"
+                    "value": "round.circle"
                 }
             }
         },
@@ -503,7 +503,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.m",
+                    "value": "round.m",
                     "adjustment": -2
                 },
                 "height": {
@@ -538,7 +538,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.circle"
+                    "value": "round.circle"
                 }
             }
         },
@@ -548,7 +548,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.s"
+                    "value": "round.s"
                 },
                 "height": {
                     "type": "dimension",
@@ -582,7 +582,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "name": "round.circle"
+                    "value": "round.circle"
                 }
             }
         }
