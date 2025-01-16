@@ -2,7 +2,43 @@
     "view": {
         "default": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.primary",
                     "states": [
@@ -24,7 +60,43 @@
         },
         "secondary": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.secondary",
                     "states": [
@@ -46,7 +118,43 @@
         },
         "accent": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.accent",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.accent-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.accent-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.accent",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.accent-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.accent-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.accent",
                     "states": [
@@ -68,7 +176,43 @@
         },
         "positive": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.positive",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.positive-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.positive-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.positive",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.positive-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.positive-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.positive",
                     "states": [
@@ -90,7 +234,43 @@
         },
         "negative": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.negative-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.negative-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.negative-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.negative-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.negative",
                     "states": [
@@ -112,7 +292,43 @@
         },
         "warning": {
             "props": {
-                "contentColor": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.warning",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.warning-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.warning-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.warning",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.warning-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.warning-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
                     "type": "color",
                     "default": "text.default.warning",
                     "states": [
@@ -137,6 +353,10 @@
         "loadingAlpha": {
             "type": "float",
             "value": 0.06
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
         },
         "backgroundColor": {
             "type": "color",
@@ -176,13 +396,13 @@
                     "type": "dimension",
                     "value": 22
                 },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
                 "iconMargin": {
                     "type": "dimension",
                     "value": 8
-                },
-                "valueMargin": {
-                    "type": "dimension",
-                    "value": 4
                 }
             }
         },
@@ -218,13 +438,13 @@
                     "type": "dimension",
                     "value": 22
                 },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
                 "iconMargin": {
                     "type": "dimension",
                     "value": 6
-                },
-                "valueMargin": {
-                    "type": "dimension",
-                    "value": 4
                 }
             }
         },
@@ -260,11 +480,11 @@
                     "type": "dimension",
                     "value": 22
                 },
-                "iconMargin": {
+                "spinnerStrokeWidth": {
                     "type": "dimension",
-                    "value": 4
+                    "value": 2
                 },
-                "valueMargin": {
+                "iconMargin": {
                     "type": "dimension",
                     "value": 4
                 }
@@ -302,13 +522,13 @@
                     "type": "dimension",
                     "value": 16
                 },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
                 "iconMargin": {
                     "type": "dimension",
                     "value": 4
-                },
-                "valueMargin": {
-                    "type": "dimension",
-                    "value": 2
                 }
             }
         }
