@@ -562,19 +562,19 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.on-light.solid-default",
+                    "default": "surface.on-dark.solid-default",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.on-light.solid-default-active"
+                            "value": "surface.on-dark.solid-default-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.on-light.solid-default-hover"
+                            "value": "surface.on-dark.solid-default-hover"
                         }
                     ]
                 }
