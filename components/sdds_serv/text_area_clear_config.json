@@ -16,12 +16,6 @@
           "states": [
             {
               "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
-            {
-              "state": [
                 "activated"
               ],
               "value": "text.default.tertiary"
@@ -35,12 +29,6 @@
             {
               "state": [
                 "activated"
-              ],
-              "value": "surface.default.accent"
-            },
-            {
-              "state": [
-                "pressed"
               ],
               "value": "surface.default.accent"
             }
@@ -60,12 +48,6 @@
           "states": [
             {
               "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
                 "activated"
               ],
               "value": "text.default.primary"
@@ -76,12 +58,6 @@
           "type": "color",
           "default": "text.default.positive",
           "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
             {
               "state": [
                 "activated"
@@ -99,12 +75,6 @@
                 "activated"
               ],
               "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
             }
           ]
         },
@@ -117,12 +87,6 @@
                 "activated"
               ],
               "value": "surface.default.accent"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "surface.default.accent"
             }
           ]
         },
@@ -133,12 +97,6 @@
             {
               "state": [
                 "activated"
-              ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
               ],
               "value": "text.default.secondary"
             }
@@ -154,12 +112,6 @@
           "states": [
             {
               "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
                 "activated"
               ],
               "value": "text.default.primary"
@@ -170,12 +122,6 @@
           "type": "color",
           "default": "text.default.warning",
           "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
             {
               "state": [
                 "activated"
@@ -193,12 +139,6 @@
                 "activated"
               ],
               "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
             }
           ]
         },
@@ -211,12 +151,6 @@
                 "activated"
               ],
               "value": "surface.default.accent"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "surface.default.accent"
             }
           ]
         },
@@ -227,12 +161,6 @@
             {
               "state": [
                 "activated"
-              ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
               ],
               "value": "text.default.secondary"
             }
@@ -248,12 +176,6 @@
           "states": [
             {
               "state": [
-                "pressed"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
                 "activated"
               ],
               "value": "text.default.primary"
@@ -264,12 +186,6 @@
           "type": "color",
           "default": "text.default.negative",
           "states": [
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.tertiary"
-            },
             {
               "state": [
                 "activated"
@@ -287,12 +203,6 @@
                 "activated"
               ],
               "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "text.default.secondary"
             }
           ]
         },
@@ -305,12 +215,6 @@
                 "activated"
               ],
               "value": "surface.default.accent"
-            },
-            {
-              "state": [
-                "pressed"
-              ],
-              "value": "surface.default.accent"
             }
           ]
         },
@@ -321,12 +225,6 @@
             {
               "state": [
                 "activated"
-              ],
-              "value": "text.default.secondary"
-            },
-            {
-              "state": [
-                "pressed"
               ],
               "value": "text.default.secondary"
             }
@@ -434,6 +332,22 @@
     "dividerColorReadOnly": {
       "type": "color",
       "default": "surface.default.transparent-primary"
+    },
+    "valueColorReadOnly": {
+      "type": "color",
+      "default": "text.default.primary"
+    },
+    "captionColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
+    "placeholderColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
+    "startContentColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
     }
   },
   "variations": [
