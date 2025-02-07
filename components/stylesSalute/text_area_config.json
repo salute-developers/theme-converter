@@ -2,70 +2,26 @@
   "view": {
     "default": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.secondary"
         },
-        "placeholderColor": {
+        "backgroundColor": {
           "type": "color",
-          "default": "text.default.secondary",
+          "default": "surface.default.transparent-primary",
           "states": [
             {
               "state": [
                 "activated"
               ],
-              "value": "text.default.tertiary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
-        },
-        "dividerColor": {
-          "type": "color",
-          "default": "surface.default.transparent-tertiary",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.secondary"
         }
       }
     },
     "warning": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.tertiary"
-            }
-          ]
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.warning",
@@ -78,27 +34,15 @@
             }
           ]
         },
-        "dividerColor": {
+        "backgroundColor": {
           "type": "color",
-          "default": "surface.default.warning",
+          "default": "surface.default.transparent-warning",
           "states": [
             {
               "state": [
                 "activated"
               ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.warning",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
         }
@@ -106,30 +50,6 @@
     },
     "error": {
       "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.tertiary"
-            }
-          ]
-        },
         "captionColor": {
           "type": "color",
           "default": "text.default.negative",
@@ -142,27 +62,15 @@
             }
           ]
         },
-        "dividerColor": {
+        "backgroundColor": {
           "type": "color",
-          "default": "surface.default.negative",
+          "default": "surface.default.transparent-negative",
           "states": [
             {
               "state": [
                 "activated"
               ],
-              "value": "surface.default.accent"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
+              "value": "surface.default.transparent-secondary"
             }
           ]
         }
@@ -182,17 +90,37 @@
       "type": "dimension",
       "value": 6.0
     },
-    "dividerHeight": {
+    "scrollBarThickness": {
       "type": "dimension",
-      "value": 1.0
+      "value": 2.0
+    },
+    "scrollBarPaddingTop": {
+      "type": "dimension",
+      "value": 18.0
+    },
+    "scrollBarPaddingBottom": {
+      "type": "dimension",
+      "value": 36.0
+    },
+    "scrollBarPaddingEnd": {
+      "type": "dimension",
+      "value": 2.0
+    },
+    "scrollBarTrackColor": {
+      "type": "color",
+      "default": "surface.default.transparent-primary"
+    },
+    "scrollBarThumbColor": {
+      "type": "color",
+      "default": "surface.default.transparent-tertiary"
     },
     "captionPlacement": {
       "type": "value",
-      "value": "outer"
+      "value": "inner"
     },
     "counterPlacement": {
       "type": "value",
-      "value": "outer"
+      "value": "inner"
     },
     "captionStyle": {
       "type": "typography",
@@ -210,21 +138,17 @@
       "type": "dimension",
       "value": 4.0
     },
-    "helperTextPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
     "chipsPadding": {
       "type": "dimension",
       "value": 6.0
     },
-    "boxPaddingStart": {
-      "type": "dimension",
-      "value": 0.0
+    "valueColor": {
+      "type": "color",
+      "default": "text.default.primary"
     },
-    "boxPaddingEnd": {
-      "type": "dimension",
-      "value": 0.0
+    "startContentColor": {
+      "type": "color",
+      "default": "text.default.secondary"
     },
     "endContentColor": {
       "type": "color",
@@ -257,31 +181,32 @@
       "type": "color",
       "default": "text.default.secondary"
     },
+    "placeholderColor": {
+      "type": "color",
+      "default": "text.default.secondary",
+      "states": [
+        {
+          "state": [
+            "activated"
+          ],
+          "value": "text.default.tertiary"
+        }
+      ]
+    },
+    "backgroundColorReadOnly": {
+      "type": "color",
+      "default": "surface.default.solid-primary",
+      "alpha": 0.4
+    },
     "indicatorColor": {
       "type": "color",
       "default": "surface.default.negative"
     },
     "cursorColor": {
       "type": "color",
-      "default": "text.default.accent"
-    },
-    "dividerColorReadOnly": {
-      "type": "color",
-      "default": "surface.default.transparent-primary"
-    },
-    "valueColorReadOnly": {
-      "type": "color",
-      "default": "text.default.primary"
+      "default": "text.default.accent-main"
     },
     "captionColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "placeholderColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "startContentColorReadOnly": {
       "type": "color",
       "default": "text.default.secondary"
     }
@@ -295,15 +220,32 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.s",
+          "adjustment": 0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.xs.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 8.0
         },
         "boxPaddingTop": {
           "type": "dimension",
           "value": 8.0
         },
         "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "helperTextPadding": {
           "type": "dimension",
           "value": 8.0
         },
@@ -356,14 +298,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 13.0
         }
       }
     },
@@ -378,14 +312,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 13.0
         }
       }
     },
@@ -403,7 +329,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 2.0
+          "value": 6.0
         },
         "labelStyle": {
           "type": "typography",
@@ -475,9 +401,22 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.m",
+          "adjustment": -2.0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.s.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 12.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 12.0
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -485,7 +424,11 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 8.0
+          "value": 12.0
+        },
+        "helperTextPadding": {
+          "type": "dimension",
+          "value": 12.0
         },
         "startContentPadding": {
           "type": "dimension",
@@ -536,14 +479,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -558,14 +493,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -583,7 +510,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 8.0
         },
         "labelStyle": {
           "type": "typography",
@@ -665,7 +592,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 4.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -684,14 +611,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -706,14 +625,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 17.0
         }
       }
     },
@@ -725,15 +636,31 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.m"
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.m.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 14.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 14.0
         },
         "boxPaddingTop": {
           "type": "dimension",
           "value": 12.0
         },
         "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 12.0
+        },
+        "helperTextPadding": {
           "type": "dimension",
           "value": 12.0
         },
@@ -786,14 +713,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -808,14 +727,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -833,7 +744,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 10.0
         },
         "labelStyle": {
           "type": "typography",
@@ -915,7 +826,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 6.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -934,14 +845,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -956,14 +859,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 20.0
         }
       }
     },
@@ -975,9 +870,22 @@
           "type": "value",
           "value": "none"
         },
+        "shape": {
+          "type": "shape",
+          "value": "round.m",
+          "adjustment": 2.0
+        },
         "chipStyle": {
           "type": "component_style",
           "value": "embedded-chip.l.secondary"
+        },
+        "boxPaddingStart": {
+          "type": "dimension",
+          "value": 16.0
+        },
+        "boxPaddingEnd": {
+          "type": "dimension",
+          "value": 16.0
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -985,7 +893,11 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 16.0
+          "value": 12.0
+        },
+        "helperTextPadding": {
+          "type": "dimension",
+          "value": 12.0
         },
         "startContentPadding": {
           "type": "dimension",
@@ -1036,14 +948,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1058,14 +962,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1083,7 +979,7 @@
         },
         "labelPadding": {
           "type": "dimension",
-          "value": 4.0
+          "value": 12.0
         },
         "labelStyle": {
           "type": "typography",
@@ -1165,7 +1061,7 @@
         },
         "boxPaddingBottom": {
           "type": "dimension",
-          "value": 9.0
+          "value": 12.0
         },
         "optionalStyle": {
           "type": "typography",
@@ -1184,14 +1080,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     },
@@ -1206,14 +1094,6 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
-        },
-        "indicatorOffsetX": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorOffsetY": {
-          "type": "dimension",
-          "value": 24.0
         }
       }
     }

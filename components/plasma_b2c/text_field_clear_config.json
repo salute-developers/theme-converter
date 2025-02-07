@@ -40,6 +40,70 @@
         }
       }
     },
+    "success": {
+      "props": {
+        "valueColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.primary"
+            }
+          ]
+        },
+        "placeholderColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.tertiary"
+            }
+          ]
+        },
+        "captionColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.secondary"
+            }
+          ]
+        },
+        "dividerColor": {
+          "type": "color",
+          "default": "surface.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "surface.default.accent"
+            }
+          ]
+        },
+        "startContentColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.secondary"
+            }
+          ]
+        }
+      }
+    },
     "warning": {
       "props": {
         "valueColor": {

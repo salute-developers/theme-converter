@@ -30,13 +30,77 @@
               "state": [
                 "activated"
               ],
-              "value": "surface.default.accent"
+              "value": "surface.default.accent-main"
             }
           ]
         },
         "startContentColor": {
           "type": "color",
           "default": "text.default.secondary"
+        }
+      }
+    },
+    "success": {
+      "props": {
+        "valueColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.primary"
+            }
+          ]
+        },
+        "placeholderColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.tertiary"
+            }
+          ]
+        },
+        "captionColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.secondary"
+            }
+          ]
+        },
+        "dividerColor": {
+          "type": "color",
+          "default": "surface.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "surface.default.accent-main"
+            }
+          ]
+        },
+        "startContentColor": {
+          "type": "color",
+          "default": "text.default.positive",
+          "states": [
+            {
+              "state": [
+                "activated"
+              ],
+              "value": "text.default.secondary"
+            }
+          ]
         }
       }
     },
@@ -86,7 +150,7 @@
               "state": [
                 "activated"
               ],
-              "value": "surface.default.accent"
+              "value": "surface.default.accent-main"
             }
           ]
         },
@@ -150,7 +214,7 @@
               "state": [
                 "activated"
               ],
-              "value": "surface.default.accent"
+              "value": "surface.default.accent-main"
             }
           ]
         },
@@ -263,7 +327,7 @@
     },
     "cursorColor": {
       "type": "color",
-      "default": "text.default.accent"
+      "default": "text.default.accent-main"
     },
     "dividerColorReadOnly": {
       "type": "color",
