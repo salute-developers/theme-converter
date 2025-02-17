@@ -3,23 +3,23 @@
     "props": {
         "labelColor": {
             "type": "color",
-            "value": "text.default.secondary"
+            "default": "text.default.secondary"
         },
         "titleColor": {
             "type": "color",
-            "value": "text.default.primary"
+            "default": "text.default.primary"
         },
         "subtitleColor": {
             "type": "color",
-            "value": "text.default.secondary"
+            "default": "text.default.secondary"
         },
         "disclosureTextColor": {
             "type": "color",
-            "value": "text.default.secondary"
+            "default": "text.default.secondary"
         },
         "disclosureIconColor": {
             "type": "color",
-            "value": "text.default.secondary"
+            "default": "text.default.secondary"
         }
     },
     "variations": [
