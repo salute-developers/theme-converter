@@ -215,7 +215,7 @@
                 },
                 "avatarStyle": {
                     "type": "component_style",
-                    "value": "avatar.xs"
+                    "value": "avatar.s"
                 },
                 "iconButtonStyle": {
                     "type": "component_style",
