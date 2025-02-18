@@ -209,6 +209,14 @@
     "captionColorReadOnly": {
       "type": "color",
       "default": "text.default.secondary"
+    },
+    "prefixColor": {
+      "type": "color",
+      "default": "text.default.tertiary"
+    },
+    "suffixColor": {
+      "type": "color",
+      "default": "text.default.tertiary"
     }
   },
   "variations": [
@@ -278,6 +286,14 @@
           "value": "body.xs.normal"
         },
         "placeholderStyle": {
+          "type": "typography",
+          "value": "body.xs.normal"
+        },
+        "prefixStyle": {
+          "type": "typography",
+          "value": "body.xs.normal"
+        },
+        "suffixStyle": {
           "type": "typography",
           "value": "body.xs.normal"
         },
@@ -459,6 +475,14 @@
           "value": "body.s.normal"
         },
         "placeholderStyle": {
+          "type": "typography",
+          "value": "body.s.normal"
+        },
+        "prefixStyle": {
+          "type": "typography",
+          "value": "body.s.normal"
+        },
+        "suffixStyle": {
           "type": "typography",
           "value": "body.s.normal"
         },
@@ -696,6 +720,14 @@
           "type": "typography",
           "value": "body.m.normal"
         },
+        "prefixStyle": {
+          "type": "typography",
+          "value": "body.m.normal"
+        },
+        "suffixStyle": {
+          "type": "typography",
+          "value": "body.m.normal"
+        },
         "fieldType": {
           "type": "value",
           "value": "optional"
@@ -928,6 +960,14 @@
           "value": "body.l.normal"
         },
         "placeholderStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "prefixStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "suffixStyle": {
           "type": "typography",
           "value": "body.l.normal"
         },
