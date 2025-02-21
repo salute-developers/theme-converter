@@ -73,10 +73,6 @@
                             "value": "surface.default.solid-default-hover"
                         }
                     ]
-                },
-                "loadingAlpha": {
-                    "type": "float",
-                    "value": 0
                 }
             }
         },
@@ -153,10 +149,6 @@
                             "value": "surface.default.transparent-card-hover"
                         }
                     ]
-                },
-                "loadingAlpha": {
-                    "type": "float",
-                    "value": 0
                 }
             }
         },
@@ -233,10 +225,6 @@
                             "value": "surface.default.accent-hover"
                         }
                     ]
-                },
-                "loadingAlpha": {
-                    "type": "float",
-                    "value": 0
                 }
             }
         },
@@ -534,5 +522,11 @@
                 }
             }
         ]
+    },
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        }
     }
 }
