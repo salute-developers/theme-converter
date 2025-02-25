@@ -230,6 +230,79 @@
         },
         "variations": [
             {
+                "id": "xl",
+                "parent": null,
+                "props": {
+                    "shape": {
+                        "type": "shape",
+                        "value": "round.l",
+                        "adjustment": 0
+                    },
+                    "labelStyle": {
+                        "type": "typography",
+                        "value": "body.l.bold"
+                    },
+                    "valueStyle": {
+                        "type": "typography",
+                        "value": "body.l.bold"
+                    },
+                    "minHeight": {
+                        "type": "dimension",
+                        "value": 64
+                    },
+                    "minWidth": {
+                        "type": "dimension",
+                        "value": 140
+                    },
+                    "paddingStart": {
+                        "type": "dimension",
+                        "value": 28
+                    },
+                    "paddingEnd": {
+                        "type": "dimension",
+                        "value": 28
+                    },
+                    "iconSize": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "iconMargin": {
+                        "type": "dimension",
+                        "value": 6
+                    },
+                    "valueMargin": {
+                        "type": "dimension",
+                        "value": 6
+                    },
+                    "counterMargin": {
+                        "type": "dimension",
+                        "value": 6
+                    },
+                    "counterStyle": {
+                        "type": "component_style",
+                        "value": "counter.s.accent"
+                    }
+                }
+            },
+            {
+                "id": "xl.pilled",
+                "parent": "xl",
+                "props": {
+                    "shape": {
+                        "type": "shape",
+                        "value": "round.circle"
+                    },
+                    "paddingStart": {
+                        "type": "dimension",
+                        "value": 20
+                    },
+                    "paddingEnd": {
+                        "type": "dimension",
+                        "value": 20
+                    }
+                }
+            },
+            {
                 "id": "l",
                 "parent": null,
                 "props": {
