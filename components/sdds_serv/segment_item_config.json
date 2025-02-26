@@ -426,7 +426,7 @@
                 },
                 "minWidth": {
                     "type": "dimension",
-                    "value": 140
+                    "value": 110
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -470,6 +470,10 @@
                     "type": "shape",
                     "value": "round.circle"
                 },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 94
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 20
@@ -503,7 +507,7 @@
                 },
                 "minWidth": {
                     "type": "dimension",
-                    "value": 116
+                    "value": 102
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -547,6 +551,10 @@
                     "type": "shape",
                     "value": "round.circle"
                 },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 86
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 16
@@ -580,7 +588,7 @@
                 },
                 "minWidth": {
                     "type": "dimension",
-                    "value": 116
+                    "value": 88
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -624,6 +632,10 @@
                     "type": "shape",
                     "value": "round.circle"
                 },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 72
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 12
@@ -657,7 +669,7 @@
                 },
                 "minWidth": {
                     "type": "dimension",
-                    "value": 101
+                    "value": 75
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -701,6 +713,10 @@
                     "type": "shape",
                     "value": "round.circle"
                 },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 59
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 8
@@ -734,7 +750,7 @@
                 },
                 "minWidth": {
                     "type": "dimension",
-                    "value": 79
+                    "value": 61
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -777,6 +793,10 @@
                 "shape": {
                     "type": "shape",
                     "value": "round.circle"
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 53
                 },
                 "paddingStart": {
                     "type": "dimension",
