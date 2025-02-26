@@ -4,118 +4,129 @@
             "props": {
                 "labelColor": {
                     "type": "color",
-                    "default": "text.inverse.primary",
+                    "default": "text.default.primary",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.inverse.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
-                                "hovered"
-                            ],
-                            "value": "text.inverse.primary-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "text.default.primary"
-                        },
-                        {
-                            "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
                 "valueColor": {
                     "type": "color",
-                    "default": "text.inverse.secondary",
+                    "default": "text.default.secondary",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.inverse.secondary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "text.inverse.secondary-active"
                         },
                         {
                             "state": [
-                                "hovered"
-                            ],
-                            "value": "text.inverse.secondary-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "text.default.primary"
-                        },
-                        {
-                            "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.inverse.secondary-hover"
                         }
                     ]
                 },
                 "iconColor": {
                     "type": "color",
-                    "default": "text.inverse.primary",
+                    "default": "text.default.primary",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.inverse.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
-                                "hovered"
-                            ],
-                            "value": "text.inverse.primary-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "text.default.primary"
-                        },
-                        {
-                            "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.solid-default",
+                    "default": "surface.default.clear",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.clear-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.solid-default"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "surface.default.solid-default-active"
                         },
                         {
                             "state": [
+                                "selected",
                                 "hovered"
                             ],
                             "value": "surface.default.solid-default-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "surface.default.clear"
                         }
                     ]
                 }
@@ -129,12 +140,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.primary-hover"
@@ -144,6 +149,13 @@
                                 "selected"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
                         },
                         {
                             "state": [
@@ -160,12 +172,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.secondary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.secondary-hover"
@@ -174,17 +180,24 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.default.primary"
+                            "value": "text.inverse.secondary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "pressed"
+                            ],
+                            "value": "text.inverse.secondary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.inverse.secondary-hover"
                         }
                     ]
-                },
+                },  
                 "iconColor": {
                     "type": "color",
                     "default": "text.default.primary",
@@ -218,25 +231,33 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.transparent-card",
+                    "default": "surface.default.clear",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.clear-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.transparent-card"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "surface.default.transparent-card-active"
                         },
                         {
                             "state": [
+                                "selected",
                                 "hovered"
                             ],
                             "value": "surface.default.transparent-card-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "surface.default.clear"
                         }
                     ]
                 }
@@ -246,118 +267,129 @@
             "props": {
                 "labelColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary",
+                    "default": "text.default.primary",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.on-dark.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "text.on-dark.primary-active"
                         },
                         {
                             "state": [
-                                "hovered"
-                            ],
-                            "value": "text.on-dark.primary-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "text.default.primary"
-                        },
-                        {
-                            "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.on-dark.primary-hover"
                         }
                     ]
                 },
                 "valueColor": {
                     "type": "color",
-                    "default": "text.on-dark.secondary",
+                    "default": "text.default.secondary",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.on-dark.secondary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "text.on-dark.secondary-active"
                         },
                         {
                             "state": [
-                                "hovered"
-                            ],
-                            "value": "text.on-dark.secondary-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "text.default.primary"
-                        },
-                        {
-                            "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                },
+                },  
                 "iconColor": {
                     "type": "color",
-                    "default": "text.on-dark.secondary",
+                    "default": "text.default.primary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.on-dark.secondary-hover"
+                            "value": "text.default.primary-hover"
                         },
                         {
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.default.primary"
+                            "value": "text.on-dark.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.primary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.default.primary-hover"
+                            "value": "text.on-dark.primary-hover"
                         }
                     ]
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent",
+                    "default": "surface.default.clear",
                     "states": [
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.clear-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "pressed"
                             ],
                             "value": "surface.default.accent-active"
                         },
                         {
                             "state": [
+                                "selected",
                                 "hovered"
                             ],
                             "value": "surface.default.accent-hover"
-                        },
-                        {
-                            "state": [
-                                "selected"
-                            ],
-                            "value": "surface.default.clear"
                         }
                     ]
                 }
