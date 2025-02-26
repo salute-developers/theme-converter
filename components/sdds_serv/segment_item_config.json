@@ -17,6 +17,19 @@
                                 "hovered"
                             ],
                             "value": "text.inverse.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -35,6 +48,19 @@
                                 "hovered"
                             ],
                             "value": "text.inverse.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -53,6 +79,19 @@
                                 "hovered"
                             ],
                             "value": "text.inverse.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -71,6 +110,12 @@
                                 "hovered"
                             ],
                             "value": "surface.default.solid-default-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.clear"
                         }
                     ]
                 }
@@ -93,6 +138,19 @@
                                 "hovered"
                             ],
                             "value": "text.default.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -111,6 +169,19 @@
                                 "hovered"
                             ],
                             "value": "text.default.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -126,6 +197,19 @@
                         },
                         {
                             "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
                                 "hovered"
                             ],
                             "value": "text.default.primary-hover"
@@ -147,6 +231,12 @@
                                 "hovered"
                             ],
                             "value": "surface.default.transparent-card-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.clear"
                         }
                     ]
                 }
@@ -169,6 +259,19 @@
                                 "hovered"
                             ],
                             "value": "text.on-dark.primary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -187,6 +290,19 @@
                                 "hovered"
                             ],
                             "value": "text.on-dark.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -205,6 +321,19 @@
                                 "hovered"
                             ],
                             "value": "text.on-dark.secondary-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "selected",
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
                         }
                     ]
                 },
@@ -223,6 +352,12 @@
                                 "hovered"
                             ],
                             "value": "surface.default.accent-hover"
+                        },
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "surface.default.clear"
                         }
                     ]
                 }
