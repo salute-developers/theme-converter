@@ -1,0 +1,281 @@
+{
+    "view": {},
+    "props": {
+        "loadingAlpha": {
+            "type": "float",
+            "value": 0
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "iconColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.inverse.primary"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                }
+            ]
+        },
+        "spinnerColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.inverse.primary"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                }
+            ]
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.solid-default"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "surface.default.transparent-secondary-active"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.default.transparent-secondary-hover"
+                }
+            ]
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        }
+    ]
+}
