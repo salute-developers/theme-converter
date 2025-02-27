@@ -984,6 +984,60 @@
     },
     "variations": [
         {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.bold"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.l.bold"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 64
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 106
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "valueMargin": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
             "id": "l",
             "parent": null,
             "props": {
@@ -1186,6 +1240,60 @@
                 "spinnerSize": {
                     "type": "dimension",
                     "value": 16
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "valueMargin": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "xxs",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xs"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.bold"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.xs.bold"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 53
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 12
                 },
                 "spinnerStrokeWidth": {
                     "type": "dimension",
