@@ -229,7 +229,7 @@
                             "value": "text.inverse.secondary-hover"
                         }
                     ]
-                },  
+                },
                 "startContentColor": {
                     "type": "color",
                     "default": "text.default.primary",
@@ -391,7 +391,7 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                },  
+                },
                 "startContentColor": {
                     "type": "color",
                     "default": "text.default.primary",
@@ -487,6 +487,24 @@
                             "value": "surface.default.accent-hover"
                         }
                     ]
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.s.accent",
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.accent",
+                            "states": [
+                                {
+                                    "state": [
+                                        "selected"
+                                    ],
+                                    "value": "surface.default.solid-default"
+                                }
+                            ]
+                        }
+                    }
                 }
             }
         }
