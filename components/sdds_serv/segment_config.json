@@ -1,0 +1,176 @@
+{
+    "view": {
+        "default": {
+            "props": {
+            "backgroundColor": {
+                "type": "color",
+                "default": "surface.default.transparent-secondary"
+                }
+            }
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "segmentItemStyle": {
+                    "type": "component_style",
+                    "value": "segment-item.l.clear"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },  
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "segmentItemStyle": {
+                    "type": "component_style",
+                    "value": "segment-item.m.clear"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },  
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "segmentItemStyle": {
+                    "type": "component_style",
+                    "value": "segment-item.s.clear"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },  
+        {
+            "id": "xs",
+            "parent": null, 
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "segmentItemStyle": {
+                    "type": "component_style",
+                    "value": "segment-item.xs.clear"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        }
+    ]  
+}
