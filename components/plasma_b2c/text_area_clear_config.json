@@ -1256,6 +1256,264 @@
           "value": 24.0
         }
       }
+    },
+    {
+      "id": "xl",
+      "parent": null,
+      "props": {
+        "labelPlacement": {
+          "type": "value",
+          "value": "none"
+        },
+        "chipStyle": {
+          "type": "component_style",
+          "value": "embedded-chip.l.secondary"
+        },
+        "boxPaddingTop": {
+          "type": "dimension",
+          "value": 21.0
+        },
+        "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 21.0
+        },
+        "startContentPadding": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "endContentPadding": {
+          "type": "dimension",
+          "value": 10.0
+        },
+        "boxMinHeight": {
+          "type": "dimension",
+          "value": 64.0
+        },
+        "alignmentMinHeight": {
+          "type": "dimension",
+          "value": 64.0
+        },
+        "startContentSize": {
+          "type": "dimension",
+          "value": 24.0
+        },
+        "endContentSize": {
+          "type": "dimension",
+          "value": 24.0
+        },
+        "valueStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "placeholderStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "prefixStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "suffixStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "fieldType": {
+          "type": "value",
+          "value": "optional"
+        }
+      }
+    },
+    {
+      "id": "xl.required-start",
+      "parent": "xl",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredStart"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 24.0
+        }
+      }
+    },
+    {
+      "id": "xl.required-end",
+      "parent": "xl",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredEnd"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 24.0
+        }
+      }
+    },
+    {
+      "id": "xl.outer-label",
+      "parent": "xl",
+      "props": {
+        "labelColor": {
+          "type": "color",
+          "default": "text.default.primary"
+        },
+        "labelPlacement": {
+          "type": "value",
+          "value": "outer"
+        },
+        "labelPadding": {
+          "type": "dimension",
+          "value": 4.0
+        },
+        "labelStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        },
+        "optionalStyle": {
+          "type": "typography",
+          "value": "body.l.normal"
+        }
+      }
+    },
+    {
+      "id": "xl.outer-label.required-start",
+      "parent": "xl.outer-label",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredStart"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 8.0
+        }
+      }
+    },
+    {
+      "id": "xl.outer-label.required-end",
+      "parent": "xl.outer-label",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredEnd"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 4.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 4.0
+        }
+      }
+    },
+    {
+      "id": "xl.inner-label",
+      "parent": "xl",
+      "props": {
+        "labelColor": {
+          "type": "color",
+          "default": "text.default.secondary"
+        },
+        "labelPlacement": {
+          "type": "value",
+          "value": "inner"
+        },
+        "labelPadding": {
+          "type": "dimension",
+          "value": 2.0
+        },
+        "labelStyle": {
+          "type": "typography",
+          "value": "body.xs.normal"
+        },
+        "boxPaddingTop": {
+          "type": "dimension",
+          "value": 9.0
+        },
+        "boxPaddingBottom": {
+          "type": "dimension",
+          "value": 9.0
+        },
+        "optionalStyle": {
+          "type": "typography",
+          "value": "body.xs.normal"
+        }
+      }
+    },
+    {
+      "id": "xl.inner-label.required-start",
+      "parent": "xl.inner-label",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredStart"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 24.0
+        }
+      }
+    },
+    {
+      "id": "xl.inner-label.required-end",
+      "parent": "xl.inner-label",
+      "props": {
+        "fieldType": {
+          "type": "value",
+          "value": "requiredEnd"
+        },
+        "indicatorSize": {
+          "type": "dimension",
+          "value": 8.0
+        },
+        "indicatorOffsetX": {
+          "type": "dimension",
+          "value": 6.0
+        },
+        "indicatorOffsetY": {
+          "type": "dimension",
+          "value": 24.0
+        }
+      }
     }
   ]
 }
