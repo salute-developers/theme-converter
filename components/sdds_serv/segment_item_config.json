@@ -503,33 +503,35 @@
             "parent": null,
             "view": {
                 "accent": {
-                    "counterStyle": {
-                        "type": "component_style",
-                        "value": "counter.s.accent",
-                        "props": {
-                            "backgroundColor": {
-                                "type": "color",
-                                "default": "surface.on-dark.solid-default",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "surface.default.accent"
-                                    }
-                                ]
-                            },
-                            "textColor": {
-                                "type": "color",
-                                "default": "text.on-light.primary",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "text.on-dark.primary"
-                                    }
-                                ]
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.on-dark.solid-default",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.default.accent"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-light.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-dark.primary"
+                                        }
+                                    ]
+                                }
                             }
                         }
                     }
@@ -618,33 +620,35 @@
             "parent": null,
             "view": {
                 "accent": {
-                    "counterStyle": {
-                        "type": "component_style",
-                        "value": "counter.s.accent",
-                        "props": {
-                            "backgroundColor": {
-                                "type": "color",
-                                "default": "surface.on-dark.solid-default",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "surface.default.accent"
-                                    }
-                                ]
-                            },
-                            "textColor": {
-                                "type": "color",
-                                "default": "text.on-light.primary",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "text.on-dark.primary"
-                                    }
-                                ]
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.on-dark.solid-default",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.default.accent"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-light.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-dark.primary"
+                                        }
+                                    ]
+                                }
                             }
                         }
                     }
@@ -733,33 +737,35 @@
             "parent": null,
             "view": {
                 "accent": {
-                    "counterStyle": {
-                        "type": "component_style",
-                        "value": "counter.xs.accent",
-                        "props": {
-                            "backgroundColor": {
-                                "type": "color",
-                                "default": "surface.on-dark.solid-default",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "surface.default.accent"
-                                    }
-                                ]
-                            },
-                            "textColor": {
-                                "type": "color",
-                                "default": "text.on-light.primary",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "text.on-dark.primary"
-                                    }
-                                ]
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.on-dark.solid-default",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.default.accent"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-light.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-dark.primary"
+                                        }
+                                    ]
+                                }
                             }
                         }
                     }
@@ -848,33 +854,35 @@
             "parent": null,
             "view": {
                 "accent": {
-                    "counterStyle": {
-                        "type": "component_style",
-                        "value": "counter.xs.accent",
-                        "props": {
-                            "backgroundColor": {
-                                "type": "color",
-                                "default": "surface.on-dark.solid-default",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "surface.default.accent"
-                                    }
-                                ]
-                            },
-                            "textColor": {
-                                "type": "color",
-                                "default": "text.on-light.primary",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "text.on-dark.primary"
-                                    }
-                                ]
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.on-dark.solid-default",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.default.accent"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-light.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-dark.primary"
+                                        }
+                                    ]
+                                }
                             }
                         }
                     }
@@ -963,33 +971,35 @@
             "parent": null,
             "view": {
                 "accent": {
-                    "counterStyle": {
-                        "type": "component_style",
-                        "value": "counter.xxs.accent",
-                        "props": {
-                            "backgroundColor": {
-                                "type": "color",
-                                "default": "surface.on-dark.solid-default",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "surface.default.accent"
-                                    }
-                                ]
-                            },
-                            "textColor": {
-                                "type": "color",
-                                "default": "text.on-light.primary",
-                                "states": [
-                                    {
-                                        "state": [
-                                            "selected"
-                                        ],
-                                        "value": "text.on-dark.primary"
-                                    }
-                                ]
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xxs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.on-dark.solid-default",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.default.accent"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-light.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-dark.primary"
+                                        }
+                                    ]
+                                }
                             }
                         }
                     }
