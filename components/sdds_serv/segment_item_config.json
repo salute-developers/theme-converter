@@ -510,25 +510,25 @@
                             "props": {
                                 "backgroundColor": {
                                     "type": "color",
-                                    "default": "surface.on-dark.solid-default",
+                                    "default": "surface.default.accent",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "surface.default.accent"
+                                            "value": "surface.on-dark.solid-default"
                                         }
                                     ]
                                 },
                                 "textColor": {
                                     "type": "color",
-                                    "default": "text.on-light.primary",
+                                    "default": "text.on-dark.primary",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "text.on-dark.primary"
+                                            "value": "text.on-light.primary"
                                         }
                                     ]
                                 }
@@ -627,25 +627,25 @@
                             "props": {
                                 "backgroundColor": {
                                     "type": "color",
-                                    "default": "surface.on-dark.solid-default",
+                                    "default": "surface.default.accent",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "surface.default.accent"
+                                            "value": "surface.on-dark.solid-default"
                                         }
                                     ]
                                 },
                                 "textColor": {
                                     "type": "color",
-                                    "default": "text.on-light.primary",
+                                    "default": "text.on-dark.primary",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "text.on-dark.primary"
+                                            "value": "text.on-light.primary"
                                         }
                                     ]
                                 }
@@ -744,25 +744,25 @@
                             "props": {
                                 "backgroundColor": {
                                     "type": "color",
-                                    "default": "surface.on-dark.solid-default",
+                                    "default": "surface.default.accent",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "surface.default.accent"
+                                            "value": "surface.on-dark.solid-default"
                                         }
                                     ]
                                 },
                                 "textColor": {
                                     "type": "color",
-                                    "default": "text.on-light.primary",
+                                    "default": "text.on-dark.primary",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "text.on-dark.primary"
+                                            "value": "text.on-light.primary"
                                         }
                                     ]
                                 }
@@ -861,25 +861,25 @@
                             "props": {
                                 "backgroundColor": {
                                     "type": "color",
-                                    "default": "surface.on-dark.solid-default",
+                                    "default": "surface.default.accent",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "surface.default.accent"
+                                            "value": "surface.on-dark.solid-default"
                                         }
                                     ]
                                 },
                                 "textColor": {
                                     "type": "color",
-                                    "default": "text.on-light.primary",
+                                    "default": "text.on-dark.primary",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "text.on-dark.primary"
+                                            "value": "text.on-light.primary"
                                         }
                                     ]
                                 }
@@ -978,25 +978,25 @@
                             "props": {
                                 "backgroundColor": {
                                     "type": "color",
-                                    "default": "surface.on-dark.solid-default",
+                                    "default": "surface.default.accent",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "surface.default.accent"
+                                            "value": "surface.on-dark.solid-default"
                                         }
                                     ]
                                 },
                                 "textColor": {
                                     "type": "color",
-                                    "default": "text.on-light.primary",
+                                    "default": "text.on-dark.primary",
                                     "states": [
                                         {
                                             "state": [
                                                 "selected"
                                             ],
-                                            "value": "text.on-dark.primary"
+                                            "value": "text.on-light.primary"
                                         }
                                     ]
                                 }
