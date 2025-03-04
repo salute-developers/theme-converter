@@ -229,7 +229,7 @@
                             "value": "text.inverse.secondary-hover"
                         }
                     ]
-                },  
+                },
                 "startContentColor": {
                     "type": "color",
                     "default": "text.default.primary",
@@ -391,7 +391,7 @@
                             "value": "text.on-dark.secondary-hover"
                         }
                     ]
-                },  
+                },
                 "startContentColor": {
                     "type": "color",
                     "default": "text.default.primary",
@@ -501,6 +501,42 @@
         {
             "id": "xl",
             "parent": null,
+            "view": {
+                "accent": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.default.accent",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.on-dark.solid-default"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-dark.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-light.primary"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "props": {
                 "shape": {
                     "type": "shape",
@@ -582,6 +618,42 @@
         {
             "id": "l",
             "parent": null,
+            "view": {
+                "accent": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.default.accent",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.on-dark.solid-default"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-dark.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-light.primary"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "props": {
                 "shape": {
                     "type": "shape",
@@ -663,6 +735,42 @@
         {
             "id": "m",
             "parent": null,
+            "view": {
+                "accent": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.default.accent",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.on-dark.solid-default"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-dark.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-light.primary"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "props": {
                 "shape": {
                     "type": "shape",
@@ -744,6 +852,42 @@
         {
             "id": "s",
             "parent": null,
+            "view": {
+                "accent": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.default.accent",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.on-dark.solid-default"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-dark.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-light.primary"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "props": {
                 "shape": {
                     "type": "shape",
@@ -825,6 +969,42 @@
         {
             "id": "xs",
             "parent": null,
+            "view": {
+                "accent": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.xxs.accent",
+                            "props": {
+                                "backgroundColor": {
+                                    "type": "color",
+                                    "default": "surface.default.accent",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "surface.on-dark.solid-default"
+                                        }
+                                    ]
+                                },
+                                "textColor": {
+                                    "type": "color",
+                                    "default": "text.on-dark.primary",
+                                    "states": [
+                                        {
+                                            "state": [
+                                                "selected"
+                                            ],
+                                            "value": "text.on-light.primary"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            },
             "props": {
                 "shape": {
                     "type": "shape",
