@@ -212,21 +212,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.inverse.secondary"
+                            "value": "text.default.secondary"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "text.inverse.secondary-active"
+                            "value": "text.default.secondary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.inverse.secondary-hover"
+                            "value": "text.default.secondary-hover"
                         }
                     ]
                 },
