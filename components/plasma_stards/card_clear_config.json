@@ -1,0 +1,114 @@
+{
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        }
+    ]
+}
