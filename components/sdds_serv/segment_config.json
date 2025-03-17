@@ -8,6 +8,95 @@
     },
     "variations": [
         {
+            "id": "xl",
+            "parent": null,
+            "view": {
+                "primary": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.primary"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.accent"
+                        }
+                    }
+                }
+            },
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xl",
+                    "adjustment": -2
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "xl.pilled",
+            "parent": "xl",
+            "view": {
+                "primary": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.pilled.primary"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.pilled.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "segmentItemStyle": {
+                            "type": "component_style",
+                            "value": "segment-item.xl.pilled.accent"
+                        }
+                    }
+                }
+            },
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },
+        {
             "id": "l",
             "parent": null,
             "view": {
@@ -280,7 +369,7 @@
                 "primary": {
                     "props": {
                         "segmentItemStyle": {
-                            "type": "component_style",     
+                            "type": "component_style",
                             "value": "segment-item.xs.primary"
                         }
                     }
