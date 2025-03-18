@@ -1,5 +1,166 @@
 {
     "view": {},
-    "props": {},
-    "variations": []
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "contentShape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 0
+        },
+        "fsTarget": {
+            "type": "value",
+            "value": "content"
+        },
+        "fsBorderMode": {
+            "type": "value",
+            "value": "gradient_animated"
+        },
+        "fsStrokeInset": {
+            "type": "dimension",
+            "value": 0
+        }
+    },
+    "variations": [
+        {
+            "id": "horizontal",
+            "parent": null,
+            "props": {}
+        },
+        {
+            "id": "vertical",
+            "parent": null,
+            "props": {}
+        },
+        {
+            "id": "square",
+            "parent": null,
+            "props": {}
+        },
+        {
+            "id": "square.l",
+            "parent": "square",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.08
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 256
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 256
+                }
+            }
+        },
+        {
+            "id": "vertical.m",
+            "parent": "vertical",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.08
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 188
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 286
+                }
+            }
+        },
+        {
+            "id": "horizontal.s",
+            "parent": "horizontal",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.1
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 180
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 106
+                }
+            }
+        },
+        {
+            "id": "vertical.s",
+            "parent": "vertical",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.15
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 120
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 180
+                }
+            }
+        },
+        {
+            "id": "horizontal.xs",
+            "parent": "horizontal",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.15
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 120
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 68
+                }
+            }
+        },
+        {
+            "id": "square.xs",
+            "parent": "square",
+            "props": {
+                "fsScaleFactor": {
+                    "type": "float",
+                    "value": 0.15
+                },
+                "contentMinWidth": {
+                    "type": "dimension",
+                    "value": 120
+                },
+                "contentMinHeight": {
+                    "type": "dimension",
+                    "value": 120
+                }
+            }
+        }
+    ]
 }
