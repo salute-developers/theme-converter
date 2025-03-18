@@ -17,7 +17,7 @@
                 },
                 "contentShape": {
                     "type": "shape",
-                    "value": "round.s"
+                    "value": "round.l"
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -48,7 +48,8 @@
                 },
                 "contentShape": {
                     "type": "shape",
-                    "value": "round.xs"
+                    "value": "round.l",
+                    "adjustment": -2
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -78,7 +79,7 @@
                 },
                 "contentShape": {
                     "type": "shape",
-                    "value": "round.xs"
+                    "value": "round.m"
                 },
                 "paddingStart": {
                     "type": "dimension",
