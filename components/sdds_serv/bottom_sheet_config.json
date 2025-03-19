@@ -27,7 +27,8 @@
         },
         "handleShape": {
             "type": "shape",
-            "value": "round.circle"
+            "value": "round.xxs"
+            "adjustment": -2
         },
         "handleColor": {
             "type": "color",
