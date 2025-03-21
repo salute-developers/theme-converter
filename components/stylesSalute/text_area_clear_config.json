@@ -218,6 +218,14 @@
       "type": "dimension",
       "value": 6.0
     },
+    "chipsPaddingStart": {
+      "type": "dimension",
+      "value": 0.0
+    },
+    "chipsPaddingEnd": {
+      "type": "dimension",
+      "value": 0.0
+    },
     "boxPaddingStart": {
       "type": "dimension",
       "value": 0.0
@@ -260,6 +268,10 @@
     "indicatorColor": {
       "type": "color",
       "default": "surface.default.negative"
+    },
+    "indicatorAlignmentMode": {
+      "type": "value",
+      "value": "outside"
     },
     "cursorColor": {
       "type": "color",
