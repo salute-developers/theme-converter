@@ -235,10 +235,6 @@
       "type": "color",
       "default": "surface.default.negative"
     },
-    "indicatorAlignmentMode": {
-      "type": "value",
-      "value": "outside"
-    },
     "cursorColor": {
       "type": "color",
       "default": "text.default.accent-main"

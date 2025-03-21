@@ -318,6 +318,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -332,6 +336,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -388,6 +396,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 4.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -410,6 +422,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 2.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -503,6 +519,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -517,6 +537,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -565,6 +589,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -587,6 +615,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 4.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -635,6 +667,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -649,6 +685,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 6.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -741,6 +781,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -755,6 +799,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -803,6 +851,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 7.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -825,6 +877,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 4.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -873,6 +929,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -887,6 +947,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -980,6 +1044,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -994,6 +1062,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -1042,6 +1114,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -1064,6 +1140,10 @@
         "indicatorOffsetY": {
           "type": "dimension",
           "value": 4.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "outside"
         }
       }
     },
@@ -1112,6 +1192,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     },
@@ -1126,6 +1210,10 @@
         "indicatorSize": {
           "type": "dimension",
           "value": 8.0
+        },
+        "indicatorAlignmentMode": {
+          "type": "value",
+          "value": "inside"
         }
       }
     }
