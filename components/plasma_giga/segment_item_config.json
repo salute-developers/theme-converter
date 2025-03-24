@@ -342,21 +342,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.on-dark.primary"
+                            "value": "text.inverse.primary"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "text.on-dark.primary-active"
+                            "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.on-dark.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
@@ -374,21 +374,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.on-dark.secondary"
+                            "value": "text.inverse.secondary"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "text.on-dark.secondary-active"
+                            "value": "text.inverse.secondary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.on-dark.secondary-hover"
+                            "value": "text.inverse.secondary-hover"
                         }
                     ]
                 },
@@ -406,21 +406,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.on-dark.primary"
+                            "value": "text.inverse.primary"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "text.on-dark.primary-active"
+                            "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.on-dark.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
@@ -438,21 +438,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "text.on-dark.primary"
+                            "value": "text.inverse.primary"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "text.on-dark.primary-active"
+                            "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "text.on-dark.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
