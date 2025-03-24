@@ -28,15 +28,15 @@
                 },
                 "endContentColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.inverse.primary"
                 },
                 "startContentColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.inverse.primary"
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.inverse.primary"
                 }
             }
         },

@@ -120,37 +120,37 @@
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary",
+                    "default": "text.inverse.primary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "text.on-dark.primary-active"
+                            "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.on-dark.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary",
+                    "default": "text.inverse.primary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "text.on-dark.primary-active"
+                            "value": "text.inverse.primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.on-dark.primary-hover"
+                            "value": "text.inverse.primary-hover"
                         }
                     ]
                 },
