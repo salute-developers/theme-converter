@@ -147,24 +147,32 @@ export const getAndroidGradientToken = (key: string, value: any) => {
     }
 };
 
-export const getAndroidShadowToken = (key: string, value: any) => {
-    if (Array.isArray(value)) {
-        if (!value[0].android) {
+export const getAndroidShadowToken = (key: string, values: any) => {
+    if (Array.isArray(values)) {
+        if (!values[0].android) {
             return {
-                [key]: {
-                    color: '#000000',
-                    elevation: 4,
-                },
+                [key]: [
+                    {
+                        color: '#08080814',
+                        offsetX: 0,
+                        offsetY: 4.0,
+                        spreadRadius: -4.0,
+                        blurRadius: 14.0,
+                        fallbackElevation: 4.0,
+                    },
+                ],
             };
         }
 
-        const values = value[0].android;
-
         return {
-            [key]: {
-                color: getHEXAColor(values.color),
-                elevation: Number(values.elevation),
-            },
+            [key]: values.map(({ android }) => ({
+                color: getHEXAColor(android.color),
+                offsetX: android.offsetX || 0,
+                offsetY: android.offsetY || 4.0,
+                spreadRadius: android.spreadRadius || -4.0,
+                blurRadius: android.blurRadius || 14.0,
+                elevation: Number(android.elevation || android.fallbackElevation || 0),
+            })),
         };
     }
 };

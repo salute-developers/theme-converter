@@ -158,34 +158,31 @@ export const getIOSGradientToken = (key: string, value: any) => {
     }
 };
 
-export const getIOSShadowToken = (key: string, value: any) => {
-    if (Array.isArray(value)) {
-        if (!value[0].ios) {
+export const getIOSShadowToken = (key: string, values: any) => {
+    if (Array.isArray(values)) {
+        if (!values[0].android) {
             return {
-                [key]: {
-                    color: '#000000',
-                    offset: {
-                        width: 0,
-                        height: 5,
+                [key]: [
+                    {
+                        color: '#08080814',
+                        offsetX: 0,
+                        offsetY: 4.0,
+                        spreadRadius: -4.0,
+                        blurRadius: 14.0,
                     },
-                    opacity: 0.5,
-                    radius: 1.5,
-                },
+                ],
             };
         }
 
-        const values = value[0].ios;
-
         return {
-            [key]: {
-                color: getHEXAColor(values.color),
-                offset: {
-                    width: values.offset.width,
-                    height: values.offset.height,
-                },
-                opacity: values.opacity,
-                radius: values.radius,
-            },
+            // INFO: Временно берутся значения из android
+            [key]: values.map(({ android, ios }) => ({
+                color: getHEXAColor(android.color || ios?.color),
+                offsetX: android.offsetX || ios?.offset.width || 0,
+                offsetY: android.offsetY || ios?.offset.height || 4.0,
+                spreadRadius: android.spreadRadius || ios?.radius || -4.0,
+                blurRadius: android.blurRadius || ios?.radius || 14.0,
+            })),
         };
     }
 };
