@@ -171,7 +171,7 @@ export const getAndroidShadowToken = (key: string, values: any) => {
                 offsetY: android.offsetY || 4.0,
                 spreadRadius: android.spreadRadius || -4.0,
                 blurRadius: android.blurRadius || 14.0,
-                elevation: Number(android.elevation || android.fallbackElevation || 0),
+                fallbackElevation: Number(android.elevation) || android.fallbackElevation || 0,
             })),
         };
     }

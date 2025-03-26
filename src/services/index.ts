@@ -10,6 +10,7 @@ const themeList = [
     'default',
     'plasma_b2c',
     'plasma_web',
+    'plasma_stards',
     'plasma_giga',
     'plasma_giga_app',
     'sberHealth',
