@@ -840,7 +840,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.s"
+                    "value": "round.xs"
                 },
                 "height": {
                     "type": "dimension",
