@@ -394,13 +394,13 @@
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.clear-active"
+                            "value": "surface.default.transparent-secondary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.clear-hover"
+                            "value": "surface.default.transparent-secondary-hover"
                         }
                     ]
                 }
