@@ -3,122 +3,122 @@
     "version": "0.1.0",
     "components": [
         {
-            "componenName": "badge",
+            "componentName": "badge",
             "styleName": "badge-clear",
             "config": "badge_clear_config.json"
         },
         {
-            "componenName": "badge",
+            "componentName": "badge",
             "styleName": "badge-solid",
             "config": "badge_solid_config.json"
         },
         {
-            "componenName": "badge",
+            "componentName": "badge",
             "styleName": "badge.transparent",
             "config": "badge_transparent_config.json"
         },
         {
-            "componenName": "icon-badge",
+            "componentName": "icon-badge",
             "styleName": "icon-badge-clear",
             "config": "icon_badge_clear_config.json"
         },
         {
-            "componenName": "icon-badge",
+            "componentName": "icon-badge",
             "styleName": "icon-badge-solid",
             "config": "icon_badge_solid_config.json"
         },
         {
-            "componenName": "icon-badge",
+            "componentName": "icon-badge",
             "styleName": "icon-badge-transparent",
             "config": "icon_badge_transparent_config.json"
         },
         {
-            "componenName": "basic-button",
+            "componentName": "basic-button",
             "styleName": "basic-button",
             "config": "basic_button_config.json"
         },
         {
-            "componenName": "icon-button",
+            "componentName": "icon-button",
             "styleName": "icon-button",
             "config": "icon_button_config.json"
         },
         {
-            "componenName": "link-button",
+            "componentName": "link-button",
             "styleName": "link-button",
             "config": "link_button_config.json"
         },
         {
-            "componenName": "bottom-sheet",
+            "componentName": "bottom-sheet",
             "styleName": "bottom-sheet",
             "config": "bottom_sheet_config.json"
         },
         {
-            "componenName": "card",
+            "componentName": "card",
             "styleName": "card-solid",
             "config": "card_solid_config.json"
         },
         {
-            "componenName": "card",
+            "componentName": "card",
             "styleName": "card-clear",
             "config": "card_clear_config.json"
         },
         {
-            "componenName": "cell",
+            "componentName": "cell",
             "styleName": "cell",
             "config": "cell_config.json"
         },
         {
-            "componenName": "chip",
+            "componentName": "chip",
             "styleName": "chip",
             "config": "chip_config.json"
         },
         {
-            "componenName": "chip",
+            "componentName": "chip",
             "styleName": "embedded-chip",
             "config": "embedded_chip_config.json"
         },
         {
-            "componenName": "counter",
+            "componentName": "counter",
             "styleName": "counter",
             "config": "counter_config.json"
         },
         {
-            "componenName": "divider",
+            "componentName": "divider",
             "styleName": "divider",
             "config": "divider_config.json"
         },
         {
-            "componenName": "indicator",
+            "componentName": "indicator",
             "styleName": "indicator",
             "config": "indicator_config.json"
         },
         {
-            "componenName": "segment",
+            "componentName": "segment",
             "styleName": "segment",
             "config": "segment_config.json"
         },
         {
-            "componenName": "segment-item",
+            "componentName": "segment-item",
             "styleName": "segment-item",
             "config": "segment_item_config.json"
         },
         {
-            "componenName": "text-field",
+            "componentName": "text-field",
             "styleName": "text-field",
             "config": "text_field_config.json"
         },
         {
-            "componenName": "text-field",
+            "componentName": "text-field",
             "styleName": "text-field-clear",
             "config": "text_field_clear_config.json"
         },
         {
-            "componenName": "text-area",
+            "componentName": "text-area",
             "styleName": "text-area",
             "config": "text_area_config.json"
         },
         {
-            "componenName": "text-area",
+            "componentName": "text-area",
             "styleName": "text-area-clear",
             "config": "text_area_clear_config.json"
         }
