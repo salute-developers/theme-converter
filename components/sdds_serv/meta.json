@@ -110,7 +110,8 @@
         {
             "componentName": "text-field",
             "styleName": "text-field-clear",
-            "config": "text_field_clear_config.json"
+            "config": "text_field_clear_config.json",
+            "excludePlatforms": ["view-system"]
         },
         {
             "componentName": "text-area",
@@ -120,7 +121,8 @@
         {
             "componentName": "text-area",
             "styleName": "text-area-clear",
-            "config": "text_area_clear_config.json"
+            "config": "text_area_clear_config.json",
+            "excludePlatforms": ["view-system"]
         }
     ]
 }
