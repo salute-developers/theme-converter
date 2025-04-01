@@ -1,0 +1,9 @@
+{
+    "round.xxs": "4px",
+    "round.xs": "8px",
+    "round.s": "12px",
+    "round.m": "16px",
+    "round.l": "20px",
+    "round.xl": "24px",
+    "round.xxl": "32px"
+}
