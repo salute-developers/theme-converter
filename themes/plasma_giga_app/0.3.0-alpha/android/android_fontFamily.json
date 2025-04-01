@@ -1,179 +1,179 @@
 {
     "display": {
-        "name": "SB Sans Display",
+        "name": "Noto Sans Display",
         "fonts": [
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Light.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.ttf",
                 "fontWeight": 300,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Thin.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.ttf",
                 "fontWeight": 100,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Bold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.ttf",
                 "fontWeight": 700,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Regular.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf",
                 "fontWeight": 400,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Semibold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Semibold.ttf",
                 "fontWeight": 600,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Medium.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.ttf",
                 "fontWeight": 500,
                 "fontStyle": "normal"
             }
         ]
     },
     "header": {
-        "name": "SB Sans Display",
+        "name": "Noto Sans Display",
         "fonts": [
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Light.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.ttf",
                 "fontWeight": 300,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Thin.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.ttf",
                 "fontWeight": 100,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Bold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.ttf",
                 "fontWeight": 700,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Regular.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf",
                 "fontWeight": 400,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Semibold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Semibold.ttf",
                 "fontWeight": 600,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansDisplay.0.2.0/SBSansDisplay-Medium.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.ttf",
                 "fontWeight": 500,
                 "fontStyle": "normal"
             }
         ]
     },
     "text": {
-        "name": "SB Sans Text",
+        "name": "Noto Sans Text",
         "fonts": [
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Light.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.ttf",
                 "fontWeight": 300,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Italic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf",
                 "fontWeight": 400,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-SemiboldItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiboldItalic.ttf",
                 "fontWeight": 600,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Thin.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf",
                 "fontWeight": 100,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Regular.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf",
                 "fontWeight": 400,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Semibold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Semibold.ttf",
                 "fontWeight": 600,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-LightItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf",
                 "fontWeight": 300,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Bold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf",
                 "fontWeight": 700,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-BoldItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf",
                 "fontWeight": 700,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Medium.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf",
                 "fontWeight": 500,
                 "fontStyle": "normal"
             }
         ]
     },
     "body": {
-        "name": "SB Sans Text",
+        "name": "Noto Sans Text",
         "fonts": [
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Light.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.ttf",
                 "fontWeight": 300,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Italic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf",
                 "fontWeight": 400,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-SemiboldItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiboldItalic.ttf",
                 "fontWeight": 600,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Thin.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf",
                 "fontWeight": 100,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Regular.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf",
                 "fontWeight": 400,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Semibold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Semibold.ttf",
                 "fontWeight": 600,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-LightItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf",
                 "fontWeight": 300,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Bold.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf",
                 "fontWeight": 700,
                 "fontStyle": "normal"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-BoldItalic.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf",
                 "fontWeight": 700,
                 "fontStyle": "italic"
             },
             {
-                "link": "https://cdn-app.sberdevices.ru/shared-static/0.0.0/fonts/SBSansText.0.2.0/SBSansText-Medium.otf",
+                "link": "https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf",
                 "fontWeight": 500,
                 "fontStyle": "normal"
             }
