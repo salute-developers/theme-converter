@@ -38,6 +38,11 @@
             "config": "bottom_sheet_config.json"
         },
         {
+            "componentName": "card",
+            "styleName": "card",
+            "config": "card_config.json"
+        },
+        {
             "componentName": "cell",
             "styleName": "cell",
             "config": "cell_config.json"
