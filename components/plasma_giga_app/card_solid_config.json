@@ -1,0 +1,102 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.xs"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 10
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "contentShape": {
+                    "type": "shape",
+                    "value": "round.xs"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+    "name": "plasma_giga_app",
+    "version": "0.1.0",
+    "components": [
+        {
+            "componentName": "badge",
+            "styleName": "badge-clear",
+            "config": "badge_clear_config.json"
+        },
+        {
+            "componentName": "badge",
+            "styleName": "badge-solid",
+            "config": "badge_solid_config.json"
+        },
+        {
+            "componentName": "badge",
+            "styleName": "badge.transparent",
+            "config": "badge_transparent_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-clear",
+            "config": "icon_badge_clear_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-solid",
+            "config": "icon_badge_solid_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-transparent",
+            "config": "icon_badge_transparent_config.json"
+        },
+        {
+            "componentName": "basic-button",
+            "styleName": "basic-button",
+            "config": "basic_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "icon-button",
+            "config": "icon_button_config.json"
+        },
+        {
+            "componentName": "link-button",
+            "styleName": "link-button",
+            "config": "link_button_config.json"
+        },
+        {
+            "componentName": "bottom-sheet",
+            "styleName": "bottom-sheet",
+            "config": "bottom_sheet_config.json"
+        },
+        {
+            "componentName": "card",
+            "styleName": "card-solid",
+            "config": "card_solid_config.json"
+        },
+        {
+            "componentName": "card",
+            "styleName": "card-clear",
+            "config": "card_clear_config.json"
+        },
+        {
+            "componentName": "cell",
+            "styleName": "cell",
+            "config": "cell_config.json"
+        },
+        {
+            "componentName": "chip",
+            "styleName": "chip",
+            "config": "chip_config.json"
+        },
+        {
+            "componentName": "chip",
+            "styleName": "embedded-chip",
+            "config": "embedded_chip_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "counter",
+            "config": "counter_config.json"
+        },
+        {
+            "componentName": "divider",
+            "styleName": "divider",
+            "config": "divider_config.json"
+        },
+        {
+            "componentName": "indicator",
+            "styleName": "indicator",
+            "config": "indicator_config.json"
+        },
+        {
+            "componentName": "segment",
+            "styleName": "segment",
+            "config": "segment_config.json"
+        },
+        {
+            "componentName": "segment-item",
+            "styleName": "segment-item",
+            "config": "segment_item_config.json"
+        },
+        {
+            "componentName": "text-field",
+            "styleName": "text-field",
+            "config": "text_field_config.json"
+        },
+        {
+            "componentName": "text-field",
+            "styleName": "text-field-clear",
+            "config": "text_field_clear_config.json",
+            "excludePlatforms": ["view-system"]
+        },
+        {
+            "componentName": "text-area",
+            "styleName": "text-area",
+            "config": "text_area_config.json"
+        },
+        {
+            "componentName": "text-area",
+            "styleName": "text-area-clear",
+            "config": "text_area_clear_config.json",
+            "excludePlatforms": ["view-system"]
+        }
+    ]
+}
