@@ -67,6 +67,7 @@ const compatibleShape: Record<string, string> = {
     plasma_b2c: 'stylesSalute',
     plasma_web: 'stylesSalute',
     stylesSalute: 'stylesSalute',
+    plasma_stards: 'stylesSalute',
     sdds_serv: 'stylesSalute',
 };
 
