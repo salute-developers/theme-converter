@@ -34,13 +34,14 @@
         },
         {
             "componentName": "bottom-sheet",
-            "styleName": "bottom-sheet",
+            "styleName": "modal-bottom-sheet",
             "config": "bottom_sheet_config.json"
         },
         {
             "componentName": "card",
             "styleName": "card",
-            "config": "card_config.json"
+            "config": "card_config.json",
+            "excludePlatforms": ["compose"]
         },
         {
             "componentName": "cell",

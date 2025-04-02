@@ -49,7 +49,7 @@
         },
         {
             "componentName": "bottom-sheet",
-            "styleName": "bottom-sheet",
+            "styleName": "modal-bottom-sheet",
             "config": "bottom_sheet_config.json"
         },
         {
