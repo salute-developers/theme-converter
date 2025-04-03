@@ -1,0 +1,193 @@
+{
+    "view": {},
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "toggleColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": ["checked"],
+                    "value": "surface.default.accent"
+                }
+            ]
+        },
+        "toggleBorderColor": {
+            "type": "color",
+            "default": "outline.default.transparent-tertiary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "surface.default.accent"
+                }
+            ]
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "descriptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "toggleIconColor": {
+            "type": "color",
+            "default": "surface.on-dark.solid-default"
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "togglePadding": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleBorderWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "toggleCheckedBorderWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleWidth": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "toggleHeight": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "toggleIconWidth": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "toggleIconHeight": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "togglePadding": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleBorderWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "toggleCheckedBorderWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleWidth": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "toggleHeight": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "toggleIconWidth": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "toggleIconHeight": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "togglePadding": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleBorderWidth": {
+                    "type": "dimension",
+                    "value": 1.5
+                },
+                "toggleCheckedBorderWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleWidth": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleHeight": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleIconWidth": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "toggleIconHeight": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        }
+    ]
+}
