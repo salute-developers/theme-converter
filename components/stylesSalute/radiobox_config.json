@@ -11,17 +11,17 @@
             "states": [
                 {
                     "state": ["checked"],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-main"
                 }
             ]
         },
         "toggleBorderColor": {
             "type": "color",
-            "default": "outline.default.transparent-tertiary",
+            "default": "text.default.secondary",
             "states": [
                 {
                     "state": ["focused"],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-main"
                 }
             ]
         },
@@ -35,7 +35,7 @@
         },
         "toggleIconColor": {
             "type": "color",
-            "default": "surface.on-dark.solid-default"
+            "default": "text.on-dark.primary"
         },
         "disableAlpha": {
             "type": "float",
@@ -43,56 +43,6 @@
         }
     },
     "variations": [
-        {
-            "id": "l",
-            "parent": null,
-            "props": {
-                "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
-                "toggleBorderWidth": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "toggleCheckedBorderWidth": {
-                    "type": "dimension",
-                    "value": 1
-                },
-                "toggleWidth": {
-                    "type": "dimension",
-                    "value": 22
-                },
-                "toggleHeight": {
-                    "type": "dimension",
-                    "value": 22
-                },
-                "toggleIconWidth": {
-                    "type": "dimension",
-                    "value": 10
-                },
-                "toggleIconHeight": {
-                    "type": "dimension",
-                    "value": 10
-                },
-                "textPadding": {
-                    "type": "dimension",
-                    "value": 12
-                },
-                "labelStyle": {
-                    "type": "typography",
-                    "value": "body.l.normal"
-                },
-                "descriptionStyle": {
-                    "type": "typography",
-                    "value": "body.m.normal"
-                },
-                "descriptionPadding": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
         {
             "id": "m",
             "parent": null,

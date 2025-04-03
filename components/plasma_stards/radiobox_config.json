@@ -11,17 +11,17 @@
             "states": [
                 {
                     "state": ["checked"],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-main"
                 }
             ]
         },
         "toggleBorderColor": {
             "type": "color",
-            "default": "outline.default.transparent-tertiary",
+            "default": "text.default.secondary",
             "states": [
                 {
                     "state": ["focused"],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-main"
                 }
             ]
         },
@@ -35,7 +35,7 @@
         },
         "toggleIconColor": {
             "type": "color",
-            "default": "surface.on-dark.solid-default"
+            "default": "text.on-dark.primary"
         },
         "disableAlpha": {
             "type": "float",
