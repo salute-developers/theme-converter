@@ -1,0 +1,13 @@
+{
+    "view": {},
+    "props": {
+        "itemSpacing": {
+            "type": "dimension",
+            "value": 2
+        },
+        "radioBoxStyle": {
+            "type": "component_style",
+            "value": ""
+        }
+    }
+}
