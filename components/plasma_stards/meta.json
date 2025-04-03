@@ -1,6 +1,6 @@
 {
     "name": "plasma_stards",
-    "version": "0.1.0",
+    "version": "0.3.0-rc",
     "components": [
         {
             "componentName": "badge",
@@ -52,11 +52,6 @@
             "componentName": "chip",
             "styleName": "chip",
             "config": "chip_config.json"
-        },
-        {
-            "componentName": "chip",
-            "styleName": "embedded-chip",
-            "config": "embedded_chip_config.json"
         },
         {
             "componentName": "counter",

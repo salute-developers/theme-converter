@@ -627,8 +627,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.s",
-                    "adjustment": -2
+                    "value": "round.xs"
                 },
                 "labelStyle": {
                     "type": "typography",

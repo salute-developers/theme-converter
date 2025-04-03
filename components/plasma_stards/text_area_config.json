@@ -136,10 +136,6 @@
       "type": "dimension",
       "value": 4.0
     },
-    "chipsPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
     "valueColor": {
       "type": "color",
       "default": "text.default.primary",
@@ -277,10 +273,6 @@
           "value": "round.s",
           "adjustment": 0
         },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.xs.secondary"
-        },
         "boxPaddingStart": {
           "type": "dimension",
           "value": 8.0
@@ -393,10 +385,6 @@
           "type": "shape",
           "value": "round.m",
           "adjustment": -2.0
-        },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.s.secondary"
         },
         "boxPaddingStart": {
           "type": "dimension",
@@ -555,10 +543,6 @@
         "shape": {
           "type": "shape",
           "value": "round.m"
-        },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.m.secondary"
         },
         "boxPaddingStart": {
           "type": "dimension",
