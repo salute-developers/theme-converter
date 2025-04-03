@@ -460,7 +460,7 @@
     "props": {
         "disableAlpha": {
             "type": "float",
-            "value": 0.5
+            "value": 0.4
         }
     },
     "variations": [
@@ -470,7 +470,8 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.s"
+                    "value": "round.m",
+                    "adjustment": -4
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -512,7 +513,8 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.xs"
+                    "value": "round.m",
+                    "adjustment": -6
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -554,7 +556,8 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.xxs"
+                    "value": "round.m",
+                    "adjustment": -8
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -596,8 +599,8 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.xxs",
-                    "adjustment": -2
+                    "value": "round.s",
+                    "adjustment": -6
                 },
                 "labelStyle": {
                     "type": "typography",

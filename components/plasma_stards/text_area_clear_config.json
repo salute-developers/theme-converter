@@ -166,18 +166,6 @@
       "type": "dimension",
       "value": 4.0
     },
-    "chipsPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
-    "chipsPaddingStart": {
-       "type": "dimension",
-       "value": 0.0
-     },
-     "chipsPaddingEnd": {
-       "type": "dimension",
-       "value": 0.0
-     },
     "boxPaddingStart": {
       "type": "dimension",
       "value": 0.0
@@ -297,10 +285,6 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.xs.secondary"
-        },
         "boxPaddingTop": {
           "type": "dimension",
           "value": 8.0
@@ -396,10 +380,6 @@
         "labelPlacement": {
           "type": "value",
           "value": "none"
-        },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.s.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -543,10 +523,6 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.m.secondary"
-        },
         "boxPaddingTop": {
           "type": "dimension",
           "value": 12.0
@@ -688,10 +664,6 @@
         "labelPlacement": {
           "type": "value",
           "value": "none"
-        },
-        "chipStyle": {
-          "type": "component_style",
-          "value": "embedded-chip.l.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",

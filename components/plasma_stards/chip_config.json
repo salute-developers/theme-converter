@@ -80,19 +80,19 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent",
+                    "default": "surface.default.accent-main",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-active"
+                            "value": "surface.default.accent-main-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-hover"
+                            "value": "surface.default.accent-main-hover"
                         }
                     ]
                 },
@@ -470,8 +470,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.m",
-                    "adjustment": -4
+                    "value": "round.m"
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -479,15 +478,15 @@
                 },
                 "height": {
                     "type": "dimension",
-                    "value": 44
+                    "value": 48
                 },
                 "paddingStart": {
                     "type": "dimension",
-                    "value": 14
+                    "value": 16
                 },
                 "paddingEnd": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 16
                 },
                 "contentStartSize": {
                     "type": "dimension",
@@ -504,6 +503,16 @@
                 "contentEndPadding": {
                     "type": "dimension",
                     "value": 8
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
                 }
             }
         },
@@ -514,7 +523,7 @@
                 "shape": {
                     "type": "shape",
                     "value": "round.m",
-                    "adjustment": -6
+                    "adjustment": -2
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -522,15 +531,15 @@
                 },
                 "height": {
                     "type": "dimension",
-                    "value": 36
+                    "value": 40
                 },
                 "paddingStart": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 14
                 },
                 "paddingEnd": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 14
                 },
                 "contentStartSize": {
                     "type": "dimension",
@@ -547,6 +556,16 @@
                 "contentEndPadding": {
                     "type": "dimension",
                     "value": 6
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
                 }
             }
         },
@@ -556,8 +575,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.m",
-                    "adjustment": -8
+                    "value": "round.s"
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -565,15 +583,15 @@
                 },
                 "height": {
                     "type": "dimension",
-                    "value": 28
+                    "value": 32
                 },
                 "paddingStart": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 12
                 },
                 "paddingEnd": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentStartSize": {
                     "type": "dimension",
@@ -594,13 +612,22 @@
             }
         },
         {
+            "id": "s.pilled",
+            "parent": "s",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        },
+        {
             "id": "xs",
             "parent": null,
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.s",
-                    "adjustment": -6
+                    "value": "round.xs"
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -608,15 +635,15 @@
                 },
                 "height": {
                     "type": "dimension",
-                    "value": 20
+                    "value": 24
                 },
                 "paddingStart": {
                     "type": "dimension",
-                    "value": 6
+                    "value": 10
                 },
                 "paddingEnd": {
                     "type": "dimension",
-                    "value": 6
+                    "value": 10
                 },
                 "contentStartSize": {
                     "type": "dimension",
@@ -633,6 +660,16 @@
                 "contentEndPadding": {
                     "type": "dimension",
                     "value": 2
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
                 }
             }
         }
