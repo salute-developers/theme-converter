@@ -1,11 +1,6 @@
 {
     "view": {},
-    "props": {
-        "counterTextColor": {
-            "type": "gradient",
-            "default": "text.default.accent-gradient"
-        }
-    },
+    "props": {},
     "variations": [
         {
             "id": "s",
@@ -18,10 +13,6 @@
                 "itemSpacing": {
                     "type": "dimension",
                     "value": 2.0
-                },
-                "counterTextStyle": {
-                    "type": "typography",
-                    "value": "body.xxs.bold"
                 },
                 "avatarStyle": {
                     "type": "component_style",
