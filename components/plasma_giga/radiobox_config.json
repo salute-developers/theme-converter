@@ -21,7 +21,7 @@
             "states": [
                 {
                     "state": ["focused"],
-                    "value": "surface.default.accent"
+                    "value": "outline.default.accent"
                 }
             ]
         },
