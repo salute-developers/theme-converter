@@ -113,6 +113,11 @@
             "config": "indicator_config.json"
         },
         {
+            "componentName": "progress-bar",
+            "styleName": "progress-bar",
+            "config": "progress_bar_config.json"
+        },
+        {
             "componentName": "radio-box",
             "styleName": "radio-box",
             "config": "radiobox_config.json"
