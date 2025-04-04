@@ -307,6 +307,7 @@
         "positive": {
             "props": {
                 "iconColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -324,6 +325,7 @@
                     ]
                 },
                 "spinnerColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -341,6 +343,7 @@
                     ]
                 },
                 "labelColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -358,6 +361,7 @@
                     ]
                 },
                 "backgroundColor": {
+                    "type": "color",
                     "default": "surface.default.positive",
                     "states": [
                         {
@@ -375,6 +379,7 @@
                     ]
                 },
                 "valueColor": {
+                    "type": "color",
                     "default": "text.on-dark.secondary",
                     "states": [
                         {
