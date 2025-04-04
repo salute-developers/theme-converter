@@ -362,7 +362,7 @@
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "text.defaultk.primary",
+                    "default": "text.default.primary",
                     "states": [
                         {
                             "state": [
