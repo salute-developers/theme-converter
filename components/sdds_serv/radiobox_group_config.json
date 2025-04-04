@@ -1,13 +1,33 @@
 {
     "view": {},
-    "props": {
-        "itemSpacing": {
-            "type": "dimension",
-            "value": 2
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "radioBoxStyle": {
+                    "type": "component_style",
+                    "value": "radio-box.m"
+                }
+            }
         },
-        "radioBoxStyle": {
-            "type": "component_style",
-            "value": ""
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 5
+                },
+                "radioBoxStyle": {
+                    "type": "component_style",
+                    "value": "radio-box.s"
+                }
+            }
         }
-    }
+    ]
 }
