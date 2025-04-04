@@ -54,7 +54,7 @@
                 },
                 "badgeStyle": {
                     "type": "component_style",
-                    "value": "badge.l.accent"
+                    "value": "badge-solid.l.pilled.accent"
                 },
                 "counterStyle": {
                     "type": "component_style",
@@ -92,7 +92,7 @@
                 },
                 "badgeStyle": {
                     "type": "component_style",
-                    "value": "badge.s.accent"
+                    "value": "badge-solid.s.pilled.accent"
                 },
                 "counterStyle": {
                     "type": "component_style",
@@ -130,7 +130,7 @@
                 },
                 "badgeStyle": {
                     "type": "component_style",
-                    "value": "badge.xs.accent"
+                    "value": "badge-solid.xs.pilled.accent"
                 },
                 "counterStyle": {
                     "type": "component_style",
