@@ -69,6 +69,11 @@
             "config": "indicator_config.json"
         },
         {
+            "componentName": "radio-box",
+            "styleName": "radio-box",
+            "config": "radiobox_config.json"
+        },
+        {
             "componentName": "segment",
             "styleName": "segment",
             "config": "segment_config.json"
