@@ -1,0 +1,33 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "radioBoxStyle": {
+                    "type": "component_style",
+                    "value": "radio-box.m"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "radioBoxStyle": {
+                    "type": "component_style",
+                    "value": "radio-box.s"
+                }
+            }
+        }
+    ]
+}
