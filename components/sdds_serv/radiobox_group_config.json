@@ -7,7 +7,7 @@
             "props": {
                 "itemSpacing": {
                     "type": "dimension",
-                    "value": 6
+                    "value": 12
                 },
                 "radioBoxStyle": {
                     "type": "component_style",
@@ -21,7 +21,7 @@
             "props": {
                 "itemSpacing": {
                     "type": "dimension",
-                    "value": 5
+                    "value": 10
                 },
                 "radioBoxStyle": {
                     "type": "component_style",
