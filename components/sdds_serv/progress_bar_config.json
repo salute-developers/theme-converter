@@ -1,0 +1,389 @@
+{
+    "view": {
+      "default": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.solid-default",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.solid-default-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.solid-default-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "secondary": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.transparent-tertiary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-tertiary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-tertiary-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "accent": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.accent",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.accent-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.accent-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "gradient": {
+        "props": {
+          "indicatorColor": {
+            "type": "gradient",
+            "default": "surface.default.accent-gradient",
+            "alpha": 0,
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.accent-gradient-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.accent-gradient-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "info": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.info",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.info-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.info-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "negative": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.negative",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.negative-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.negative-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "positive": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.positive",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.positive-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.positive-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      },
+      "warning": {
+        "props": {
+          "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.warning",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.warning-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.warning-hover"
+              }
+            ]
+          },
+          "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+              {
+                "state": [
+                    "pressed"
+                ],
+                "value": "surface.default.transparent-secondary-active"
+              },
+              {
+                "state": [
+                    "hovered"
+                ],
+                "value": "surface.default.transparent-secondary-hover"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "props": {
+      "indicatorShape": {
+        "type": "shape",
+        "value": "round.circle"
+      },
+      "backgroundShape": {
+        "type": "shape",
+        "value": "round.circle"
+      },
+      "indicatorEndShape": {
+        "type": "shape",
+        "value": "round.circle"
+      }
+    },
+    "variations": [
+      {
+        "id": "l",
+        "parent": null,
+        "props": {
+          "backgroundHeight": {
+            "type": "dimension",
+            "value": 4
+          },
+          "indicatorHeight": {
+            "type": "dimension",
+            "value": 4
+          },
+          "indicatorEndHeight": {
+            //...
+          },
+          "indicatorEndWidth": {
+            //...
+          }
+        }
+      },
+      {
+        "id": "m",
+        "parent": null,
+        "props": {
+          "backgroundHeight": {
+            "type": "dimension",
+            "value": 4
+          },
+          "indicatorHeight": {
+            "type": "dimension",
+            "value": 4
+          }
+        }
+      },
+      {
+        "id": "s",
+        "parent": null,
+        "props": {
+          "backgroundHeight": {
+            "type": "dimension",
+            "value": 4
+          },
+          "indicatorHeight": {
+            "type": "dimension",
+            "value": 4
+          }
+        }
+      }
+    ]
+  }
