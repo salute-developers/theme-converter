@@ -1,0 +1,33 @@
+{
+    "view": {},
+    "props": {
+        "counterTextColor": {
+            "type": "gradient",
+            "default": "text.default.gradient-main"
+        }
+    },
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "itemOffset": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "counterTextStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.bold"
+                },
+                "avatarStyle": {
+                    "type": "component_style",
+                    "value": "avatar.s"
+                }
+            }
+        }
+    ]
+}

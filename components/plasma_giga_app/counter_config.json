@@ -61,6 +61,7 @@
                     ]
                 },
                 "textColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -100,6 +101,7 @@
                     ]
                 },
                 "textColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -139,6 +141,7 @@
                     ]
                 },
                 "textColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {
@@ -178,6 +181,7 @@
                     ]
                 },
                 "textColor": {
+                    "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
                         {

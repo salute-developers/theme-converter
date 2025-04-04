@@ -3,6 +3,16 @@
     "version": "0.3.0-rc",
     "components": [
         {
+            "componentName": "avatar",
+            "styleName": "avatar",
+            "config": "avatar_config.json"
+        },
+        {
+            "componentName": "avatar-group",
+            "styleName": "avatar-group",
+            "config": "avatar_group_config.json"
+        },
+        {
             "componentName": "badge",
             "styleName": "badge-clear",
             "config": "badge_clear_config.json"
@@ -14,7 +24,7 @@
         },
         {
             "componentName": "badge",
-            "styleName": "badge.transparent",
+            "styleName": "badge-transparent",
             "config": "badge_transparent_config.json"
         },
         {
