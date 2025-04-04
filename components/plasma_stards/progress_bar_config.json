@@ -1,0 +1,119 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "secondary": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.accent-main"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "gradient": {
+            "props": {
+                "indicatorColor": {
+                    "type": "gradient",
+                    "default": "surface.default.gradient-main"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "info": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.info"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.negative"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "positive": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.positive"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "indicatorColor": {
+                    "type": "color",
+                    "default": "surface.default.warning"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                }
+            }
+        }
+    },
+    "props": {
+        "indicatorShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "backgroundShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "backgroundHeight": {
+            "type": "dimension",
+            "value": 4
+        },
+        "indicatorHeight": {
+            "type": "dimension",
+            "value": 4
+        }
+    },
+    "variations": []
+}
