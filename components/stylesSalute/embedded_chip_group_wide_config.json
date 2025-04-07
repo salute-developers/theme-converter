@@ -1,0 +1,259 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 8
+        },
+        "lineSpacing": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

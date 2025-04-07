@@ -1,0 +1,451 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 8
+        },
+        "lineSpacing": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.warning"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.warning"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
