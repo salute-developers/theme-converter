@@ -1,0 +1,259 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 2
+        },
+        "lineSpacing": {
+            "type": "dimension",
+            "value": 2
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.l.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.default"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.pilled.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.pilled.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.m.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.accent"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.pilled.default"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.s.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": "null",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.default"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.secondary"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.pilled.default"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.pilled.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xs.pilled.secondary"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

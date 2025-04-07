@@ -88,6 +88,26 @@
             "config": "embedded_chip_config.json"
         },
         {
+            "componentName": "chip-group",
+            "styleName": "chip-group-dense",
+            "config": "chip_group_dense_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "chip-group-wide",
+            "config": "chip_group_wide_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "embedded-chip-group-dense",
+            "config": "embedded_chip_group_dense_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "embedded-chip-group-wide",
+            "config": "embedded_chip_group_wide_config.json"
+        },
+        {
             "componentName": "counter",
             "styleName": "counter",
             "config": "counter_config.json"

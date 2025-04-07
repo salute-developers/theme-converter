@@ -4,6 +4,14 @@
         "disableAlpha": {
             "type": "float",
             "value": 0.4
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 2
+        },
+        "lineSpacing": {
+            "type": "dimension",
+            "value": 2
         }
     },
     "variations": [
@@ -62,34 +70,6 @@
             }
         },
         {
-            "id": "l.dense",
-            "parent": "l",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "l.wide",
-            "parent": "l",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
-                }
-            }
-        },
-        {
             "id": "l.pilled",
             "parent": "l",
             "view": {
@@ -140,34 +120,6 @@
                             "value": "chip.l.pilled.warning"
                         }
                     }
-                }
-            }
-        },
-        {
-            "id": "l.pilled.dense",
-            "parent": "l.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "l.pilled.wide",
-            "parent": "l.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
                 }
             }
         },
@@ -226,34 +178,6 @@
             }
         },
         {
-            "id": "m.dense",
-            "parent": "m",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "m.wide",
-            "parent": "m",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
-                }
-            }
-        },
-        {
             "id": "m.pilled",
             "parent": "m",
             "view": {
@@ -304,34 +228,6 @@
                             "value": "chip.m.pilled.warning"
                         }
                     }
-                }
-            }
-        },
-        {
-            "id": "m.pilled.dense",
-            "parent": "m.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "m.pilled.wide",
-            "parent": "m.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
                 }
             }
         },
@@ -390,34 +286,6 @@
             }
         },
         {
-            "id": "s.dense",
-            "parent": "s",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "s.wide",
-            "parent": "s",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
-                }
-            }
-        },
-        {
             "id": "s.pilled",
             "parent": "s",
             "view": {
@@ -468,34 +336,6 @@
                             "value": "chip.s.pilled.warning"
                         }
                     }
-                }
-            }
-        },
-        {
-            "id": "s.pilled.dense",
-            "parent": "s.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "s.pilled.wide",
-            "parent": "s.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
                 }
             }
         },
@@ -554,34 +394,6 @@
             }
         },
         {
-            "id": "xs.dense",
-            "parent": "xs",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "xs.wide",
-            "parent": "xs",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
-                }
-            }
-        },
-        {
             "id": "xs.pilled",
             "parent": "xs",
             "view": {
@@ -632,34 +444,6 @@
                             "value": "chip.xs.pilled.warning"
                         }
                     }
-                }
-            }
-        },
-        {
-            "id": "xs.pilled.dense",
-            "parent": "xs.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 2
-                }
-            }
-        },
-        {
-            "id": "xs.pilled.wide",
-            "parent": "xs.pilled",
-            "props": {
-                "gap": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "lineSpacing": {
-                    "type": "dimension",
-                    "value": 8
                 }
             }
         }
