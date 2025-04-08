@@ -46,36 +46,6 @@
             }
         },
         {
-            "id": "l.pilled",
-            "parent": "l",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.l.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.l.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.l.pilled.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "m",
             "parent": null,
             "view": {
@@ -100,36 +70,6 @@
                         "chipStyle": {
                             "type": "component_style",
                             "value": "chip.m.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "m.pilled",
-            "parent": "m",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.m.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.m.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.m.pilled.secondary"
                         }
                     }
                 }
@@ -166,36 +106,6 @@
             }
         },
         {
-            "id": "s.pilled",
-            "parent": "s",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.s.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.s.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.s.pilled.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "xs",
             "parent": null,
             "view": {
@@ -220,36 +130,6 @@
                         "chipStyle": {
                             "type": "component_style",
                             "value": "chip.xs.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "xs.pilled",
-            "parent": "xs",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.xs.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.xs.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "chip.xs.pilled.secondary"
                         }
                     }
                 }
