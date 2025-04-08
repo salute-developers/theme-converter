@@ -23,7 +23,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.l.default"
+                            "value": "embedded-chip.l.default"
                         }
                     }
                 },
@@ -31,7 +31,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.l.accent"
+                            "value": "embedded-chip.l.accent"
                         }
                     }
                 },
@@ -39,7 +39,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.l.secondary"
+                            "value": "embedded-chip.l.secondary"
                         }
                     }
                 }
@@ -53,7 +53,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.m.default"
+                            "value": "embedded-chip.m.default"
                         }
                     }
                 },
@@ -61,7 +61,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.m.accent"
+                            "value": "embedded-chip.m.accent"
                         }
                     }
                 },
@@ -69,7 +69,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.m.secondary"
+                            "value": "embedded-chip.m.secondary"
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.s.default"
+                            "value": "embedded-chip.s.default"
                         }
                     }
                 },
@@ -91,7 +91,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.s.accent"
+                            "value": "embedded-chip.s.accent"
                         }
                     }
                 },
@@ -99,7 +99,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.s.secondary"
+                            "value": "embedded-chip.s.secondary"
                         }
                     }
                 }
@@ -113,7 +113,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.xs.default"
+                            "value": "embedded-chip.xs.default"
                         }
                     }
                 },
@@ -121,7 +121,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.xs.accent"
+                            "value": "embedded-chip.xs.accent"
                         }
                     }
                 },
@@ -129,7 +129,7 @@
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "chip.xs.secondary"
+                            "value": "embedded-chip.xs.secondary"
                         }
                     }
                 }
