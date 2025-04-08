@@ -46,36 +46,6 @@
             }
         },
         {
-            "id": "l.pilled",
-            "parent": "l",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.l.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.l.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.l.pilled.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "m",
             "parent": null,
             "view": {
@@ -100,36 +70,6 @@
                         "chipStyle": {
                             "type": "component_style",
                             "value": "embedded-chip.m.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "m.pilled",
-            "parent": "m",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.m.pilled.default"
-                        }
-                    }
-                },
-                "accent": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.m.pilled.accent"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.m.pilled.secondary"
                         }
                     }
                 }
@@ -166,36 +106,6 @@
             }
         },
         {
-            "id": "s.pilled",
-            "parent": "s",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.s.pilled.default"
-                        }
-                    }
-                },
-                "positive": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.s.pilled.positive"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.s.pilled.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
             "id": "xs",
             "parent": null,
             "view": {
@@ -220,36 +130,6 @@
                         "chipStyle": {
                             "type": "component_style",
                             "value": "embedded-chip.xs.secondary"
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "id": "xs.pilled",
-            "parent": "xs",
-            "view": {
-                "default": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.xs.pilled.default"
-                        }
-                    }
-                },
-                "positive": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.xs.pilled.positive"
-                        }
-                    }
-                },
-                "secondary": {
-                    "props": {
-                        "chipStyle": {
-                            "type": "component_style",
-                            "value": "embedded-chip.xs.pilled.secondary"
                         }
                     }
                 }
