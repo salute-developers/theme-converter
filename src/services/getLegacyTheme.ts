@@ -60,7 +60,7 @@ const compatibleTypography: Record<string, string> = {
     sbermarket_wlbusiness: 'sbermarket',
     sdds_cs: 'sdds_cs',
     plasma_giga: 'plasma_giga',
-    plasma_stards: 'plasma_stards'
+    plasma_stards: 'plasma_stards',
 };
 
 const compatibleShape: Record<string, string> = {
@@ -69,6 +69,11 @@ const compatibleShape: Record<string, string> = {
     stylesSalute: 'stylesSalute',
     plasma_stards: 'stylesSalute',
     sdds_serv: 'stylesSalute',
+};
+
+const fontFamilyShape: Record<string, string> = {
+    sbermarket: 'sbermarket',
+    plasma_giga_app: 'plasma_giga_app',
 };
 
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
@@ -86,8 +91,8 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     const theme = response.data;
 
     if (!theme.fontFamily) {
-        const specialFile = themeName.includes('sbermarket') ? 'sbermarket' : undefined;
-        theme.fontFamily = getDefaultTokens('fontFamily', specialFile);
+        const specialFileName = fontFamilyShape[themeName];
+        theme.fontFamily = getDefaultTokens('fontFamily', specialFileName);
     }
 
     if (!theme.shadow) {

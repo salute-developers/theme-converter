@@ -82,10 +82,21 @@ export const getWebTypographyToken = (key: string, value: any) => {
 };
 
 export const getWebFontFamilyToken = (key: string, value: any) => {
+    const fonts = [...value['fonts']].map(({ src, ...rest }: any) => {
+        const newSrc = src.map((source: string) => source.replace(/ttf/gm, 'woff2'));
+
+        console.log('src', src);
+
+        return {
+            src: newSrc,
+            ...rest,
+        };
+    });
+
     return {
         [key]: {
             name: value['name'],
-            fonts: value['fonts'],
+            fonts,
         },
     };
 };

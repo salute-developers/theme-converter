@@ -227,7 +227,7 @@ export const getIOSTypographyToken = (key: string, value: any) => {
 
 export const getIOSFontFamilyToken = (key: string, value: any) => {
     const fonts = value['fonts'].map((font: any) => {
-        const link = font.src[0].match(/https:.*\.woff2?/gim)[0]?.replace('woff2', 'otf');
+        const link = font.src[0].match(/https:.*\.(woff2|ttf)?/gim)?.[0].replace('woff2', 'otf');
 
         return {
             link,
@@ -239,7 +239,7 @@ export const getIOSFontFamilyToken = (key: string, value: any) => {
     return {
         [key]: {
             name: value['name'],
-            fonts: fonts,
+            fonts,
         },
     };
 };
