@@ -17,7 +17,7 @@
     "variations": [
         {
             "id": "l",
-            "parent": "null",
+            "parent": null,
             "view": {
                 "default": {
                     "props": {
@@ -125,7 +125,7 @@
         },
         {
             "id": "m",
-            "parent": "null",
+            "parent": null,
             "view": {
                 "default": {
                     "props": {
@@ -233,7 +233,7 @@
         },
         {
             "id": "s",
-            "parent": "null",
+            "parent": null,
             "view": {
                 "default": {
                     "props": {
@@ -341,7 +341,7 @@
         },
         {
             "id": "xs",
-            "parent": "null",
+            "parent": null,
             "view": {
                 "default": {
                     "props": {
