@@ -202,10 +202,6 @@
       "type": "typography",
       "value": "body.xs.normal"
     },
-    "chipGroupStyle": {
-      "type": "component_style",
-      "value": "chip-group.dense"
-    },
     "optionalPadding": {
       "type": "dimension",
       "value": 4.0
@@ -315,9 +311,9 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
+        "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip.xs.secondary"
+          "value": "embedded-chip-group-dense.xs.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -503,9 +499,9 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
+        "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip.s.secondary"
+          "value": "embedded-chip-group-dense.s.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -761,9 +757,9 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
+        "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip.m.secondary"
+          "value": "embedded-chip-group-dense.m.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -1019,9 +1015,9 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
+        "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip.l.secondary"
+          "value": "embedded-chip-group-dense.l.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
@@ -1277,9 +1273,9 @@
           "type": "value",
           "value": "none"
         },
-        "chipStyle": {
+        "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip.l.secondary"
+          "value": "embedded-chip-group-dense.l.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",
