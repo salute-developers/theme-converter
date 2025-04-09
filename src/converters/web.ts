@@ -85,8 +85,6 @@ export const getWebFontFamilyToken = (key: string, value: any) => {
     const fonts = [...value['fonts']].map(({ src, ...rest }: any) => {
         const newSrc = src.map((source: string) => source.replace(/ttf/gm, 'woff2'));
 
-        console.log('src', src);
-
         return {
             src: newSrc,
             ...rest,
