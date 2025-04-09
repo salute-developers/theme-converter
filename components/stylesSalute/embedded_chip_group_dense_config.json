@@ -57,11 +57,11 @@
                         }
                     }
                 },
-                "positive": {
+                "accent": {
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "embedded-chip.m.positive"
+                            "value": "embedded-chip.m.accent"
                         }
                     }
                 },
@@ -117,11 +117,11 @@
                         }
                     }
                 },
-                "positive": {
+                "accent": {
                     "props": {
                         "chipStyle": {
                             "type": "component_style",
-                            "value": "embedded-chip.xs.positive"
+                            "value": "embedded-chip.xs.accent"
                         }
                     }
                 },
