@@ -154,10 +154,6 @@
       "type": "typography",
       "value": "body.xs.normal"
     },
-    "chipGroupStyle": {
-      "type": "component_style",
-      "value": "chip-group.dense"
-    },
     "optionalPadding": {
       "type": "dimension",
       "value": 4.0
