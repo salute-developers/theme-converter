@@ -21,9 +21,13 @@
             "states": [
                 {
                     "state": ["focused"],
-                    "value": "surface.default.accent-main"
+                    "value": "outline.default.accent-main"
                 }
             ]
+        },
+        "toggleFocusBorderPadding": {
+            "type": "dimension",
+            "value": 2
         },
         "labelColor": {
             "type": "color",
