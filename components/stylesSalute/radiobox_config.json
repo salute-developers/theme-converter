@@ -35,7 +35,7 @@
         },
         "toggleBorderOffset": {
             "type": "dimension",
-            "default": -2,
+            "value": -2,
             "states": [
                 {
                     "state": ["focused"],
@@ -52,7 +52,7 @@
         },
         "toggleBorderWidth": {
             "type": "dimension",
-            "default": 2,
+            "value": 2,
             "states": [
                 {
                     "state": [
