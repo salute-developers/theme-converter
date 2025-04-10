@@ -35,18 +35,18 @@
         },
        "toggleBorderOffset": {
             "type": "dimension",
-            "value": -2,
+            "value": 0,
             "states": [
                 {
                     "state": ["focused"],
-                    "value": 1
+                    "value": 3
                 },
                 {
                     "state": [
                         "focused",
                         "checked"
                     ],
-                    "value": 2
+                    "value": 3
                 }
             ]
         },
