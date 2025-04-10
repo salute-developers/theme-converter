@@ -22,6 +22,14 @@
                 {
                     "state": ["focused"],
                     "value": "outline.default.accent"
+                },
+                {
+                    "state": ["focused", "checked"],
+                    "value": "outline.default.accent"
+                },
+                {
+                    "state": ["checked"],
+                    "value": "outline.default.clear"
                 }
             ]
         },
