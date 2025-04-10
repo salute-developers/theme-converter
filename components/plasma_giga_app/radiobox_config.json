@@ -33,9 +33,35 @@
                 }
             ]
         },
-        "toggleFocusBorderPadding": {
+       "toggleBorderOffset": {
             "type": "dimension",
-            "value": 2
+            "default": -2,
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": 1
+                },
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 2
+                }
+            ]
+        },
+        "toggleBorderWidth": {
+            "type": "dimension",
+            "default": 2,
+            "states": [
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 1
+                }
+            ]
         },
         "labelColor": {
             "type": "color",
@@ -60,14 +86,6 @@
             "parent": null,
             "props": {
                 "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
-                "toggleBorderWidth": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "toggleCheckedBorderWidth": {
                     "type": "dimension",
                     "value": 1
                 },
@@ -113,14 +131,6 @@
                     "type": "dimension",
                     "value": 1
                 },
-                "toggleBorderWidth": {
-                    "type": "dimension",
-                    "value": 2
-                },
-                "toggleCheckedBorderWidth": {
-                    "type": "dimension",
-                    "value": 1
-                },
                 "toggleWidth": {
                     "type": "dimension",
                     "value": 22
@@ -160,14 +170,6 @@
             "parent": null,
             "props": {
                 "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
-                "toggleBorderWidth": {
-                    "type": "dimension",
-                    "value": 1.5
-                },
-                "toggleCheckedBorderWidth": {
                     "type": "dimension",
                     "value": 1
                 },
