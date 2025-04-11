@@ -7,10 +7,17 @@
                     "default": "outline.default.transparent-tertiary",
                     "states": [
                         {
-                            "state": [
-                                "focused"
-                            ],
-                            "value": "surface.default.accent"
+                            "state": ["focused", "checked"],
+                            "value": "outline.default.accent"
+                        },
+                        {
+                            "state": ["focused"],
+                            "value": "outline.default.accent"
+                        },
+                        
+                        {
+                            "state": ["checked"],
+                            "value": "outline.default.clear"
                         }
                     ]
                 },
@@ -26,7 +33,7 @@
                         }
                     ]
                 },
-                "toggleMarkColor": {
+                "toggleIconColor": {
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
@@ -36,7 +43,13 @@
             "props": {
                 "toggleBorderColor": {
                     "type": "color",
-                    "default": "outline.default.negative"
+                    "default": "outline.default.negative",
+                    "states": [
+                        {
+                            "state": ["checked"],
+                            "value": "outline.default.clear"
+                        }
+                    ]
                 },
                 "toggleBoxColor": {
                     "type": "color",
@@ -50,7 +63,7 @@
                         }
                     ]
                 },
-                "toggleMarkColor": {
+                "toggleIconColor": {
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
@@ -66,17 +79,26 @@
             "type": "color",
             "default": "text.default.secondary"
         },
-        "toggleCheckIconColor": {
-            "type": "color",
-            "default": "text.on-dark.primary"
-        },
-        "toggleIndeterminateIconColor": {
-            "type": "color",
-            "default": "text.on-dark.primary"
-        },
         "disableAlpha": {
             "type": "float",
             "value": 0.4
+        },
+        "toggleBorderOffset": {
+            "type": "dimension",
+            "value": 0,
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": 3
+                },
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 3
+                }
+            ]
         }
     },
     "variations": [
@@ -92,13 +114,18 @@
                     "type": "dimension",
                     "value": 0
                 },
-                "toggleBorderWidth": {
+               "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 2
-                },
-                "toggleCheckedBorderWidth": {
-                    "type": "dimension",
-                    "value": 1
+                    "value": 2,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
                 "toggleWidth": {
                     "type": "dimension",
@@ -154,13 +181,18 @@
                     "type": "dimension",
                     "value": 0
                 },
-                "toggleBorderWidth": {
+             "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 2
-                },
-                "toggleCheckedBorderWidth": {
-                    "type": "dimension",
-                    "value": 1
+                    "value": 2,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
                 "toggleWidth": {
                     "type": "dimension",
@@ -218,11 +250,16 @@
                 },
                 "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 1.5
-                },
-                "toggleCheckedBorderWidth": {
-                    "type": "dimension",
-                    "value": 1
+                    "value": 1.5,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
                 "toggleWidth": {
                     "type": "dimension",
