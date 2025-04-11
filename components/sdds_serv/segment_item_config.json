@@ -508,6 +508,10 @@
                             "type": "component_style",
                             "value": "counter.s.accent",
                             "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                },
                                 "backgroundColor": {
                                     "type": "color",
                                     "default": "surface.default.accent",
@@ -531,6 +535,34 @@
                                             "value": "text.on-light.primary"
                                         }
                                     ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "primary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
                                 }
                             }
                         }
@@ -625,6 +657,10 @@
                             "type": "component_style",
                             "value": "counter.s.accent",
                             "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                },
                                 "backgroundColor": {
                                     "type": "color",
                                     "default": "surface.default.accent",
@@ -648,6 +684,34 @@
                                             "value": "text.on-light.primary"
                                         }
                                     ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "primary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
                                 }
                             }
                         }
@@ -742,6 +806,10 @@
                             "type": "component_style",
                             "value": "counter.xs.accent",
                             "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                },
                                 "backgroundColor": {
                                     "type": "color",
                                     "default": "surface.default.accent",
@@ -765,6 +833,34 @@
                                             "value": "text.on-light.primary"
                                         }
                                     ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "primary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
                                 }
                             }
                         }
@@ -859,6 +955,10 @@
                             "type": "component_style",
                             "value": "counter.xs.accent",
                             "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                },
                                 "backgroundColor": {
                                     "type": "color",
                                     "default": "surface.default.accent",
@@ -882,6 +982,34 @@
                                             "value": "text.on-light.primary"
                                         }
                                     ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "primary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
                                 }
                             }
                         }
@@ -976,6 +1104,10 @@
                             "type": "component_style",
                             "value": "counter.xxs.accent",
                             "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                },
                                 "backgroundColor": {
                                     "type": "color",
                                     "default": "surface.default.accent",
@@ -999,6 +1131,34 @@
                                             "value": "text.on-light.primary"
                                         }
                                     ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "primary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
+                                }
+                            }
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "counterStyle": {
+                            "type": "component_style",
+                            "value": "counter.s.accent",
+                            "props": {
+                                "labelStyle": {
+                                    "type": "typography",
+                                    "value": "body.xxs.normal"
                                 }
                             }
                         }
