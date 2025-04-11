@@ -21,7 +21,32 @@
             "states": [
                 {
                     "state": ["focused"],
-                    "value": "surface.default.accent"
+                    "value": "outline.default.accent"
+                },
+                {
+                    "state": ["focused", "checked"],
+                    "value": "outline.default.accent"
+                },
+                {
+                    "state": ["checked"],
+                    "value": "outline.default.clear"
+                }
+            ]
+        },
+       "toggleBorderOffset": {
+            "type": "dimension",
+            "value": 0,
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": 3
+                },
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 3
                 }
             ]
         },
@@ -47,15 +72,20 @@
             "id": "l",
             "parent": null,
             "props": {
-                "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
                 "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 2
+                    "value": 2,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
-                "toggleCheckedBorderWidth": {
+                "togglePadding": {
                     "type": "dimension",
                     "value": 1
                 },
@@ -97,15 +127,20 @@
             "id": "m",
             "parent": null,
             "props": {
-                "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
                 "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 2
+                    "value": 2,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
-                "toggleCheckedBorderWidth": {
+                "togglePadding": {
                     "type": "dimension",
                     "value": 1
                 },
@@ -147,15 +182,20 @@
             "id": "s",
             "parent": null,
             "props": {
-                "togglePadding": {
-                    "type": "dimension",
-                    "value": 1
-                },
                 "toggleBorderWidth": {
                     "type": "dimension",
-                    "value": 1.5
+                    "value": 1.5,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 },
-                "toggleCheckedBorderWidth": {
+                "togglePadding": {
                     "type": "dimension",
                     "value": 1
                 },
