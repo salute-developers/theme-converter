@@ -1,0 +1,264 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "toggleBorderColor": {
+                    "type": "color",
+                    "default": "outline.default.transparent-tertiary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": "outline.default.accent"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "outline.default.accent"
+                        },
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "outline.default.clear"
+                        }
+                    ]
+                },
+                "toggleColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "indetrminate"
+                            ],
+                            "value": "surface.default.accent"
+                        }
+                    ]
+                },
+                "toggleIconColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                }
+            }
+        }
+    },
+    "props": {
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "descriptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "toggleBorderOffset": {
+            "type": "dimension",
+            "value": 0,
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": 3
+                },
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 3
+                }
+            ]
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xs"
+                },
+                "togglePadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "toggleBorderWidth": {
+                    "type": "dimension",
+                    "value": 2,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
+                },
+                "toggleWidth": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "toggleHeight": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "toggleIconWidth": {
+                    "type": "dimension",
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 9
+                        },
+                        {
+                            "state": [
+                                "indetrminate"
+                            ],
+                            "value": 12
+                        }
+                    ]
+                },
+                "toggleIconHeight": {
+                    "type": "dimension",
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 6
+                        },
+                        {
+                            "state": [
+                                "indetrminate"
+                            ],
+                            "value": 2
+                        }
+                    ]
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xxs"
+                },
+                "togglePadding": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "toggleBorderWidth": {
+                    "type": "dimension",
+                    "value": 1.5,
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": 1
+                        }
+                    ]
+                },
+                "toggleWidth": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleHeight": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleIconWidth": {
+                    "type": "dimension",
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 6
+                        },
+                        {
+                            "state": [
+                                "indetrminate"
+                            ],
+                            "value": 8
+                        }
+                    ]
+                },
+                "toggleIconHeight": {
+                    "type": "dimension",
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 4
+                        },
+                        {
+                            "state": [
+                                "indetrminate"
+                            ],
+                            "value": 2
+                        }
+                    ]
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        }
+    ]
+}
