@@ -148,6 +148,11 @@
             "config": "segment_item_config.json"
         },
         {
+            "componentName": "switch",
+            "styleName": "switch",
+            "config": "switch_config.json"
+        },
+        {
             "componentName": "text-field",
             "styleName": "text-field",
             "config": "text_field_config.json"
