@@ -1,0 +1,245 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "toggleTrackColor": {
+            "type": "color",
+            "default": "surface.default.transparent.tertiary",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "surface.default.accent"
+                }
+            ]
+        },
+        "toggleTrackBorderColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "toggleThumbColor": {
+            "type": "color",
+            "default": "surface.on-dark.solid.default"
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "descriptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "toggleTrackShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "toggleThumbShape": {
+            "type": "shape",
+            "value": "round.circle"
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "l.toggle-l",
+            "parent": "l",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 44
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "l.toggle-s",
+            "parent": "l",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "m.toggle-l",
+            "parent": "m",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 44
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "m.toggle-s",
+            "parent": "m",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "textPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "s.toggle-l",
+            "parent": "s",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 44
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "s.toggle-s",
+            "parent": "s",
+            "props": {
+                "toggleTrackWidth": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "toggleTrackHeight": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "toggleThumbWidth": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "toggleThumbHeight": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        }
+    ]
+}
