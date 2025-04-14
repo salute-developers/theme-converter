@@ -138,6 +138,11 @@
             "config": "progress_bar_config.json"
         },
         {
+            "componentName": "circular-progress-bar",
+            "styleName": "circular-progress-bar",
+            "config": "circular_progress_bar_config.json"
+        },
+        {
             "componentName": "radio-box",
             "styleName": "radio-box",
             "config": "radiobox_config.json"
