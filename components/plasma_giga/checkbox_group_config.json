@@ -1,0 +1,60 @@
+{
+    "view": {},
+    "props": {},
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "itemOffset": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "checkBoxStyle": {
+                    "type": "component_style",
+                    "value": "check-box.l.default"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "itemOffset": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "checkBoxStyle": {
+                    "type": "component_style",
+                    "value": "check-box.m.default"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "itemOffset": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "checkBoxStyle": {
+                    "type": "component_style",
+                    "value": "check-box.s.default"
+                }
+            }
+        }
+    ]
+}

@@ -68,6 +68,16 @@
             "config": "cell_config.json"
         },
         {
+            "componentName": "check-box",
+            "styleName": "check-box",
+            "config": "checkbox_config.json"
+        },
+        {
+            "componentName": "check-box-group",
+            "styleName": "check-box-group",
+            "config": "checkbox_group_config.json"
+        },
+        {
             "componentName": "chip",
             "styleName": "chip",
             "config": "chip_config.json"
