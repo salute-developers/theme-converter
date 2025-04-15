@@ -40,6 +40,10 @@
         "toggleThumbShape": {
             "type": "shape",
             "value": "round.circle"
+        },
+        "toggleThumbPadding": {
+            "type": "dimension",
+            "value": 2
         }
     },
     "variations": [

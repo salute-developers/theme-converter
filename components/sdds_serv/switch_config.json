@@ -40,6 +40,10 @@
         "toggleThumbShape": {
             "type": "shape",
             "value": "round.circle"
+        },
+        "toggleThumbPadding": {
+            "type": "dimension",
+            "value": 2
         }
     },
     "variations": [
@@ -62,13 +66,7 @@
                 "descriptionPadding": {
                     "type": "dimension",
                     "value": 4
-                }
-            }
-        },
-        {
-            "id": "l.toggle-l",
-            "parent": "l",
-            "props": {
+                },
                 "toggleTrackWidth": {
                     "type": "dimension",
                     "value": 44
@@ -128,13 +126,7 @@
                 "descriptionPadding": {
                     "type": "dimension",
                     "value": 4
-                }
-            }
-        },
-        {
-            "id": "m.toggle-l",
-            "parent": "m",
-            "props": {
+                },
                 "toggleTrackWidth": {
                     "type": "dimension",
                     "value": 44
@@ -194,13 +186,7 @@
                 "descriptionPadding": {
                     "type": "dimension",
                     "value": 4
-                }
-            }
-        },
-        {
-            "id": "s.toggle-l",
-            "parent": "s",
-            "props": {
+                },
                 "toggleTrackWidth": {
                     "type": "dimension",
                     "value": 44
