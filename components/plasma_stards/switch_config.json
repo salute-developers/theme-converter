@@ -129,11 +129,11 @@
             "props": {
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.l.normal"
+                    "value": "body.s.normal"
                 },
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.m.normal"
+                    "value": "body.xs.normal"
                 },
                 "textPadding": {
                     "type": "dimension",
