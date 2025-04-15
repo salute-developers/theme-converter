@@ -11,7 +11,7 @@
             "states": [
                 {
                     "state": [
-                        "selected"
+                        "checked"
                     ],
                     "value": "surface.default.accent"
                 }

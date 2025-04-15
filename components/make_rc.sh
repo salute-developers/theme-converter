@@ -4,7 +4,7 @@
 ARCHIVE_NAME="$1"
 
 if [[ -z "$ARCHIVE_NAME" || "$ARCHIVE_NAME" != *.zip ]]; then
-  echo "Укажи имя архива, например: ./zip_jsons.sh 0.3.0-rc.zip"
+  echo "Укажи имя архива, например: ./make_rc.sh 0.3.0-rc.zip"
   exit 1
 fi
 
