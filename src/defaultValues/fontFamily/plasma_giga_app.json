@@ -1,52 +1,52 @@
 {
-    "display" : {
+    "display": {
         "value": {
             "name": "Noto Sans Display",
             "fonts": [
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "100",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "500",
                     "fontStyle": "normal"
@@ -54,54 +54,54 @@
             ]
         }
     },
-    "header" : {
+    "header": {
         "value": {
             "name": "Noto Sans Display",
             "fonts": [
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Light.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Thin.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "100",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Bold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Regular.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-SemiBold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/static/NotoSansDisplay-Medium.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans_Display/NotoSansDisplay-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "500",
                     "fontStyle": "normal"
@@ -109,86 +109,86 @@
             ]
         }
     },
-    "text" : {
+    "text": {
         "value": {
             "name": "Noto Sans Text",
             "fonts": [
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf') format('ttf')", 
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "100",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "500",
                     "fontStyle": "normal"
@@ -196,86 +196,86 @@
             ]
         }
     },
-    "body" : {
+    "body": {
         "value": {
             "name": "Noto Sans Text",
             "fonts": [
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Light.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Italic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBoldItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.ttf') format('ttf')", 
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Thin.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "100",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Regular.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "normal",
+                    "fontWeight": "400",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-SemiBold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "600",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-LightItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "300",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Bold.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "normal"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-BoldItalic.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-Italic-VariableFont_wdth,wght.woff') format('woff')"
                     ],
-                    "fontWeight": "bold",
+                    "fontWeight": "700",
                     "fontStyle": "italic"
                 },
                 {
                     "src": [
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.ttf') format('ttf')",
-                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/static/NotoSans-Medium.woff') format('woff')"
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf') format('ttf')",
+                        "url('https://github.com/salute-developers/theme-converter/raw/main/assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff') format('woff')"
                     ],
                     "fontWeight": "500",
                     "fontStyle": "normal"
