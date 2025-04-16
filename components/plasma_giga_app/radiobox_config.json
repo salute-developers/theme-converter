@@ -60,7 +60,7 @@
         },
         "toggleIconColor": {
             "type": "color",
-            "default": "surface.on-dark.solid-default"
+            "default": "text.inverse.primary"
         },
         "disableAlpha": {
             "type": "float",
