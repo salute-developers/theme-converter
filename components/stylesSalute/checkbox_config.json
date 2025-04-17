@@ -39,7 +39,7 @@
                         },
                         {
                             "state": [
-                                "indetrminate"
+                                "indeterminate"
                             ],
                             "value": "surface.default.accent"
                         }
@@ -131,7 +131,7 @@
                         },
                         {
                             "state": [
-                                "indetrminate"
+                                "indeterminate"
                             ],
                             "value": 12
                         }
@@ -149,7 +149,7 @@
                         },
                         {
                             "state": [
-                                "indetrminate"
+                                "indeterminate"
                             ],
                             "value": 2
                         }
@@ -218,7 +218,7 @@
                         },
                         {
                             "state": [
-                                "indetrminate"
+                                "indeterminate"
                             ],
                             "value": 8
                         }
@@ -236,7 +236,7 @@
                         },
                         {
                             "state": [
-                                "indetrminate"
+                                "indeterminate"
                             ],
                             "value": 2
                         }
