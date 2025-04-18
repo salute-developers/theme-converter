@@ -59,6 +59,19 @@
                     "states": [
                         {
                             "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
                                 "checked"
                             ],
                             "value": "outline.default.clear"
