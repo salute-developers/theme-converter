@@ -91,11 +91,11 @@
                 },
                 "toggleWidth": {
                     "type": "dimension",
-                    "value": 22
+                    "value": 24
                 },
                 "toggleHeight": {
                     "type": "dimension",
-                    "value": 22
+                    "value": 24
                 },
                 "toggleIconWidth": {
                     "type": "dimension",
@@ -146,11 +146,11 @@
                 },
                 "toggleWidth": {
                     "type": "dimension",
-                    "value": 16
+                    "value": 18
                 },
                 "toggleHeight": {
                     "type": "dimension",
-                    "value": 16
+                    "value": 18
                 },
                 "toggleIconWidth": {
                     "type": "dimension",
