@@ -61,7 +61,7 @@
               },
               "checkBoxStyle": {
                   "type": "component_style",
-                  "value": "check-box.m"
+                  "value": "check-box.m.default"
               },
               "radioBoxStyle": {
                   "type": "component_style",
@@ -115,7 +115,7 @@
               },
               "checkBoxStyle": {
                   "type": "component_style",
-                  "value": "check-box.m"
+                  "value": "check-box.m.default"
               },
               "radioBoxStyle": {
                   "type": "component_style",
@@ -169,7 +169,7 @@
               },
               "checkBoxStyle": {
                   "type": "component_style",
-                  "value": "check-box.s"
+                  "value": "check-box.s.default"
               },
               "radioBoxStyle": {
                   "type": "component_style",
@@ -223,7 +223,7 @@
               },
               "checkBoxStyle": {
                   "type": "component_style",
-                  "value": "check-box.s"
+                  "value": "check-box.s.default"
               },
               "radioBoxStyle": {
                   "type": "component_style",
