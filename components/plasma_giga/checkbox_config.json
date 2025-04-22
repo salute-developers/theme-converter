@@ -124,7 +124,7 @@
                 },
                 "toggleIconColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.inverse.primary"
                 }
             }
         }
