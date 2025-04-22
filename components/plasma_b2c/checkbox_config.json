@@ -15,6 +15,13 @@
                         },
                         {
                             "state": [
+                                "focused",
+                                "indeterminate"
+                            ],
+                            "value": "outline.default.accent"
+                        },
+                        {
+                            "state": [
                                 "focused"
                             ],
                             "value": "outline.default.accent"
@@ -22,6 +29,12 @@
                         {
                             "state": [
                                 "checked"
+                            ],
+                            "value": "surface.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
                             ],
                             "value": "surface.default.clear"
                         }
@@ -59,7 +72,33 @@
                     "states": [
                         {
                             "state": [
+                                "focused",
                                 "checked"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
                             ],
                             "value": "surface.default.clear"
                         }
@@ -119,6 +158,13 @@
                         "checked"
                     ],
                     "value": 3
+                },
+                {
+                    "state": [
+                        "focused",
+                        "indeterminate"
+                    ],
+                    "value": 3
                 }
             ]
         }
@@ -144,6 +190,13 @@
                             "state": [
                                 "focused",
                                 "checked"
+                            ],
+                            "value": 1
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
                             ],
                             "value": 1
                         }
@@ -233,6 +286,13 @@
                                 "checked"
                             ],
                             "value": 1
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
+                            ],
+                            "value": 1
                         }
                     ]
                 },
@@ -318,6 +378,13 @@
                             "state": [
                                 "focused",
                                 "checked"
+                            ],
+                            "value": 1
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
                             ],
                             "value": 1
                         }
