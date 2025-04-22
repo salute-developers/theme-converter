@@ -1,0 +1,47 @@
+{
+    "0x": {
+        "value": "0rem"
+    },
+    "1x": {
+        "value": "0.125rem"
+    },
+    "2x": {
+        "value": "0.25rem"
+    },
+    "3x": {
+        "value": "0.375rem"
+    },
+    "4x": {
+        "value": "0.5rem"
+    },
+    "6x": {
+        "value": "0.75rem"
+    },
+    "8x": {
+        "value": "1rem"
+    },
+    "10x": {
+        "value": "1.25rem"
+    },
+    "12x": {
+        "value": "1.5rem"
+    },
+    "16x": {
+        "value": "2rem"
+    },
+    "20x": {
+        "value": "2.5rem"
+    },
+    "24x": {
+        "value": "3rem"
+    },
+    "32x": {
+        "value": "4rem"
+    },
+    "40x": {
+        "value": "5rem"
+    },
+    "60x": {
+        "value": "7.5rem"
+    }
+}

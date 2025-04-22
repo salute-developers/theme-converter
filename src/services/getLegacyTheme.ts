@@ -70,10 +70,18 @@ const compatibleShape: Record<string, string> = {
     plasma_web: 'stylesSalute',
     stylesSalute: 'stylesSalute',
     plasma_stards: 'stylesSalute',
-    sdds_serv: 'stylesSalute',
+    sdds_serv: 'sdds_serv',
 };
 
-const fontFamilyShape: Record<string, string> = {
+const compatibleShadow: Record<string, string> = {
+    sdds_serv: 'sdds_serv',
+};
+
+const compatibleSpacing: Record<string, string> = {
+    sdds_serv: 'sdds_serv',
+};
+
+const compatibleFontFamily: Record<string, string> = {
     sbermarket: 'sbermarket',
     plasma_giga_app: 'plasma_giga_app',
 };
@@ -93,12 +101,13 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     const theme = response.data;
 
     if (!theme.fontFamily) {
-        const specialFileName = fontFamilyShape[themeName];
+        const specialFileName = compatibleFontFamily[themeName];
         theme.fontFamily = getDefaultTokens('fontFamily', specialFileName);
     }
 
     if (!theme.shadow) {
-        theme.shadow = getDefaultTokens('shadow');
+        const specialFileName = compatibleShadow[themeName];
+        theme.shadow = getDefaultTokens('shadow', specialFileName);
     }
 
     if (!theme.borderRadius) {
@@ -115,7 +124,8 @@ export const getLegacyTheme = async (themeName: string, branchName: string) => {
     addSkeletonGradients(theme, gradient);
 
     if (!theme.spacing) {
-        theme.spacing = getDefaultTokens('spacing');
+        const specialFileName = compatibleSpacing[themeName];
+        theme.spacing = getDefaultTokens('spacing', specialFileName);
     }
 
     console.log(`✓ Загрузка темы завершена`);

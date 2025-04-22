@@ -188,18 +188,22 @@ export const getIOSShadowToken = (key: string, values: any) => {
 };
 
 export const getIOSShapeToken = (key: string, value: any) => {
+    const newValue = value.match(/px/gim)?.[0] ? Number(value.replace('px', '')) : parseFloat(value) * 16;
+
     return {
         [key]: {
             kind: 'round',
-            cornerRadius: Number(value.replace('px', '')),
+            cornerRadius: newValue,
         },
     };
 };
 
 export const getIOSSpacingToken = (key: string, value: any) => {
+    const newValue = value.match(/px/gim)?.[0] ? Number(value.replace('px', '')) : parseFloat(value) * 16;
+
     return {
         [key]: {
-            value: Number(value.replace('px', '')),
+            value: newValue,
         },
     };
 };
