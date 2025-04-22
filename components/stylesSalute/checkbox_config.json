@@ -15,6 +15,13 @@
                         },
                         {
                             "state": [
+                                "focused",
+                                "indeterminate"
+                            ],
+                            "value": "outline.default.accent"
+                        },
+                        {
+                            "state": [
                                 "focused"
                             ],
                             "value": "outline.default.accent"
@@ -22,6 +29,12 @@
                         {
                             "state": [
                                 "checked"
+                            ],
+                            "value": "outline.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
                             ],
                             "value": "outline.default.clear"
                         }
@@ -81,6 +94,13 @@
                         "checked"
                     ],
                     "value": 3
+                },
+                {
+                    "state": [
+                        "focused",
+                        "indeterminate"
+                    ],
+                    "value": 3
                 }
             ]
         }
@@ -106,6 +126,13 @@
                             "state": [
                                 "focused",
                                 "checked"
+                            ],
+                            "value": 1
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
                             ],
                             "value": 1
                         }
@@ -193,6 +220,13 @@
                             "state": [
                                 "focused",
                                 "checked"
+                            ],
+                            "value": 1
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
                             ],
                             "value": 1
                         }
