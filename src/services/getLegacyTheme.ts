@@ -71,6 +71,8 @@ const compatibleShape: Record<string, string> = {
     stylesSalute: 'stylesSalute',
     plasma_stards: 'stylesSalute',
     sdds_serv: 'sdds_serv',
+    plasma_giga: 'stylesSalute',
+    plasma_giga_app: 'stylesSalute',
 };
 
 const compatibleShadow: Record<string, string> = {
