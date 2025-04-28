@@ -48,6 +48,14 @@
                     "type": "dimension",
                     "value": 7
                 },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 0
+                },
                 "statusStyle": {
                     "type": "component_style",
                     "value": "indicator.l"
@@ -86,6 +94,14 @@
                     "type": "dimension",
                     "value": 3
                 },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 2
+                },
                 "statusStyle": {
                     "type": "component_style",
                     "value": "indicator.m"
@@ -121,6 +137,14 @@
                     "value": 0
                 },
                 "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "extraOffsetY": {
                     "type": "dimension",
                     "value": 2
                 },
@@ -161,6 +185,14 @@
                 "statusOffsetY": {
                     "type": "dimension",
                     "value": 0
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 1
                 },
                 "statusStyle": {
                     "type": "component_style",
