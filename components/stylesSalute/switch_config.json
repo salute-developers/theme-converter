@@ -209,10 +209,6 @@
             "id": "s.toggle-s",
             "parent": "s",
             "props": {
-                "labelStyle": {
-                    "type": "typography",
-                    "value": "body.xs.normal"
-                },
                 "toggleTrackWidth": {
                     "type": "dimension",
                     "value": 32
