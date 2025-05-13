@@ -11,20 +11,20 @@
                                 "focused",
                                 "checked"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.accent-main"
                         },
                         {
                             "state": [
                                 "focused",
                                 "indeterminate"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.accent-main"
                         },
                         {
                             "state": [
                                 "focused"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.accent-main"
                         },
                         {
                             "state": [
@@ -48,13 +48,13 @@
                             "state": [
                                 "checked"
                             ],
-                            "value": "surface.default.accent"
+                            "value": "surface.default.accent-main"
                         },
                         {
                             "state": [
                                 "indeterminate"
                             ],
-                            "value": "surface.default.accent"
+                            "value": "surface.default.accent-main"
                         }
                     ]
                 },
