@@ -47,6 +47,10 @@
                 "shape": {
                     "type": "shape",
                     "value": "round.l"
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 20
                 }
             }
         },
@@ -57,6 +61,10 @@
                 "shape": {
                     "type": "shape",
                     "value": "round.m"
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         }
