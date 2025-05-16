@@ -1,0 +1,72 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-card"
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.accent-main"
+                }
+            }
+        }
+    },
+    "props": {
+        "width": {
+            "type": "dimension",
+            "value": 182
+        },
+        "tailWidth": {
+            "type": "dimension",
+            "value": 20
+        },
+        "tailHeight": {
+            "type": "dimension",
+            "value": 8
+        },
+        "offset": {
+            "type": "dimension",
+            "value": 0
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.hard.m"
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 20
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        }
+    ]
+}
