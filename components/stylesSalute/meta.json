@@ -128,6 +128,11 @@
             "config": "progress_bar_config.json"
         },
         {
+            "componentName": "popover",
+            "styleName": "popover",
+            "config": "popover_config.json"
+        },
+        {
             "componentName": "radio-box",
             "styleName": "radio-box",
             "config": "radiobox_config.json"
