@@ -178,6 +178,11 @@
             "styleName": "text-area-clear",
             "config": "text_area_clear_config.json",
             "excludePlatforms": ["view-system"]
+        },
+        {
+            "componentName": "tooltip",
+            "styleName": "tooltip",
+            "config": "tooltip_config.json"
         }
     ]
 }
