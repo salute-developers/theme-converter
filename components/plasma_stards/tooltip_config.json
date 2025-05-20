@@ -1,0 +1,95 @@
+{
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.on-dark.solid-secondary"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.on-dark.primary"
+        },
+        "contentStartColor": {
+            "type": "color",
+            "default": "text.on-dark.secondary"
+        },
+        "contentStartSize": {
+            "type": "dimension",
+            "value": 16
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.hard.m"
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "tailWidth": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "tailHeight": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "offset": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "contentStartPadding": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "tailPadding": {
+                    "type": "dimension",
+                    "value": 9
+                },
+                "tailWidth": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "tailHeight": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "offset": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "contentStartPadding": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            }
+        }
+    ]
+}
