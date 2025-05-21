@@ -123,11 +123,6 @@
             "config": "indicator_config.json"
         },
         {
-            "componentName": "overlay",
-            "styleName": "overlay",
-            "config": "overlay_config.json"
-        },
-        {
             "componentName": "progress-bar",
             "styleName": "progress-bar",
             "config": "progress_bar_config.json"

@@ -3,7 +3,7 @@
     "props": {
         "backgroundColor": {
             "type": "color",
-            "default": "overlay.default.soft"
+            "default": "overlay.on-dark.soft"
         },
         "blurRadius": {
             "type": "dimension",
