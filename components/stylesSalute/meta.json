@@ -183,6 +183,11 @@
             "componentName": "tooltip",
             "styleName": "tooltip",
             "config": "tooltip_config.json"
+        },
+        {
+            "componentName": "toast",
+            "styleName": "toast",
+            "config": "toast_config.json"
         }
     ]
 }
