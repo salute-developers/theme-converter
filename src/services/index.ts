@@ -27,6 +27,7 @@ const themeList = [
     'sdds_finportal',
     'sdds_os',
     'sdds_insol',
+    'sdds_scan',
     'stylesSalute',
 ];
 
