@@ -1,0 +1,79 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "contentStartColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "contentEndColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "contentStartSize": {
+            "type": "dimension",
+            "value": 16
+        },
+        "contentEndSize": {
+            "type": "dimension",
+            "value": 16
+        },
+        "contentStartPadding": {
+            "type": "dimension",
+            "value": 6
+        },
+        "contentEndPadding": {
+            "type": "dimension",
+            "value": 8
+        },
+        "textStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 10
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 12
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": [
+        {
+            "id": "rounded",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                }
+            }
+        },
+        {
+            "id": "pilled",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                }
+            }
+        }
+    ]
+}
