@@ -20,7 +20,7 @@
         },
         "closeSize": {
             "type": "dimension",
-            "value": 16
+            "value": 24
         },
         "paddingStart": {
             "type": "dimension",
