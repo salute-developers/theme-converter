@@ -208,6 +208,11 @@
             "componentName": "toast",
             "styleName": "toast",
             "config": "toast_config.json"
+        },
+        {
+            "componentName": "modal",
+            "styleName": "modal",
+            "config": "modal_config.json"
         }
     ]
 }
