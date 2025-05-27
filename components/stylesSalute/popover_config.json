@@ -32,7 +32,7 @@
         },
         "offset": {
             "type": "dimension",
-            "value": 0
+            "value": 8
         },
         "shadow": {
             "type": "shadow",
