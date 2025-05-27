@@ -215,6 +215,10 @@
         }
       ]
     },
+    "counterColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
     "indicatorColor": {
       "type": "color",
       "default": "surface.default.negative"
@@ -255,6 +259,10 @@
         }
       ]
     },
+    "prefixColorReadOnly": {
+      "type": "color",
+      "default": "text.default.tertiary"
+    },
     "suffixColor": {
       "type": "color",
       "default": "text.default.tertiary",
@@ -266,6 +274,10 @@
           "value": "text.default.primary"
         }
       ]
+    },
+    "suffixColorReadOnly": {
+      "type": "color",
+      "default": "text.default.tertiary"
     },
     "dividerColor": {
       "type": "color",

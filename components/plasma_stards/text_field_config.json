@@ -110,6 +110,10 @@
         }
       ]
     },
+    "valueColorReadOnly": {
+      "type": "color",
+      "default": "text.default.primary"
+    },
     "startContentColor": {
       "type": "color",
       "default": "text.default.secondary",
@@ -121,6 +125,10 @@
           "value": "text.on-light.secondary"
         }
       ]
+    },
+    "startContentColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
     },
     "endContentColor": {
       "type": "color",
@@ -171,6 +179,10 @@
         }
       ]
     },
+    "placeholderColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
     "backgroundColorReadOnly": {
       "type": "color",
       "default": "surface.default.solid-primary",
@@ -188,6 +200,10 @@
       "type": "color",
       "default": "text.default.secondary"
     },
+    "counterColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
     "prefixColor": {
       "type": "color",
       "default": "text.default.tertiary",
@@ -200,6 +216,10 @@
         }
       ]
     },
+    "prefixColorReadOnly": {
+      "type": "color",
+      "default": "text.default.tertiary"
+    },
     "suffixColor": {
       "type": "color",
       "default": "text.default.tertiary",
@@ -211,6 +231,10 @@
           "value": "text.on-light.tertiary"
         }
       ]
+    },
+    "suffixColorReadOnly": {
+      "type": "color",
+      "default": "text.default.tertiary"
     }
   },
   "variations": [
