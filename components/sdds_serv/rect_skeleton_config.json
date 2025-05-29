@@ -1,0 +1,14 @@
+{
+    "view": {},
+    "variations": [],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "gradient": {
+            "type": "gradient",
+            "default": "surface.default.skeleton-gradient"
+        }
+    }
+}
