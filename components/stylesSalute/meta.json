@@ -193,6 +193,11 @@
             "componentName": "modal",
             "styleName": "modal",
             "config": "modal_config.json"
+        },
+        {
+            "componentName": "rect-skeleton",
+            "styleName": "rect-skeleton",
+            "config": "rect_skeleton_config.json"
         }
     ]
 }
