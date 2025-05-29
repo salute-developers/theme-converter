@@ -196,7 +196,7 @@
         },
         {
             "componentName": "rect-skeleton",
-            "styleName": "rect-sceleton",
+            "styleName": "rect-skeleton",
             "config": "rect_skeleton_config.json"
         }
     ]
