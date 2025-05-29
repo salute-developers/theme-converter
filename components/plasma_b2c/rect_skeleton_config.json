@@ -9,6 +9,10 @@
         "gradient": {
             "type": "gradient",
             "default": "surface.default.skeleton-gradient"
+        },
+        "duration": {
+            "type": "float",
+            "value": 1000
         }
     }
 }
