@@ -218,6 +218,16 @@
             "componentName": "rect-skeleton",
             "styleName": "rect-skeleton",
             "config": "rect_skeleton_config.json"
+        },
+        {
+            "componentName": "notification",
+            "styleName": "notification-compact",
+            "config": "notification_compact_config.json"
+        },
+        {
+            "componentName": "notification",
+            "styleName": "notification-loose",
+            "config": "notification_loose_config.json"
         }
     ]
 }
