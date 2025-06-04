@@ -248,6 +248,11 @@
             "componentName": "list-item",
             "styleName": "list-item-tight",
             "config": "list_item_tight_config.json"
+        },
+        {
+            "componentName": "spinner",
+            "styleName": "spinner",
+            "config": "spinner_config.json"
         }
     ]
 }

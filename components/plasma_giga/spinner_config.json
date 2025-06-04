@@ -1,0 +1,191 @@
+{
+    "props": {},
+    "view": {
+        "default": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary"
+                }
+            }
+        },
+        "secondary": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default",
+                    "alpha": 0.32
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary",
+                    "alpha": 0.32
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.accent"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-accent"
+                }
+            }
+        },
+        "positive": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.positive"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-positive"
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.negative"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-negative"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.warning"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-warning"
+                }
+            }
+        },
+        "info": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.info"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-info"
+                }
+            }
+        }
+    },
+    "variations": [
+        {
+            "id": "xxl",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 128
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 88
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 3
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "xxs",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "padding": {
+                    "type": "dimension",
+                    "value": 1
+                }
+            }
+        }
+    ]
+}
