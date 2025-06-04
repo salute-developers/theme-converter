@@ -164,6 +164,16 @@
             "componentName": "notification",
             "styleName": "notification-loose",
             "config": "notification_loose_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list",
+            "config": "list_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item",
+            "config": "list_item_config.json"
         }
     ]
 }

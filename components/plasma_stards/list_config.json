@@ -1,0 +1,46 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.l"
+                }
+             }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.m"
+                }
+             }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.s"
+                }
+             }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.xs"
+                }
+             }
+        }
+    ],
+    "props": {}
+}

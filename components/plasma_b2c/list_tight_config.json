@@ -1,0 +1,56 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-tight.xl"
+                }
+             }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-tight.l"
+                }
+             }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-tight.m"
+                }
+             }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-tight.s"
+                }
+             }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-tight.xs"
+                }
+             }
+        }
+    ],
+    "props": {}
+}
