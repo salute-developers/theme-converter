@@ -228,6 +228,26 @@
             "componentName": "notification",
             "styleName": "notification-loose",
             "config": "notification_loose_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list-normal",
+            "config": "list_normal_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item-normal",
+            "config": "list_item_normal_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list-tight",
+            "config": "list_tight_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item-tight",
+            "config": "list_item_tight_config.json"
         }
     ]
 }

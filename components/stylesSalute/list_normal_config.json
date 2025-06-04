@@ -1,0 +1,56 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-normal.xl"
+                }
+             }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-normal.l"
+                }
+             }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-normal.m"
+                }
+             }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-normal.s"
+                }
+             }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item-normal.xs"
+                }
+             }
+        }
+    ],
+    "props": {}
+}
