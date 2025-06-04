@@ -1,5 +1,18 @@
 {
-    "props": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "angle": {
+            "type": "float",
+            "value": 360
+        },
+        "strokeCap": {
+            "type": "value",
+            "value": "round"
+        }
+    },
     "view": {
         "default": {
             "props": {
