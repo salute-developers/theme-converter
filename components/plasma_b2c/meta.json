@@ -253,6 +253,11 @@
             "componentName": "spinner",
             "styleName": "spinner",
             "config": "spinner_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton",
+            "config": "text_skeleton_config.json"
         }
     ]
 }

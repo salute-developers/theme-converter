@@ -1,0 +1,18 @@
+{
+    "view": {},
+    "variations": [],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.xxs"
+        },
+        "gradient": {
+            "type": "gradient",
+            "default": "surface.default.skeleton-gradient"
+        },
+        "duration": {
+            "type": "float",
+            "value": 5000
+        }
+    }
+}
