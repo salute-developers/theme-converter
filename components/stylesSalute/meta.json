@@ -228,6 +228,11 @@
             "componentName": "list-item",
             "styleName": "list-item-tight",
             "config": "list_item_tight_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton",
+            "config": "text_skeleton_config.json"
         }
     ]
 }
