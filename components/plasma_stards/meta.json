@@ -79,6 +79,11 @@
             "config": "counter_config.json"
         },
         {
+            "componentName": "divider",
+            "styleName": "divider",
+            "config": "divider_config.json"
+        },
+        {
             "componentName": "indicator",
             "styleName": "indicator",
             "config": "indicator_config.json"
@@ -179,6 +184,21 @@
             "componentName": "spinner",
             "styleName": "spinner",
             "config": "spinner_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "dropdown-menu-list",
+            "config": "dropdown_menu_list_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "dropdown-menu-item",
+            "config": "dropdown_menu_item_config.json"
+        },
+        {
+            "componentName": "dropdown-menu",
+            "styleName": "dropdown-menu",
+            "config": "dropdown_menu_config.json"
         }
     ]
 }

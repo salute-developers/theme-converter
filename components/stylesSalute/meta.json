@@ -233,6 +233,36 @@
             "componentName": "text-skeleton",
             "styleName": "text-skeleton",
             "config": "text_skeleton_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "dropdown-menu-list-normal",
+            "config": "dropdown_menu_list_normal_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "dropdown-menu-item-normal",
+            "config": "dropdown_menu_item_normal_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "dropdown-menu-list-tight",
+            "config": "dropdown_menu_list_tight_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "dropdown-menu-item-tight",
+            "config": "dropdown_menu_item_tight_config.json"
+        },
+        {
+            "componentName": "dropdown-menu",
+            "styleName": "dropdown-menu-tight",
+            "config": "dropdown_menu_tight_config.json"
+        },
+        {
+            "componentName": "dropdown-menu",
+            "styleName": "dropdown-menu-normal",
+            "config": "dropdown_menu_normal_config.json"
         }
     ]
 }
