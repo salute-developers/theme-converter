@@ -1,0 +1,97 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-normal.l"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2.0
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-normal.m"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-normal.s"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2.0
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 160
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-normal.xs"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 160
+                }
+            }
+        }
+    ],
+    "props": {
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "offset": {
+            "type": "dimension",
+            "value": 8
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.hard.m"
+        }
+    }
+}

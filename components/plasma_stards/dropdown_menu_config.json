@@ -1,0 +1,123 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list.xl"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list.l"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2.0
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list.m"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 200
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list.s"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2.0
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 160
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list.xs"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 160
+                }
+            }
+        }
+    ],
+    "props": {
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "offset": {
+            "type": "dimension",
+            "value": 8
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.soft.s"
+        },
+        "strokeWidth": {
+            "type": "dimension",
+            "value": 1.0
+        },
+        "strokeColor": {
+            "type": "color",
+            "default": "outline.default.transparent-primary"
+        }
+    }
+}

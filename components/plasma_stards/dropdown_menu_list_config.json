@@ -1,0 +1,61 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-item.xl"
+                }
+             }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-item.l"
+                }
+             }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-item.m"
+                }
+             }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-item.s"
+                }
+             }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-item.xs"
+                }
+             }
+        }
+    ],
+    "props": {
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        }
+    }
+}
