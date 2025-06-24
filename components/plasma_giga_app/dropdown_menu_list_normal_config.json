@@ -7,7 +7,7 @@
             "props": { 
                 "listItemStyle": {
                     "type": "component_style",
-                    "value": "dropdown-menu-item-normal.xl"
+                    "value": "dropdown-menu-item-normal.xl.default"
                 }
              }
         },
@@ -17,7 +17,7 @@
             "props": { 
                 "listItemStyle": {
                     "type": "component_style",
-                    "value": "dropdown-menu-item-normal.l"
+                    "value": "dropdown-menu-item-normal.l.default"
                 }
              }
         },
@@ -27,7 +27,7 @@
             "props": { 
                 "listItemStyle": {
                     "type": "component_style",
-                    "value": "dropdown-menu-item-normal.m"
+                    "value": "dropdown-menu-item-normal.m.default"
                 }
              }
         },
@@ -37,7 +37,7 @@
             "props": { 
                 "listItemStyle": {
                     "type": "component_style",
-                    "value": "dropdown-menu-item-normal.s"
+                    "value": "dropdown-menu-item-normal.s.default"
                 }
              }
         },
@@ -47,7 +47,7 @@
             "props": { 
                 "listItemStyle": {
                     "type": "component_style",
-                    "value": "dropdown-menu-item-normal.xs"
+                    "value": "dropdown-menu-item-normal.xs.default"
                 }
              }
         }
