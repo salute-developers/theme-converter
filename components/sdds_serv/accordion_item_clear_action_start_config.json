@@ -12,6 +12,10 @@
         "contentTextColor": {
             "type": "color",
             "default": "text.default.primary"
+        },
+        "iconPlacement": {
+            "type": "value",
+            "value": "start"
         }
     },
     "variations": [
