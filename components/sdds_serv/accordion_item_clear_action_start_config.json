@@ -16,6 +16,10 @@
         "iconPlacement": {
             "type": "value",
             "value": "start"
+        },
+        "iconRotation": {
+            "type": "float",
+            "value": 180.0
         }
     },
     "variations": [
