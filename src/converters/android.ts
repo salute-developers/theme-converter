@@ -70,11 +70,12 @@ export const getAndroidGradientToken = (key: string, value: any) => {
     if (Array.isArray(value)) {
         const values = value.map((v) => {
             if (v.xml && v.xml.type === '.linear') {
-                const startPoint = v.xml.startPoint;
-                const endPoint = v.xml.endPoint;
-
-                const angle = calculateAngle(startPoint, endPoint);
                 const colors = v.xml.colors.map(getHEXAColor);
+
+                // INFO: Договорились с командой натива брать значения угла из веба как есть
+                const gradientArray = parseGradientsByLayer(v.origin);
+                const gradients = gradientArray?.map(getGradientParts);
+                const angle = gradients?.map(getNativeLinearGradients)[0]?.angle;
 
                 return {
                     kind: 'linear',
@@ -112,11 +113,12 @@ export const getAndroidGradientToken = (key: string, value: any) => {
 
     if (!Array.isArray(value) && typeof value === 'object') {
         if (value.xml) {
-            const startPoint = value.xml.startPoint;
-            const endPoint = value.xml.endPoint;
-
-            const angle = calculateAngle(startPoint, endPoint);
             const colors = value.xml.colors.map(getHEXAColor);
+
+            // INFO: Договорились с командой натива брать значения угла из веба как есть
+            const gradientArray = parseGradientsByLayer(value.origin);
+            const gradients = gradientArray?.map(getGradientParts);
+            const angle = gradients?.map(getNativeLinearGradients)[0]?.angle;
 
             return {
                 [key]: [

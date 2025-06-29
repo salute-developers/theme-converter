@@ -28,6 +28,7 @@ const themeList = [
     'sdds_os',
     'sdds_insol',
     'sdds_scan',
+    'sdds_bizcom',
     'stylesSalute',
 ];
 

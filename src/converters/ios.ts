@@ -80,11 +80,12 @@ export const getIOSGradientToken = (key: string, value: any) => {
     if (Array.isArray(value)) {
         const values = value.map((v) => {
             if (v.swift && v.swift.type === '.linear') {
-                const startPoint = v.swift.startPoint;
-                const endPoint = v.swift.endPoint;
-
-                const angle = calculateAngle(startPoint, endPoint);
                 const colors = v.swift.colors.map(getHEXAColor);
+
+                // INFO: Договорились с командой натива брать значения угла из веба как есть
+                const gradientArray = parseGradientsByLayer(v.origin);
+                const gradients = gradientArray?.map(getGradientParts);
+                const angle = gradients?.map(getNativeLinearGradients)[0]?.angle;
 
                 return {
                     kind: 'linear',
@@ -123,11 +124,12 @@ export const getIOSGradientToken = (key: string, value: any) => {
 
     if (!Array.isArray(value) && typeof value === 'object') {
         if (value.swift) {
-            const startPoint = value.swift.startPoint;
-            const endPoint = value.swift.endPoint;
-
-            const angle = calculateAngle(startPoint, endPoint);
             const colors = value.swift.colors.map(getHEXAColor);
+
+            // INFO: Договорились с командой натива брать значения угла из веба как есть
+            const gradientArray = parseGradientsByLayer(value.origin);
+            const gradients = gradientArray?.map(getGradientParts);
+            const angle = gradients?.map(getNativeLinearGradients)[0]?.angle;
 
             return {
                 [key]: [
