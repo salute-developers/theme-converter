@@ -23,6 +23,10 @@
             "id": "xs",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 12.0
@@ -77,6 +81,11 @@
             "id": "s",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 14.0
@@ -131,6 +140,10 @@
             "id": "m",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 18.0
@@ -185,6 +198,11 @@
             "id": "l",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 20.0
@@ -239,6 +257,11 @@
             "id": "h2",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 18.0
@@ -293,6 +316,10 @@
             "id": "h3",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 18.0
@@ -347,6 +374,11 @@
             "id": "h4",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 14.0
@@ -401,6 +433,10 @@
             "id": "h5",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
                 "paddingStart": {
                     "type": "dimension",
                     "value": 12.0
