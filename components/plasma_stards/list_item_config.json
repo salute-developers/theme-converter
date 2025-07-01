@@ -34,6 +34,10 @@
                     "value": "surface.default.transparent-secondary"
                 }
             ]
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
         }
     },
     "variations": [
