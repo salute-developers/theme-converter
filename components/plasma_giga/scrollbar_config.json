@@ -1,0 +1,35 @@
+{
+    "view": {},
+    "props": {
+        "thumbColor": {
+          "type": "color",
+          "default": "surface.default.solid-tertiary"
+        },
+        "trackColor": {
+          "type": "color",
+          "default": "surface.default.transparent-primary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        }
+    },
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "width": {
+              "type": "dimension",
+              "value": 2.0
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "width": {
+              "type": "dimension",
+              "value": 4.0
+            }
+        }
+    ]
+}
