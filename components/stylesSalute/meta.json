@@ -263,6 +263,46 @@
             "componentName": "dropdown-menu",
             "styleName": "dropdown-menu-normal",
             "config": "dropdown_menu_normal_config.json"
+        },
+        {
+            "componentName": "accordion-item",
+            "styleName": "accordion-item-solid-action-start",
+            "config": "accordion_item_solid_action_start_config.json"
+        },
+        {
+            "componentName": "accordion-item",
+            "styleName": "accordion-item-solid-action-end",
+            "config": "accordion_item_solid_action_end_config.json"
+        },
+        {
+            "componentName": "accordion-item",
+            "styleName": "accordion-item-clear-action-start",
+            "config": "accordion_item_clear_action_start_config.json"
+        },
+        {
+            "componentName": "accordion-item",
+            "styleName": "accordion-item-clear-action-end",
+            "config": "accordion_item_clear_action_end_config.json"
+        },
+        {
+            "componentName": "accordion",
+            "styleName": "accordion-solid-action-start",
+            "config": "accordion_solid_action_start_config.json"
+        },
+        {
+            "componentName": "accordion",
+            "styleName": "accordion-solid-action-end",
+            "config": "accordion_solid_action_end_config.json"
+        },
+        {
+            "componentName": "accordion",
+            "styleName": "accordion-clear-action-start",
+            "config": "accordion_clear_action_start_config.json"
+        },
+        {
+            "componentName": "accordion",
+            "styleName": "accordion-clear-action-end",
+            "config": "accordion_clear_action_end_config.json"
         }
     ]
 }
