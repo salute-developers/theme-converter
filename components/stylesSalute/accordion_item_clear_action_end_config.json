@@ -1,0 +1,327 @@
+{
+    "view": {},
+    "props": {
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "contentTextColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "iconPlacement": {
+            "type": "value",
+            "value": "end"
+        },
+        "iconRotation": {
+            "type": "float",
+            "value": 90.0
+        }
+    },
+    "variations": [
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 10.0
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 11.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 11.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.s.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 12.0
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.m.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 14.0
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 17.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 17.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.l.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.24"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.24"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.24"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.24"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 14.0
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 11.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 11.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "header.h4.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 12.0
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "parent": null,
+            "props": {
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "contentPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "header.h5.bold"
+                },
+                "contentTextStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "closedIcon": {
+                    "type": "icon",
+                    "value": "plus.16"
+                },
+                "openedIcon": {
+                    "type": "icon",
+                    "value": "minus.16"
+                },
+                "iconPadding": {
+                    "type": "dimension",
+                    "value": 10.0
+                }
+            }
+        }
+    ]
+}
