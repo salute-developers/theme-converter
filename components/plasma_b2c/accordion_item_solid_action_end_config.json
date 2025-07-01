@@ -9,6 +9,10 @@
             "type": "color",
             "default": "text.default.primary"
         },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
         "iconPlacement": {
             "type": "value",
             "value": "end"
