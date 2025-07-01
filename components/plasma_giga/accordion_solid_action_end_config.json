@@ -1,0 +1,91 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.xs"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.s"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.m"
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.l"
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.h2"
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.h3"
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.h4"
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "parent": null,
+            "props": {
+                "accordionItemStyle": {
+                    "type": "component_style",
+                    "value": "accordion-item-solid-action-end.h5"
+                }
+            }
+        }
+    ],
+    "props": {
+        "itemSpacing": {
+            "type": "dimension",
+            "value": 2.0
+        }
+    }
+}
