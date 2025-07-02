@@ -12,6 +12,10 @@
         "shape": {
             "type": "shape",
             "value": "round.circle"
+        },
+        "hoverExpandFactor": {
+            "type": "float",
+            "value": 2.0
         }
     },
     "variations": [
