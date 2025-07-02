@@ -199,6 +199,11 @@
             "componentName": "dropdown-menu",
             "styleName": "dropdown-menu",
             "config": "dropdown_menu_config.json"
+        },
+        {
+            "componentName": "scroll-bar",
+            "styleName": "scroll-bar",
+            "config": "scroll_bar_config.json"
         }
     ]
 }
