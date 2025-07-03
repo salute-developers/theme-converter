@@ -22,17 +22,21 @@
         {
             "id": "s",
             "parent": null,
-            "width": {
-              "type": "dimension",
-              "value": 2.0
+            "props": {
+                "width": {
+                  "type": "dimension",
+                  "value": 2.0
+                }
             }
         },
         {
             "id": "m",
             "parent": null,
-            "width": {
-              "type": "dimension",
-              "value": 4.0
+            "props": {
+                "width": {
+                  "type": "dimension",
+                  "value": 4.0
+                }
             }
         }
     ]
