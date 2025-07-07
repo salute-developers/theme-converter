@@ -56,6 +56,10 @@
         "dividerStyle": {
             "type": "component_style",
             "value": "divider"
+        },
+        "scrollbarStyle": {
+            "type": "component_style",
+            "value": "scroll-bar.s"
         }
     }
 }
