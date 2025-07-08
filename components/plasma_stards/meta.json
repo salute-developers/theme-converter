@@ -204,6 +204,11 @@
             "componentName": "scroll-bar",
             "styleName": "scroll-bar",
             "config": "scroll_bar_config.json"
+        },
+        {
+            "componentName": "wheel",
+            "styleName": "wheel",
+            "config": "wheel_config.json"
         }
     ]
 }
