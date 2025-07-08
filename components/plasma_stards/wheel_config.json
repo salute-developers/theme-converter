@@ -1,0 +1,137 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "h1",
+            "parent": null,
+            "props": {
+                "itemTextStyle": {
+                    "type": "typography",
+                    "value": "header.h1.normal"
+                },
+                "itemTextAfterStyle": {
+                    "type": "typography",
+                    "value": "header.h1.normal"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "itemTextAfterPadding": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "itemMinSpacing": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "separatorSpacing": {
+                    "type": "dimension",
+                    "value": 40.0
+                }
+            }
+        },
+        {
+            "id": "h1.right-align",
+            "parent": "h1",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "end"
+                }
+            }
+        },
+        {
+            "id": "h1.center-align",
+            "parent": "h1",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "center"
+                }
+            }
+        },
+        {
+            "id": "h1.left-align",
+            "parent": "h1",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "start"
+                }
+            }
+        },
+        {
+            "id": "h1.mixed-align",
+            "parent": "h1",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "mixed"
+                }
+            }
+        }
+    ],
+    "props": {
+        "visibleItemsCount": {
+            "type": "value",
+            "value": "5"
+        },
+        "wheelCount": {
+            "type": "value",
+            "value": "3"
+        },
+        "itemTextColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "itemTextAfterColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "descriptionColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "controlIconUp": {
+            "type": "icon",
+            "value": "disclosure.up.outline.36"
+        },
+        "controlIconDown": {
+            "type": "icon",
+            "value": "disclosure.down.outline.36"
+        },
+        "controlIconUpColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
+        },
+        "controlIconDownColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
+        },
+        "separatorColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        }
+    }
+}
