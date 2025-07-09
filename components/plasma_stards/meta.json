@@ -209,6 +209,11 @@
             "componentName": "wheel",
             "styleName": "wheel",
             "config": "wheel_config.json"
+        },
+        {
+            "componentName": "image",
+            "styleName": "image",
+            "config": "image_config.json"
         }
     ]
 }
