@@ -1,6 +1,6 @@
 {
     "name": "plasma_giga_app",
-    "version": "0.3.0-rc",
+    "version": "0.6.0-rc",
     "components": [
         {
             "componentName": "avatar",
