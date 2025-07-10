@@ -1,6 +1,6 @@
 {
     "name": "plasma_b2c",
-    "version": "0.3.0-rc",
+    "version": "0.6.0-rc",
     "components": [
         {
             "componentName": "avatar",

@@ -1,14 +1,27 @@
 {
-    "view": {},
+    "view": {
+        "default": {
+            "props": {
+                "gradient": {
+                    "type": "gradient",
+                    "default": "surface.default.skeleton-gradient"
+                }
+            }
+        },
+        "lighter": {
+            "props": {
+                "gradient": {
+                    "type": "gradient",
+                    "default": "surface.default.skeleton-deep-gradient"
+                }
+            }
+        }
+    },
     "variations": [],
     "props": {
         "shape": {
             "type": "shape",
             "value": "round.m"
-        },
-        "gradient": {
-            "type": "gradient",
-            "default": "surface.default.skeleton-gradient"
         },
         "duration": {
             "type": "float",
