@@ -1,4 +1,546 @@
 {
+    "extra-s": {
+        "display-l": {
+            "value": {
+                "font-size": "3.75rem",
+                "font-weight": "300",
+                "line-height": "4.125rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-l-bold": {
+            "value": {
+                "font-size": "3.75rem",
+                "font-weight": "600",
+                "line-height": "4.125rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-m": {
+            "value": {
+                "font-size": "3rem",
+                "font-weight": "300",
+                "line-height": "3.375rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-m-bold": {
+            "value": {
+                "font-size": "3rem",
+                "font-weight": "600",
+                "line-height": "3.375rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-s": {
+            "value": {
+                "font-size": "2rem",
+                "font-weight": "300",
+                "line-height": "2.5rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-s-bold": {
+            "value": {
+                "font-size": "2rem",
+                "font-weight": "600",
+                "line-height": "2.5rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h1": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "400",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h1-bold": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "600",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h2": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "400",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h2-bold": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "600",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h3": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "400",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h3-bold": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "600",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h4": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "400",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h4-bold": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "600",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h5": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h5-bold": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "body-l": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-l-bold": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-m": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-m-bold": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-s": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "400",
+                "line-height": "1.125rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-s-bold": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "600",
+                "line-height": "1.125rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xs": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "400",
+                "line-height": "0.875rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xs-bold": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "600",
+                "line-height": "0.875rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xxs": {
+            "value": {
+                "font-size": "0.625rem",
+                "font-weight": "400",
+                "line-height": "0.75rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xxs-bold": {
+            "value": {
+                "font-size": "0.625rem",
+                "font-weight": "600",
+                "line-height": "0.75rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-l": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-l-bold": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-m": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-m-bold": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-s": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-s-bold": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-xs": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "400",
+                "line-height": "1rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-xs-bold": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "600",
+                "line-height": "1rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "display-l-medium": {
+            "value": {
+                "font-size": "3.75rem",
+                "font-weight": "500",
+                "line-height": "4.125rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-m-medium": {
+            "value": {
+                "font-size": "3rem",
+                "font-weight": "500",
+                "line-height": "3.375rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "display-s-medium": {
+            "value": {
+                "font-size": "2rem",
+                "font-weight": "500",
+                "line-height": "2.5rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h1-medium": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "500",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h2-medium": {
+            "value": {
+                "font-size": "1.5rem",
+                "font-weight": "500",
+                "line-height": "2rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h3-medium": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "500",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h4-medium": {
+            "value": {
+                "font-size": "1.125rem",
+                "font-weight": "500",
+                "line-height": "1.625rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "header-h5-medium": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Display",
+                "letter-spacing": "normal",
+                "font-style": "normal"
+            }
+        },
+        "body-l-medium": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-m-medium": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-s-medium": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "500",
+                "line-height": "1.125rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xs-medium": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "500",
+                "line-height": "0.875rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "body-xxs-medium": {
+            "value": {
+                "font-size": "0.625rem",
+                "font-weight": "500",
+                "line-height": "0.75rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-l-medium": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-m-medium": {
+            "value": {
+                "font-size": "1rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-s-medium": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-xs-medium": {
+            "value": {
+                "font-size": "0.75rem",
+                "font-weight": "500",
+                "line-height": "1rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-slim": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "400",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-slim-bold": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "600",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        },
+        "text-slim-medium": {
+            "value": {
+                "font-size": "0.875rem",
+                "font-weight": "500",
+                "line-height": "1.25rem",
+                "font-family": "SB Sans Text",
+                "letter-spacing": "-0.02em",
+                "font-style": "normal"
+            }
+        }
+    },
     "s": {
         "display-l": {
             "value": {
