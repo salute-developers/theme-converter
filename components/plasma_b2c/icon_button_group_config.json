@@ -6,7 +6,7 @@
             "id": "xs",
             "parent": null,
             "props": {
-                "iconButtonStyle": {
+                "buttonStyle": {
                     "type": "component_style",
                     "value": "icon-button.xs.default"
                 }
@@ -170,7 +170,7 @@
             "id": "s",
             "parent": null,
             "props": {
-                "iconButtonStyle": {
+                "buttonStyle": {
                     "type": "component_style",
                     "value": "icon-button.s.default"
                 }
@@ -341,7 +341,7 @@
             "id": "m",
             "parent": null,
             "props": {
-                "iconButtonStyle": {
+                "buttonStyle": {
                     "type": "component_style",
                     "value": "icon-button.m.default"
                 }
@@ -503,7 +503,7 @@
             "id": "l",
             "parent": null,
             "props": {
-                "iconButtonStyle": {
+                "buttonStyle": {
                     "type": "component_style",
                     "value": "icon-button.l.default"
                 }
