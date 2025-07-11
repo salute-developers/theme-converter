@@ -342,6 +342,16 @@
             "componentName": "image",
             "styleName": "image",
             "config": "image_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "basic-button-group",
+            "config": "basic_button_group_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "icon-button-group",
+            "config": "icon_button_group_config.json"
         }
     ]
 }
