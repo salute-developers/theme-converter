@@ -308,6 +308,16 @@
             "componentName": "scroll-bar",
             "styleName": "scroll-bar",
             "config": "scroll_bar_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "basic-button-group",
+            "config": "basic_button_group_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "icon-button-group",
+            "config": "icon_button_group_config.json"
         }
     ]
 }
