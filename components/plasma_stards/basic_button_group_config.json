@@ -8,7 +8,7 @@
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
-                    "value": "basic-button.xs.default"
+                    "value": "basic-button.xs"
                 }
             }
         },
@@ -130,7 +130,7 @@
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
-                    "value": "basic-button.s.default"
+                    "value": "basic-button.s"
                 }
             }
         },
@@ -259,7 +259,7 @@
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
-                    "value": "basic-button.m.default"
+                    "value": "basic-button.m"
                 }
             }
         },
@@ -379,7 +379,7 @@
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
-                    "value": "basic-button.l.default"
+                    "value": "basic-button.l"
                 }
             }
         },
