@@ -401,7 +401,7 @@
         },
         {
             "id": "m.dense",
-            "parent": "s",
+            "parent": "m",
             "props": {
                 "spacing": {
                     "type": "dimension",
