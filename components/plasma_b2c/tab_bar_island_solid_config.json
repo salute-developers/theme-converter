@@ -1,0 +1,243 @@
+{
+    "view": {},
+    "props": {
+        "paddingStart": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 8
+        },
+        "contentPaddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingBottom": {
+            "type": "dimension",
+            "value": 2
+        },
+        "itemSpacing": {
+            "type": "dimension",
+            "value": 2
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.m.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.m.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.m.accent"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m.rounded",
+            "parent": "m",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "m.shadow",
+            "parent": "m",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "up.soft.m"
+                }
+            }
+        },
+        {
+            "id": "m.shadow.rounded",
+            "parent": "m.shadow",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "m.divider",
+            "parent": "m",
+            "props": {
+                "dividerThickness": {
+                    "type": "dimension",
+                    "value": 1.0
+                },
+                "dividerColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                }
+            }
+        },
+        {
+            "id": "m.divider.rounded",
+            "parent": "m.divider",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.l.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.l.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-solid.l.accent"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "l.rounded",
+            "parent": "l",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l.shadow",
+            "parent": "m",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "up.soft.m"
+                }
+            }
+        },
+        {
+            "id": "l.shadow.rounded",
+            "parent": "l.shadow",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l.divider",
+            "parent": "l",
+            "props": {
+                "dividerThickness": {
+                    "type": "dimension",
+                    "value": 1.0
+                },
+                "dividerColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                }
+            }
+        },
+        {
+            "id": "l.divider.rounded",
+            "parent": "l.divider",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        }
+    ]
+}
