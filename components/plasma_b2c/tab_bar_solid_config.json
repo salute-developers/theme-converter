@@ -157,7 +157,7 @@
         },
         {
             "id": "l.shadow",
-            "parent": "m",
+            "parent": "l",
             "props": {
                 "shadow": {
                     "type": "shadow",
