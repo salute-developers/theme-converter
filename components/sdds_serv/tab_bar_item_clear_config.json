@@ -1,0 +1,212 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.accent"
+                        }
+                    ]
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": "text.default.accent"
+                        }
+                    ]
+                }
+            }
+        },
+        "secondary": {
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                }
+            }
+        }
+    },
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "labelStyle": {
+            "type": "typography",
+            "value": "body.xxs.bold"
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": "24"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.xs.negative"
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "badge-solid.xs.pilled.negative"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                }
+            }
+        },
+        {
+            "id": "m.label",
+            "parent": "m",
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "bottom"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 64
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": "36"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.s.negative"
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "badge-solid.s.pilled.negative"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.l.negative"
+                }
+            }
+        },
+        {
+            "id": "l.label",
+            "parent": "l",
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "bottom"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            }
+        }
+    ]
+}

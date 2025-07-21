@@ -348,6 +348,36 @@
             "componentName": "button-group",
             "styleName": "icon-button-group",
             "config": "icon_button_group_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-clear",
+            "config": "tab_bar_clear_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-solid",
+            "config": "tab_bar_solid_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-island-clear",
+            "config": "tab_bar_island_clear_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-island-solid",
+            "config": "tab_bar_island_solid_config.json"
+        },
+        {
+            "componentName": "tab-bar-item",
+            "styleName": "tab-bar-item-clear",
+            "config": "tab_bar_item_clear_config.json"
+        },
+        {
+            "componentName": "tab-bar-item",
+            "styleName": "tab-bar-item-solid",
+            "config": "tab_bar_item_solid_config.json"
         }
     ]
 }
