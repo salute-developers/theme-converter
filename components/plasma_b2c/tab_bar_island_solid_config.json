@@ -87,7 +87,7 @@
             "props": {
                 "shadow": {
                     "type": "shadow",
-                    "value": "up.soft.m"
+                    "value": "down.soft.m"
                 }
             }
         },
@@ -189,7 +189,7 @@
             "props": {
                 "shadow": {
                     "type": "shadow",
-                    "value": "up.soft.m"
+                    "value": "down.soft.m"
                 }
             }
         },
