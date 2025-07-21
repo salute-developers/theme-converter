@@ -1,6 +1,16 @@
 {
     "view": {},
     "props": {
+        "topShape": {
+            "type": "shape",
+            "value": "round.l",
+            "adjustment": -2
+        },
+        "bottomShape": {
+            "type": "shape",
+            "value": "round.l",
+            "adjustment": -2
+        },
         "paddingStart": {
             "type": "dimension",
             "value": 8
@@ -66,44 +76,12 @@
             }
         },
         {
-            "id": "m.rounded",
-            "parent": "m",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                }
-            }
-        },
-        {
             "id": "m.shadow",
             "parent": "m",
             "props": {
                 "shadow": {
                     "type": "shadow",
                     "value": "down.soft.m"
-                }
-            }
-        },
-        {
-            "id": "m.shadow.rounded",
-            "parent": "m.shadow",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
                 }
             }
         },
@@ -138,44 +116,12 @@
             }
         },
         {
-            "id": "l.rounded",
-            "parent": "l",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                }
-            }
-        },
-        {
             "id": "l.shadow",
             "parent": "l",
             "props": {
                 "shadow": {
                     "type": "shadow",
                     "value": "down.soft.m"
-                }
-            }
-        },
-        {
-            "id": "l.shadow.rounded",
-            "parent": "l.shadow",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
                 }
             }
         }
