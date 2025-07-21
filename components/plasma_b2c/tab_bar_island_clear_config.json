@@ -108,36 +108,6 @@
             }
         },
         {
-            "id": "m.divider",
-            "parent": "m",
-            "props": {
-                "dividerThickness": {
-                    "type": "dimension",
-                    "value": 1.0
-                },
-                "dividerColor": {
-                    "type": "color",
-                    "default": "surface.default.transparent-tertiary"
-                }
-            }
-        },
-        {
-            "id": "m.divider.rounded",
-            "parent": "m.divider",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                }
-            }
-        },
-        {
             "id": "l",
             "parent": null,
             "view": {
@@ -196,36 +166,6 @@
         {
             "id": "l.shadow.rounded",
             "parent": "l.shadow",
-            "props": {
-                "topShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                },
-                "bottomShape": {
-                    "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2
-                }
-            }
-        },
-        {
-            "id": "l.divider",
-            "parent": "l",
-            "props": {
-                "dividerThickness": {
-                    "type": "dimension",
-                    "value": 1.0
-                },
-                "dividerColor": {
-                    "type": "color",
-                    "default": "surface.default.transparent-tertiary"
-                }
-            }
-        },
-        {
-            "id": "l.divider.rounded",
-            "parent": "l.divider",
             "props": {
                 "topShape": {
                     "type": "shape",
