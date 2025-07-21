@@ -1,0 +1,205 @@
+{
+    "view": {},
+    "props": {
+        "contentPaddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "contentPaddingBottom": {
+            "type": "dimension",
+            "value": 2
+        },
+        "itemSpacing": {
+            "type": "dimension",
+            "value": 2
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.m.label.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.m.label.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.m.label.accent"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "m.rounded",
+            "parent": "m",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "m.shadow",
+            "parent": "m",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "up.soft.m"
+                }
+            }
+        },
+        {
+            "id": "m.shadow.rounded",
+            "parent": "m.shadow",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "m.divider",
+            "parent": "m",
+            "props": {
+                "dividerThickness": {
+                    "type": "dimension",
+                    "value": 1.0
+                },
+                "dividerColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                }
+            }
+        },
+        {
+            "id": "m.divider.rounded",
+            "parent": "m.divider",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.l.label..default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.l.label.secondary"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "tabBarItemStyle": {
+                            "type": "component_style",
+                            "value": "tab-bar-item-clear.l.label.accent"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "id": "l.rounded",
+            "parent": "l",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l.shadow",
+            "parent": "l",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "up.soft.m"
+                }
+            }
+        },
+        {
+            "id": "l.shadow.rounded",
+            "parent": "l.shadow",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        },
+        {
+            "id": "l.divider",
+            "parent": "l",
+            "props": {
+                "dividerThickness": {
+                    "type": "dimension",
+                    "value": 1.0
+                },
+                "dividerColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                }
+            }
+        },
+        {
+            "id": "l.divider.rounded",
+            "parent": "l.divider",
+            "props": {
+                "topShape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                }
+            }
+        }
+    ]
+}
