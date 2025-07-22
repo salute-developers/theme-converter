@@ -351,6 +351,26 @@
         },
         {
             "componentName": "tab-bar",
+            "styleName": "tab-bar-has-label-clear",
+            "config": "tab_bar_has_label_clear_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-has-label-solid",
+            "config": "tab_bar_has_label_solid_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-island-has-label-clear",
+            "config": "tab_bar_island_has_label_clear_config.json"
+        },
+        {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar-island-has-label-solid",
+            "config": "tab_bar_island_has_label_solid_config.json"
+        },
+        {
+            "componentName": "tab-bar",
             "styleName": "tab-bar-clear",
             "config": "tab_bar_clear_config.json"
         },

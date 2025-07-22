@@ -53,7 +53,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.m.default"
+                            "value": "tab-bar-item-clear.m.label.default"
                         }
                     }
                 },
@@ -61,7 +61,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.m.secondary"
+                            "value": "tab-bar-item-clear.m.label.secondary"
                         }
                     }
                 },
@@ -69,7 +69,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.m.accent"
+                            "value": "tab-bar-item-clear.m.label.accent"
                         }
                     }
                 }
@@ -93,7 +93,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.l.default"
+                            "value": "tab-bar-item-clear.l.label.default"
                         }
                     }
                 },
@@ -101,7 +101,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.l.secondary"
+                            "value": "tab-bar-item-clear.l.label.secondary"
                         }
                     }
                 },
@@ -109,7 +109,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-solid.l.accent"
+                            "value": "tab-bar-item-clear.l.label.accent"
                         }
                     }
                 }
