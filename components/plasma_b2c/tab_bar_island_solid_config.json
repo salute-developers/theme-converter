@@ -4,12 +4,12 @@
         "topShape": {
             "type": "shape",
             "value": "round.l",
-            "adjustment": -2
+            "adjustment": 2
         },
         "bottomShape": {
             "type": "shape",
             "value": "round.l",
-            "adjustment": -2
+            "adjustment": 2
         },
         "paddingStart": {
             "type": "dimension",
