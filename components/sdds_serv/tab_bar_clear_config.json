@@ -64,7 +64,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         },
@@ -85,7 +85,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         },
@@ -110,7 +110,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         },
@@ -151,7 +151,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         },
@@ -172,7 +172,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         },
@@ -197,7 +197,7 @@
                 "topShape": {
                     "type": "shape",
                     "value": "round.l",
-                    "adjustment": -2
+                    "adjustment": 2
                 }
             }
         }
