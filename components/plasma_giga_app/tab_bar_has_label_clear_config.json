@@ -122,7 +122,7 @@
                     "props": {
                         "tabBarItemStyle": {
                             "type": "component_style",
-                            "value": "tab-bar-item-clear.l.label..default"
+                            "value": "tab-bar-item-clear.l.label.default"
                         }
                     }
                 },
