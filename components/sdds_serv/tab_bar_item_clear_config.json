@@ -112,10 +112,6 @@
                     "type": "component_style",
                     "value": "counter.xs.negative"
                 },
-                "badgeStyle": {
-                    "type": "component_style",
-                    "value": "badge-solid.xs.pilled.negative"
-                },
                 "indicatorStyle": {
                     "type": "component_style",
                     "value": "indicator.m.negative"
@@ -175,10 +171,6 @@
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.s.negative"
-                },
-                "badgeStyle": {
-                    "type": "component_style",
-                    "value": "badge-solid.s.pilled.negative"
                 },
                 "indicatorStyle": {
                     "type": "component_style",
