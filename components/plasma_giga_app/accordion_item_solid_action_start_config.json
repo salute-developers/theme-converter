@@ -24,6 +24,10 @@
         "iconRotation": {
             "type": "float",
             "value": 180.0
+        },
+        "iconColor": {
+            "type": "color",
+            "default": "text.default.primary"
         }
     },
     "variations": [
