@@ -1,5 +1,5 @@
 {
-    "name": "sdds_serv",
+    "name": "home_os",
     "version": "0.6.0-rc",
     "components": [
         {
@@ -51,6 +51,51 @@
             "componentName": "switch",
             "styleName": "switch",
             "config": "switch_config.json"
+        },
+        {
+            "componentName": "basic-button",
+            "styleName": "basic-button",
+            "config": "basic_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "icon-button",
+            "config": "icon_button_config.json"
+        },
+        {
+            "componentName": "cell",
+            "styleName": "cell",
+            "config": "cell_config.json"
+        },
+        {
+            "componentName": "chip",
+            "styleName": "chip",
+            "config": "chip_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "chip-group-dense",
+            "config": "chip_group_dense_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "chip-group-wide",
+            "config": "chip_group_wide_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "counter",
+            "config": "counter_config.json"
+        },
+        {
+            "componentName": "divider",
+            "styleName": "divider",
+            "config": "divider_config.json"
+        },
+        {
+            "componentName": "indicator",
+            "styleName": "indicator",
+            "config": "indicator_config.json"
         }
     ]
 }

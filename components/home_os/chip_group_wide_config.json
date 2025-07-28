@@ -1,0 +1,249 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 8
+        },
+        "lineSpacing": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "l.pilled",
+            "parent": "l",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.l.pilled.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "m.pilled",
+            "parent": "m",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.m.pilled.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "s.pilled",
+            "parent": "s",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.s.pilled.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "xs.pilled",
+            "parent": "xs",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xs.pilled.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "xxs",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xxs.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xxs.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "xxs.pilled",
+            "parent": "xxs",
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xxs.pilled.default"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "chip.xxs.pilled.secondary"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        }
+    ]
+}

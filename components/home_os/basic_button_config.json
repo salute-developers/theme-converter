@@ -1,0 +1,610 @@
+{
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        }
+    },
+    "view": {
+        "default": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.inverse.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.inverse.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "surface.inverse.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.inverse.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.inverse.solid-default-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.inverse.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.inverse.primary-hover"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.solid-default-hover"
+                        }
+                    ]
+                },
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.inverse.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.inverse.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.inverse.secondary-hover"
+                        }
+                    ]
+                },
+                "loadingAlpha": {
+                    "type": "float",
+                    "value": 0
+                }
+            }
+        },
+        "secondary": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.solid-default-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
+                },
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
+                },
+                "loadingAlpha": {
+                    "type": "float",
+                    "value": 0
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "surface.on-dark.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.on-dark.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.on-dark.solid-default-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.negative-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.negative-hover"
+                        }
+                    ]
+                },
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.on-dark.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
+                },
+                "loadingAlpha": {
+                    "type": "float",
+                    "value": 0
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "surface.on-dark.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.on-dark.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.on-dark.solid-default-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.primary-hover"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.warning",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.warning-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.warning-hover"
+                        }
+                    ]
+                },
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.on-dark.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.on-dark.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.on-dark.secondary-hover"
+                        }
+                    ]
+                },
+                "loadingAlpha": {
+                    "type": "float",
+                    "value": 0
+                }
+            }
+        },
+        "clear": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.solid-default-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.solid-default-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
+                },
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.secondary-hover"
+                        }
+                    ]
+                },
+                "loadingAlpha": {
+                    "type": "float",
+                    "value": 0.06
+                }
+            }
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.bold"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.m.bold"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 84
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "valueMargin": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.bold"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.s.bold"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 71
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 22
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "valueMargin": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        }
+    ]
+}
