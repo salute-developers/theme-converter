@@ -1,0 +1,24 @@
+{
+    "view": {},
+    "props": {},
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "itemOffset": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "avatarStyle": {
+                    "type": "component_style",
+                    "value": "avatar.s"
+                }
+            }
+        }
+    ]
+}
