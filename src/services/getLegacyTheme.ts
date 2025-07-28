@@ -63,6 +63,7 @@ const compatibleTypography: Record<string, string> = {
     plasma_giga_app: 'plasma_giga',
     plasma_stards: 'plasma_stards',
     sdds_insol: 'sdds_insol',
+    plasma_web_ACTUAL_TYPOGRAPHY: 'plasma_web_ACTUAL_TYPOGRAPHY',
 };
 
 const compatibleShape: Record<string, string> = {
