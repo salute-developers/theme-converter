@@ -219,7 +219,7 @@
                 },
                 "iconButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
+                    "value": "icon-button.s.clear"
                 },
                 "checkBoxStyle": {
                     "type": "component_style",
