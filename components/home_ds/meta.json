@@ -1,6 +1,6 @@
 {
-    "name": "home_os",
-    "version": "0.6.0-rc",
+    "name": "home_ds",
+    "version": "0.1.0-rc",
     "components": [
         {
             "componentName": "avatar",
