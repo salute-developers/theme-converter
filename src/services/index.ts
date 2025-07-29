@@ -13,6 +13,7 @@ const themeList = [
     'plasma_stards',
     'plasma_giga',
     'plasma_giga_app',
+    'plasma_homeds',
     'sberHealth',
     'sbermarket_business',
     'sbermarket_metro',
