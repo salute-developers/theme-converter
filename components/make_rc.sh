@@ -33,7 +33,10 @@ done
 
 # Получаем директории: либо переданы явно, либо все в текущей папке
 if [[ ${#INCLUDE_DIRS[@]} -eq 0 ]]; then
-  mapfile -t INCLUDE_DIRS < <(find . -maxdepth 1 -type d ! -name '.' -exec basename {} \;)
+  for d in */; do
+    DIR="${d%/}"
+    INCLUDE_DIRS+=("$DIR")
+  done
 fi
 
 # Удаляем из INCLUDE_DIRS все, что есть в EXCLUDE_DIRS
