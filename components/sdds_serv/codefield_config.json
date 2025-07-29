@@ -1,39 +1,40 @@
 {
-    "view": {
-        "default": {
-          "props": {
-            "captionColor": {
-              "type": "color",
-              "default": "text.default.secondary"
-            },
-            "backgroundColor": {
-                "type": "color",
-                "default": "surface.default.solid-primary"
-              }
-          }
-        },
-        "error": {
-          "props": {
-            "captionColor": {
-              "type": "color",
-              "default": "text.default.negative"
-            },
-            "backgroundColor": {
-                "type": "color",
-                "default": "surface.default.transparent-negative"
-              }
-          }
-        }
-    },
+    "view": {},
     "props": {
-        "itemPadding": {
+        "itemSpacing": {
             "type": "dimension",
             "value": 2
         },
-        "groupPadding": {
+        "groupSpacing": {
             "type": "dimension",
             "value": 4
-        }
+        },
+        "props": {
+            "captionColor": {
+              "type": "color",
+              "default": "text.default.secondary",
+              "states": [
+                {
+                  "state": [
+                    "error"
+                  ],
+                  "value": "text.default.negative"
+                }
+              ]
+            },
+            "backgroundColor": {
+                "type": "color",
+                "default": "surface.default.solid-primary",
+                "states": [
+                    {
+                      "state": [
+                        "error"
+                      ],
+                      "value": "surface.default.transparent-negative"
+                    }
+                  ]
+              }
+          }
     },
     "variations": [
         {
@@ -45,7 +46,7 @@
                     "value": "round.m",
                     "adjustment": 2
                 },
-                "captionPadding": {
+                "captionSpacing": {
                     "type": "dimension",
                     "value": 14
                 },
@@ -90,7 +91,7 @@
                     "type": "shape",
                     "value": "round.m"
                 },
-                "captionPadding": {
+                "captionSpacing": {
                     "type": "dimension",
                     "value": 12
                 },
