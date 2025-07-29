@@ -76,7 +76,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.xxl",
+                    "value": "round.xl",
                     "adjustment": -2
                 }
             }
@@ -133,7 +133,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.l",
+                    "value": "round.m",
                     "adjustment": -2
                 }
             }
@@ -190,7 +190,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.m",
+                    "value": "round.s",
                     "adjustment": -2
                 }
             }
@@ -243,7 +243,7 @@
             "props": {
                 "shape": {
                     "type": "shape",
-                    "value": "round.s",
+                    "value": "round.xs",
                     "adjustment": -2
                 }
             }
