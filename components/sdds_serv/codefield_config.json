@@ -9,32 +9,30 @@
             "type": "dimension",
             "value": 4
         },
-        "props": {
-            "captionColor": {
-              "type": "color",
-              "default": "text.default.secondary",
-              "states": [
-                {
-                  "state": [
-                    "error"
-                  ],
-                  "value": "text.default.negative"
-                }
-              ]
-            },
-            "backgroundColor": {
-                "type": "color",
-                "default": "surface.default.solid-primary",
-                "states": [
-                    {
-                      "state": [
-                        "error"
-                      ],
-                      "value": "surface.default.transparent-negative"
-                    }
-                  ]
+        "captionColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+              {
+                "state": [
+                  "error"
+                ],
+                "value": "text.default.negative"
               }
-          }
+            ]
+          },
+          "backgroundColor": {
+              "type": "color",
+              "default": "surface.default.solid-primary",
+              "states": [
+                  {
+                    "state": [
+                      "error"
+                    ],
+                    "value": "surface.default.transparent-negative"
+                  }
+                ]
+            }
     },
     "variations": [
         {
