@@ -21,8 +21,3 @@
 ```bash
 ./make_rc.sh 0.3.0-rc.zip --exclude vertical1 vertical2
 ```
-
-### 4. Указать конкретные директории и исключить часть из них
-```bash
-./make_rc.sh 0.3.0-rc.zip vertical1 vertical2 vertical3 --exclude vertical2
-```
