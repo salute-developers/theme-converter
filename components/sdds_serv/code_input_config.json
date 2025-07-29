@@ -1,0 +1,169 @@
+{
+    "view": {},
+    "props": {
+        "codeColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "text.default.negative"
+                }
+            ]
+        },
+        "captionColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "text.default.negative"
+                }
+            ]
+        },
+        "strokeColor": {
+            "type": "color",
+            "default": "outline.default.solid-default",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "outline.default.negative"
+                }
+            ]
+        },
+        "fillColor": {
+            "type": "color",
+            "default": "surface.default.solid-default",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "surface.default.negative"
+                }
+            ]
+        }
+    },
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "codeHeight": {
+                    "type": "dimension",
+                    "value": 68
+                },
+                "codeStyle": {
+                    "type": "typography",
+                    "value": "display.s.bold"
+                },
+                "captionStyle": {
+                    "type": "typography",
+                    "value": "header.h5.normal"
+                },
+                "diameter": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "groupSpacing": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "captionPadding": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "codeHeight": {
+                    "type": "dimension",
+                    "value": 92
+                },
+                "codeStyle": {
+                    "type": "typography",
+                    "value": "display.m.bold"
+                },
+                "captionStyle": {
+                    "type": "typography",
+                    "value": "header.h4.normal"
+                },
+                "diameter": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 1.5
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "groupSpacing": {
+                    "type": "dimension",
+                    "value": 28
+                },
+                "captionPadding": {
+                    "type": "dimension",
+                    "value": 28
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "codeHeight": {
+                    "type": "dimension",
+                    "value": 128
+                },
+                "codeStyle": {
+                    "type": "typography",
+                    "value": "display.l.bold"
+                },
+                "captionStyle": {
+                    "type": "typography",
+                    "value": "header.h3.normal"
+                },
+                "diameter": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "itemSpacing": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "groupSpacing": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "captionPadding": {
+                    "type": "dimension",
+                    "value": 40
+                }
+            }
+        }
+    ]
+}
