@@ -67,7 +67,7 @@
                     "type": "typography",
                     "value": "header.h5.normal"
                 },
-                "diameter": {
+                "dotSize": {
                     "type": "dimension",
                     "value": 12
                 },
@@ -105,7 +105,7 @@
                     "type": "typography",
                     "value": "header.h4.normal"
                 },
-                "diameter": {
+                "dotSize": {
                     "type": "dimension",
                     "value": 16
                 },
@@ -143,7 +143,7 @@
                     "type": "typography",
                     "value": "header.h3.normal"
                 },
-                "diameter": {
+                "dotSize": {
                     "type": "dimension",
                     "value": 24
                 },
