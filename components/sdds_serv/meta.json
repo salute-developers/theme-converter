@@ -133,6 +133,11 @@
             "config": "indicator_config.json"
         },
         {
+            "componentName": "loader",
+            "styleName": "loader",
+            "config": "loader_config.json"
+        },
+        {
             "componentName": "overlay",
             "styleName": "overlay",
             "config": "overlay_config.json"

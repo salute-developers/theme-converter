@@ -186,7 +186,9 @@
             "componentName": "text-field",
             "styleName": "text-field-clear",
             "config": "text_field_clear_config.json",
-            "excludePlatforms": ["view-system"]
+            "excludePlatforms": [
+                "view-system"
+            ]
         },
         {
             "componentName": "text-area",
@@ -197,7 +199,9 @@
             "componentName": "text-area",
             "styleName": "text-area-clear",
             "config": "text_area_clear_config.json",
-            "excludePlatforms": ["view-system"]
+            "excludePlatforms": [
+                "view-system"
+            ]
         },
         {
             "componentName": "tooltip",
@@ -278,6 +282,11 @@
             "componentName": "list-item",
             "styleName": "dropdown-menu-item-tight",
             "config": "dropdown_menu_item_tight_config.json"
+        },
+        {
+            "componentName": "loader",
+            "styleName": "loader",
+            "config": "loader_config.json"
         },
         {
             "componentName": "dropdown-menu",
