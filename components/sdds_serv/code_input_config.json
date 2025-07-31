@@ -55,9 +55,13 @@
             "id": "s",
             "parent": null,
             "props": {
-                "codeHeight": {
+                "itemHeight": {
                     "type": "dimension",
-                    "value": 68
+                    "value": 44
+                },
+                "itemWidth": {
+                    "type": "dimension",
+                    "value": 26
                 },
                 "codeStyle": {
                     "type": "typography",
@@ -93,9 +97,13 @@
             "id": "m",
             "parent": null,
             "props": {
-                "codeHeight": {
+                "itemHeight": {
                     "type": "dimension",
-                    "value": 92
+                    "value": 36
+                },
+                "itemWidth": {
+                    "type": "dimension",
+                    "value": 60
                 },
                 "codeStyle": {
                     "type": "typography",
@@ -131,9 +139,13 @@
             "id": "l",
             "parent": null,
             "props": {
-                "codeHeight": {
+                "itemHeight": {
                     "type": "dimension",
-                    "value": 128
+                    "value": 92
+                },
+                "itemWidth": {
+                    "type": "dimension",
+                    "value": 56
                 },
                 "codeStyle": {
                     "type": "typography",
