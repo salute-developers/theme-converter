@@ -259,11 +259,6 @@
             "config": "dropdown_menu_item_tight_config.json"
         },
         {
-            "componentName": "loader",
-            "styleName": "loader",
-            "config": "loader_config.json"
-        },
-        {
             "componentName": "dropdown-menu",
             "styleName": "dropdown-menu-tight",
             "config": "dropdown_menu_tight_config.json"
