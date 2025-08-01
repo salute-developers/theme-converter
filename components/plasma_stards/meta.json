@@ -230,6 +230,11 @@
             "componentName": "button-group",
             "styleName": "basic-button-group",
             "config": "basic_button_group_config.json"
+        },
+        {
+            "componentName": "code-input",
+            "styleName": "code-input",
+            "config": "code_input_config.json"
         }
     ]
 }
