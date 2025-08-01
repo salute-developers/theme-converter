@@ -407,6 +407,11 @@
             "componentName": "tab-bar-item",
             "styleName": "tab-bar-item-solid",
             "config": "tab_bar_item_solid_config.json"
+        },
+        {
+            "componentName": "code-field",
+            "styleName": "code-field",
+            "config": "code_field_config.json"
         }
     ]
 }
