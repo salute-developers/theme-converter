@@ -9,6 +9,18 @@
             "type": "dimension",
             "value": 4
         },
+        "valueColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+              {
+                "state": [
+                  "error"
+                ],
+                "value": "text.default.negative"
+              }
+            ]
+          },
         "captionColor": {
             "type": "color",
             "default": "text.default.secondary",
