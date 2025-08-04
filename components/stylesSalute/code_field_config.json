@@ -21,6 +21,10 @@
               }
             ]
         },
+        "cursorColor": {
+            "type": "color",
+            "default": "text.default.accent"
+        },
         "captionColor": {
             "type": "color",
             "default": "text.default.secondary",
@@ -42,6 +46,12 @@
                       "error"
                     ],
                     "value": "surface.default.transparent-negative"
+                  },
+                  {
+                    "state": [
+                      "activated"
+                    ],
+                    "value": "surface.default.transparent-secondary"
                   }
                 ]
             }
