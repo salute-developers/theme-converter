@@ -1127,7 +1127,7 @@
         "header-h1-medium": {
             "value": {
                 "font-size": "3rem",
-                "font-weight": "400",
+                "font-weight": "500",
                 "line-height": "3.25rem",
                 "font-family": "SB Sans Display",
                 "letter-spacing": "normal",
