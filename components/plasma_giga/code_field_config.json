@@ -39,7 +39,7 @@
           },
           "backgroundColor": {
               "type": "color",
-              "default": "surface.default.solid-primary",
+              "default": "surface.default.transparent-primary",
               "states": [
                   {
                     "state": [
