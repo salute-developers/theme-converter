@@ -28,6 +28,21 @@
             "config": "badge_transparent_config.json"
         },
         {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-clear",
+            "config": "icon_badge_clear_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-solid",
+            "config": "icon_badge_solid_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "icon-badge-transparent",
+            "config": "icon_badge_transparent_config.json"
+        },
+        {
             "componentName": "check-box",
             "styleName": "check-box",
             "config": "checkbox_config.json"
