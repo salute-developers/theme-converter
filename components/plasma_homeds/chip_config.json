@@ -383,7 +383,7 @@
                 },
                 "height": {
                     "type": "dimension",
-                    "value": 24
+                    "value": 20
                 },
                 "paddingStart": {
                     "type": "dimension",
