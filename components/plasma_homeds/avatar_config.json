@@ -78,7 +78,15 @@
                     "type": "shape",
                     "value": "round.xl",
                     "adjustment": -2
-                }
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 0
+                }    
             }
         },
         {
@@ -134,6 +142,14 @@
                 "shape": {
                     "type": "shape",
                     "value": "round.m"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
@@ -191,6 +207,14 @@
                     "type": "shape",
                     "value": "round.m",
                     "adjustment": -2
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
