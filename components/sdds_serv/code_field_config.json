@@ -13,14 +13,14 @@
             "type": "color",
             "default": "text.default.primary",
             "states": [
-              {
-                "state": [
-                  "error"
-                ],
-                "value": "text.default.negative"
-              }
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "text.default.negative"
+                }
             ]
-          },
+        },
         "cursorColor": {
             "type": "color",
             "default": "text.default.accent"
@@ -29,32 +29,44 @@
             "type": "color",
             "default": "text.default.secondary",
             "states": [
-              {
-                "state": [
-                  "error"
-                ],
-                "value": "text.default.negative"
-              }
-            ]
-          },
-          "backgroundColor": {
-              "type": "color",
-              "default": "surface.default.solid-primary",
-              "states": [
-                  {
+                {
                     "state": [
-                      "error"
+                        "error"
+                    ],
+                    "value": "text.default.negative"
+                }
+            ]
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-primary",
+            "states": [
+                {
+                    "state": [
+                        "error"
                     ],
                     "value": "surface.default.transparent-negative"
-                  },
-                  {
+                },
+                {
                     "state": [
-                      "activated"
+                        "activated"
                     ],
                     "value": "surface.default.transparent-secondary"
-                  }
-                ]
-            }
+                }
+            ]
+        },
+        "dotColor": {
+            "type": "color",
+            "default": "surface.default.solid-default",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "surface.default.negative"
+                }
+            ]
+        }
     },
     "variations": [
         {
@@ -85,6 +97,10 @@
                 "valueStyle": {
                     "type": "typography",
                     "value": "body.l.bold"
+                },
+                "dotSize": {
+                    "type": "dimension",
+                    "value": 10
                 }
             }
         },
@@ -130,6 +146,10 @@
                 "valueStyle": {
                     "type": "typography",
                     "value": "body.m.bold"
+                },
+                "dotSize": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
