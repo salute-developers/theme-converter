@@ -57,11 +57,11 @@
             "props": {
                 "itemHeight": {
                     "type": "dimension",
-                    "value": 44
+                    "value": 68
                 },
                 "itemWidth": {
                     "type": "dimension",
-                    "value": 26
+                    "value": 40
                 },
                 "codeStyle": {
                     "type": "typography",
@@ -99,11 +99,11 @@
             "props": {
                 "itemHeight": {
                     "type": "dimension",
-                    "value": 60
+                    "value": 92
                 },
                 "itemWidth": {
                     "type": "dimension",
-                    "value": 36
+                    "value": 56
                 },
                 "codeStyle": {
                     "type": "typography",
@@ -141,11 +141,11 @@
             "props": {
                 "itemHeight": {
                     "type": "dimension",
-                    "value": 92
+                    "value": 128
                 },
                 "itemWidth": {
                     "type": "dimension",
-                    "value": 56
+                    "value": 80
                 },
                 "codeStyle": {
                     "type": "typography",
