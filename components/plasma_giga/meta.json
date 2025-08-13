@@ -422,6 +422,11 @@
             "componentName": "code-input",
             "styleName": "code-input",
             "config": "code_input_config.json"
+        },
+        {
+            "componentName": "drawer",
+            "styleName": "drawer",
+            "config": "drawer_config.json"
         }
     ]
 }

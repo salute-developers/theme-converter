@@ -1,0 +1,56 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "has-background",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary"
+                },
+                "strokeColor": {
+                    "type": "color",
+                    "default": "outline.default.transparent-primary"
+                },
+                "strokeSize": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xl",
+                    "adjustment": 2.0
+                }
+            }
+        },
+        {
+            "id": "no-background",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        }
+    ],
+    "props": {
+        "paddingStart": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 24
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 18
+        }
+    }
+}
