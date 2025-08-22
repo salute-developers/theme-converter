@@ -12,6 +12,10 @@
         "closeAlignment": {
             "type": "value",
             "value": "top-end"
+        },
+        "notificationContentStyle": {
+            "type": "component_style",
+            "value": "notification-content-loose.no-icon.default"
         }
     },
     "variations": [
