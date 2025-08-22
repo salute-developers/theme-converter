@@ -334,11 +334,6 @@
             "config": "icon_button_group_config.json"
         },
         {
-            "componentName": "code-field",
-            "styleName": "code-field",
-            "config": "code_field_config.json"
-        },
-        {
             "componentName": "code-input",
             "styleName": "code-input",
             "config": "code_input_config.json"

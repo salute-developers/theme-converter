@@ -108,7 +108,7 @@
         },
         "buttonGroupStyle": {
             "type": "component_style",
-            "value": "basic-button-group.xxs.dense.default"
+            "value": "basic-button-group.xs.dense.default"
         },
         "contentTopPadding": {
             "type": "dimension",
