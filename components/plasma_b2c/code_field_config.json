@@ -7,7 +7,7 @@
         },
         "groupSpacing": {
             "type": "dimension",
-            "value": 4
+            "value": 8
         },
         "valueColor": {
             "type": "color",
