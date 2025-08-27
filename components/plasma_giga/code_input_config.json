@@ -34,6 +34,12 @@
                         "error"
                     ],
                     "value": "outline.default.negative"
+                },
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "outline.default.accent"
                 }
             ]
         },
@@ -73,7 +79,15 @@
                 },
                 "dotSize": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 12,
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": 16
+                        }
+                    ]
                 },
                 "strokeWidth": {
                     "type": "dimension",
@@ -115,7 +129,15 @@
                 },
                 "dotSize": {
                     "type": "dimension",
-                    "value": 16
+                    "value": 16,
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": 24
+                        }
+                    ]
                 },
                 "strokeWidth": {
                     "type": "dimension",
@@ -157,7 +179,15 @@
                 },
                 "dotSize": {
                     "type": "dimension",
-                    "value": 24
+                    "value": 24,
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": 36
+                        }
+                    ]
                 },
                 "strokeWidth": {
                     "type": "dimension",
