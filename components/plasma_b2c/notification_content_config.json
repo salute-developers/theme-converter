@@ -102,25 +102,13 @@
             "type": "dimension",
             "value": 6
         },
-        "buttonLayout": {
-            "type": "value",
-            "value": "stretch"
-        },
         "textPadding": {
             "type": "dimension",
             "value": 4
         },
-        "buttonGroupStyle": {
-            "type": "component_style",
-            "value": "basic-button-group.xs.dense.default"
-        },
         "contentStartPadding": {
             "type": "dimension",
             "value": 4
-        },
-        "contentTopPadding": {
-            "type": "dimension",
-            "value": 2
         },
         "textBoxBottomPadding": {
             "type": "dimension",
@@ -129,18 +117,26 @@
     },
     "variations": [
         {
-            "id": "no-icon",
+            "id": "button-stretch",
             "parent": null,
             "props": {
-                "iconPlacement": {
+                "buttonLayout": {
                     "type": "value",
-                    "value": "none"
+                    "value": "stretch"
+                },
+                "buttonGroupStyle": {
+                    "type": "component_style",
+                    "value": "basic-button-group.xs.dense.default"
+                },
+                "contentTopPadding": {
+                    "type": "dimension",
+                    "value": 2
                 }
             }
         },
         {
-            "id": "icon-top",
-            "parent": null,
+            "id": "button-stretch.icon-top",
+            "parent": "button-stretch",
             "props": {
                 "iconPlacement": {
                     "type": "value",
@@ -161,8 +157,8 @@
             }
         },
         {
-            "id": "icon-start",
-            "parent": null,
+            "id": "button-stretch.icon-start",
+            "parent": "button-stretch",
             "props": {
                 "iconPlacement": {
                     "type": "value",
@@ -179,6 +175,64 @@
                 "textBoxTopPadding": {
                     "type": "dimension",
                     "value": 3
+                }
+            }
+        },
+        {
+            "id": "no-button-stretch",
+            "parent": null,
+            "props": {
+                "buttonLayout": {
+                    "type": "value",
+                    "value": "normal"
+                },
+                "buttonGroupStyle": {
+                    "type": "component_style",
+                    "value": "basic-button-group.xxs.dense.default"
+                },
+                "contentTopPadding": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "textBoxStartPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "textBoxTopPadding": {
+                    "type": "dimension",
+                    "value": 3
+                }
+            }
+        },
+        {
+            "id": "no-button-stretch.icon-top",
+            "parent": "no-button-stretch",
+            "props": {
+                "iconPlacement": {
+                    "type": "value",
+                    "value": "top"
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "no-button-stretch.icon-start",
+            "parent": "no-button-stretch",
+            "props": {
+                "iconPlacement": {
+                    "type": "value",
+                    "value": "start"
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "buttonGroupStartPadding": {
+                    "type": "dimension",
+                    "value": 32
                 }
             }
         }

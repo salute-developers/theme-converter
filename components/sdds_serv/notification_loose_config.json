@@ -15,7 +15,7 @@
         },
         "notificationContentStyle": {
             "type": "component_style",
-            "value": "notification-content-loose.no-icon.default"
+            "value": "notification-content.no-button-stretch.default"
         }
     },
     "variations": [
