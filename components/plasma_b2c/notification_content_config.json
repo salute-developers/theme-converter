@@ -106,10 +106,6 @@
             "type": "dimension",
             "value": 4
         },
-        "contentStartPadding": {
-            "type": "dimension",
-            "value": 4
-        },
         "textBoxBottomPadding": {
             "type": "dimension",
             "value": 6
@@ -131,6 +127,10 @@
                 "contentTopPadding": {
                     "type": "dimension",
                     "value": 2
+                },
+                "contentStartPadding": {
+                    "type": "dimension",
+                    "value": 4
                 }
             }
         },
