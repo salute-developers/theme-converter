@@ -178,13 +178,8 @@
         },
         {
             "componentName": "notification-content",
-            "styleName": "notification-content-loose",
-            "config": "notification_content_loose_config.json"
-        },
-        {
-            "componentName": "notification-content",
-            "styleName": "notification-content-compact",
-            "config": "notification_content_compact_config.json"
+            "styleName": "notification-content",
+            "config": "notification_content_config.json"
         },
         {
             "componentName": "list",
