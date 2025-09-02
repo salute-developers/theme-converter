@@ -1,0 +1,67 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "closeIconHeaderPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "closeIconOffsetX": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "closeIconOffsetY": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "m.has-shadow",
+            "parent": "m",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.l"
+                }
+            }
+        }
+    ],
+    "props": {
+        "closeIcon": {
+            "type": "icon",
+            "value": "close.24"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "closeColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "closePlacement": {
+            "type": "value",
+            "default": "outer"
+        }
+    }
+}

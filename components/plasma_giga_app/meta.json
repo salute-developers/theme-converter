@@ -425,8 +425,18 @@
         },
         {
             "componentName": "drawer",
-            "styleName": "drawer",
-            "config": "drawer_config.json"
+            "styleName": "drawer-close-none",
+            "config": "drawer_close_none_config.json"
+        },
+        {
+            "componentName": "drawer",
+            "styleName": "drawer-close-inner",
+            "config": "drawer_close_inner_config.json"
+        },
+        {
+            "componentName": "drawer",
+            "styleName": "drawer-close-outer",
+            "config": "drawer_close_outer_config.json"
         }
     ]
 }
