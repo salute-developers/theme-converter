@@ -51,6 +51,10 @@
         "paddingBottom": {
             "type": "dimension",
             "value": 18
+        },
+        "closeIconPlacement": {
+            "type": "value",
+            "value": "none"
         }
     }
 }

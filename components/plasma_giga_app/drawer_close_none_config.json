@@ -59,9 +59,9 @@
             "type": "color",
             "default": "text.default.secondary"
         },
-        "closePlacement": {
+        "closeIconPlacement": {
             "type": "value",
-            "default": "none"
+            "value": "none"
         }
     }
 }
