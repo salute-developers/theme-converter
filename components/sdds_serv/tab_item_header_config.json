@@ -1,0 +1,275 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                }
+            ]
+        },
+        "valueColor": {
+            "type": "color",
+            "default": "text.default.tertiary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.tertiary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.tertiary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                }
+            ]
+        },
+        "actionColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                }
+            ]
+        }
+    },
+    "variations": [
+        {
+            "id": "h1",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "header.h1.normal"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "header.h1.normal"
+                },
+                "valuePadding": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 52
+                },
+                "actionPadding": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "header.h2.normal"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "header.h2.normal"
+                },
+                "valuePadding": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "actionPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "header.h3.normal"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "header.h3.normal"
+                },
+                "valuePadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 30
+                },
+                "actionPadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "header.h4.normal"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "header.h4.normal"
+                },
+                "valuePadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 26
+                },
+                "actionPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "parent": null,
+            "props": {
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "header.h5.normal"
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "header.h5.normal"
+                },
+                "valuePadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "minHeight": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "actionPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        }
+    ]
+}
