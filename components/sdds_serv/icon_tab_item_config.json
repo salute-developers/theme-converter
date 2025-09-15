@@ -98,6 +98,10 @@
                     "value": "text.default.secondary-active"
                 }
             ]
+        },
+        "counterPadding": {
+            "type": "dimension",
+            "value": 0
         }
     },
     "variations": [
@@ -135,9 +139,13 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.s.accent"
+                    "value": "counter.xs.negative"
                 },
-                "counterPadding": {
+                "counterOffsetX": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "counterOffsetY": {
                     "type": "dimension",
                     "value": 8
                 }
@@ -177,11 +185,19 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xs.accent"
+                    "value": "counter.xs.negative"
                 },
                 "counterPadding": {
                     "type": "dimension",
                     "value": 6
+                },
+                "counterOffsetX": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "counterOffsetY": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -219,11 +235,19 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xs.accent"
+                    "value": "counter.xxs.negative"
                 },
                 "counterPadding": {
                     "type": "dimension",
                     "value": 4
+                },
+                "counterOffsetX": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "counterOffsetY": {
+                    "type": "dimension",
+                    "value": 6
                 }
             }
         },
@@ -261,11 +285,19 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xxs.accent"
+                    "value": "counter.xxs.negative"
                 },
                 "counterPadding": {
                     "type": "dimension",
                     "value": 4
+                },
+                "counterOffsetX": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "counterOffsetY": {
+                    "type": "dimension",
+                    "value": 6
                 }
             }
         }
