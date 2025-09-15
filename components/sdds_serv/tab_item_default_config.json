@@ -6,9 +6,23 @@
             "value": 0.4
         },
         "labelColor": {
-             "type": "color",
+            "type": "color",
             "default": "text.default.secondary",
             "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
                 {
                     "state": [
                         "hovered"
@@ -26,20 +40,6 @@
                         "selected"
                     ],
                     "value": "text.default.primary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.primary-hover"
                 }
             ]
         },
@@ -47,6 +47,20 @@
             "type": "color",
             "default": "text.default.tertiary",
             "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
                 {
                     "state": [
                         "hovered"
@@ -64,27 +78,27 @@
                         "selected"
                     ],
                     "value": "text.default.secondary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.secondary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.secondary-hover"
                 }
             ]
         },
         "startContentColor": {
-             "type": "color",
+            "type": "color",
             "default": "text.default.secondary",
             "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
                 {
                     "state": [
                         "hovered"
@@ -102,27 +116,27 @@
                         "selected"
                     ],
                     "value": "text.default.primary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.primary-hover"
                 }
             ]
         },
         "endContentColor": {
-             "type": "color",
+            "type": "color",
             "default": "text.default.secondary",
             "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
                 {
                     "state": [
                         "hovered"
@@ -140,20 +154,6 @@
                         "selected"
                     ],
                     "value": "text.default.primary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.primary-hover"
                 }
             ]
         },
@@ -220,6 +220,10 @@
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.s.accent"
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
                 }
             }
         },
@@ -294,6 +298,10 @@
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xs.accent"
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
                 }
             }
         },
@@ -368,6 +376,10 @@
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xs.accent"
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
                 }
             }
         },
@@ -442,6 +454,10 @@
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xxs.accent"
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.16"
                 }
             }
         },

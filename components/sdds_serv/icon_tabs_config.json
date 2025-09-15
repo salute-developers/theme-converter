@@ -1,15 +1,15 @@
 {
     "view": {},
     "props": {
-        "tabsMinSpacing": {
+        "minSpacing": {
             "type": "dimension",
             "value": 0
         },
-        "tabIndicatorThickness": {
+        "indicatorThickness": {
             "type": "dimension",
             "value": 2
         },
-        "expandTextColor": {
+        "disclosureColor": {
             "type": "color",
             "default": "text.default.primary",
             "states": [
@@ -27,13 +27,13 @@
                 }
             ]
         },
-        "tabIndicatorColor": {
+        "indicatorColor": {
             "type": "color",
             "default": "surface.default.solid-default"
         },
         "dividerStyle": {
             "type": "component_style",
-            "value": "divider.default"
+            "value": "divider"
         },
         "overflowNextIcon": {
             "type": "icon",
@@ -50,6 +50,10 @@
         "overflowPrevIconColor": {
             "type": "color",
             "default": "text.default.secondary"
+        },
+        "disclosureIcon": {
+            "type": "icon",
+            "value": "dots.horizontal.outline.24"
         }
     },
     "variations": [
@@ -59,9 +63,9 @@
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
-                    "value": "tab-item-icon.l"
+                    "value": "icon-tab-item.l"
                 },
-                "expandTextStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.l.bold"
                 },
@@ -97,9 +101,9 @@
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
-                    "value": "tab-item-icon.m"
+                    "value": "icon-tab-item.m"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.m.bold"
                 },
@@ -135,9 +139,9 @@
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
-                    "value": "tab-item-icon.m"
+                    "value": "icon-tab-item.m"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.m.bold"
                 },
@@ -173,9 +177,9 @@
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
-                    "value": "tab-item-icon.xs"
+                    "value": "icon-tab-item.xs"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.xs.bold"
                 },

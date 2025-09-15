@@ -1,11 +1,11 @@
 {
     "view": {},
     "props": {
-        "tabIndicatorThickness": {
+        "indicatorThickness": {
             "type": "dimension",
             "value": 2
         },
-        "expandTextColor": {
+        "disclosureColor": {
             "type": "color",
             "default": "text.default.primary",
             "states": [
@@ -23,13 +23,13 @@
                 }
             ]
         },
-        "tabIndicatorColor": {
+        "indicatorColor": {
             "type": "color",
             "default": "surface.default.solid-default"
         },
         "dividerStyle": {
             "type": "component_style",
-            "value": "divider.default"
+            "value": "divider"
         },
         "overflowNextIcon": {
             "type": "icon",
@@ -61,7 +61,7 @@
                     "type": "component_style",
                     "value": "tab-item-header.h1"
                 },
-                "expandTextStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "header.h1.bold"
                 },
@@ -69,7 +69,7 @@
                     "type": "component_style",
                     "value": "dropdown-menu-normal.l"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 56
                 }
@@ -83,7 +83,7 @@
                     "type": "component_style",
                     "value": "tab-item-header.h2"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "header.h2.bold"
                 },
@@ -91,7 +91,7 @@
                     "type": "component_style",
                     "value": "dropdown-menu-normal.m"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 40
                 }
@@ -105,7 +105,7 @@
                     "type": "component_style",
                     "value": "tab-item-header.h3"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "header.h3.bold"
                 },
@@ -113,7 +113,7 @@
                     "type": "component_style",
                     "value": "dropdown-menu-normal.s"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 36
                 }
@@ -127,7 +127,7 @@
                     "type": "component_style",
                     "value": "tab-item-header.h4"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "header.h4.bold"
                 },
@@ -135,7 +135,7 @@
                     "type": "component_style",
                     "value": "dropdown-menu-normal.xs"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 32
                 }
@@ -149,7 +149,7 @@
                     "type": "component_style",
                     "value": "tab-item-header.h5"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "header.h5.bold"
                 },
@@ -157,7 +157,7 @@
                     "type": "component_style",
                     "value": "dropdown-menu-normal.xs"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 28
                 }

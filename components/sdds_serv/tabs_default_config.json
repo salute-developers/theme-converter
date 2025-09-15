@@ -1,12 +1,12 @@
 {
     "view": {},
     "props": {
-        "tabIndicatorThickness": {
+        "indicatorThickness": {
             "type": "dimension",
             "value": 2
         },
-        "expandTextColor": {
-             "type": "color",
+        "disclosureColor": {
+            "type": "color",
             "default": "text.default.primary",
             "states": [
                 {
@@ -23,13 +23,13 @@
                 }
             ]
         },
-        "tabIndicatorColor": {
+        "indicatorColor": {
             "type": "color",
             "default": "surface.default.solid-default"
         },
         "dividerStyle": {
             "type": "component_style",
-            "value": "divider.default"
+            "value": "divider"
         },
         "overflowNextIcon": {
             "type": "icon",
@@ -57,7 +57,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.l"
                 },
-                "expandTextStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.l.bold"
                 },
@@ -75,7 +75,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.l.vertical"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 0
                 },
@@ -93,7 +93,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.l.horizontal"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 28
                 },
@@ -111,7 +111,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.m"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.m.bold"
                 },
@@ -129,7 +129,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.m.vertical"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 0
                 },
@@ -147,7 +147,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.m.horizontal"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 28
                 },
@@ -165,7 +165,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.m"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.m.bold"
                 },
@@ -183,7 +183,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.s.vertical"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 0
                 },
@@ -201,7 +201,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.s.horizontal"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 28
                 },
@@ -219,7 +219,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.xs"
                 },
-                "expandStyle": {
+                "disclosureTextStyle": {
                     "type": "typography",
                     "value": "body.xs.bold"
                 },
@@ -237,7 +237,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.xs.vertical"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 0
                 },
@@ -255,7 +255,7 @@
                     "type": "component_style",
                     "value": "tab-item-default.xs.horizontal"
                 },
-                "tabsMinSpacing": {
+                "minSpacing": {
                     "type": "dimension",
                     "value": 28
                 },

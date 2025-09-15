@@ -11,6 +11,20 @@
             "states": [
                 {
                     "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
@@ -26,20 +40,6 @@
                         "selected"
                     ],
                     "value": "text.default.primary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.primary-hover"
                 }
             ]
         },
@@ -49,6 +49,20 @@
             "states": [
                 {
                     "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
@@ -64,20 +78,6 @@
                         "selected"
                     ],
                     "value": "text.default.primary"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.primary-hover"
                 }
             ]
         },
@@ -128,6 +128,18 @@
                 "paddingEnd": {
                     "type": "dimension",
                     "value": 18
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.s.accent"
+                },
+                "counterPadding": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -158,6 +170,18 @@
                 "paddingEnd": {
                     "type": "dimension",
                     "value": 14
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.xs.accent"
+                },
+                "counterPadding": {
+                    "type": "dimension",
+                    "value": 6
                 }
             }
         },
@@ -188,6 +212,18 @@
                 "paddingEnd": {
                     "type": "dimension",
                     "value": 10
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.24"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.xs.accent"
+                },
+                "counterPadding": {
+                    "type": "dimension",
+                    "value": 4
                 }
             }
         },
@@ -218,6 +254,18 @@
                 "paddingEnd": {
                     "type": "dimension",
                     "value": 10
+                },
+                "actionIcon": {
+                    "type": "icon",
+                    "value": "close.16"
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.xxs.accent"
+                },
+                "counterPadding": {
+                    "type": "dimension",
+                    "value": 4
                 }
             }
         }
