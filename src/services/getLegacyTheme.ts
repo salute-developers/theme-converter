@@ -63,12 +63,16 @@ const compatibleTypography: Record<string, string> = {
     plasma_giga_app: 'plasma_giga',
     plasma_stards: 'plasma_stards',
     sdds_insol: 'sdds_insol',
-    plasma_web_ACTUAL_TYPOGRAPHY: 'plasma_web_ACTUAL_TYPOGRAPHY',
+    plasma_web_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
+    plasma_b2c_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
+    plasma_homeds: 'plasma_ACTUAL_TYPOGRAPHY',
 };
 
 const compatibleShape: Record<string, string> = {
     plasma_b2c: 'stylesSalute',
     plasma_web: 'stylesSalute',
+    plasma_web_ACTUAL_TYPOGRAPHY: 'stylesSalute',
+    plasma_b2c_ACTUAL_TYPOGRAPHY: 'stylesSalute',
     stylesSalute: 'stylesSalute',
     plasma_stards: 'stylesSalute',
     plasma_homeds: 'stylesSalute',
@@ -91,6 +95,7 @@ const compatibleSpacing: Record<string, string> = {
 const compatibleFontFamily: Record<string, string> = {
     sbermarket: 'sbermarket',
     plasma_giga_app: 'plasma_giga_app',
+    plasma_homeds: 'plasma_homeds',
 };
 
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
