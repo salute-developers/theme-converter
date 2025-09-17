@@ -68,6 +68,16 @@
             "config": "switch_config.json"
         },
         {
+            "componentName": "tab-bar",
+            "styleName": "tab-bar",
+            "config": "tab_bar_config.json"
+        },
+        {
+            "componentName": "tab-bar-item",
+            "styleName": "tab-bar-item",
+            "config": "tab_bar_item_config.json"
+        },
+        {
             "componentName": "basic-button",
             "styleName": "basic-button",
             "config": "basic_button_config.json"
