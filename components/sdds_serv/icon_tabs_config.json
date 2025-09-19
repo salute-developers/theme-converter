@@ -82,6 +82,14 @@
                 "orientation": {
                     "type": "value",
                     "value": "vertical"
+                },
+                "overflowNextIcon": {
+                    "type": "icon",
+                    "value": "disclosure.down.outline.24"
+                },
+                "overflowPrevIcon": {
+                    "type": "icon",
+                    "value": "disclosure.up.outline.24"
                 }
             }
         },
@@ -120,6 +128,14 @@
                 "orientation": {
                     "type": "value",
                     "value": "vertical"
+                },
+                "overflowNextIcon": {
+                    "type": "icon",
+                    "value": "disclosure.down.outline.24"
+                },
+                "overflowPrevIcon": {
+                    "type": "icon",
+                    "value": "disclosure.up.outline.24"
                 }
             }
         },
@@ -158,6 +174,14 @@
                 "orientation": {
                     "type": "value",
                     "value": "vertical"
+                },
+                "overflowNextIcon": {
+                    "type": "icon",
+                    "value": "disclosure.down.outline.24"
+                },
+                "overflowPrevIcon": {
+                    "type": "icon",
+                    "value": "disclosure.up.outline.24"
                 }
             }
         },
@@ -196,6 +220,14 @@
                 "orientation": {
                     "type": "value",
                     "value": "vertical"
+                },
+                "overflowNextIcon": {
+                    "type": "icon",
+                    "value": "disclosure.down.outline.24"
+                },
+                "overflowPrevIcon": {
+                    "type": "icon",
+                    "value": "disclosure.up.outline.24"
                 }
             }
         },
