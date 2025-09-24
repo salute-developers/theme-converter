@@ -71,6 +71,7 @@ const compatibleTypography: Record<string, string> = {
 const compatibleShape: Record<string, string> = {
     plasma_b2c: 'stylesSalute',
     plasma_web: 'stylesSalute',
+    plasma_infra: 'stylesSalute',
     plasma_b2c_ACTUAL_TYPOGRAPHY: 'stylesSalute',
     stylesSalute: 'stylesSalute',
     plasma_stards: 'stylesSalute',
