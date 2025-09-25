@@ -433,6 +433,36 @@
             "componentName": "drawer",
             "styleName": "drawer-close-outer",
             "config": "drawer_close_outer_config.json"
+        },
+        {
+            "componentName": "tabs",
+            "styleName": "tabs-default",
+            "config": "tabs_default_config.json"
+        },
+        {
+            "componentName": "tabs",
+            "styleName": "icon-tabs",
+            "config": "icon_tabs_config.json"
+        },
+        {
+            "componentName": "tabs",
+            "styleName": "tabs-header",
+            "config": "tabs_header_config.json"
+        },
+        {
+            "componentName": "tab-item",
+            "styleName": "tab-item-default",
+            "config": "tab_item_default_config.json"
+        },
+        {
+            "componentName": "icon-tab-item",
+            "styleName": "icon-tab-item",
+            "config": "icon_tab_item_config.json"
+        },
+        {
+            "componentName": "tab-item",
+            "styleName": "tab-item-header",
+            "config": "tab_item_header_config.json"
         }
     ]
 }
