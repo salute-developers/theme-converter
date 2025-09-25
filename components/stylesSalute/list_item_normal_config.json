@@ -1,9 +1,17 @@
 {
     "view": {},
     "props": {
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
         "titleColor": {
             "type": "color",
             "default": "text.default.primary"
+        },
+        "subtitleColor": {
+            "type": "color",
+            "default": "text.default.secondary"
         },
         "disclosureIconColor": {
             "type": "color",
@@ -44,6 +52,14 @@
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.l.normal"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
                 },
                 "disclosureIcon": {
                     "type": "icon",
@@ -88,6 +104,14 @@
                     "type": "typography",
                     "value": "body.l.normal"
                 },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
                 "disclosureIcon": {
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
@@ -129,6 +153,14 @@
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.m.normal"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
                 },
                 "disclosureIcon": {
                     "type": "icon",
@@ -173,6 +205,14 @@
                     "type": "typography",
                     "value": "body.s.normal"
                 },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
                 "disclosureIcon": {
                     "type": "icon",
                     "value": "disclosure.right.outline.16"
@@ -212,6 +252,14 @@
                     "value": 6.0
                 },
                 "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "subtitleStyle": {
                     "type": "typography",
                     "value": "body.xs.normal"
                 },
