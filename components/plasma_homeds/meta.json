@@ -121,6 +121,16 @@
             "componentName": "indicator",
             "styleName": "indicator",
             "config": "indicator_config.json"
+        },
+        {
+            "componentName": "circular-progress-bar",
+            "styleName": "circular-progress-bar",
+            "config": "circular_progress_bar_config.json"
+        },
+        {
+            "componentName": "tooltip",
+            "styleName": "tooltip",
+            "config": "tooltip_config.json"
         }
     ]
 }
