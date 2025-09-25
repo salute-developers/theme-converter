@@ -5,6 +5,14 @@
             "type": "dimension",
             "value": 2
         },
+        "dividerEnabled": {
+            "type": "boolean",
+            "value": false
+        },
+        "indicatorEnabled": {
+            "type": "boolean",
+            "value": false
+        },
         "disclosureColor": {
             "type": "color",
             "default": "text.default.primary",

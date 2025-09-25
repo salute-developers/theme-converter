@@ -102,6 +102,82 @@
         "actionIcon": {
             "type": "icon",
             "value": "close.36"
+        },
+        "startContentColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
+        },
+        "endContentColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
         }
     },
     "variations": [
@@ -120,10 +196,6 @@
                 "valuePadding": {
                     "type": "dimension",
                     "value": 16
-                },
-                "minHeight": {
-                    "type": "dimension",
-                    "value": 52
                 },
                 "actionPadding": {
                     "type": "dimension",
@@ -159,10 +231,6 @@
                     "type": "dimension",
                     "value": 14
                 },
-                "minHeight": {
-                    "type": "dimension",
-                    "value": 36
-                },
                 "actionPadding": {
                     "type": "dimension",
                     "value": 12
@@ -192,10 +260,6 @@
                 "valuePadding": {
                     "type": "dimension",
                     "value": 12
-                },
-                "minHeight": {
-                    "type": "dimension",
-                    "value": 30
                 },
                 "actionPadding": {
                     "type": "dimension",
@@ -231,10 +295,6 @@
                     "type": "dimension",
                     "value": 10
                 },
-                "minHeight": {
-                    "type": "dimension",
-                    "value": 26
-                },
                 "actionPadding": {
                     "type": "dimension",
                     "value": 8
@@ -268,10 +328,6 @@
                 "valuePadding": {
                     "type": "dimension",
                     "value": 10
-                },
-                "minHeight": {
-                    "type": "dimension",
-                    "value": 24
                 },
                 "actionPadding": {
                     "type": "dimension",

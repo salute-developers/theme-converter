@@ -1,6 +1,14 @@
 {
     "view": {},
     "props": {
+        "dividerEnabled": {
+            "type": "boolean",
+            "value": true
+        },
+        "indicatorEnabled": {
+            "type": "boolean",
+            "value": true
+        },
         "indicatorThickness": {
             "type": "dimension",
             "value": 2
