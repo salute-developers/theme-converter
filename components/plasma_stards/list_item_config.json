@@ -11,6 +11,26 @@
                 }
             ]
         },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "text.inverse.secondary"
+                }
+            ]
+        },
+        "subtitleColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "text.inverse.secondary"
+                }
+            ]
+        },
         "disclosureIconColor": {
             "type": "color",
             "default": "text.default.secondary",
@@ -62,6 +82,14 @@
                     "type": "typography",
                     "value": "body.l.bold"
                 },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
                 "disclosureIcon": {
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
@@ -105,6 +133,14 @@
                     "type": "typography",
                     "value": "body.m.bold"
                 },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
                 "disclosureIcon": {
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
@@ -146,6 +182,14 @@
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.s.bold"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
                 },
                 "disclosureIcon": {
                     "type": "icon",
@@ -189,6 +233,14 @@
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.xs.bold"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
                 },
                 "disclosureIcon": {
                     "type": "icon",
