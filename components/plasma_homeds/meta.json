@@ -121,6 +121,11 @@
             "componentName": "indicator",
             "styleName": "indicator",
             "config": "indicator_config.json"
+        },
+        {
+            "componentName": "wheel",
+            "styleName": "wheel",
+            "config": "wheel_config.json"
         }
     ]
 }

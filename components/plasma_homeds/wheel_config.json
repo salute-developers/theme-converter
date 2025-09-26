@@ -7,15 +7,15 @@
             "props": {
                 "itemTextStyle": {
                     "type": "typography",
-                    "value": "header.h1.normal"
+                    "value": "header.h1.bold"
                 },
                 "itemTextAfterStyle": {
                     "type": "typography",
-                    "value": "header.h1.normal"
+                    "value": "header.h1.bold"
                 },
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.s.normal"
+                    "value": "body.s.bold"
                 },
                 "itemTextAfterPadding": {
                     "type": "dimension",
@@ -79,7 +79,7 @@
     "props": {
         "visibleItemsCount": {
             "type": "value",
-            "value": "5"
+            "value": "3"
         },
         "wheelCount": {
             "type": "value",
