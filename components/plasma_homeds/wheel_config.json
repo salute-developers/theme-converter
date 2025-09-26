@@ -23,7 +23,7 @@
                 },
                 "itemMinSpacing": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 20.0
                 },
                 "descriptionPadding": {
                     "type": "dimension",
