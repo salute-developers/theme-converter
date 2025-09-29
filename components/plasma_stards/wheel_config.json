@@ -132,6 +132,10 @@
         "separatorColor": {
             "type": "color",
             "default": "text.default.primary"
+        },
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
         }
     }
 }
