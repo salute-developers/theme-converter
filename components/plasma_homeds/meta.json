@@ -88,9 +88,29 @@
             "config": "icon_button_config.json"
         },
         {
+            "componentName": "button-group",
+            "styleName": "basic-button-group",
+            "config": "basic_button_group_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "icon-button-group",
+            "config": "icon_button_group_config.json"
+        },
+        {
+            "componentName": "card",
+            "styleName": "card",
+            "config": "card_config.json"
+        },
+        {
             "componentName": "cell",
             "styleName": "cell",
             "config": "cell_config.json"
+        },
+        {
+            "componentName": "circular-progress-bar",
+            "styleName": "circular-progress-bar",
+            "config": "circular_progress_bar_config.json"
         },
         {
             "componentName": "chip",
@@ -121,6 +141,41 @@
             "componentName": "indicator",
             "styleName": "indicator",
             "config": "indicator_config.json"
+        },
+        {
+            "componentName": "image",
+            "styleName": "image",
+            "config": "image_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list",
+            "config": "list_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item",
+            "config": "list_item_config.json"
+        },
+        {
+            "componentName": "loader",
+            "styleName": "loader",
+            "config": "loader_config.json"
+        },
+        {
+            "componentName": "spinner",
+            "styleName": "spinner",
+            "config": "spinner_config.json"
+        },
+        {
+            "componentName": "text-field",
+            "styleName": "text-field",
+            "config": "text_field_config.json"
+        },
+        {
+            "componentName": "tooltip",
+            "styleName": "tooltip",
+            "config": "tooltip_config.json"
         },
         {
             "componentName": "wheel",

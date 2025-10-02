@@ -1,0 +1,16 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.s"
+                }
+             }
+        }
+    ],
+    "props": {}
+}
