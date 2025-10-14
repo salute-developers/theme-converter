@@ -1,5 +1,62 @@
 {
-    "view": {},
+    "view": {
+        "default": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.solid-default"
+                        },
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
+                }
+            }
+        },
+        "clear": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.solid-default"
+                        },
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
+                }
+            }
+        }
+    },
     "props": {
         "loadingAlpha": {
             "type": "float",
