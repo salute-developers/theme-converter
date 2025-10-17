@@ -225,6 +225,16 @@
             "config": "rect_skeleton_config.json"
         },
         {
+            "componentName": "note",
+            "styleName": "note",
+            "config": "note_config.json"
+        },
+        {
+            "componentName": "note-compact",
+            "styleName": "note-compact",
+            "config": "note_compact_config.json"
+        },
+        {
             "componentName": "notification",
             "styleName": "notification-compact",
             "config": "notification_compact_config.json"
