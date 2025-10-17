@@ -347,6 +347,64 @@
                     ]
                 }
             }
+        },
+        "info": {
+            "props": {
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.info",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.info-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.info-hover"
+                        }
+                    ]
+                },
+                "spinnerColor": {
+                    "type": "color",
+                    "default": "text.default.info",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.info-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.info-hover"
+                        }
+                    ]
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.info",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.info-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.info-hover"
+                        }
+                    ]
+                }
+            }
         }
     },
     "props": {
