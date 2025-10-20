@@ -1,0 +1,99 @@
+{
+    "view": {},
+    "props": {
+        "backIcon": {
+            "type": "icon",
+            "value": "disclosure.left.outline.24"
+        },
+        "backIconMargin": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 20.0
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 20.0
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 20.0
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 20.0
+        },
+        "horizontalSpacing": {
+            "type": "dimension",
+            "value": 16.0
+        },
+        "textBlockTopMargin": {
+            "type": "dimension",
+            "value": 16.0
+        }
+    },
+    "variations": [
+        {
+            "id": "no-background",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        },
+        {
+            "id": "no-background.rounded",
+            "parent": "no-background",
+            "props": {
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l"
+                }
+            }
+        },
+        {
+            "id": "has-background",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-card"
+                }
+            }
+        },
+        {
+            "id": "has-background.rounded",
+            "parent": "has-background",
+            "props": {
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l"
+                }
+            }
+        },
+        {
+            "id": "has-background.shadow",
+            "parent": "has-background",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.m"
+                }
+            }
+        },
+        {
+            "id": "has-background.shadow.rounded",
+            "parent": "has-background.shadow",
+            "props": {
+                "bottomShape": {
+                    "type": "shape",
+                    "value": "round.l"
+                }
+            }
+        }
+    ]
+}

@@ -473,6 +473,16 @@
             "componentName": "tab-item",
             "styleName": "tab-item-header",
             "config": "tab_item_header_config.json"
+        },
+        {
+            "componentName": "navigation-bar",
+            "styleName": "navigation-bar-main-page",
+            "config": "navigation_bar_main_page_config.json"
+        },
+        {
+            "componentName": "navigation-bar",
+            "styleName": "navigation-bar-internal-page",
+            "config": "navigation_bar_internal_page_config.json"
         }
     ]
 }
