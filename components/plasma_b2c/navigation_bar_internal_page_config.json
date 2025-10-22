@@ -9,6 +9,22 @@
             "type": "dimension",
             "value": 4.0
         },
+        "backIconColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "actionStartColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "actionEndColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
         "paddingStart": {
             "type": "dimension",
             "value": 20.0
