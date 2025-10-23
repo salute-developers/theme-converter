@@ -1,6 +1,10 @@
 {
     "view": {},
     "props": {
+        "textStyle": {
+            "type": "typography",
+            "value": "body.l.bold"
+        },
         "backIcon": {
             "type": "icon",
             "value": "disclosure.left.outline.24"

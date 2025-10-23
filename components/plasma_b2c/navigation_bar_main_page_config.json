@@ -1,6 +1,10 @@
 {
     "view": {},
     "props": {
+        "textStyle": {
+            "type": "typography",
+            "value": "body.l.bold"
+        },
         "actionStartColor": {
             "type": "color",
             "default": "text.default.primary"
