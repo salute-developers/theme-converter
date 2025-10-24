@@ -14,6 +14,12 @@
                         "checked"
                     ],
                     "value": "surface.default.accent"
+                },
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.inverse.transparent.tertiary"
                 }
             ]
         },
@@ -27,11 +33,27 @@
         },
         "labelColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.inverse.primary"
+                }
+            ]
         },
         "descriptionColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.inverse.secondary"
+                }
+            ]
         },
         "toggleTrackShape": {
             "type": "shape",
@@ -65,7 +87,7 @@
                 },
                 "descriptionPadding": {
                     "type": "dimension",
-                    "value": 4
+                    "value": 7
                 },
                 "toggleTrackWidth": {
                     "type": "dimension",
@@ -82,6 +104,44 @@
                 "toggleThumbHeight": {
                     "type": "dimension",
                     "value": 24
+                }
+            }
+        },
+        {
+            "id": "l.has-background",
+            "parent": "l",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.solid.default"
+                        }
+                    ]
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 10
                 }
             }
         },
@@ -103,7 +163,7 @@
                 },
                 "descriptionPadding": {
                     "type": "dimension",
-                    "value": 4
+                    "value": 8
                 },
                 "toggleTrackWidth": {
                     "type": "dimension",
@@ -120,6 +180,45 @@
                 "toggleThumbHeight": {
                     "type": "dimension",
                     "value": 24
+                }
+            }
+        },
+        {
+            "id": "m.has-background",
+            "parent": "m",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.solid.default"
+                        }
+                    ]
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -141,7 +240,7 @@
                 },
                 "descriptionPadding": {
                     "type": "dimension",
-                    "value": 4
+                    "value": 9
                 },
                 "toggleTrackWidth": {
                     "type": "dimension",
@@ -158,6 +257,44 @@
                 "toggleThumbHeight": {
                     "type": "dimension",
                     "value": 24
+                }
+            }
+        },
+        {
+            "id": "s.has-background",
+            "parent": "s",
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.solid.default"
+                        }
+                    ]
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 6
                 }
             }
         }
