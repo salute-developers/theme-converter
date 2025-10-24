@@ -85,17 +85,48 @@
             "type": "value",
             "value": "3"
         },
+        "itemSelectorEnabled": {
+            "type": "boolean",
+            "value": true
+        },
+        "itemSelectorColor": {
+            "type": "color",
+            "default": "surface.default.solid-default"
+        },
+        "itemSelectorShape": {
+            "type": "shape",
+            "value": "round.l",
+            "adjustment": -2
+        },
         "itemTextColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "text.inverse.primary"
+                }
+            ]
         },
         "itemTextAfterColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "text.inverse.secondary"
+                }
+            ]
         },
         "descriptionColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": ["focused"],
+                    "value": "text.inverse.primary"
+                }
+            ]
         },
         "controlIconUp": {
             "type": "icon",
