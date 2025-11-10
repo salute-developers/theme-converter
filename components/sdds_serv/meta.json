@@ -483,6 +483,16 @@
             "componentName": "navigation-bar",
             "styleName": "navigation-bar-internal-page",
             "config": "navigation_bar_internal_page_config.json"
+        },
+        {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-horizontal",
+            "config": "pagination_dots_horizontal_config.json"
+        },
+                {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-vertical",
+            "config": "pagination_dots_vertical_config.json"
         }
     ]
 }
