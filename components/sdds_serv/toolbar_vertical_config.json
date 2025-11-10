@@ -1,0 +1,196 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        },
+        "orientation": {
+                    "type": "value",
+                    "value": "vertical"
+                }
+    },
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xl"
+                },
+                "slotPadding": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "dividerMargin": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            }
+        },
+        {
+            "id": "l.has-shadow",
+            "parent": "l",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.s"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "slotPadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "dividerMargin": {
+                    "type": "dimension",
+                    "value": 10
+                }
+            }
+        },
+        {
+            "id": "m.has-shadow",
+            "parent": "m",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.s"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "slotPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dividerMargin": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "s.has-shadow",
+            "parent": "s",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.s"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "slotPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dividerMargin": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            }
+        },
+        {
+            "id": "xs.has-shadow",
+            "parent": "xs",
+            "props": {
+                "shadow": {
+                    "type": "shadow",
+                    "value": "down.soft.s"
+                }
+            }
+        }
+    ]
+}
