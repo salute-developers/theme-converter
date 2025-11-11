@@ -17,10 +17,6 @@
             "type": "color",
             "default": "text.default.secondary"
         },
-        "backgroundColor": {
-            "type": "color",
-            "default": "surface.default.transparent-secondary"
-        },
         "disableAlpha": {
             "type": "float",
             "value": 0.4
@@ -31,10 +27,6 @@
             "id": "s",
             "parent": null,
             "props": {
-                "shape": {
-                    "type": "shape",
-                    "value": "round.xl"
-                },
                 "height": {
                     "type": "dimension",
                     "value": 48.0
@@ -58,6 +50,36 @@
                 "disclosureIcon": {
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 10
+                }
+            }
+        },
+        {
+            "id": "s.has-background",
+            "parent": "s",
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xl"
                 },
                 "paddingStart": {
                     "type": "dimension",

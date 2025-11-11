@@ -174,8 +174,7 @@
         },
         "shape": {
           "type": "shape",
-          "value": "round.m",
-          "adjustment": -2.0
+          "value": "round.m"
         },
         "boxPaddingStart": {
           "type": "dimension",
@@ -355,7 +354,7 @@
         },
         "shape": {
           "type": "shape",
-          "value": "round.m"
+          "value": "round.l"
         },
         "boxPaddingStart": {
           "type": "dimension",
@@ -535,8 +534,8 @@
         },
         "shape": {
           "type": "shape",
-          "value": "round.m",
-          "adjustment": 2.0
+          "value": "round.xl",
+          "adjustment": -2.0
         },
         "boxPaddingStart": {
           "type": "dimension",
