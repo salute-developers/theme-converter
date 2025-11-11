@@ -8,8 +8,27 @@
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item.s"
+                },
+                "gap": {
+                    "type": "dimension",
+                    "value": 8
                 }
              }
+        },
+        {
+            "id": "s.no-background",
+            "parent": "s",
+            "props": {}
+        },
+        {
+            "id": "s.no-background.has-item-background",
+            "parent": "s.no-background",
+            "props": {
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.s.has-background"
+                }
+            }
         }
     ],
     "props": {}

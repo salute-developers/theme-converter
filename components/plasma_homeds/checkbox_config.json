@@ -342,7 +342,7 @@
                 },
                 "textPadding": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 8
                 },
                 "labelStyle": {
                     "type": "typography",

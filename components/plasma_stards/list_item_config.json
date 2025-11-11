@@ -6,7 +6,9 @@
             "default": "text.default.primary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.primary"
                 }
             ]
@@ -16,7 +18,9 @@
             "default": "text.default.secondary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.secondary"
                 }
             ]
@@ -26,7 +30,9 @@
             "default": "text.default.secondary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.secondary"
                 }
             ]
@@ -36,7 +42,9 @@
             "default": "text.default.secondary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.secondary"
                 }
             ]
@@ -46,11 +54,15 @@
             "default": "surface.default.clear",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "surface.default.solid-default"
                 },
                 {
-                    "state": ["activated"],
+                    "state": [
+                        "activated"
+                    ],
                     "value": "surface.default.transparent-secondary"
                 }
             ]
@@ -80,7 +92,15 @@
                 },
                 "titleStyle": {
                     "type": "typography",
-                    "value": "body.l.bold"
+                    "value": "body.l.normal",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "body.l.bold"
+                        }
+                    ]
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -131,7 +151,15 @@
                 },
                 "titleStyle": {
                     "type": "typography",
-                    "value": "body.m.bold"
+                    "value": "body.m.normal",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "body.m.bold"
+                        }
+                    ]
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -181,7 +209,15 @@
                 },
                 "titleStyle": {
                     "type": "typography",
-                    "value": "body.s.bold"
+                    "value": "body.s.normal",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "body.s.bold"
+                        }
+                    ]
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -232,7 +268,15 @@
                 },
                 "titleStyle": {
                     "type": "typography",
-                    "value": "body.xs.bold"
+                    "value": "body.xs.normal",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "body.xs.bold"
+                        }
+                    ]
                 },
                 "labelStyle": {
                     "type": "typography",
