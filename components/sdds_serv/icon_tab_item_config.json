@@ -137,6 +137,10 @@
                     "type": "icon",
                     "value": "close.24"
                 },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xs.negative"
@@ -182,6 +186,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.24"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
                 },
                 "counterStyle": {
                     "type": "component_style",
@@ -233,6 +241,10 @@
                     "type": "icon",
                     "value": "close.24"
                 },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xxs.negative"
@@ -282,6 +294,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.16"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 16
                 },
                 "counterStyle": {
                     "type": "component_style",

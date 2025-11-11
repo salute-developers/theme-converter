@@ -224,6 +224,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.24"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
                 }
             }
         },
@@ -302,6 +306,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.24"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
                 }
             }
         },
@@ -380,6 +388,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.24"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 24
                 }
             }
         },
@@ -458,6 +470,10 @@
                 "actionIcon": {
                     "type": "icon",
                     "value": "close.16"
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         },

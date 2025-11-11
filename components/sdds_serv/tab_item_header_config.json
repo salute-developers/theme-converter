@@ -242,6 +242,10 @@
                 "paddingEnd": {
                     "type": "dimension",
                     "value": 0
+                },
+                "actionSize": {
+                    "type": "dimension",
+                    "value": 36
                 }
             }
         },
