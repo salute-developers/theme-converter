@@ -245,6 +245,16 @@
             "componentName": "drawer",
             "styleName": "drawer",
             "config": "drawer_config.json"
+        },
+        {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-horizontal",
+            "config": "pagination_dots_horizontal_config.json"
+        },
+                {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-vertical",
+            "config": "pagination_dots_vertical_config.json"
         }
     ]
 }

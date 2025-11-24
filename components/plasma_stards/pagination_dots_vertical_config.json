@@ -1,0 +1,103 @@
+{
+    "view": {},
+    "props": {
+        "orientation": {
+            "type": "value",
+            "value": "vertical"
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 8
+        },
+        "edgeShrinkFactor": {
+            "type": "float",
+            "value": 0.3
+        },
+        "dotBackgroundColor": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary",
+            "states": [
+                {
+                    "state": [
+                        "activated"
+                    ],
+                    "value": "surface.default.solid-default"
+                }
+            ]
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "dotWidth": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "dotHeight": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "edgeCount": {
+                    "type": "value",
+                    "value": "2"
+                }
+            }
+        },
+        {
+            "id": "m.active-type-line",
+            "parent": "m",
+            "props": {
+                "dotHeight": {
+                    "type": "dimension",
+                    "value": 12,
+                    "states": [
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": 48
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "dotWidth": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dotHeight": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "edgeCount": {
+                    "type": "value",
+                    "value": "1"
+                }
+            }
+        },
+        {
+            "id": "s.active-type-line",
+            "parent": "s",
+            "props": {
+                "dotHeight": {
+                    "type": "dimension",
+                    "value": 8,
+                    "states": [
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": 32
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
