@@ -34,6 +34,14 @@
                 "paddingBottom": {
                     "type": "dimension",
                     "value": 9
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
                 }
             }
         },
@@ -74,6 +82,14 @@
                 "paddingBottom": {
                     "type": "dimension",
                     "value": 11
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 14
                 }
             }
         },
@@ -114,6 +130,14 @@
                 "paddingBottom": {
                     "type": "dimension",
                     "value": 14
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         },
@@ -154,6 +178,14 @@
                 "paddingBottom": {
                     "type": "dimension",
                     "value": 17
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         },
@@ -194,6 +226,14 @@
                 "paddingBottom": {
                     "type": "dimension",
                     "value": 12
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 18
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 18
                 }
             }
         },

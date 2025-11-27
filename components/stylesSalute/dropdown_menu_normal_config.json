@@ -92,6 +92,22 @@
         "shadow": {
             "type": "shadow",
             "value": "down.hard.m"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 2
         }
     }
 }
