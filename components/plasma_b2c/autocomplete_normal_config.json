@@ -1,0 +1,213 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.xl"
+                },
+                "spinnerStyle": {
+                    "type": "component_style",
+                    "value": "spinner.xs.default"
+                },
+                "loadingTextStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "refreshButtonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.xl.clear"
+                },
+                "refreshIcon": {
+                    "type": "icon",
+                    "value": "refresh.24"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "empty-state.xl"
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.l"
+                },
+                "spinnerStyle": {
+                    "type": "component_style",
+                    "value": "spinner.xs.default"
+                },
+                "loadingTextStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "refreshButtonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.l.clear"
+                },
+                "refreshIcon": {
+                    "type": "icon",
+                    "value": "refresh.24"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "empty-state.l"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.m"
+                },
+                "spinnerStyle": {
+                    "type": "component_style",
+                    "value": "spinner.xs.default"
+                },
+                "loadingTextStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "refreshButtonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.m.clear"
+                },
+                "refreshIcon": {
+                    "type": "icon",
+                    "value": "refresh.24"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "empty-state.m"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.s"
+                },
+                "spinnerStyle": {
+                    "type": "component_style",
+                    "value": "spinner.xs.default"
+                },
+                "loadingTextStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "refreshButtonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.s.clear"
+                },
+                "refreshIcon": {
+                    "type": "icon",
+                    "value": "refresh.24"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "empty-state.s"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.xs"
+                },
+                "spinnerStyle": {
+                    "type": "component_style",
+                    "value": "spinner.xxs.default"
+                },
+                "loadingTextStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "refreshButtonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.xs.clear"
+                },
+                "refreshIcon": {
+                    "type": "icon",
+                    "value": "refresh.16"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "empty-state.xs"
+                }
+            }
+        }
+    ],
+    "props": {
+        "paddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 2
+        }
+    }
+}

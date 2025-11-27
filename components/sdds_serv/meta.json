@@ -503,6 +503,21 @@
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
+        },
+        {
+            "componentName": "autocomplete",
+            "styleName": "autocomplete-tight",
+            "config": "autocomplete_tight_config.json"
+        },
+                {
+            "componentName": "autocomplete",
+            "styleName": "autocomplete-normal",
+            "config": "autocomplete_normal_config.json"
+        },
+        {
+            "componentName": "empty-state",
+            "styleName": "empty-state",
+            "config": "empty_state_config.json"
         }
     ]
 }
