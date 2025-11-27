@@ -36,6 +36,10 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "empty-state.xl"
+                },
+                "loadingHeight": {
+                    "type": "dimension",
+                    "value": 64
                 }
             }
         },
@@ -74,6 +78,10 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "empty-state.l"
+                },
+                "loadingHeight": {
+                    "type": "dimension",
+                    "value": 56
                 }
             }
         },
@@ -112,6 +120,10 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "empty-state.m"
+                },
+                "loadingHeight": {
+                    "type": "dimension",
+                    "value": 48
                 }
             }
         },
@@ -150,6 +162,10 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "empty-state.s"
+                },
+                "loadingHeight": {
+                    "type": "dimension",
+                    "value": 40
                 }
             }
         },
@@ -188,6 +204,10 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "empty-state.xs"
+                },
+                "loadingHeight": {
+                    "type": "dimension",
+                    "value": 32
                 }
             }
         }
