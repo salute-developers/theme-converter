@@ -23,17 +23,13 @@
                     "type": "dimension",
                     "value": 4
                 },
-                "buttonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.xs.clear"
-                },
                 "paddingTop": {
                     "type": "dimension",
                     "value": 16
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 9
+                    "value": 16
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -46,7 +42,7 @@
             }
         },
         {
-            "id": "xs.no-button",
+            "id": "xs.has-button",
             "parent": "xs",
             "props": {
                 "paddingTop": {
@@ -55,7 +51,11 @@
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 16
+                    "value": 9
+                },
+                "buttonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.xs.clear"
                 }
             }
         },
@@ -71,17 +71,13 @@
                     "type": "dimension",
                     "value": 4
                 },
-                "buttonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.s.clear"
-                },
                 "paddingTop": {
                     "type": "dimension",
                     "value": 22
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 11
+                    "value": 22
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -94,7 +90,7 @@
             }
         },
         {
-            "id": "s.no-button",
+            "id": "s.has-button",
             "parent": "s",
             "props": {
                 "paddingTop": {
@@ -103,7 +99,11 @@
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 22
+                    "value": 11
+                },
+                "buttonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.s.clear"
                 }
             }
         },
@@ -119,17 +119,13 @@
                     "type": "dimension",
                     "value": 6
                 },
-                "buttonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.m.clear"
-                },
                 "paddingTop": {
                     "type": "dimension",
                     "value": 26
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 14
+                    "value": 26
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -142,7 +138,7 @@
             }
         },
         {
-            "id": "m.no-button",
+            "id": "m.has-button",
             "parent": "m",
             "props": {
                 "paddingTop": {
@@ -151,7 +147,11 @@
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 26
+                    "value": 14
+                },
+                "buttonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.m.clear"
                 }
             }
         },
@@ -167,17 +167,13 @@
                     "type": "dimension",
                     "value": 8
                 },
-                "buttonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.l.clear"
-                },
                 "paddingTop": {
                     "type": "dimension",
                     "value": 32
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 17
+                    "value": 32
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -190,7 +186,7 @@
             }
         },
         {
-            "id": "l.no-button",
+            "id": "l.has-button",
             "parent": "l",
             "props": {
                 "paddingTop": {
@@ -199,7 +195,11 @@
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 32
+                    "value": 17
+                },
+                "buttonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.l.clear"
                 }
             }
         },
@@ -215,17 +215,13 @@
                     "type": "dimension",
                     "value": 12
                 },
-                "buttonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.xl.clear"
-                },
                 "paddingTop": {
                     "type": "dimension",
                     "value": 32
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 32
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -238,7 +234,7 @@
             }
         },
         {
-            "id": "xl.no-button",
+            "id": "xl.has-button",
             "parent": "xl",
             "props": {
                 "paddingTop": {
@@ -247,7 +243,11 @@
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 32
+                    "value": 12
+                },
+                "buttonStyle": {
+                    "type": "component_style",
+                    "value": "basic-button.xl.clear"
                 }
             }
         }

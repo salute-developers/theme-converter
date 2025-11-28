@@ -459,9 +459,9 @@
             "config": "autocomplete_normal_config.json"
         },
         {
-            "componentName": "empty-state",
-            "styleName": "empty-state",
-            "config": "empty_state_config.json"
+            "componentName": "dropdown-empty-state",
+            "styleName": "dropdown-empty-state",
+            "config": "dropdown_empty_state_config.json"
         }
     ]
 }

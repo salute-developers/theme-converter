@@ -1,45 +1,18 @@
 {
     "view": {},
+    "props": {},
     "variations": [
         {
             "id": "xl",
             "parent": null,
             "props": {
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 10
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 12
-                },
                 "dropdownStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-tight.xl"
                 },
-                "spinnerStyle": {
+                "textFieldStyle": {
                     "type": "component_style",
-                    "value": "spinner.xs.default"
-                },
-                "loadingTextStyle": {
-                    "type": "typography",
-                    "value": "body.l.normal"
-                },
-                "refreshButtonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.xl.clear"
-                },
-                "refreshIcon": {
-                    "type": "icon",
-                    "value": "refresh.24"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "empty-state.xl"
-                },
-                "loadingHeight": {
-                    "type": "dimension",
-                    "value": 64
+                    "value": "text-field.xl.default"
                 }
             }
         },
@@ -47,41 +20,13 @@
             "id": "l",
             "parent": null,
             "props": {
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 6
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 8
-                },
                 "dropdownStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-tight.l"
                 },
-                "spinnerStyle": {
+                "textFieldStyle": {
                     "type": "component_style",
-                    "value": "spinner.xs.default"
-                },
-                "loadingTextStyle": {
-                    "type": "typography",
-                    "value": "body.l.normal"
-                },
-                "refreshButtonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.l.clear"
-                },
-                "refreshIcon": {
-                    "type": "icon",
-                    "value": "refresh.24"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "empty-state.l"
-                },
-                "loadingHeight": {
-                    "type": "dimension",
-                    "value": 56
+                    "value": "text-field.l.default"
                 }
             }
         },
@@ -89,41 +34,13 @@
             "id": "m",
             "parent": null,
             "props": {
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 6
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 8
-                },
                 "dropdownStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-tight.m"
                 },
-                "spinnerStyle": {
+                "textFieldStyle": {
                     "type": "component_style",
-                    "value": "spinner.xs.default"
-                },
-                "loadingTextStyle": {
-                    "type": "typography",
-                    "value": "body.m.normal"
-                },
-                "refreshButtonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.m.clear"
-                },
-                "refreshIcon": {
-                    "type": "icon",
-                    "value": "refresh.24"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "empty-state.m"
-                },
-                "loadingHeight": {
-                    "type": "dimension",
-                    "value": 48
+                    "value": "text-field.m.default"
                 }
             }
         },
@@ -131,41 +48,13 @@
             "id": "s",
             "parent": null,
             "props": {
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 6
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 8
-                },
                 "dropdownStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-tight.s"
                 },
-                "spinnerStyle": {
+                "textFieldStyle": {
                     "type": "component_style",
-                    "value": "spinner.xs.default"
-                },
-                "loadingTextStyle": {
-                    "type": "typography",
-                    "value": "body.s.normal"
-                },
-                "refreshButtonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.s.clear"
-                },
-                "refreshIcon": {
-                    "type": "icon",
-                    "value": "refresh.24"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "empty-state.s"
-                },
-                "loadingHeight": {
-                    "type": "dimension",
-                    "value": 40
+                    "value": "text-field.s.default"
                 }
             }
         },
@@ -173,44 +62,15 @@
             "id": "xs",
             "parent": null,
             "props": {
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 6
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 8
-                },
                 "dropdownStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-tight.xs"
                 },
-                "spinnerStyle": {
+                "textFieldStyle": {
                     "type": "component_style",
-                    "value": "spinner.xxs.default"
-                },
-                "loadingTextStyle": {
-                    "type": "typography",
-                    "value": "body.xs.normal"
-                },
-                "refreshButtonStyle": {
-                    "type": "component_style",
-                    "value": "basic-button.xs.clear"
-                },
-                "refreshIcon": {
-                    "type": "icon",
-                    "value": "refresh.16"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "empty-state.xs"
-                },
-                "loadingHeight": {
-                    "type": "dimension",
-                    "value": 32
+                    "value": "text-field.xs.default"
                 }
             }
         }
-    ],
-    "props": {}
+    ]
 }
