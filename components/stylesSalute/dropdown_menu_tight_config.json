@@ -2,40 +2,6 @@
     "view": {},
     "variations": [
         {
-            "id": "xl",
-            "parent": null,
-            "props": { 
-                "listStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-menu-list-tight.xl"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-empty-state.xl.has-button"
-                },
-                "loadingStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-loading.xl"
-                },
-                "shape": {
-                    "type": "shape",
-                    "value": "round.l"
-                },
-                "width": {
-                    "type": "dimension",
-                    "value": 200
-                },
-                "scrollBarPaddingTop": {
-                    "type": "dimension",
-                    "value": 10
-                },
-                "scrollBarPaddingBottom": {
-                    "type": "dimension",
-                    "value": 12
-                }
-             }
-        },
-        {
             "id": "l",
             "parent": null,
             "props": { 
@@ -46,10 +12,6 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "dropdown-empty-state.l.has-button"
-                },
-                "loadingStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-loading.l"
                 },
                 "shape": {
                     "type": "shape",
@@ -81,10 +43,6 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "dropdown-empty-state.m.has-button"
-                },
-                "loadingStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-loading.m"
                 },
                 "shape": {
                     "type": "shape",
@@ -146,10 +104,6 @@
                 "emptyStateStyle": {
                     "type": "component_style",
                     "value": "dropdown-empty-state.xs.has-button"
-                },
-                "loadingStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-loading.xs"
                 },
                 "shape": {
                     "type": "shape",
