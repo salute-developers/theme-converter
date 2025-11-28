@@ -255,6 +255,11 @@
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
+        },
+        {
+            "componentName": "dropdown-empty-state",
+            "styleName": "dropdown-empty-state",
+            "config": "dropdown_empty_state_config.json"
         }
     ]
 }

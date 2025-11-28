@@ -1,0 +1,76 @@
+{
+    "view": {},
+    "props": {},
+    "variations": [
+        {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.xl"
+                },
+                "textFieldStyle": {
+                    "type": "component_style",
+                    "value": "text-field.xl.default"
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.l"
+                },
+                "textFieldStyle": {
+                    "type": "component_style",
+                    "value": "text-field.l.default"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.m"
+                },
+                "textFieldStyle": {
+                    "type": "component_style",
+                    "value": "text-field.m.default"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.s"
+                },
+                "textFieldStyle": {
+                    "type": "component_style",
+                    "value": "text-field.s.default"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "dropdownStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-normal.xs"
+                },
+                "textFieldStyle": {
+                    "type": "component_style",
+                    "value": "text-field.xs.default"
+                }
+            }
+        }
+    ]
+}

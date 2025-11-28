@@ -332,6 +332,11 @@
             "componentName": "code-input",
             "styleName": "code-input",
             "config": "code_input_config.json"
+        },
+        {
+            "componentName": "dropdown-empty-state",
+            "styleName": "dropdown-empty-state",
+            "config": "dropdown_empty_state_config.json"
         }
     ]
 }

@@ -447,6 +447,21 @@
             "componentName": "navigation-bar",
             "styleName": "navigation-bar-internal-page",
             "config": "navigation_bar_internal_page_config.json"
+        },
+        {
+            "componentName": "autocomplete",
+            "styleName": "autocomplete-tight",
+            "config": "autocomplete_tight_config.json"
+        },
+                {
+            "componentName": "autocomplete",
+            "styleName": "autocomplete-normal",
+            "config": "autocomplete_normal_config.json"
+        },
+        {
+            "componentName": "dropdown-empty-state",
+            "styleName": "dropdown-empty-state",
+            "config": "dropdown_empty_state_config.json"
         }
     ]
 }
