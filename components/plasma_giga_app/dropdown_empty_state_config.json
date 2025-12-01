@@ -17,7 +17,7 @@
             "props": {
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.xs.mormal"
+                    "value": "body.xs.normal"
                 },
                 "descriptionPadding": {
                     "type": "dimension",
