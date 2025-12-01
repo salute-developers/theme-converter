@@ -65,7 +65,7 @@
             "props": {
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.s.mormal"
+                    "value": "body.s.normal"
                 },
                 "descriptionPadding": {
                     "type": "dimension",
@@ -113,7 +113,7 @@
             "props": {
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.m.mormal"
+                    "value": "body.m.normal"
                 },
                 "descriptionPadding": {
                     "type": "dimension",
@@ -161,7 +161,7 @@
             "props": {
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.l.mormal"
+                    "value": "body.l.normal"
                 },
                 "descriptionPadding": {
                     "type": "dimension",
@@ -209,7 +209,7 @@
             "props": {
                 "descriptionStyle": {
                     "type": "typography",
-                    "value": "body.l.mormal"
+                    "value": "body.l.normal"
                 },
                 "descriptionPadding": {
                     "type": "dimension",
