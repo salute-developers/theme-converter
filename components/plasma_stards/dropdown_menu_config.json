@@ -16,6 +16,18 @@
                 "width": {
                     "type": "dimension",
                     "value": 200
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.xl.has-button"
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12
                 }
             }
         },
@@ -35,6 +47,18 @@
                 "width": {
                     "type": "dimension",
                     "value": 200
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.l.has-button"
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -53,6 +77,18 @@
                 "width": {
                     "type": "dimension",
                     "value": 200
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.m.has-button"
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -72,6 +108,18 @@
                 "width": {
                     "type": "dimension",
                     "value": 160
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.s.has-button"
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         },
@@ -90,11 +138,43 @@
                 "width": {
                     "type": "dimension",
                     "value": 160
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.xs.has-button"
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 }
             }
         }
     ],
     "props": {
+        "paddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 2
+        },
+        "scrollBarStyle": {
+            "type": "component_style",
+            "value": "scroll-bar.s"
+        },
         "dividerStyle": {
             "type": "component_style",
             "value": "divider"

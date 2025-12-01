@@ -442,6 +442,11 @@
             "componentName": "drawer",
             "styleName": "drawer-close-outer",
             "config": "drawer_close_outer_config.json"
+        },
+        {
+            "componentName": "dropdown-empty-state",
+            "styleName": "dropdown-empty-state",
+            "config": "dropdown_empty_state_config.json"
         }
     ]
 }
