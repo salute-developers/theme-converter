@@ -9,10 +9,6 @@
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.l"
                 },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-empty-state.l.has-button"
-                },
                 "shape": {
                     "type": "shape",
                     "value": "round.l",
@@ -40,10 +36,6 @@
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.m"
                 },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-empty-state.m.has-button"
-                },
                 "shape": {
                     "type": "shape",
                     "value": "round.m"
@@ -69,10 +61,6 @@
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.s"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-empty-state.s.has-button"
                 },
                 "shape": {
                     "type": "shape",
@@ -100,10 +88,6 @@
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.xs"
-                },
-                "emptyStateStyle": {
-                    "type": "component_style",
-                    "value": "dropdown-empty-state.xs.has-button"
                 },
                 "shape": {
                     "type": "shape",
