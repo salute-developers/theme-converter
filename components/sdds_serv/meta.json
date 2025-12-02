@@ -365,6 +365,26 @@
             "config": "scroll_bar_config.json"
         },
         {
+            "componentName": "slider",
+            "styleName": "slider-horizontal-label-inner",
+            "config": "slider_horizontal_label_inner_config.json"
+        },
+        {
+            "componentName": "slider",
+            "styleName": "slider-horizontal-label-outer",
+            "config": "slider_horizontal_label_outer_config.json"
+        },
+        {
+            "componentName": "slider",
+            "styleName": "slider-vertical-label-inner",
+            "config": "slider_vertical_label_inner_config.json"
+        },
+        {
+            "componentName": "slider",
+            "styleName": "slider-vertical-label-outer",
+            "config": "slider_vertical_label_outer_config.json"
+        },
+        {
             "componentName": "image",
             "styleName": "image",
             "config": "image_config.json"
