@@ -518,6 +518,11 @@
             "componentName": "dropdown-empty-state",
             "styleName": "dropdown-empty-state",
             "config": "dropdown_empty_state_config.json"
+        },
+        {
+            "componentName": "carousel",
+            "styleName": "carousel",
+            "config": "carousel_config.json"
         }
     ]
 }
