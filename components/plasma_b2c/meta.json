@@ -462,6 +462,21 @@
             "componentName": "dropdown-empty-state",
             "styleName": "dropdown-empty-state",
             "config": "dropdown_empty_state_config.json"
+        },
+        {
+            "componentName": "carousel",
+            "styleName": "carousel",
+            "config": "carousel_config.json"
+        },
+        {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-horizontal",
+            "config": "pagination_dots_horizontal_config.json"
+        },
+                {
+            "componentName": "pagination-dots",
+            "styleName": "pagination-dots-vertical",
+            "config": "pagination_dots_vertical_config.json"
         }
     ]
 }

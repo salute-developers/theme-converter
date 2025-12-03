@@ -1,0 +1,38 @@
+{
+    "view": {},
+    "props": {
+        "indicatorStyle": {
+            "type": "component_style",
+            "value": "pagination-dots-horizontal.s"
+        },
+        "indicatorPadding": {
+            "type": "dimension",
+            "value": 12.0
+        },
+        "nextButtonStyle": {
+            "type": "component_style",
+            "value": "icon-button.s.pilled.secondary"
+        },
+        "nextButtonIcon": {
+            "type": "icon",
+            "value": "chevron.right.24"
+        },
+        "prevButtonStyle": {
+            "type": "component_style",
+            "value": "icon-button.s.pilled.secondary"
+        },
+        "prevButtonIcon": {
+            "type": "icon",
+            "value": "chevron.left.24"
+        },
+        "nextButtonPadding": {
+            "type": "dimension",
+            "value": 12.0
+        },
+        "prevButtonPadding": {
+            "type": "dimension",
+            "value": 12.0
+        }
+    },
+    "variations": []
+}
