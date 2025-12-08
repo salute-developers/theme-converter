@@ -108,7 +108,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.xs.default"
+                            "value": "progress-bar.default"
                         }
                     }
                 },
@@ -116,7 +116,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.xs.negative"
+                            "value": "progress-bar.negative"
                         }
                     }
                 }
@@ -148,7 +148,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.default"
+                            "value": "progress-bar.default"
                         }
                     }
                 },
@@ -156,7 +156,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.negative"
+                            "value": "progress-bar.negative"
                         }
                     }
                 }
@@ -188,7 +188,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.default"
+                            "value": "progress-bar.default"
                         }
                     }
                 },
@@ -196,7 +196,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.negative"
+                            "value": "progress-bar.negative"
                         }
                     }
                 }
@@ -228,7 +228,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.default"
+                            "value": "progress-bar.default"
                         }
                     }
                 },
@@ -236,7 +236,7 @@
                     "props": {
                         "progressBarStyle": {
                             "type": "component_style",
-                            "value": "progress-bar.s.negative"
+                            "value": "progress-bar.negative"
                         }
                     }
                 }
