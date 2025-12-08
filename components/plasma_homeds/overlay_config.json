@@ -1,0 +1,26 @@
+{
+    "view": {},
+    "props": {},
+    "variations": [
+        {
+            "id": "direction-top",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "todo.replace"
+                }
+            }
+        },
+        {
+            "id": "direction-bottom",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "todo.replace"
+                }
+            }
+        }
+    ]
+}

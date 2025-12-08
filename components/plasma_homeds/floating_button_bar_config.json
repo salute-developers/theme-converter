@@ -1,0 +1,63 @@
+{
+    "view": {},
+    "props": {
+        "buttonStyle": {
+            "type": "component_style",
+            "value": "basic-button.m.default"
+        },
+        "spacing": {
+            "type": "dimension",
+            "value": 0
+        },
+        "externalShape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "internalShape": {
+            "type": "shape",
+            "value": "round.m"
+        }
+    },
+    "variations": [
+        {
+            "id": "wide",
+            "parent": null,
+            "props": {
+                "spacing": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "wide.segmented",
+            "parent": "wide",
+            "props": {
+                "internalShape": {
+                    "type": "shape",
+                    "value": "round.xxs"
+                }
+            }
+        },
+        {
+            "id": "dense",
+            "parent": null,
+            "props": {
+                "spacing": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        },
+        {
+            "id": "dense.segmented",
+            "parent": "dense",
+            "props": {
+                "internalShape": {
+                    "type": "shape",
+                    "value": "round.xxs"
+                }
+            }
+        }
+    ]
+}

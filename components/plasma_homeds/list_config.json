@@ -29,6 +29,41 @@
                     "value": "list-item.s.has-background"
                 }
             }
+        },
+        {
+            "id": "s.has-background",
+            "parent": "s",
+            "props": {
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-item.s"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xxl",
+                    "adjustment": -4
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
         }
     ],
     "props": {}

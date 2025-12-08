@@ -1,0 +1,49 @@
+{
+    "view": {},
+    "props": {
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        }
+    },
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "contentPaddingStart": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.xs.secondary"
+                }
+            }
+        }
+    ]
+}
