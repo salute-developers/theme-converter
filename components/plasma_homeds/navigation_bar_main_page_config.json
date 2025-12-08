@@ -1,0 +1,54 @@
+{
+    "view": {},
+    "props": {
+        "actionButtonStyle": {
+            "type": "component_style",
+            "value": "icon-button.s.secondary"
+        },
+        "textStyle": {
+            "type": "typography",
+            "value": "header.h5.normal"
+        },
+        "actionStartColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "actionEndColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 16.0
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 16.0
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 8.0
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 8.0
+        },
+        "horizontalSpacing": {
+            "type": "dimension",
+            "value": 8.0
+        },
+        "textBlockTopMargin": {
+            "type": "dimension",
+            "value": 16.0
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        }
+    },
+    "variations": []
+}

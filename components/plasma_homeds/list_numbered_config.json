@@ -1,0 +1,20 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": { 
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-numbered-item.s"
+                },
+                "gap": {
+                    "type": "dimension",
+                    "value": 12
+                }
+             }
+        }
+    ],
+    "props": {}
+}

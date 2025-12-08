@@ -35,6 +35,10 @@
                     "type": "dimension",
                     "value": 12.0
                 },
+                "contentPaddingStart": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.s.normal"

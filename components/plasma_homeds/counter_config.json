@@ -40,6 +40,46 @@
                 }
             }
         },
+        "secondary": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "surface.default.transparent-secondary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.default.transparent-secondary-hover"
+                        }
+                    ]
+                },
+                "textColor": {
+                    "type": "color",
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "pressed"
+                            ],
+                            "value": "text.default.primary-active"
+                        },
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "text.default.primary-hover"
+                        }
+                    ]
+                }
+            }
+        },
         "accent": {
             "props": {
                 "backgroundColor": {

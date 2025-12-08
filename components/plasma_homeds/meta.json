@@ -181,6 +181,41 @@
             "componentName": "wheel",
             "styleName": "wheel",
             "config": "wheel_config.json"
+        },
+        {
+            "componentName": "note",
+            "styleName": "note",
+            "config": "note_config.json"
+        },
+        {
+            "componentName": "note-compact",
+            "styleName": "note-compact",
+            "config": "note_compact_config.json"
+        },
+        {
+            "componentName": "toast",
+            "styleName": "toast",
+            "config": "toast_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list-numbered",
+            "config": "list_numbered_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-numbered-item",
+            "config": "list_numbered_item_config.json"
+        },
+        {
+            "componentName": "link-button",
+            "styleName": "link-button",
+            "config": "link_button_config.json"
+        },
+        {
+            "componentName": "bottom-sheet",
+            "styleName": "modal-bottom-sheet",
+            "config": "bottom_sheet_config.json"
         }
     ]
 }

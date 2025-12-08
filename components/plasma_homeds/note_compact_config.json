@@ -1,0 +1,230 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-secondary"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "linkButtonStyle": {
+                    "type": "component_style",
+                    "value": "link-button.s.positive"
+                }
+            }
+        },
+        "positive": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.positive-minor"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                },
+                "linkButtonStyle": {
+                    "type": "component_style",
+                    "value": "link-button.s.positive"
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.negative-minor"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                },
+                "linkButtonStyle": {
+                    "type": "component_style",
+                    "value": "link-button.s.negative"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.warning-minor"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.warning"
+                },
+                "linkButtonStyle": {
+                    "type": "component_style",
+                    "value": "link-button.s.warning"
+                }
+            }
+        },
+        "info": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.info-minor"
+                },
+                "iconColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                },
+                "linkButtonStyle": {
+                    "type": "component_style",
+                    "value": "link-button.s.info"
+                }
+            }
+        }
+    },
+    "props": {
+        "closeColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.xl"
+        },
+        "titleStyle": {
+            "type": "typography",
+            "value": "text.s.bold"
+        },
+        "textStyle": {
+            "type": "typography",
+            "value": "text.s.normal"
+        },
+        "iconSize": {
+            "type": "dimension",
+            "value": 16
+        },
+        "contentBeforeEndMargin": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 20
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 6
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 20
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 16
+        },
+        "textTopMargin": {
+            "type": "dimension",
+            "value": 2
+        },
+        "actionStartMargin": {
+            "type": "dimension",
+            "value": 12
+        },
+        "actionEndMargin": {
+            "type": "dimension",
+            "value": 0
+        },
+        "closeStartMargin": {
+            "type": "dimension",
+            "value": 0
+        },
+        "contentBeforeArrangement": {
+            "type": "value",
+            "value": "top"
+        }
+    },
+    "variations": [
+        {
+            "id": "has-close",
+            "parent": null,
+            "props": {
+                "closeIcon": {
+                    "type": "icon",
+                    "value": "close.24"
+                },
+                "closeSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "closeStartMargin": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "actionEndMargin": {
+                    "type": "dimension",
+                    "value": 14
+                }
+            }
+        },
+        {
+            "id": "content-scalable",
+            "parent": null,
+            "props": {
+                "contentBeforeEndMargin": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "contentBeforeArrangement": {
+                    "type": "value",
+                    "value": "center"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "has-close.content-scalable",
+            "parent": "has-close",
+            "props": {
+                "contentBeforeEndMargin": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "contentBeforeArrangement": {
+                    "type": "value",
+                    "value": "center"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        }
+    ]
+}
