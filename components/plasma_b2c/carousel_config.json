@@ -34,5 +34,34 @@
             "value": 12.0
         }
     },
-    "variations": []
+    "variations": [
+        {
+            "id": "buttons-placement-inner",
+            "parent": null,
+            "props": {
+                "nextButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.pilled.secondary"
+                },
+                "prevButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.pilled.secondary"
+                }
+            }
+        },
+        {
+            "id": "buttons-placement-outer",
+            "parent": null,
+            "props": {
+                "nextButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.pilled.clear"
+                },
+                "prevButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.pilled.clear"
+                }
+            }
+        }
+    ]
 }
