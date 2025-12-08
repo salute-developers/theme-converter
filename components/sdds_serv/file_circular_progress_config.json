@@ -1,5 +1,9 @@
 {
     "props": {
+        "progressPlacement": {
+            "type": "value",
+            "value": "inline"
+        },
         "descriptionPadding": {
             "type": "dimension",
             "value": 2

@@ -1,5 +1,9 @@
 {
     "props": {
+        "progressPlacement": {
+            "type": "value",
+            "value": "outer"
+        },
         "bottomContentPadding": {
             "type": "dimension",
             "value": 8
