@@ -4,6 +4,10 @@
             "type": "value",
             "value": "outer"
         },
+        "actionPlacement": {
+            "type": "value",
+            "value": "end"
+        },
         "bottomContentPadding": {
             "type": "dimension",
             "value": 8

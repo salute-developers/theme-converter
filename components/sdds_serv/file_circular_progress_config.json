@@ -4,6 +4,10 @@
             "type": "value",
             "value": "inline"
         },
+        "actionPlacement": {
+            "type": "value",
+            "value": "end"
+        },
         "descriptionPadding": {
             "type": "dimension",
             "value": 2
