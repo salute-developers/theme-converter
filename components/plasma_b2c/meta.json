@@ -477,6 +477,16 @@
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-circular-progress",
+            "config": "file_circular_progress_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-linear-progress",
+            "config": "file_linear_progress_config.json"
         }
     ]
 }
