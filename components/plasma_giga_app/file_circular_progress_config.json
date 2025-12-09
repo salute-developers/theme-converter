@@ -50,7 +50,7 @@
         },
         "actionButtonStyle": {
             "type": "component_style",
-            "value": "icon-buttton.xs.clear"
+            "value": "icon-button.xs.clear"
         }
     },
     "view": {
