@@ -523,6 +523,16 @@
             "componentName": "carousel",
             "styleName": "carousel",
             "config": "carousel_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-circular-progress",
+            "config": "file_circular_progress_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-linear-progress",
+            "config": "file_linear_progress_config.json"
         }
     ]
 }

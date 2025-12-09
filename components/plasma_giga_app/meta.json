@@ -462,6 +462,16 @@
             "componentName": "dropdown-empty-state",
             "styleName": "dropdown-empty-state",
             "config": "dropdown_empty_state_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-circular-progress",
+            "config": "file_circular_progress_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "file-linear-progress",
+            "config": "file_linear_progress_config.json"
         }
     ]
 }
