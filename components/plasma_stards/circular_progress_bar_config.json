@@ -155,6 +155,10 @@
                 "valueEnabled": {
                     "type": "boolean",
                     "value": false
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24
                 }
             }
         },
@@ -181,6 +185,10 @@
                 "valueEnabled": {
                     "type": "boolean",
                     "value": false
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         },
@@ -207,6 +215,10 @@
                 "valueEnabled": {
                     "type": "boolean",
                     "value": false
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         },
@@ -233,6 +245,10 @@
                 "valueEnabled": {
                     "type": "boolean",
                     "value": false
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 12
                 }
             }
         },

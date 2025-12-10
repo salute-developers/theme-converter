@@ -2,7 +2,7 @@
     "props": {
         "progressPlacement": {
             "type": "value",
-            "value": "inline"
+            "value": "inner"
         },
         "actionPlacement": {
             "type": "value",
