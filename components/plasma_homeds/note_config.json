@@ -110,14 +110,6 @@
             "type": "dimension",
             "value": 0
         },
-        "iconSize": {
-            "type": "dimension",
-            "value": 16
-        },
-        "contentBeforeEndMargin": {
-            "type": "dimension",
-            "value": 8
-        },
         "paddingStart": {
             "type": "dimension",
             "value": 20
@@ -149,16 +141,30 @@
         "closeEndMargin": {
             "type": "dimension",
             "value": 0
-        },
-        "contentBeforeArrangement": {
-            "type": "value",
-            "value": "top"
         }
     },
     "variations": [
         {
-            "id": "has-close",
+            "id": "content-before-scalable",
             "parent": null,
+            "props": {
+                "contentBeforeEndMargin": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "contentBeforeArrangement": {
+                    "type": "value",
+                    "value": "center"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 0
+                }
+            }
+        },
+        {
+            "id": "content-before-scalable.has-close",
+            "parent": "content-before-scalable",
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -183,38 +189,46 @@
             }
         },
         {
-            "id": "content-scalable",
+            "id": "content-before-fixed",
             "parent": null,
             "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 8
                 },
                 "contentBeforeArrangement": {
                     "type": "value",
-                    "value": "center"
+                    "value": "top"
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 0
+                    "value": 16
                 }
             }
         },
         {
-            "id": "has-close.content-scalable",
-            "parent": "has-close",
+            "id": "content-before-fixed.has-close",
+            "parent": "content-before-fixed",
             "props": {
-                "contentBeforeEndMargin": {
-                    "type": "dimension",
-                    "value": 12
+                "closeIcon": {
+                    "type": "icon",
+                    "value": "close.24"
                 },
-                "contentBeforeArrangement": {
-                    "type": "value",
-                    "value": "center"
-                },
-                "iconSize": {
+                "titlePaddingEnd": {
                     "type": "dimension",
-                    "value": 0
+                    "value": 26
+                },
+                "closeSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "closeTopMargin": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "closeEndMargin": {
+                    "type": "dimension",
+                    "value": 10
                 }
             }
         }

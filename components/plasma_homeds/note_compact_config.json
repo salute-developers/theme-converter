@@ -106,14 +106,6 @@
             "type": "typography",
             "value": "text.s.normal"
         },
-        "iconSize": {
-            "type": "dimension",
-            "value": 16
-        },
-        "contentBeforeEndMargin": {
-            "type": "dimension",
-            "value": 8
-        },
         "paddingStart": {
             "type": "dimension",
             "value": 20
@@ -145,16 +137,30 @@
         "closeStartMargin": {
             "type": "dimension",
             "value": 0
-        },
-        "contentBeforeArrangement": {
-            "type": "value",
-            "value": "top"
         }
     },
     "variations": [
         {
-            "id": "has-close",
+            "id": "content-before-fixed",
             "parent": null,
+            "props": {
+                "contentBeforeEndMargin": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "contentBeforeArrangement": {
+                    "type": "value",
+                    "value": "top"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        },
+        {
+            "id": "content-before-fixed.has-close",
+            "parent": "content-before-fixed",
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -179,7 +185,7 @@
             }
         },
         {
-            "id": "content-scalable",
+            "id": "content-before-scalable",
             "parent": null,
             "props": {
                 "contentBeforeEndMargin": {
@@ -205,24 +211,28 @@
             }
         },
         {
-            "id": "has-close.content-scalable",
-            "parent": "has-close",
+            "id": "content-before-scalable.has-close",
+            "parent": "content-before-scalable",
             "props": {
-                "contentBeforeEndMargin": {
-                    "type": "dimension",
-                    "value": 12
+                "closeIcon": {
+                    "type": "icon",
+                    "value": "close.24"
                 },
-                "paddingStart": {
+                "closeSize": {
                     "type": "dimension",
-                    "value": 16
+                    "value": 24
                 },
-                "contentBeforeArrangement": {
-                    "type": "value",
-                    "value": "center"
-                },
-                "iconSize": {
+                "paddingEnd": {
                     "type": "dimension",
-                    "value": 0
+                    "value": 10
+                },
+                "closeStartMargin": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "actionEndMargin": {
+                    "type": "dimension",
+                    "value": 14
                 }
             }
         }
