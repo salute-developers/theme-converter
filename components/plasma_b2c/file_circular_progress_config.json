@@ -47,10 +47,6 @@
                     "value": "text.default.primary-active"
                 }
             ]
-        },
-        "actionButtonStyle": {
-            "type": "component_style",
-            "value": "icon-button.xs.clear"
         }
     },
     "view": {
@@ -138,6 +134,10 @@
                     "type": "typography",
                     "value": "body.xs.normal"
                 }
+            },
+            "actionButtonStyle": {
+                "type": "component_style",
+                "value": "icon-button.xs.clear"
             }
         },
         {
@@ -177,6 +177,10 @@
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.xs.normal"
+                },
+                "actionButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.clear"
                 }
             }
         },
@@ -217,6 +221,10 @@
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.xs.normal"
+                },
+                "actionButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.clear"
                 }
             }
         },
@@ -257,6 +265,10 @@
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.xs.normal"
+                },
+                "actionButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.s.clear"
                 }
             }
         }
