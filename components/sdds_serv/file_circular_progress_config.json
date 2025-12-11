@@ -133,11 +133,11 @@
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.xs.normal"
+                },
+                "actionButtonStyle": {
+                    "type": "component_style",
+                    "value": "icon-button.xs.clear"
                 }
-            },
-            "actionButtonStyle": {
-                "type": "component_style",
-                "value": "icon-button.xs.clear"
             }
         },
         {
