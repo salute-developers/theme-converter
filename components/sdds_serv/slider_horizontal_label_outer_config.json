@@ -47,13 +47,14 @@
                     "default": "surface.default.accent-gradient"
                 },
                 "thumbStrokeColor": {
-                    "type": "gradient",
+                    "type": "color",
                     "default": "outline.default.solid-secondary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
+                            "type": "gradient",
                             "value": "surface.default.accent-gradient"
                         }
                     ]
