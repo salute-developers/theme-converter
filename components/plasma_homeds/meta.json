@@ -216,6 +216,16 @@
             "componentName": "bottom-sheet",
             "styleName": "modal-bottom-sheet",
             "config": "bottom_sheet_config.json"
+        },
+        {
+            "componentName": "rect-skeleton",
+            "styleName": "rect-skeleton",
+            "config": "rect_skeleton_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton",
+            "config": "text_skeleton_config.json"
         }
     ]
 }
