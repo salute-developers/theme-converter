@@ -137,6 +137,10 @@
         }
       ]
     },
+    "placeholderColorReadOnly": {
+      "type": "color",
+      "default": "text.default.secondary"
+    },
     "backgroundColorReadOnly": {
       "type": "color",
       "default": "surface.default.solid-primary",
