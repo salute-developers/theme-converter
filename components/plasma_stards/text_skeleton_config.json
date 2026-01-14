@@ -1,0 +1,18 @@
+{
+    "view": {},
+    "variations": [],
+    "props": {
+        "gradient": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "duration": {
+            "type": "float",
+            "value": 700
+        }
+    }
+}
