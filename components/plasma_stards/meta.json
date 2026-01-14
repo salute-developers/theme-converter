@@ -255,6 +255,16 @@
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
+        },
+        {
+            "componentName": "rect-skeleton",
+            "styleName": "rect-skeleton",
+            "config": "rect_skeleton_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton",
+            "config": "text_skeleton_config.json"
         }
     ]
 }
