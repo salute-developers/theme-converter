@@ -1,0 +1,69 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            }
+        },
+        {
+            "id": "xxs",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.normal"
+                }
+            }
+        }
+    ],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "gradient": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary"
+        },
+        "duration": {
+            "type": "float",
+            "value": 700
+        }
+    }
+}

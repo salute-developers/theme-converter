@@ -224,8 +224,23 @@
         },
         {
             "componentName": "text-skeleton",
-            "styleName": "text-skeleton",
-            "config": "text_skeleton_config.json"
+            "styleName": "text-skeleton-body",
+            "config": "text_skeleton_body_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton-display",
+            "config": "text_skeleton_display_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton-header",
+            "config": "text_skeleton_header_config.json"
+        },
+        {
+            "componentName": "text-skeleton",
+            "styleName": "text-skeleton-text",
+            "config": "text_skeleton_text_config.json"
         }
     ]
 }

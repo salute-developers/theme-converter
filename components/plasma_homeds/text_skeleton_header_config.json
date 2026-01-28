@@ -1,0 +1,79 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "h1",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h1.bold"
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h4.bold"
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h5.bold"
+                }
+            }
+        },
+        {
+            "id": "h6",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h6.bold"
+                }
+            }
+        }
+    ],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "gradient": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary"
+        },
+        "duration": {
+            "type": "float",
+            "value": 700
+        }
+    }
+}

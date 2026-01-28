@@ -1,0 +1,59 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "text.l.normal"
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "text.m.normal"
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "text.s.normal"
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "text.xs.normal"
+                }
+            }
+        }
+    ],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "gradient": {
+            "type": "color",
+            "default": "surface.default.transparent-secondary"
+        },
+        "duration": {
+            "type": "float",
+            "value": 700
+        }
+    }
+}
