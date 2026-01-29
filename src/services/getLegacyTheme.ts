@@ -63,6 +63,7 @@ const compatibleTypography: Record<string, string> = {
     plasma_giga_app: 'plasma_giga',
     plasma_stards: 'plasma_stards',
     sdds_insol: 'sdds_insol',
+    sdds_insol_next: 'sdds_insol_next',
     plasma_web_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
     plasma_b2c_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
     plasma_homeds: 'plasma_ACTUAL_TYPOGRAPHY',

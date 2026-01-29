@@ -28,6 +28,7 @@ const themeList = [
     'sdds_finportal',
     'sdds_os',
     'sdds_insol',
+    'sdds_insol_next',
     'sdds_scan',
     'sdds_bizcom',
     'sdds_bcp',
