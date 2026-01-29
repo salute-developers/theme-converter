@@ -97,6 +97,7 @@ const compatibleFontFamily: Record<string, string> = {
     sbermarket: 'sbermarket',
     plasma_giga_app: 'plasma_giga_app',
     plasma_homeds: 'plasma_homeds',
+    sdds_insol_next: 'sdds_insol_next',
 };
 
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
