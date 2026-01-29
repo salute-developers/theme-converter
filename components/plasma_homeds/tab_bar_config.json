@@ -12,11 +12,11 @@
         },
         "paddingStart": {
             "type": "dimension",
-            "value": 48
+            "value": 8
         },
         "paddingEnd": {
             "type": "dimension",
-            "value": 48
+            "value": 8
         },
         "contentPaddingStart": {
             "type": "dimension",
