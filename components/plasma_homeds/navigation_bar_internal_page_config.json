@@ -29,7 +29,7 @@
                     "state": [
                         "text-inlined"
                     ],
-                    "value": "header.h5.normal"
+                    "value": "body.m.normal"
                 }
             ]
         },
@@ -41,7 +41,7 @@
                     "state": [
                         "text-inlined"
                     ],
-                    "value": "body.s.normal"
+                    "value": "body.xs.normal"
                 }
             ]
         },
@@ -73,7 +73,7 @@
                     "state": [
                         "text-inlined"
                     ],
-                    "value": 2.0
+                    "value": 4.0
                 }
             ]
         },
