@@ -37,6 +37,10 @@
         "paddingBottom": {
             "type": "dimension",
             "value": 32 
+        },
+        "overlayStyle": {
+            "type": "component_style",
+            "value": "overlay"
         }
     }
 }

@@ -280,6 +280,11 @@
             "componentName": "text-skeleton",
             "styleName": "text-skeleton-text",
             "config": "text_skeleton_text_config.json"
+        },
+        {
+            "componentName": "modal",
+            "styleName": "modal",
+            "config": "modal_config.json"
         }
     ]
 }
