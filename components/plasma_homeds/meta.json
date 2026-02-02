@@ -90,12 +90,12 @@
         {
             "componentName": "collapsing-navigation-bar",
             "styleName": "collapsing-navigation-bar-main-page",
-            "config": "collapsing-navigation_bar_main_page_config.json"
+            "config": "collapsing_navigation_bar_main_page_config.json"
         },
         {
             "componentName": "collapsing-navigation-bar",
             "styleName": "collapsing-navigation-bar-internal-page",
-            "config": "collapsing-navigation_bar_internal_page_config.json"
+            "config": "collapsing_navigation_bar_internal_page_config.json"
         },
         {
             "componentName": "basic-button",
