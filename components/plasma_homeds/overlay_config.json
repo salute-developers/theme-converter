@@ -3,12 +3,26 @@
     "props": {},
     "variations": [
         {
-            "id": "direction-top",
+            "id": "default",
             "parent": null,
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "todo.replace"
+                    "default": "overlay.on-dark.soft"
+                },
+                "blurRadius": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            }
+        },
+        {
+            "id": "direction-top",
+            "parent": null,
+            "props": {
+                "backgroundColor": {
+                    "type": "gradient",
+                    "default": "overlay.default.gradient-up"
                 }
             }
         },
@@ -17,8 +31,8 @@
             "parent": null,
             "props": {
                 "backgroundColor": {
-                    "type": "color",
-                    "default": "todo.replace"
+                    "type": "gradient",
+                    "default": "overlay.default.gradient-down"
                 }
             }
         }

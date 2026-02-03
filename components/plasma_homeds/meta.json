@@ -183,6 +183,11 @@
             "config": "loader_config.json"
         },
         {
+            "componentName": "overlay",
+            "styleName": "overlay",
+            "config": "overlay_config.json"
+        },
+        {
             "componentName": "spinner",
             "styleName": "spinner",
             "config": "spinner_config.json"
