@@ -4,7 +4,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.primary"
+                    "default": "text.inverse.primary"
                 }
             }
         },
@@ -12,7 +12,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.positive"
+                    "default": "text.inverse.positive"
                 }
             }
         },
@@ -20,7 +20,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.negative"
+                    "default": "text.inverse.negative"
                 }
             }
         }
@@ -32,15 +32,15 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.solid-tertiary"
+            "default": "surface.default.solid-default"
         },
         "textColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.inverse.primary"
         },
         "contentEndColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.inverse.secondary"
         },
         "contentStartSize": {
             "type": "dimension",
@@ -60,7 +60,7 @@
         },
         "textStyle": {
             "type": "typography",
-            "value": "body.xs.normal"
+            "value": "body.s.normal"
         },
         "paddingStart": {
             "type": "dimension",
