@@ -1,0 +1,1092 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                }
+            }
+        },
+        "positive": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.warning"
+                }
+            }
+        }
+    },
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "default": 0.4
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "optionalColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "titleCaptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "counterColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "hintColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "titleCaptionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "counterStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "captionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "captionSpacing": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "captionPadding": {
+            "type": "dimension",
+            "value": 5.0
+        },
+        "counterPadding": {
+            "type": "dimension",
+            "value": 5.0
+        },
+        "titleBlockSpacing": {
+            "type": "dimension",
+            "value": 4.0
+        }
+    },
+    "variations": [
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-none"
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            }
+        },
+        {
+            "id": "xs.required-start",
+            "parent": "xs",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-start"
+                }
+            }
+        },
+        {
+            "id": "xs.required-end",
+            "parent": "xs",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                }
+            }
+        },
+        {
+            "id": "xs.title-top",
+            "parent": "xs",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-top"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "xs.title-top.required-start",
+            "parent": "xs.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "xs.title-top.required-end",
+            "parent": "xs.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "xs.title-start",
+            "parent": "xs",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-start"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "xs.title-start.required-start",
+            "parent": "xs.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "xs.title-start.required-end",
+            "parent": "xs.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-none"
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.24"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 24.0
+                }
+            }
+        },
+        {
+            "id": "s.required-start",
+            "parent": "s",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-start"
+                }
+            }
+        },
+        {
+            "id": "s.required-end",
+            "parent": "s",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                }
+            }
+        },
+        {
+            "id": "s.title-top",
+            "parent": "s",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-top"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 9.0
+                }
+            }
+        },
+        {
+            "id": "s.title-top.required-start",
+            "parent": "s.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "s.title-top.required-end",
+            "parent": "s.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "s.title-start",
+            "parent": "s",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-start"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 12.0
+                }
+            }
+        },
+        {
+            "id": "s.title-start.required-start",
+            "parent": "s.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "s.title-start.required-end",
+            "parent": "s.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-none"
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.24"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 24.0
+                }
+            }
+        },
+        {
+            "id": "m.required-start",
+            "parent": "m",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-start"
+                }
+            }
+        },
+        {
+            "id": "m.required-end",
+            "parent": "m",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                }
+            }
+        },
+        {
+            "id": "m.title-top",
+            "parent": "m",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-top"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 10.0
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 11.0
+                }
+            }
+        },
+        {
+            "id": "m.title-top.required-start",
+            "parent": "m.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "m.title-top.required-end",
+            "parent": "m.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "m.title-start",
+            "parent": "m",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-start"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 14.0
+                }
+            }
+        },
+        {
+            "id": "m.title-start.required-start",
+            "parent": "m.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "m.title-start.required-end",
+            "parent": "m.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-none"
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.24"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 24.0
+                }
+            }
+        },
+        {
+            "id": "l.required-start",
+            "parent": "l",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-start"
+                }
+            }
+        },
+        {
+            "id": "l.required-end",
+            "parent": "l",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.m.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                }
+            }
+        },
+        {
+            "id": "l.title-top",
+            "parent": "l",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-top"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "titleCaptionPadding": {
+                    "type": "dimension",
+                    "value": 14.0
+                }
+            }
+        },
+        {
+            "id": "l.title-top.required-start",
+            "parent": "l.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "l.title-top.required-end",
+            "parent": "l.title-top",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "l.title-start",
+            "parent": "l",
+            "props": {
+                "titlePlacement": {
+                    "type": "value",
+                    "value": "title-start"
+                },
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "hintIcon": {
+                    "type": "icon",
+                    "value": "info.circle.outline.16"
+                },
+                "hintHeight": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "hintWidth": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "titlePadding": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            }
+        },
+        {
+            "id": "l.title-start.required-start",
+            "parent": "l.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "center-start"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        },
+        {
+            "id": "l.title-start.required-end",
+            "parent": "l.title-start",
+            "props": {
+                "formItemType": {
+                    "type": "value",
+                    "value": "required"
+                },
+                "indicatorStyle": {
+                    "type": "component_style",
+                    "value": "indicator.s.negative"
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "indicatorAlignment": {
+                    "type": "value",
+                    "value": "top-end"
+                },
+                "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                }
+            }
+        }
+    ]
+}

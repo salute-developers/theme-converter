@@ -553,6 +553,11 @@
             "componentName": "file",
             "styleName": "file-linear-progress",
             "config": "file_linear_progress_config.json"
+        },
+        {
+            "componentName": "form-item",
+            "styleName": "form-item",
+            "config": "form_item_config.json"
         }
     ]
 }
