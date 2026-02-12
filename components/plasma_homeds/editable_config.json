@@ -1,0 +1,217 @@
+{
+    "view": {},
+    "props": {
+        "textColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "iconColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "cursorColor": {
+            "type": "color",
+            "default": "text.default.accent"
+        }
+    },
+    "variations": [
+        {
+            "id": "h1",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h1.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 52.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 8.0
+                }
+            }
+        },
+        {
+            "id": "h2",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 36.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 8.0
+                }
+            }
+        },
+        {
+            "id": "h3",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 30.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h4.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 26.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "h5",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h5.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "h6",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h6.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 2.0
+                }
+            }
+        },
+        {
+            "id": "body-l",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.l.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 22.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "body-m",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.m.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 20.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 6.0
+                }
+            }
+        },
+        {
+            "id": "body-s",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.s.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 18.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 2.0
+                }
+            }
+        },
+        {
+            "id": "body-xs",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xs.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 14.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 2.0
+                }
+            }
+        },
+        {
+            "id": "body-xxs",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.bold"
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "iconMargin": {
+                    "type": "dimension",
+                    "value": 2.0
+                }
+            }
+        }
+    ]
+}
