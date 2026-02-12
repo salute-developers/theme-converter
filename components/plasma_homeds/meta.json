@@ -266,6 +266,11 @@
             "componentName": "text-skeleton",
             "styleName": "text-skeleton-text",
             "config": "text_skeleton_text_config.json"
+        },
+        {
+            "componentName": "form-item",
+            "styleName": "form-item",
+            "config": "form_item_config.json"
         }
     ]
 }

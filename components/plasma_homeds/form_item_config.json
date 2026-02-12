@@ -1,0 +1,131 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                }
+            }
+        },
+        "positive": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                }
+            }
+        },
+        "negative": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.warning"
+                }
+            }
+        }
+    },
+    "props": {
+        "topTextAlignment": {
+            "type": "value",
+            "value": "center"
+        },
+        "bottomTextAlignment": {
+            "type": "value",
+            "value": "center"
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "optionalColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "titleCaptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "counterColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "hintColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "titleCaptionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "counterStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "captionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "captionSpacing": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "captionPadding": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "counterPadding": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "titleBlockSpacing": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "titleBlockPadding": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "titlePlacement": {
+            "type": "value",
+            "value": "title-none"
+        },
+        "titleCaptionPadding": {
+            "type": "dimension",
+            "value": 4.0
+        },
+        "titleStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "hintIcon": {
+            "type": "icon",
+            "value": "info.circle.outline.16"
+        },
+        "hintHeight": {
+            "type": "dimension",
+            "value": 14.0
+        },
+        "hintWidth": {
+            "type": "dimension",
+            "value": 16.0
+        },
+        "optionalStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        }
+    },
+    "variations": []
+}
