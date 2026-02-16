@@ -558,6 +558,11 @@
             "componentName": "form-item",
             "styleName": "form-item",
             "config": "form_item_config.json"
+        },
+        {
+            "componentName": "editable",
+            "styleName": "editable",
+            "config": "editable_config.json"
         }
     ]
 }

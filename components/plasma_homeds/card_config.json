@@ -7,7 +7,7 @@
         },
          "labelStyle": {
             "type": "typography",
-            "value": "body.xs.bold"
+            "value": "body.xs.normal"
         },
         "labelColor": {
             "type": "color",
@@ -83,11 +83,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 }
             }
         },
@@ -117,7 +117,7 @@
                 },
                 "contentMinHeight": {
                     "type": "dimension",
-                    "value": 128
+                    "value": 104
                 },
                 "contentMaxWidth": {
                     "type": "dimension",
@@ -125,7 +125,7 @@
                 },
                 "contentMaxHeight": {
                     "type": "dimension",
-                    "value": 128
+                    "value": 104
                 }
             }
         },
@@ -135,11 +135,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 }
             }
         },
@@ -169,7 +169,7 @@
                 },
                 "contentMinHeight": {
                     "type": "dimension",
-                    "value": 88
+                    "value": 80
                 },
                 "contentMaxWidth": {
                     "type": "dimension",
@@ -177,7 +177,7 @@
                 },
                 "contentMaxHeight": {
                     "type": "dimension",
-                    "value": 88
+                    "value": 80
                 }
             }
         },
@@ -187,11 +187,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 }
             }
         },
@@ -221,7 +221,7 @@
                 },
                 "contentMinHeight": {
                     "type": "dimension",
-                    "value": 60
+                    "value": 56
                 },
                 "contentMaxWidth": {
                     "type": "dimension",
@@ -229,7 +229,7 @@
                 },
                 "contentMaxHeight": {
                     "type": "dimension",
-                    "value": 60
+                    "value": 56
                 }
             }
         },
@@ -239,11 +239,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 }
             }
         }
