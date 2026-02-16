@@ -128,24 +128,6 @@
             }
         },
         {
-            "id": "h6",
-            "parent": null,
-            "props": {
-                "textStyle": {
-                    "type": "typography",
-                    "value": "header.h6.bold"
-                },
-                "iconSize": {
-                    "type": "dimension",
-                    "value": 16.0
-                },
-                "iconMargin": {
-                    "type": "dimension",
-                    "value": 2.0
-                }
-            }
-        },
-        {
             "id": "body-l",
             "parent": null,
             "props": {
