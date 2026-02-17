@@ -249,6 +249,10 @@
                 "indicatorOffsetX": {
                     "type": "dimension",
                     "value": 4.0
+                },
+                "indicatorOffsetY": {
+                    "type": "dimension",
+                    "value": 2.0
                 }
             }
         },
@@ -339,6 +343,10 @@
                 "indicatorOffsetX": {
                     "type": "dimension",
                     "value": 4.0
+                },
+                "indicatorOffsetY": {
+                    "type": "dimension",
+                    "value": 2.0
                 }
             }
         },
@@ -503,6 +511,10 @@
                 "indicatorOffsetX": {
                     "type": "dimension",
                     "value": 4.0
+                },
+                "indicatorOffsetY": {
+                    "type": "dimension",
+                    "value": 4.0
                 }
             }
         },
@@ -591,6 +603,10 @@
                     "value": "top-end"
                 },
                 "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "indicatorOffsetY": {
                     "type": "dimension",
                     "value": 4.0
                 }
@@ -757,6 +773,10 @@
                 "indicatorOffsetX": {
                     "type": "dimension",
                     "value": 4.0
+                },
+                "indicatorOffsetY": {
+                    "type": "dimension",
+                    "value": 4.0
                 }
             }
         },
@@ -845,6 +865,10 @@
                     "value": "top-end"
                 },
                 "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "indicatorOffsetY": {
                     "type": "dimension",
                     "value": 4.0
                 }
@@ -1011,6 +1035,10 @@
                 "indicatorOffsetX": {
                     "type": "dimension",
                     "value": 4.0
+                },
+                "indicatorOffsetY": {
+                    "type": "dimension",
+                    "value": 4.0
                 }
             }
         },
@@ -1099,6 +1127,10 @@
                     "value": "top-end"
                 },
                 "indicatorOffsetX": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "indicatorOffsetY": {
                     "type": "dimension",
                     "value": 4.0
                 }
