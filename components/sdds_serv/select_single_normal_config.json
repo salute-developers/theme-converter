@@ -20,7 +20,7 @@
                 },
                 "selectItemStyle": {
                     "type": "component_style",
-                    "value": "select-item-single.xl"
+                    "value": "select-item-single-normal.xl"
                 }
             }
         },
@@ -42,7 +42,7 @@
                 },
                 "selectItemStyle": {
                     "type": "component_style",
-                    "value": "select-item-single.l"
+                    "value": "select-item-single-normal.l"
                 }
             }
         },
@@ -64,7 +64,7 @@
                 },
                 "selectItemStyle": {
                     "type": "component_style",
-                    "value": "select-item-single.m"
+                    "value": "select-item-single-normal.m"
                 }
             }
         },
@@ -86,7 +86,7 @@
                 },
                 "selectItemStyle": {
                     "type": "component_style",
-                    "value": "select-item-single.s"
+                    "value": "select-item-single-normal.s"
                 }
             }
         },
@@ -108,7 +108,7 @@
                 },
                 "selectItemStyle": {
                     "type": "component_style",
-                    "value": "select-item-single.xs"
+                    "value": "select-item-single-normal.xs"
                 }
             }
         }

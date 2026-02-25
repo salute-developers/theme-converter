@@ -586,13 +586,23 @@
         },
         {
             "componentName": "select-item",
-            "styleName": "select-item-single",
-            "config": "select_item_single_config.json"
+            "styleName": "select-item-single-normal",
+            "config": "select_item_single_normal_config.json"
         },
         {
             "componentName": "select-item",
-            "styleName": "select-item-multiple",
-            "config": "select_item_multiple_config.json"
+            "styleName": "select-item-single-tight",
+            "config": "select_item_single_tight_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-multiple-normal",
+            "config": "select_item_multiple_normal_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-multiple-tight",
+            "config": "select_item_multiple_tight_config.json"
         }
     ]
 }

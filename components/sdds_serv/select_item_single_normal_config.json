@@ -8,6 +8,22 @@
         "iconColor": {
             "type": "color",
             "default": "text.default.accent"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.transparent-secondary"
+                }
+            ]
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
         }
     },
     "variations": [
@@ -15,6 +31,14 @@
             "id": "xl",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 64.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.l"
@@ -53,6 +77,15 @@
             "id": "l",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 56.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.l"
@@ -91,6 +124,14 @@
             "id": "m",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 48.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.m"
@@ -129,6 +170,15 @@
             "id": "s",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 40.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.s"
@@ -167,6 +217,14 @@
             "id": "xs",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 32.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.xs"

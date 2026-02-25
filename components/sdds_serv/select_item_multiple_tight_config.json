@@ -4,6 +4,22 @@
         "itemType": {
             "type": "value",
             "value": "multiple"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.transparent-secondary"
+                }
+            ]
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
         }
     },
     "variations": [
@@ -11,6 +27,14 @@
             "id": "xl",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 56.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.l"
@@ -29,11 +53,11 @@
                 },
                 "paddingTop": {
                     "type": "dimension",
-                    "value": 20.0
+                    "value": 16.0
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 20.0
+                    "value": 16.0
                 },
                 "controlMargin": {
                     "type": "dimension",
@@ -49,6 +73,15 @@
             "id": "l",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 48.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.l"
@@ -67,11 +100,11 @@
                 },
                 "paddingTop": {
                     "type": "dimension",
-                    "value": 16.0
+                    "value": 12.0
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 16.0
+                    "value": 12.0
                 },
                 "controlMargin": {
                     "type": "dimension",
@@ -87,6 +120,14 @@
             "id": "m",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 40.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.m"
@@ -105,11 +146,11 @@
                 },
                 "paddingTop": {
                     "type": "dimension",
-                    "value": 12.0
+                    "value": 8.0
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 12.0
+                    "value": 8.0
                 },
                 "controlMargin": {
                     "type": "dimension",
@@ -125,6 +166,15 @@
             "id": "s",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 32.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.s"
@@ -143,11 +193,11 @@
                 },
                 "paddingTop": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 7.0
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 7.0
                 },
                 "controlMargin": {
                     "type": "dimension",
@@ -163,6 +213,14 @@
             "id": "xs",
             "parent": null,
             "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
                 "cellStyle": {
                     "type": "component_style",
                     "value": "cell.xs"
@@ -181,11 +239,11 @@
                 },
                 "paddingTop": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 4.0
                 },
                 "paddingBottom": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 4.0
                 },
                 "controlMargin": {
                     "type": "dimension",
