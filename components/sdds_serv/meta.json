@@ -519,7 +519,7 @@
             "styleName": "pagination-dots-horizontal",
             "config": "pagination_dots_horizontal_config.json"
         },
-                {
+        {
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
@@ -529,7 +529,7 @@
             "styleName": "autocomplete-tight",
             "config": "autocomplete_tight_config.json"
         },
-                {
+        {
             "componentName": "autocomplete",
             "styleName": "autocomplete-normal",
             "config": "autocomplete_normal_config.json"
@@ -563,6 +563,46 @@
             "componentName": "editable",
             "styleName": "editable",
             "config": "editable_config.json"
+        },
+        {
+            "componentName": "select",
+            "styleName": "select-single-normal",
+            "config": "select_single_normal_config.json"
+        },
+        {
+            "componentName": "select",
+            "styleName": "select-single-tight",
+            "config": "select_single_tight_config.json"
+        },
+        {
+            "componentName": "select",
+            "styleName": "select-multiple-normal",
+            "config": "select_multiple_normal_config.json"
+        },
+        {
+            "componentName": "select",
+            "styleName": "select-multiple-tight",
+            "config": "select_multiple_tight_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-single-normal",
+            "config": "select_item_single_normal_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-single-tight",
+            "config": "select_item_single_tight_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-multiple-normal",
+            "config": "select_item_multiple_normal_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item-multiple-tight",
+            "config": "select_item_multiple_tight_config.json"
         }
     ]
 }
