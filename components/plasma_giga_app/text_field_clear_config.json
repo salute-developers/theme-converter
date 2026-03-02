@@ -1339,7 +1339,7 @@
         },
         "chipGroupStyle": {
           "type": "component_style",
-          "value": "embedded-chip-group-dense.l.secondary"
+          "value": "embedded-chip-group-dense.xl.secondary"
         },
         "boxPaddingTop": {
           "type": "dimension",

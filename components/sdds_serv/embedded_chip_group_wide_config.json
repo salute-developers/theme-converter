@@ -16,6 +16,61 @@
     },
     "variations": [
         {
+            "id": "xl",
+            "parent": null,
+            "view": {
+                "default": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.default"
+                        }
+                    }
+                },
+                "accent": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.accent"
+                        }
+                    }
+                },
+                "negative": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.negative"
+                        }
+                    }
+                },
+                "positive": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.positive"
+                        }
+                    }
+                },
+                "secondary": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.secondary"
+                        }
+                    }
+                },
+                "warning": {
+                    "props": {
+                        "chipStyle": {
+                            "type": "component_style",
+                            "value": "embedded-chip.xl.warning"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
             "id": "l",
             "parent": null,
             "view": {
