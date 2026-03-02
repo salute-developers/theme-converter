@@ -16,5 +16,10 @@
              }
         }
     ],
-    "props": {}
+    "props": {
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        }
+    }
 }
