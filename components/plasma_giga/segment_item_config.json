@@ -545,11 +545,11 @@
                 },
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.l.bold"
+                    "value": "body.l.normal"
                 },
                 "valueStyle": {
                     "type": "typography",
-                    "value": "body.l.bold"
+                    "value": "body.l.normal"
                 },
                 "minHeight": {
                     "type": "dimension",
@@ -662,11 +662,11 @@
                 },
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.l.bold"
+                    "value": "body.l.normal"
                 },
                 "valueStyle": {
                     "type": "typography",
-                    "value": "body.l.bold"
+                    "value": "body.l.normal"
                 },
                 "minHeight": {
                     "type": "dimension",
@@ -779,11 +779,11 @@
                 },
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.m.bold"
+                    "value": "body.m.normal"
                 },
                 "valueStyle": {
                     "type": "typography",
-                    "value": "body.m.bold"
+                    "value": "body.m.normal"
                 },
                 "minHeight": {
                     "type": "dimension",
@@ -896,11 +896,11 @@
                 },
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.s.bold"
+                    "value": "body.s.normal"
                 },
                 "valueStyle": {
                     "type": "typography",
-                    "value": "body.s.bold"
+                    "value": "body.s.normal"
                 },
                 "minHeight": {
                     "type": "dimension",
@@ -1013,11 +1013,11 @@
                 },
                 "labelStyle": {
                     "type": "typography",
-                    "value": "body.xs.bold"
+                    "value": "body.xs.normal"
                 },
                 "valueStyle": {
                     "type": "typography",
-                    "value": "body.xs.bold"
+                    "value": "body.xs.normal"
                 },
                 "minHeight": {
                     "type": "dimension",

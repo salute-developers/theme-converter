@@ -4,6 +4,22 @@
         "backgroundColor": {
             "type": "color",
             "default": "surface.default.transparent-secondary"
+        },
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider.default"
+        },
+        "dividerPaddingStart": {
+            "type": "dimension",
+            "value": 8
+        },
+        "dividerPaddingEnd": {
+            "type": "dimension",
+            "value": 8
+        },
+        "gap": {
+            "type": "dimension",
+            "value": 2
         }
     },
     "variations": [
