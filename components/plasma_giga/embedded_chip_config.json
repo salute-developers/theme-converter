@@ -465,6 +465,49 @@
     },
     "variations": [
         {
+            "id": "xl",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m",
+                    "adjustment": -2
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 52
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "contentStartSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "contentStartPadding": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "contentEndSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "contentEndPadding": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            }
+        },
+        {
             "id": "l",
             "parent": null,
             "props": {
