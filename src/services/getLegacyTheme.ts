@@ -83,14 +83,17 @@ const compatibleShape: Record<string, string> = {
     sdds_bizcom: 'sdds_bizcom',
     sdds_procom: 'sdds_bizcom',
     sdds_bcp: 'sdds_bizcom',
+    sdds_sbcom: 'sdds_sbcom',
 };
 
 const compatibleShadow: Record<string, string> = {
     sdds_serv: 'sdds_serv',
+    sdds_sbcom: 'sdds_sbcom',
 };
 
 const compatibleSpacing: Record<string, string> = {
     sdds_serv: 'sdds_serv',
+    sdds_sbcom: 'sdds_sbcom',
 };
 
 const compatibleFontFamily: Record<string, string> = {

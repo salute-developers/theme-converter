@@ -1,0 +1,228 @@
+{
+    "down": {
+        "soft": {
+            "s": {
+                "value": [
+                    {
+                        "origin": "0rem 0.25rem 0.875rem -0.25rem rgba(8, 8, 8, 0.08)",
+                        "android": {
+                            "color": "#08080814",
+                            "offsetX": 0,
+                            "offsetY": 4.0,
+                            "spreadRadius": -4.0,
+                            "blurRadius": 14.0,
+                            "fallbackElevation": 2.0
+                        }
+                    },
+                    {
+                        "origin": "0rem 0.0625rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.04)",
+                        "android": {
+                            "color": "#0000000A",
+                            "offsetX": 0,
+                            "offsetY": 1.0,
+                            "spreadRadius": -1.0,
+                            "blurRadius": 4.0
+                        }
+                    }
+                ]
+            },
+            "m": {
+                "value": [
+                    {
+                        "origin": "0rem 1.5rem 3rem -0.5rem rgba(0, 0, 0, 0.08)",
+                        "android": {
+                            "color": "#00000014",
+                            "offsetX": 0,
+                            "offsetY": 24.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 48.0,
+                            "fallbackElevation": 4.0
+                        }
+                    }
+                ]
+            },
+            "l": {
+                "value": [
+                    {
+                        "origin": "0rem 3.75rem 7rem -0.5rem rgba(0, 0, 0, 0.08)",
+                        "android": {
+                            "color": "#00000014",
+                            "offsetX": 0,
+                            "offsetY": 60.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 112.0,
+                            "fallbackElevation": 6.0
+                        }
+                    }
+                ]
+            }
+        },
+        "hard": {
+            "s": {
+                "value": [
+                    {
+                        "origin": "0rem 0.25rem 0.75rem -0.1875rem rgba(8, 8, 8, 0.16)",
+                        "android": {
+                            "color": "#08080829",
+                            "offsetX": 0,
+                            "offsetY": 4.0,
+                            "spreadRadius": -3.0,
+                            "blurRadius": 12.0,
+                            "fallbackElevation": 2.0
+                        }
+                    },
+                    {
+                        "origin": "0rem 0.0625rem 0.25rem -0.125rem rgba(0, 0, 0, 0.08)",
+                        "android": {
+                            "color": "#00000014",
+                            "offsetX": 0,
+                            "offsetY": 1.0,
+                            "spreadRadius": -2.0,
+                            "blurRadius": 4.0
+                        }
+                    }
+                ]
+            },
+            "m": {
+                "value": [
+                    {
+                        "origin": "0rem 1rem 2rem -0.5rem rgba(0, 0, 0, 0.24)",
+                        "android": {
+                            "color": "#0000003D",
+                            "offsetX": 0,
+                            "offsetY": 16.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 32.0,
+                            "fallbackElevation": 4.0
+                        }
+                    }
+                ]
+            },
+            "l": {
+                "value": [
+                    {
+                        "origin": "0rem 3.75rem 7rem -0.5rem rgba(0, 0, 0, 0.40)",
+                        "android": {
+                            "color": "#00000066",
+                            "offsetX": 0,
+                            "offsetY": 60.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 112.0,
+                            "fallbackElevation": 6.0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "up": {
+        "soft": {
+            "s": {
+                "value": [
+                    {
+                        "origin": "0rem -0.25rem 0.875rem -0.25rem rgba(8, 8, 8, 0.08)",
+                        "android": {
+                            "color": "#08080814",
+                            "offsetX": 0,
+                            "offsetY": -4.0,
+                            "spreadRadius": -4.0,
+                            "blurRadius": 14.0
+                        }
+                    },
+                    {
+                        "origin": "0rem -0.0625rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.03)",
+                        "android": {
+                            "color": "#00000008",
+                            "offsetX": 0,
+                            "offsetY": -1.0,
+                            "spreadRadius": -1.0,
+                            "blurRadius": 4.0          
+                        }
+                    }
+                ]
+            },
+            "m": {
+                "value": [
+                    {
+                        "origin": "0rem -1.5rem 3rem -0.5rem rgba(0, 0, 0, 0.08)",
+                        "android": {
+                            "color": "#00000014",
+                            "offsetX": 0,
+                            "offsetY": -24.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 48.0
+                        }
+                    }
+                ]
+            },
+            "l": {
+                "value": [
+                    {
+                        "origin": "0rem -3.75rem 7rem -0.5rem rgba(0, 0, 0, 0.08)",
+                        "android":  {
+                            "color": "#00000014",
+                            "offsetX": 0,
+                            "offsetY": -60.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 112.0
+                        }
+                    }
+                ]
+            }
+        },
+        "hard": {
+            "s": {
+                "value": [
+                    {
+                        "origin": "0rem -0.25rem 0.75rem -0.1875rem rgba(8, 8, 8, 0.20)",
+                        "android": {
+                            "color": "#08080833",
+                            "offsetX": 0,
+                            "offsetY": -4.0,
+                            "spreadRadius": -3.0,
+                            "blurRadius": 12.0
+                        }
+                    },
+                    {
+                        "origin": "0rem -0.0625rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.03)",
+                        "android": {
+                            "color": "#00000008",
+                            "offsetX": 0,
+                            "offsetY": -1.0,
+                            "spreadRadius": -1.0,
+                            "blurRadius": 4.0
+                        }
+                    }
+                ]
+            },
+            "m": {
+                "value": [
+                    {
+                        "origin": "0rem -1rem 2rem -0.5rem rgba(0, 0, 0, 0.24)",
+                        "android": {
+                            "color": "#0000003D",
+                            "offsetX": 0,
+                            "offsetY": -16.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 32.0                            
+                        }
+                    }
+                ]
+            },
+            "l": {
+                "value": [
+                    {
+                        "origin": "0rem -3.75rem 7rem -0.5rem rgba(0, 0, 0, 0.40)",
+                        "android": {
+                            "color": "#00000066",
+                            "offsetX": 0,
+                            "offsetY": -60.0,
+                            "spreadRadius": -8.0,
+                            "blurRadius": 112.0
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
