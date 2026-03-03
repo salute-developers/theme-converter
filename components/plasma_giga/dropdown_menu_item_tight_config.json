@@ -43,6 +43,10 @@
                         "focused"
                     ],
                     "value": "surface.default.transparent-secondary"
+                },
+                {
+                    "state": ["pressed"],
+                    "value": "surface.default.transparent-secondary"
                 }
             ]
         }
