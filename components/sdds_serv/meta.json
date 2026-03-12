@@ -210,14 +210,14 @@
             "config": "tooltip_config.json"
         },
         {
-            "componentName": "toolbar",
-            "styleName": "toolbar-horizontal",
-            "config": "toolbar_horizontal_config.json"
+            "componentName": "tool-bar",
+            "styleName": "tool-bar-horizontal",
+            "config": "tool_bar_horizontal_config.json"
         },
         {
-            "componentName": "toolbar",
-            "styleName": "toolbar-vertical",
-            "config": "toolbar_vertical_config.json"
+            "componentName": "tool-bar",
+            "styleName": "tool-bar-vertical",
+            "config": "tool_bar_vertical_config.json"
         },
         {
             "componentName": "toast",
