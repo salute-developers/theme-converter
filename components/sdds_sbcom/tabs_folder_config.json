@@ -1,0 +1,54 @@
+{
+    "view": {},
+    "props": {
+        "dividerEnabled": {
+            "type": "boolean",
+            "value": false
+        },
+        "indicatorEnabled": {
+            "type": "boolean",
+            "value": false
+        },
+        "indicatorThickness": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 3
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 3
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 3
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 3
+        },
+        "minSpacing": {
+            "type": "dimension",
+            "value": 10
+        },
+        "tabItemStyle": {
+            "type": "component_style",
+            "value": "tab-item-folder"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        }
+    },
+    "variations": []
+}

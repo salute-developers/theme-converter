@@ -1,0 +1,98 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-default"
+                },
+                "endContentColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary"
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary"
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.accent"
+                },
+                "endContentColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                }
+            }
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "startPadding": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "endPadding": {
+                    "type": "dimension",
+                    "value": 4
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "shape": {
+                    "type": "shape",
+                    "value": "round.circle"
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.normal"
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "startPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "endPadding": {
+                    "type": "dimension",
+                    "value": 2
+                }
+            }
+        }
+    ]
+}
