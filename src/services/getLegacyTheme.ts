@@ -102,6 +102,7 @@ const compatibleFontFamily: Record<string, string> = {
     plasma_giga_app: 'plasma_giga_app',
     plasma_homeds: 'plasma_homeds',
     sdds_insol_next: 'sdds_insol_next',
+    sdds_sbcom: 'sdds_sbcom',
 };
 
 export const getLegacyTheme = async (themeName: string, branchName: string) => {
