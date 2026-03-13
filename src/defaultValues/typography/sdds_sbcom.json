@@ -155,7 +155,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "600",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -165,7 +165,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "500",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -175,7 +175,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "400",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -185,7 +185,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "600",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -195,7 +195,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "500",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -205,7 +205,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "400",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -215,7 +215,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "600",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -225,7 +225,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "500",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -235,7 +235,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "400",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -245,7 +245,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "600",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -255,7 +255,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "500",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -265,7 +265,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "400",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -275,7 +275,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "600",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -285,7 +285,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "500",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -295,7 +295,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "400",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -457,7 +457,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "600",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -467,7 +467,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "500",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -477,7 +477,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "400",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -487,7 +487,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "600",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -497,7 +497,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "500",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -507,7 +507,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "400",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -517,7 +517,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "600",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -527,7 +527,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "500",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -537,7 +537,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "400",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -547,7 +547,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "600",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -557,7 +557,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "500",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -567,7 +567,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "400",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -577,7 +577,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "600",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -587,7 +587,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "500",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -597,7 +597,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "400",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -759,7 +759,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "600",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -769,7 +769,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "500",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -779,7 +779,7 @@
                 "font-size": "0.9375rem",
                 "font-weight": "400",
                 "line-height": "1.25rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -789,7 +789,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "600",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -799,7 +799,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "500",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -809,7 +809,7 @@
                 "font-size": "0.875rem",
                 "font-weight": "400",
                 "line-height": "1.125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -819,7 +819,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "600",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -829,7 +829,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "500",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -839,7 +839,7 @@
                 "font-size": "0.8125rem",
                 "font-weight": "400",
                 "line-height": "0.9375rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -849,7 +849,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "600",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -859,7 +859,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "500",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -869,7 +869,7 @@
                 "font-size": "0.75rem",
                 "font-weight": "400",
                 "line-height": "0.875rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -879,7 +879,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "600",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -889,7 +889,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "500",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
@@ -899,7 +899,7 @@
                 "font-size": "0.6875rem",
                 "font-weight": "400",
                 "line-height": "0.8125rem",
-                "font-family": "SB Sans Text",
+                "font-family": "Roboto",
                 "letter-spacing": "-0.02em",
                 "font-style": "normal"
             }
