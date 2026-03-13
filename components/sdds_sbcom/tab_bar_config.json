@@ -1,0 +1,54 @@
+{
+    "view": {},
+    "props": {
+        "topShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "bottomShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 8
+        },
+        "contentPaddingStart": {
+            "type": "dimension",
+            "value": 4
+        },
+        "contentPaddingEnd": {
+            "type": "dimension",
+            "value": 4
+        },
+        "contentPaddingTop": {
+            "type": "dimension",
+            "value": 4
+        },
+        "contentPaddingBottom": {
+            "type": "dimension",
+            "value": 4
+        },
+        "itemSpacing": {
+            "type": "dimension",
+            "value": 0
+        },
+        "backgroundColor": {
+            "type": "gradient",
+            "default": "surface.default.transparent-navi"
+        },
+        "tabBarItemStyle": {
+            "type": "component_style",
+            "value": "tab-bar-item"
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "up.soft.m"
+        }
+    },
+    "variations": []
+}

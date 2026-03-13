@@ -1,0 +1,35 @@
+{
+    "view": {},
+    "variations": [
+        {
+            "id": "default",
+            "parent": null,
+            "props": {
+                "gradient": {
+                    "type": "gradient",
+                    "default": "surface.default.skeleton-gradient"
+                }
+            }
+        },
+        {
+            "id": "pulse",
+            "parent": null,
+            "props": {
+                "gradient": {
+                    "type": "color",
+                    "default": "surface.default.transparent-tertiary"
+                }
+            }
+        }
+    ],
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.m"
+        },
+        "duration": {
+            "type": "float",
+            "value": 1000
+        }   
+    }
+}

@@ -1,0 +1,247 @@
+{
+    "view": {},
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "background": {
+            "type": "gradient",
+            "default": "background.default-gradient"
+        },
+        "activeStatusColor": {
+            "type": "color",
+            "default": "surface.default.positive"
+        },
+        "inactiveStatusColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.inverse.primary"
+        },
+        "statusStyle": {
+            "type": "component_style",
+            "value": "indicator.success"
+        }
+    },
+    "variations": [
+        {
+            "id": "size-180",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "display.s.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 180
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 180
+                }
+            }
+        },
+        {
+            "id": "size-72",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 72
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 72
+                }
+            }
+        },
+        {
+            "id": "size-64",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 64
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 64
+                }
+            }
+        },
+        {
+            "id": "size-56",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h2.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 56
+                }
+            }
+        },
+        {
+            "id": "size-48",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 48
+                }
+            }
+        },
+        {
+            "id": "size-44",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 44
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 44
+                }
+            }
+        },
+        {
+            "id": "size-40",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h3.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 40
+                }
+            }
+        },
+        {
+            "id": "size-36",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.l.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 36
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 36
+                }
+            }
+        },
+        {
+            "id": "size-32",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.s.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 32
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 32
+                }
+            }
+        },
+        {
+            "id": "size-26",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 26
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 26
+                }
+            }
+        },
+        {
+            "id": "size-24",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "size-20",
+            "parent": null,
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxs.bold"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 20
+                }
+            }
+        }
+    ]
+}

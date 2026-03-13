@@ -1,0 +1,108 @@
+{
+    "view": {},
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "toggleColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "toggleBorderColor": {
+            "type": "color",
+            "default": "text.default.accent"
+        },
+        "toggleBorderOffset": {
+            "type": "dimension",
+            "value": 0
+        },
+        "toggleIconColor": {
+            "type": "color",
+            "default": "surface.default.accent"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "alpha": 0.08,
+                    "value": "surface.default.transparent-accent"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "surface.default.transparent-accent"
+                },
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.transparent-accent"
+                }
+            ]
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "toggleBorderWidth": {
+            "type": "dimension",
+            "value": 2,
+            "states": [
+                {
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
+                    "value": 1
+                }
+            ]
+        },
+        "togglePadding": {
+            "type": "dimension",
+            "value": 2
+        },
+        "toggleWidth": {
+            "type": "dimension",
+            "value": 24
+        },
+        "toggleHeight": {
+            "type": "dimension",
+            "value": 24
+        },
+        "toggleIconWidth": {
+            "type": "dimension",
+            "value": 10
+        },
+        "toggleIconHeight": {
+            "type": "dimension",
+            "value": 10
+        },
+        "backgroundShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 10
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 10
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 10
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 10
+        }
+    },
+    "variations": []
+}
