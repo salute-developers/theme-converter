@@ -1,0 +1,82 @@
+{
+    "view": {},
+    "props": {
+        "labelPlacement": {
+            "type": "value",
+            "value": "bottom"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "minHeight": {
+            "type": "dimension",
+            "value": 48
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 4
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 5
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 16
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 16
+        },
+        "iconSize": {
+            "type": "dimension",
+            "value": 24
+        },
+        "counterStyle": {
+            "type": "component_style",
+            "value": "counter.danger"
+        },
+        "indicatorStyle": {
+            "type": "component_style",
+            "value": "indicator.danger"
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.accent"
+                }
+            ]
+        },
+        "iconColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.accent"
+                }
+            ]
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "surface.default.transparent-accent"
+                }
+            ]
+        }
+    },
+    "variations": []
+}

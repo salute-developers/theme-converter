@@ -1,0 +1,86 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "disclosureIconColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "disclosureIcon": {
+            "type": "icon",
+            "value": "disclosure.right.outline.24"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.transparent-primary"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.default.transparent-primary"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "surface.default.transparent-secondary"
+                }
+            ]
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "subtitleColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.l"
+        },
+        "height": {
+            "type": "dimension",
+            "value": 40.0
+        },
+        "contentPaddingEnd": {
+            "type": "dimension",
+            "value": 8.0
+        },
+        "titleStyle": {
+            "type": "typography",
+            "value": "body.l.normal"
+        },
+        "subtitleStyle": {
+            "type": "typography",
+            "value": "body.m.normal"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 8
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": []
+}

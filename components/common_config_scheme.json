@@ -1,0 +1,80 @@
+{
+    "rootProperty": "Название свойства, от которого будет строиться дерево стилей (нужно для native). Например, size",
+    "invariants": {
+        "[componentProp#1]": {
+            "type": [
+                "color",
+                "dimension",
+                "gradient",
+                "typography",
+                "shape",
+                "component_style",
+                "value",
+                "blur"
+            ],
+            "value": "Значение свойства, зависит от type",
+            "states": [
+                {
+                    "state": [
+                        "pressed",
+                        "focused",
+                        "hovered"
+                    ],
+                    "value": "Значение свойства для состояния state"
+                }
+            ]
+        }
+    },
+    "defaults": [
+        {
+            "id": "id вариации",
+            "value": "дефолтное значение этой вариации на уровне конфигурации"
+        }
+    ],
+    "variations": [
+        {
+            "id": "id вариации",
+            "name": "название вариации, например, shape, size, view etc.",
+            "values": [
+                {
+                    "name": "Название вариации, например, xl или m для size",
+                    "targets": [
+                        {
+                            "properties": [
+                                {
+                                    "id": "id вариации, с которой пересекается текущее значение вариации",
+                                    "value": "значение вариации, с которой пересекается текущее значение вариации "
+                                }
+                            ]
+                        }
+                    ],
+                    "properties": {
+                        "[componentProp#1]": {
+                            "type": [
+                                "color",
+                                "dimension",
+                                "gradient",
+                                "typography",
+                                "shape",
+                                "component_style",
+                                "value",
+                                "blur"
+                            ],
+                            "value": "Значение свойства, зависит от type",
+                            "states": [
+                                {
+                                    "state": [
+                                        "pressed",
+                                        "focused",
+                                        "hovered"
+                                    ],
+                                    "value": "Значение свойства для состояния state"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

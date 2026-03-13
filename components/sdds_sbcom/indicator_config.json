@@ -1,0 +1,59 @@
+{
+    "view": {
+        "success": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                }
+            }
+        },
+        "global-white": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                }
+            }
+        },
+        "mute": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "text.default.tertiary"
+                }
+            }
+        },
+        "danger": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                }
+            }
+        },
+        "warning": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "text.default.warning"
+                }
+            }
+        }
+    },
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "width": {
+            "type": "dimension",
+            "value": 8
+        },
+        "height": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": []
+}

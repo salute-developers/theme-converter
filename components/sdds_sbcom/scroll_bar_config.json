@@ -1,0 +1,34 @@
+{
+    "view": {},
+    "props": {
+        "thumbColor": {
+            "type": "color",
+            "default": "outline.default.transparent-primary",
+            "states": [
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "outline.default.transparent-primary-active"
+                }
+            ]
+        },
+        "trackColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "hoverExpandFactor": {
+            "type": "float",
+            "value": 1.0
+        },
+        "width": {
+            "type": "dimension",
+            "value": 4.0
+        }
+    },
+    "variations": []
+}
