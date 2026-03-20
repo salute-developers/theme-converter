@@ -1,0 +1,55 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.xxl",
+            "adjustment": -4
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 0
+        },
+        "handleShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "handleColor": {
+            "type": "color",
+            "default": "surface.default.transparent-deep"
+        },
+        "handleWidth": {
+            "type": "dimension",
+            "value": 32
+        },
+        "handleHeight": {
+            "type": "dimension",
+            "value": 4
+        },
+        "handleOffset": {
+            "type": "dimension",
+            "value": 16
+        },
+        "handlePlacement": {
+            "type": "value",
+            "value": "inner"
+        }
+    },
+    "variations": []
+}

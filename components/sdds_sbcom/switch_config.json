@@ -1,0 +1,90 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "toggleTrackColor": {
+            "type": "color",
+            "default": "surface.default.transparent.secondary",
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": "surface.default.accent"
+                }
+            ]
+        },
+        "toggleTrackBorderColor": {
+            "type": "color",
+            "default": "outline.default.transparent-primary",
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": "outline.default.clear"
+                }
+            ]
+        },
+        "toggleThumbColor": {
+            "type": "color",
+            "default": "outline.default.transparent-primary",
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": "surface.on-dark.solid.default"
+                }
+            ]
+        },
+        "toggleTrackShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "toggleThumbShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "togglePadding": {
+            "type": "dimension",
+            "value": 4
+        },
+        "toggleTrackWidth": {
+            "type": "dimension",
+            "value": 52
+        },
+        "toggleTrackHeight": {
+            "type": "dimension",
+            "value": 32
+        },
+        "toggleThumbWidth": {
+            "type": "dimension",
+            "value": 24
+        },
+        "toggleThumbHeight": {
+            "type": "dimension",
+            "value": 24
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "descriptionColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "textPadding": {
+            "type": "dimension",
+            "value": 12
+        },
+        "descriptionPadding": {
+            "type": "dimension",
+            "value": 4
+        }
+    },
+    "variations": []
+}

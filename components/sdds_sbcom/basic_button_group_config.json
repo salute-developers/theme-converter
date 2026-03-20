@@ -1,0 +1,22 @@
+{
+    "view": {},
+    "props": {
+        "buttonStyle": {
+            "type": "component_style",
+            "value": "basic-button.m.accent-grey"
+        },
+        "spacing": {
+            "type": "dimension",
+            "value": 8
+        },
+        "externalShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "internalShape": {
+            "type": "shape",
+            "value": "round.circle"
+        }
+    },
+    "variations": []
+}

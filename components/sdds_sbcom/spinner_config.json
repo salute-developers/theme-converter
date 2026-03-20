@@ -1,0 +1,120 @@
+{
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear"
+        },
+        "angle": {
+            "type": "float",
+            "value": 360
+        },
+        "strokeCap": {
+            "type": "value",
+            "value": "round"
+        }
+    },
+    "view": {
+        "primary": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.solid-primary"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        },
+        "secondary": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        },
+        "global-white": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.on-dark.solid-primary"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        },
+        "accent": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.accent"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        },
+        "danger": {
+            "props": {
+                "startColor": {
+                    "type": "color",
+                    "default": "surface.default.negative"
+                },
+                "endColor": {
+                    "type": "color",
+                    "default": "surface.default.clear"
+                }
+            }
+        }
+    },
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 40
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 32
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 24
+                }
+            }
+        },
+        {
+            "id": "xxs",
+            "parent": null,
+            "props": {
+                "size": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        }
+    ]
+}

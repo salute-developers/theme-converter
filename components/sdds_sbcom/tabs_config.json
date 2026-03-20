@@ -1,0 +1,52 @@
+{
+    "view": {},
+    "props": {
+        "dividerEnabled": {
+            "type": "boolean",
+            "value": false
+        },
+        "indicatorEnabled": {
+            "type": "boolean",
+            "value": true
+        },
+        "indicatorThickness": {
+            "type": "dimension",
+            "value": 3
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "disclosureColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                }
+            ]
+        },
+        "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.accent"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-default"
+        },
+        "tabItemStyle": {
+            "type": "component_style",
+            "value": "tab-item"
+        }
+    },
+    "variations": []
+}

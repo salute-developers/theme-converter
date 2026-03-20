@@ -1,0 +1,14 @@
+{
+    "view": {},
+    "props": {
+        "spinnerStyle": {
+            "type": "component_style",
+            "value": "spinner.m.primary"
+        },
+        "circularProgressStyle": {
+            "type": "component_style",
+            "value": "circular-progress-bar.m.primary"
+        }
+    },
+    "variations": []
+}

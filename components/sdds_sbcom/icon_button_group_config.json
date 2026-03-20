@@ -1,0 +1,14 @@
+{
+    "view": {},
+    "props": {
+        "buttonStyle": {
+            "type": "component_style",
+            "value": "icon-button.m.accent-grey"
+        },
+        "spacing": {
+            "type": "dimension",
+            "value": 8
+        }
+    },
+    "variations": []
+}

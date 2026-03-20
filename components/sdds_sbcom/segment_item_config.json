@@ -1,0 +1,244 @@
+{
+    "view": {},
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.accent"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.accent-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.accent-hover"
+                }
+            ]
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "valueColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.inverse.secondary"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.inverse.secondary-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.inverse.secondary-hover"
+                }
+            ]
+        },
+        "startContentColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.accent"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.accent-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.accent-hover"
+                }
+            ]
+        },
+        "endContentColor": {
+            "type": "color",
+            "default": "text.default.primary",
+            "states": [
+
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.primary-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "text.default.accent"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "text.default.accent-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "text.default.accent-hover"
+                }
+            ]
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.default.clear-hover"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "surface.default.clear-active"
+                },
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "surface.default.transparent-accent"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "pressed"
+                    ],
+                    "value": "surface.default.transparent-accent-active"
+                },
+                {
+                    "state": [
+                        "selected",
+                        "hovered"
+                    ],
+                    "value": "surface.default.transparent-accent-hover"
+                }
+            ]
+        },
+        "labelStyle": {
+            "type": "typography",
+            "value": "body.s.medium"
+        },
+        "valueStyle": {
+            "type": "typography",
+            "value": "body.s.medium"
+        },
+        "minHeight": {
+            "type": "dimension",
+            "value": 40
+        },
+        "minWidth": {
+            "type": "dimension",
+            "value": 108
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 22
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 22
+        },
+        "startContentSize": {
+            "type": "dimension",
+            "value": 24
+        },
+        "endContentSize": {
+            "type": "dimension",
+            "value": 24
+        },
+        "iconMargin": {
+            "type": "dimension",
+            "value": 8
+        },
+        "valueMargin": {
+            "type": "dimension",
+            "value": 6
+        },
+        "counterMargin": {
+            "type": "dimension",
+            "value": 6
+        }
+    },
+    "variations": []
+}
