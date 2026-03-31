@@ -25,13 +25,37 @@
                     "type": "dimension",
                     "value": 20.0
                 },
+                "itemMinAlpha": {
+                    "type": "float",
+                    "value": 0.16
+                },
+                "itemMinScale": {
+                    "type": "float",
+                    "value": 0.35
+                },
                 "descriptionPadding": {
                     "type": "dimension",
                     "value": 8.0
                 },
                 "separatorSpacing": {
                     "type": "dimension",
-                    "value": 40.0
+                    "value": 56.0
+                },
+                "itemSelectorPaddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "itemSelectorPaddingStart": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "itemSelectorPaddingEnd": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "itemSelectorPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
                 }
             }
         },
