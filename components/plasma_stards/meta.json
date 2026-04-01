@@ -56,6 +56,11 @@
             "config": "cell_config.json"
         },
         {
+            "componentName": "cell",
+            "styleName": "cell-select",
+            "config": "cell_select_config.json"
+        },
+        {
             "componentName": "check-box",
             "styleName": "check-box",
             "config": "checkbox_config.json"
@@ -94,6 +99,16 @@
             "componentName": "overlay",
             "styleName": "overlay",
             "config": "overlay_config.json"
+        },
+        {
+            "componentName": "select",
+            "styleName": "select",
+            "config": "select_config.json"
+        },
+        {
+            "componentName": "select-item",
+            "styleName": "select-item",
+            "config": "select_item_config.json"
         },
         {
             "componentName": "progress-bar",
@@ -251,7 +266,7 @@
             "styleName": "pagination-dots-horizontal",
             "config": "pagination_dots_horizontal_config.json"
         },
-                {
+        {
             "componentName": "pagination-dots",
             "styleName": "pagination-dots-vertical",
             "config": "pagination_dots_vertical_config.json"
