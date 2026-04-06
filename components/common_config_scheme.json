@@ -1,5 +1,4 @@
 {
-    "rootProperty": "Название свойства, от которого будет строиться дерево стилей (нужно для native). Например, size",
     "invariants": {
         "[componentProp#1]": {
             "type": [
