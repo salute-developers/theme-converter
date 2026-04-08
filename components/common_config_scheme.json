@@ -1,5 +1,6 @@
 {
     "rootVariationId": "id корневой вариации",
+    "colorSchemeId": "id вариации, которая является цветовой схемой",
     "invariants": {
         "[componentProp#1]": {
             "type": [
