@@ -1,4 +1,5 @@
 {
+    "rootVariationId": "id корневой вариации",
     "invariants": {
         "[componentProp#1]": {
             "type": [
