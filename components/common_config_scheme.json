@@ -1,5 +1,6 @@
 {
-    "rootProperty": "Название свойства, от которого будет строиться дерево стилей (нужно для native). Например, size",
+    "rootVariationId": "id корневой вариации",
+    "colorSchemeVariationId": "id вариации, которая является цветовой схемой",
     "invariants": {
         "[componentProp#1]": {
             "type": [
