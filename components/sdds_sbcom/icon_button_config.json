@@ -10,7 +10,7 @@
         }
     },
     "view": {
-        "accent-filled": {
+        "mode-accent-filled": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -50,7 +50,7 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent",
+                    "default": "surface.default.accent-primary",
                     "states": [
                         {
                             "state": [
@@ -72,7 +72,7 @@
                 }
             }
         },
-        "accent-grey": {
+        "mode-accent-grey": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -134,7 +134,7 @@
                 }
             }
         },
-        "danger-tint": {
+        "mode-danger-tint": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -199,7 +199,7 @@
     },
     "variations": [
         {
-            "id": "m",
+            "id": "size-48",
             "parent": null,
             "props": {
                 "height": {
@@ -233,7 +233,30 @@
             }
         },
         {
-            "id": "s",
+            "id": "bg-no",
+            "parent": "size-48",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-40",
             "parent": null,
             "props": {
                 "height": {
@@ -267,7 +290,30 @@
             }
         },
         {
-            "id": "xs",
+            "id": "bg-no",
+            "parent": "size-40",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-32",
             "parent": null,
             "props": {
                 "height": {
@@ -299,6 +345,86 @@
                     "value": 1
                 }
             }
+        },
+        {
+            "id": "bg-no",
+            "parent": "size-32",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-24",
+            "parent": null,
+            "props": {
+                "height": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "minWidth": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "iconSize": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "spinnerSize": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "spinnerStrokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                }
+            }
+        },
+        {
+            "id": "bg-no",
+            "parent": "size-24",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
         }
     ]
 }

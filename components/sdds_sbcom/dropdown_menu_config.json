@@ -12,7 +12,7 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.solid-card"
+            "default": "surface.default.solid-primary"
         },
         "offset": {
             "type": "dimension",

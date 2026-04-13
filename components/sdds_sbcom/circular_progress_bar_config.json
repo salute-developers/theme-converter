@@ -1,6 +1,6 @@
 {
     "view": {
-        "primary": {
+        "mode-color-primary": {
             "props": {
                 "indicatorColor": {
                     "type": "color",
@@ -8,7 +8,7 @@
                 }
             }
         },
-        "secondary": {
+        "mode-color-secondary": {
             "props": {
                 "indicatorColor": {
                     "type": "color",
@@ -16,7 +16,7 @@
                 }
             }
         },
-        "global-white": {
+        "mode-color-global-white": {
             "props": {
                 "indicatorColor": {
                     "type": "color",
@@ -24,15 +24,15 @@
                 }
             }
         },
-        "accent": {
+        "mode-color-accent": {
             "props": {
                 "indicatorColor": {
                     "type": "color",
-                    "default": "surface.default.accent"
+                    "default": "surface.default.accent-primary"
                 }
             }
         },
-        "danger": {
+        "mode-color-danger": {
             "props": {
                 "indicatorColor": {
                     "type": "color",
@@ -60,34 +60,12 @@
         },
         "valueEnabled": {
             "type": "boolean",
-            "value": false
+            "value": true
         }
     },
     "variations": [
         {
-            "id": "xxl",
-            "parent": null,
-            "props": {
-                "width": {
-                    "type": "dimension",
-                    "value": 112
-                },
-                "height": {
-                    "type": "dimension",
-                    "value": 112
-                },
-                "trackThickness": {
-                    "type": "dimension",
-                    "value": 8
-                },
-                "progressThickness": {
-                    "type": "dimension",
-                    "value": 8
-                }
-            }
-        },
-        {
-            "id": "m",
+            "id": "size-40",
             "parent": null,
             "props": {
                 "width": {
@@ -113,7 +91,7 @@
             }
         },
         {
-            "id": "s",
+            "id": "size-32",
             "parent": null,
             "props": {
                 "width": {
@@ -139,7 +117,7 @@
             }
         },
         {
-            "id": "xs",
+            "id": "size-24",
             "parent": null,
             "props": {
                 "width": {
@@ -165,7 +143,7 @@
             }
         },
         {
-            "id": "xxs",
+            "id": "size-16",
             "parent": null,
             "props": {
                 "width": {

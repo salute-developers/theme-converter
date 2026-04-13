@@ -1,6 +1,6 @@
 {
     "view": {
-        "success": {
+        "state-success": {
             "props": {
                 "backgroundColor": {
                     "type": "color",
@@ -8,23 +8,23 @@
                 }
             }
         },
-        "global-white": {
+        "state-global-white": {
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "surface.default.solid-primary"
                 }
             }
         },
-        "mute": {
+        "state-mute": {
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "text.default.tertiary"
+                    "default": "text.default.paragraph"
                 }
             }
         },
-        "danger": {
+        "state-danger": {
             "props": {
                 "backgroundColor": {
                     "type": "color",
@@ -32,7 +32,7 @@
                 }
             }
         },
-        "warning": {
+        "state-warning": {
             "props": {
                 "backgroundColor": {
                     "type": "color",

@@ -7,11 +7,11 @@
         },
         "background": {
             "type": "gradient",
-            "default": "background.default-gradient"
+            "default": "persona.default.blue-surface-accent-gradient"
         },
         "activeStatusColor": {
             "type": "color",
-            "default": "surface.default.positive"
+            "default": "surface.default.accent-primary"
         },
         "inactiveStatusColor": {
             "type": "color",
@@ -19,11 +19,15 @@
         },
         "textColor": {
             "type": "color",
-            "default": "text.inverse.primary"
+            "default": "text.on-dark.primary"
         },
-        "statusStyle": {
-            "type": "component_style",
-            "value": "indicator.success"
+        "statusCutoutEnabled": {
+            "type": "boolean",
+            "value": true
+        },
+        "statusCutoutPadding": {
+            "type": "dimension",
+            "value": 3
         }
     },
     "variations": [
@@ -51,7 +55,7 @@
             "props": {
                 "textStyle": {
                     "type": "typography",
-                    "value": "header.h2.bold"
+                    "value": "header.h1.medium"
                 },
                 "width": {
                     "type": "dimension",
@@ -60,6 +64,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 72
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-20"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-14"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
@@ -69,7 +97,7 @@
             "props": {
                 "textStyle": {
                     "type": "typography",
-                    "value": "header.h2.bold"
+                    "value": "header.h1.medium"
                 },
                 "width": {
                     "type": "dimension",
@@ -78,6 +106,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 64
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-20"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-12"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 3
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 3
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 3
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 3
                 }
             }
         },
@@ -87,7 +139,7 @@
             "props": {
                 "textStyle": {
                     "type": "typography",
-                    "value": "header.h2.bold"
+                    "value": "header.h2.medium"
                 },
                 "width": {
                     "type": "dimension",
@@ -96,24 +148,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 56
-                }
-            }
-        },
-        {
-            "id": "size-48",
-            "parent": null,
-            "props": {
-                "textStyle": {
-                    "type": "typography",
-                    "value": "header.h3.bold"
                 },
-                "width": {
-                    "type": "dimension",
-                    "value": 48
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-20"
                 },
-                "height": {
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-10"
+                },
+                "statusOffsetX": {
                     "type": "dimension",
-                    "value": 48
+                    "value": 4
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": -1
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": -1
                 }
             }
         },
@@ -123,7 +181,7 @@
             "props": {
                 "textStyle": {
                     "type": "typography",
-                    "value": "header.h3.bold"
+                    "value": "header.h3.medium"
                 },
                 "width": {
                     "type": "dimension",
@@ -132,6 +190,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 44
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-18"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-8"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 3
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 3
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
@@ -141,7 +223,7 @@
             "props": {
                 "textStyle": {
                     "type": "typography",
-                    "value": "header.h3.bold"
+                    "value": "header.h4.medium"
                 },
                 "width": {
                     "type": "dimension",
@@ -150,6 +232,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 40
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-16"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-8"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": -1
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": -1
                 }
             }
         },
@@ -168,6 +274,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 36
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-14"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-6"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
@@ -186,6 +316,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 32
+                },
+                "badgeStyle": {
+                    "type": "component_style",
+                    "value": "voice-chat-badge.size-14"
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-6"
+                },
+                "statusOffsetX": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "statusOffsetY": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": 0
                 }
             }
         },
@@ -222,24 +376,6 @@
                 "height": {
                     "type": "dimension",
                     "value": 24
-                }
-            }
-        },
-        {
-            "id": "size-20",
-            "parent": null,
-            "props": {
-                "textStyle": {
-                    "type": "typography",
-                    "value": "body.xxs.bold"
-                },
-                "width": {
-                    "type": "dimension",
-                    "value": 20
-                },
-                "height": {
-                    "type": "dimension",
-                    "value": 20
                 }
             }
         }

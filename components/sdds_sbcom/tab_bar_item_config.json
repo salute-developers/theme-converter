@@ -23,11 +23,11 @@
         },
         "paddingStart": {
             "type": "dimension",
-            "value": 16
+            "value": 8
         },
         "paddingEnd": {
             "type": "dimension",
-            "value": 16
+            "value": 8
         },
         "iconSize": {
             "type": "dimension",
@@ -35,11 +35,11 @@
         },
         "counterStyle": {
             "type": "component_style",
-            "value": "counter.danger"
+            "value": "tab-bar-counter"
         },
         "indicatorStyle": {
             "type": "component_style",
-            "value": "indicator.danger"
+            "value": "indicator.state-danger"
         },
         "labelColor": {
             "type": "color",
@@ -67,15 +67,7 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.clear",
-            "states": [
-                {
-                    "state": [
-                        "selected"
-                    ],
-                    "value": "surface.default.transparent-accent"
-                }
-            ]
+            "default": "surface.default.clear"
         }
     },
     "variations": []

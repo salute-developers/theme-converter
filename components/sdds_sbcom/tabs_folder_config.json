@@ -9,10 +9,6 @@
             "type": "boolean",
             "value": false
         },
-        "indicatorThickness": {
-            "type": "dimension",
-            "value": 0
-        },
         "paddingStart": {
             "type": "dimension",
             "value": 3
@@ -41,13 +37,17 @@
             "type": "shape",
             "value": "round.circle"
         },
+        "indicatorShape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
         "backgroundColor": {
             "type": "color",
             "default": "surface.default.solid-card"
         },
         "indicatorColor": {
             "type": "color",
-            "default": "surface.default.clear"
+            "default": "surface.default.transparent-accent"
         }
     },
     "variations": []

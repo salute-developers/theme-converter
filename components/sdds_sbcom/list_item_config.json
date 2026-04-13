@@ -1,41 +1,9 @@
 {
     "view": {},
     "props": {
-        "disableAlpha": {
-            "type": "float",
-            "value": 0.4
-        },
-        "disclosureIconColor": {
+        "labelColor": {
             "type": "color",
             "default": "text.default.secondary"
-        },
-        "disclosureIcon": {
-            "type": "icon",
-            "value": "disclosure.right.outline.24"
-        },
-        "backgroundColor": {
-            "type": "color",
-            "default": "surface.default.clear",
-            "states": [
-                {
-                    "state": [
-                        "focused"
-                    ],
-                    "value": "surface.default.transparent-primary"
-                },
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "value": "surface.default.transparent-primary"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-secondary"
-                }
-            ]
         },
         "titleColor": {
             "type": "color",
@@ -45,19 +13,39 @@
             "type": "color",
             "default": "text.default.secondary"
         },
+        "disclosureIconColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.default.transparent-secondary"
+                }
+            ]
+        },
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
         "shape": {
             "type": "shape",
             "value": "round.xxs"
         },
         "height": {
             "type": "dimension",
-            "value": 48.0
+            "value": 52.0
         },
-        "contentPaddingEnd": {
+        "contentPaddingStart": {
             "type": "dimension",
             "value": 12.0
         },
-        "contentPaddingStart": {
+        "contentPaddingEnd": {
             "type": "dimension",
             "value": 12.0
         },
@@ -65,9 +53,17 @@
             "type": "typography",
             "value": "body.l.normal"
         },
+        "labelStyle": {
+            "type": "typography",
+            "value": "body.xs.medium"
+        },
         "subtitleStyle": {
             "type": "typography",
             "value": "body.m.normal"
+        },
+        "disclosureIcon": {
+            "type": "icon",
+            "value": "disclosure.right.outline.24"
         },
         "paddingStart": {
             "type": "dimension",

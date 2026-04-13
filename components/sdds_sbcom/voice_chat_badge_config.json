@@ -1,0 +1,83 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.accent-primary"
+        },
+        "startContentColor": {
+            "type": "color",
+            "default": "text.on-dark.primary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "startPadding": {
+            "type": "dimension",
+            "value": 0
+        },
+        "endPadding": {
+            "type": "dimension",
+            "value": 0
+        }
+    },
+    "variations": [
+        {
+            "id": "size-20",
+            "parent": null,
+            "props": {
+                "height": {
+                    "type": "dimension",
+                    "value": 20
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 20
+                }
+            }
+        },
+        {
+            "id": "size-18",
+            "parent": null,
+            "props": {
+                "height": {
+                    "type": "dimension",
+                    "value": 18
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 18
+                }
+            }
+        },
+        {
+            "id": "size-16",
+            "parent": null,
+            "props": {
+                "height": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 16
+                }
+            }
+        },
+        {
+            "id": "size-14",
+            "parent": null,
+            "props": {
+                "height": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 14
+                }
+            }
+        }
+    ]
+}

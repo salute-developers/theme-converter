@@ -11,13 +11,6 @@
             "states": [
                 {
                     "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-accent-active"
-                },
-                {
-                    "state": [
                         "hovered"
                     ],
                     "value": "surface.default.transparent-secondary"
@@ -26,19 +19,13 @@
                     "state": [
                         "pressed"
                     ],
-                    "value": "surface.default.transparent-accent-active"
-                },
-                {
-                    "state": [
-                        "selected"
-                    ],
-                    "value": "surface.default.transparent-accent"
+                    "value": "surface.default.transparent-secondary-active"
                 }
             ]
         },
         "labelColor": {
             "type": "color",
-            "default": "text.default.secondary",
+            "default": "text.default.paragraph",
             "states": [
                 {
                     "state": [
@@ -58,13 +45,13 @@
                     "state": [
                         "hovered"
                     ],
-                    "value": "text.default.secondary-hover"
+                    "value": "text.default.paragraph-hover"
                 },
                 {
                     "state": [
                         "pressed"
                     ],
-                    "value": "text.default.secondary-active"
+                    "value": "text.default.paragraph-active"
                 },
                 {
                     "state": [
@@ -76,7 +63,7 @@
         },
         "startContentColor": {
             "type": "color",
-            "default": "text.default.secondary",
+            "default": "text.default.paragraph",
             "states": [
                 {
                     "state": [
@@ -96,13 +83,13 @@
                     "state": [
                         "hovered"
                     ],
-                    "value": "text.default.secondary-hover"
+                    "value": "text.default.paragraph-hover"
                 },
                 {
                     "state": [
                         "pressed"
                     ],
-                    "value": "text.default.secondary-active"
+                    "value": "text.default.paragraph-active"
                 },
                 {
                     "state": [
@@ -114,7 +101,7 @@
         },
         "endContentColor": {
             "type": "color",
-            "default": "text.default.secondary",
+            "default": "text.default.paragraph",
             "states": [
                 {
                     "state": [
@@ -134,13 +121,13 @@
                     "state": [
                         "hovered"
                     ],
-                    "value": "text.default.secondary-hover"
+                    "value": "text.default.paragraph-hover"
                 },
                 {
                     "state": [
                         "pressed"
                     ],
-                    "value": "text.default.secondary-active"
+                    "value": "text.default.paragraph-active"
                 },
                 {
                     "state": [
@@ -152,7 +139,15 @@
         },
         "labelStyle": {
             "type": "typography",
-            "value": "body.m.medium"
+            "value": "body.m.normal",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "body.m.medium"
+                }
+            ]
         },
         "shape": {
             "type": "shape",
@@ -160,27 +155,27 @@
         },
         "minHeight": {
             "type": "dimension",
-            "value": 32
+            "value": 26
         },
         "startContentSize": {
             "type": "dimension",
-            "value": 24
+            "value": 16
         },
         "endContentSize": {
             "type": "dimension",
-            "value": 24
+            "value": 16
         },
         "startContentPadding": {
             "type": "dimension",
-            "value": 8
+            "value": 4
         },
         "counterPadding": {
             "type": "dimension",
-            "value": 5
+            "value": 4
         },
         "counterStyle": {
             "type": "component_style",
-            "value": "counter.secondary"
+            "value": "tab-item-counter"
         },
         "paddingStart": {
             "type": "dimension",

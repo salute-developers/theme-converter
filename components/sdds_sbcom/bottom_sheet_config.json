@@ -12,19 +12,19 @@
         },
         "paddingStart": {
             "type": "dimension",
-            "value": 0
+            "value": 16
         },
         "paddingEnd": {
             "type": "dimension",
-            "value": 0
+            "value": 16
         },
         "paddingTop": {
             "type": "dimension",
-            "value": 0
+            "value": 16
         },
         "paddingBottom": {
             "type": "dimension",
-            "value": 0
+            "value": 16
         },
         "handleShape": {
             "type": "shape",
