@@ -3,7 +3,7 @@
     "props": {
         "buttonStyle": {
             "type": "component_style",
-            "value": "icon-button.m.accent-grey"
+            "value": "icon-button.size-40.mode-accent-grey"
         },
         "spacing": {
             "type": "dimension",

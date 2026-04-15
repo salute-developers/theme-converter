@@ -23,7 +23,7 @@
         },
         "contentStartSize": {
             "type": "dimension",
-            "value": 16
+            "value": 24
         },
         "contentStartPadding": {
             "type": "dimension",
@@ -46,14 +46,14 @@
                         "selected",
                         "pressed"
                     ],
-                    "value": "surface.default.accent-active"
+                    "value": "surface.default.accent-primary"
                 },
                 {
                     "state": [
                         "selected",
                         "hovered"
                     ],
-                    "value": "surface.default.accent-hover"
+                    "value": "surface.default.accent-primary"
                 },
                 {
                     "state": [
@@ -197,7 +197,15 @@
             "props": {
                 "paddingStart": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 8,
+                    "states": [
+                        {
+                            "state": [
+                                "selected"
+                            ],
+                            "value": 1
+                        }
+                    ]
                 }
             }
         },

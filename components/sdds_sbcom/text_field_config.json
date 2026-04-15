@@ -15,21 +15,7 @@
     },
     "labelColor": {
       "type": "color",
-      "default": "text.default.secondary",
-      "states": [
-        {
-          "state": [
-            "value-success"
-          ],
-          "value": "text.default.positive"
-        },
-        {
-          "state": [
-            "value-error"
-          ],
-          "value": "text.default.negative"
-        }
-      ]
+      "default": "text.default.secondary"
     },
     "backgroundColor": {
       "type": "color",
@@ -41,39 +27,11 @@
     },
     "counterColor": {
       "type": "color",
-      "default": "text.default.secondary",
-      "states": [
-        {
-          "state": [
-            "value-success"
-          ],
-          "value": "text.default.positive"
-        },
-        {
-          "state": [
-            "value-error"
-          ],
-          "value": "text.default.negative"
-        }
-      ]
+      "default": "text.default.secondary"
     },
     "captionColor": {
       "type": "color",
-      "default": "text.default.secondary",
-      "states": [
-        {
-          "state": [
-            "value-success"
-          ],
-          "value": "text.default.positive"
-        },
-        {
-          "state": [
-            "value-error"
-          ],
-          "value": "text.default.negative"
-        }
-      ]
+      "default": "text.default.secondary"
     },
     "startContentColor": {
       "type": "color",
@@ -81,21 +39,7 @@
     },
     "endContentColor": {
       "type": "color",
-      "default": "text.default.primary",
-      "states": [
-        {
-          "state": [
-            "pressed"
-          ],
-          "value": "text.default.primary-active"
-        },
-        {
-          "state": [
-            "hovered"
-          ],
-          "value": "text.default.primary-hover"
-        }
-      ]
+      "default": "text.default.primary"
     },
     "cursorColor": {
       "type": "color",
@@ -180,6 +124,34 @@
     "helperTextPadding": {
       "type": "dimension",
       "value": 4.0
+    },
+     "scrollBarThickness": {
+      "type": "dimension",
+      "value": 4.0
+    },
+    "scrollBarPaddingTop": {
+      "type": "dimension",
+      "value": 21.0
+    },
+    "scrollBarPaddingBottom": {
+      "type": "dimension",
+      "value": 21.0
+    },
+    "scrollBarPaddingEnd": {
+      "type": "dimension",
+      "value": 12.0
+    },
+    "scrollBarTrackColor": {
+      "type": "color",
+      "default": "surface.default.clear"
+    },
+    "scrollBarThumbColor": {
+      "type": "color",
+      "default": "outline.default.default"
+    },
+    "singleLine": {
+      "type": "boolean",
+      "value": false
     }
   },
   "variations": []

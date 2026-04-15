@@ -67,7 +67,15 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.clear"
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "selected"
+                    ],
+                    "value": "surface.default.transparent-accent"
+                }
+            ]
         }
     },
     "variations": []

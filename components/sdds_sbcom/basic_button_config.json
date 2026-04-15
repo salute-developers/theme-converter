@@ -166,21 +166,7 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-primary-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "surface.default.accent-primary-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "valueColor": {
                     "type": "color",
@@ -308,57 +294,15 @@
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-primary-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "surface.default.accent-primary-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-primary-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "surface.default.accent-primary-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-primary-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "surface.default.accent-primary-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "backgroundColor": {
                     "type": "color",
@@ -460,19 +404,22 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.transparent-negative",
+                    "default": "surface.default.negative",
+                    "alpha": 0.16,
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.transparent-negative-active"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.transparent-negative-hover"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-hover"
                         }
                     ]
                 },
@@ -553,7 +500,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-48.bg-no",
             "parent": "size-48",
             "view": {
                 "mode-accent-grey": {
@@ -626,7 +573,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-40.bg-no",
             "parent": "size-40",
             "view": {
                 "mode-accent-grey": {
@@ -699,7 +646,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-32.bg-no",
             "parent": "size-32",
             "view": {
                 "mode-accent-grey": {
@@ -772,7 +719,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-24.bg-no",
             "parent": "size-24",
             "view": {
                 "mode-accent-grey": {

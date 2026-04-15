@@ -56,13 +56,13 @@
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-active"
+                            "value": "surface.default.accent-primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-hover"
+                            "value": "surface.default.accent-primary-hover"
                         }
                     ]
                 },
@@ -174,19 +174,22 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.negative-minor",
+                    "default": "surface.default.negative",
+                    "alpha": 0.16,
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.negative-minor-active"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.negative-minor-hover"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-hover"
                         }
                     ]
                 },
@@ -233,7 +236,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-48.bg-no",
             "parent": "size-48",
             "view": {
                 "mode-accent-grey": {
@@ -290,7 +293,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-40.bg-no",
             "parent": "size-40",
             "view": {
                 "mode-accent-grey": {
@@ -347,7 +350,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-32.bg-no",
             "parent": "size-32",
             "view": {
                 "mode-accent-grey": {
@@ -404,7 +407,7 @@
             }
         },
         {
-            "id": "bg-no",
+            "id": "size-24.bg-no",
             "parent": "size-24",
             "view": {
                 "mode-accent-grey": {

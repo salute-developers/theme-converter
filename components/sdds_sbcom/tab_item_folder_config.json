@@ -7,52 +7,12 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.clear",
-            "states": [
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "value": "surface.default.transparent-secondary"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-secondary-active"
-                }
-            ]
+            "default": "surface.default.clear"
         },
         "labelColor": {
             "type": "color",
             "default": "text.default.paragraph",
             "states": [
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.accent-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.accent-hover"
-                },
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "value": "text.default.paragraph-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.paragraph-active"
-                },
                 {
                     "state": [
                         "selected"
@@ -67,32 +27,6 @@
             "states": [
                 {
                     "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.accent-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.accent-hover"
-                },
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "value": "text.default.paragraph-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.paragraph-active"
-                },
-                {
-                    "state": [
                         "selected"
                     ],
                     "value": "text.default.accent"
@@ -103,32 +37,6 @@
             "type": "color",
             "default": "text.default.paragraph",
             "states": [
-                {
-                    "state": [
-                        "selected",
-                        "pressed"
-                    ],
-                    "value": "text.default.accent-active"
-                },
-                {
-                    "state": [
-                        "selected",
-                        "hovered"
-                    ],
-                    "value": "text.default.accent-hover"
-                },
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "value": "text.default.paragraph-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.paragraph-active"
-                },
                 {
                     "state": [
                         "selected"
@@ -175,7 +83,7 @@
         },
         "counterStyle": {
             "type": "component_style",
-            "value": "tab-item-counter"
+            "value": "tab-item-folder-counter"
         },
         "paddingStart": {
             "type": "dimension",

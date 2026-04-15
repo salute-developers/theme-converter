@@ -37,6 +37,14 @@
         "endPadding": {
             "type": "dimension",
             "value": 1
+        },
+        "width": {
+            "type": "dimension",
+            "value": 18
+        },
+        "height": {
+            "type": "dimension",
+            "value": 18
         }
     },
     "variations": []

@@ -23,7 +23,7 @@
         },
         "titleStyle": {
             "type": "typography",
-            "value": "header.h1.medium",
+            "value": "header.h1.normal",
             "states": [
                 {
                     "state": [
@@ -94,8 +94,8 @@
             "value": 0.0
         },
         "backgroundColor": {
-            "type": "gradient",
-            "default": "surface.default.transparent-navi"
+            "type": "color",
+            "default": "surface.default.solid-primary"
         }
     },
     "variations": []

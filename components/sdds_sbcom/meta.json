@@ -8,6 +8,11 @@
             "config": "avatar_config.json"
         },
         {
+            "componentName": "indicator",
+            "styleName": "avatar-indicator",
+            "config": "avatar_indicator_config.json"
+        },
+        {
             "componentName": "avatar-group",
             "styleName": "avatar-group",
             "config": "avatar_group_config.json"
@@ -131,6 +136,11 @@
             "componentName": "list-item",
             "styleName": "dropdown-menu-item",
             "config": "dropdown_menu_item_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list",
+            "config": "list_config.json"
         },
         {
             "componentName": "list-item",

@@ -38,7 +38,7 @@
             "value": 0
         },
         "backgroundColor": {
-            "type": "gradient",
+            "type": "color",
             "default": "surface.default.solid-primary"
         },
         "tabBarItemStyle": {

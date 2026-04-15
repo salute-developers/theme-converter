@@ -32,24 +32,6 @@
     },
     "variations": [
         {
-            "id": "size-180",
-            "parent": null,
-            "props": {
-                "textStyle": {
-                    "type": "typography",
-                    "value": "display.s.bold"
-                },
-                "width": {
-                    "type": "dimension",
-                    "value": 180
-                },
-                "height": {
-                    "type": "dimension",
-                    "value": 180
-                }
-            }
-        },
-        {
             "id": "size-72",
             "parent": null,
             "props": {
@@ -65,7 +47,7 @@
                     "type": "dimension",
                     "value": 72
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
@@ -107,7 +89,7 @@
                     "type": "dimension",
                     "value": 64
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
@@ -149,7 +131,7 @@
                     "type": "dimension",
                     "value": 56
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
@@ -191,7 +173,7 @@
                     "type": "dimension",
                     "value": 44
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-18"
                 },
@@ -233,7 +215,7 @@
                     "type": "dimension",
                     "value": 40
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-16"
                 },
@@ -275,7 +257,7 @@
                     "type": "dimension",
                     "value": 36
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-14"
                 },
@@ -317,7 +299,7 @@
                     "type": "dimension",
                     "value": 32
                 },
-                "badgeStyle": {
+                "iconBadgeStyle": {
                     "type": "component_style",
                     "value": "voice-chat-badge.size-14"
                 },

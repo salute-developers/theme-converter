@@ -32,7 +32,7 @@
         },
         "handleColor": {
             "type": "color",
-            "default": "surface.default.transparent-deep"
+            "default": "text.default.secondary"
         },
         "handleWidth": {
             "type": "dimension",
