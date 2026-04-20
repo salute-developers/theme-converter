@@ -22,10 +22,29 @@
             "value": 0
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-20",
+                "size-18",
+                "size-16",
+                "size-14"
+            ],
+            "defaultValue": "size-20"
+        }
+    ],
     "variations": [
         {
             "id": "size-20",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-20"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -44,6 +63,12 @@
         {
             "id": "size-18",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-18"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -62,6 +87,12 @@
         {
             "id": "size-16",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-16"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -80,6 +111,12 @@
         {
             "id": "size-14",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-14"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",

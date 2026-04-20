@@ -21,6 +21,17 @@
             "value": "down.hard.m"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "s"
+            ],
+            "defaultValue": "m"
+        }
+    ],
     "variations": [
         {
             "id": "m",
@@ -71,7 +82,13 @@
                     "type": "dimension",
                     "value": 11
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -121,7 +138,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }

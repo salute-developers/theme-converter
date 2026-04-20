@@ -18,6 +18,27 @@
             "value": "round.m"
         }
     },
+    "bindings": [
+        {
+            "name": "gap",
+            "type": "enum",
+            "values": [
+                "wide",
+                "dense",
+                "none"
+            ],
+            "defaultValue": "wide"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "segmented"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "wide",
@@ -27,7 +48,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "wide.segmented",
@@ -37,7 +64,17 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "dense",
@@ -47,7 +84,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "dense.segmented",
@@ -57,7 +100,17 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         }
     ]
 }

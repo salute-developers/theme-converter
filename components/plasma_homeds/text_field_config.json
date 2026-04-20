@@ -1,713 +1,944 @@
 {
-  "view": {
-    "default": {
-      "props": {
-        "captionColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "backgroundColor": {
-          "type": "color",
-          "default": "surface.default.transparent-primary",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "surface.default.transparent-secondary"
+    "view": {
+        "default": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary",
+                    "states": [
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-secondary"
+                        }
+                    ]
+                }
             }
-          ]
-        }
-      }
-    },
-    "error": {
-      "props": {
-        "captionColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
+        },
+        "error": {
+            "props": {
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-negative",
+                    "states": [
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-secondary"
+                        }
+                    ]
+                }
             }
-          ]
-        },
-        "backgroundColor": {
-          "type": "color",
-          "default": "surface.default.transparent-negative",
-          "states": [
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "surface.default.transparent-secondary"
-            }
-          ]
         }
-      }
-    }
-  },
-  "props": {
-    "disableAlpha": {
-      "type": "float",
-      "value": 0.4
     },
-    "prefixPadding": {
-      "type": "dimension",
-      "value": 6.0
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "prefixPadding": {
+            "type": "dimension",
+            "value": 6
+        },
+        "suffixPadding": {
+            "type": "dimension",
+            "value": 6
+        },
+        "captionPlacement": {
+            "type": "value",
+            "value": "outer"
+        },
+        "counterPlacement": {
+            "type": "value",
+            "value": "outer"
+        },
+        "captionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "counterStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "optionalPadding": {
+            "type": "dimension",
+            "value": 4
+        },
+        "helperTextPadding": {
+            "type": "dimension",
+            "value": 4
+        },
+        "valueColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "startContentColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "endContentColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                }
+            ]
+        },
+        "endContentColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "alpha": 0.4
+        },
+        "optionalColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "counterColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "placeholderColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "activated"
+                    ],
+                    "value": "text.default.tertiary"
+                }
+            ]
+        },
+        "placeholderColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "backgroundColorReadOnly": {
+            "type": "color",
+            "default": "surface.default.solid-primary",
+            "alpha": 0.4
+        },
+        "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.negative"
+        },
+        "cursorColor": {
+            "type": "color",
+            "default": "text.default.accent"
+        },
+        "captionColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "prefixColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "suffixColor": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        }
     },
-    "suffixPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
-    "captionPlacement": {
-      "type": "value",
-      "value": "outer"
-    },
-    "counterPlacement": {
-      "type": "value",
-      "value": "outer"
-    },
-    "captionStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "counterStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "optionalPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
-    "helperTextPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
-    "valueColor": {
-      "type": "color",
-      "default": "text.default.primary"
-    },
-    "startContentColor": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "endContentColor": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "states": [
+    "bindings": [
         {
-          "state": [
-            "pressed"
-          ],
-          "value": "text.default.secondary-active"
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "s"
         },
         {
-          "state": [
-            "hovered"
-          ],
-          "value": "text.default.secondary-hover"
-        }
-      ]
-    },
-    "endContentColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "alpha": 0.4
-    },
-    "optionalColor": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    },
-    "counterColor": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "placeholderColor": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "states": [
+            "name": "required-placement",
+            "type": "enum",
+            "values": [
+                "start",
+                "end"
+            ],
+            "defaultValue": "start"
+        },
         {
-          "state": [
-            "activated"
-          ],
-          "value": "text.default.tertiary"
+            "name": "label-placement",
+            "type": "enum",
+            "values": [
+                "inner",
+                "none"
+            ],
+            "defaultValue": "inner"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "error"
+            ]
         }
-      ]
-    },
-    "placeholderColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "backgroundColorReadOnly": {
-      "type": "color",
-      "default": "surface.default.solid-primary",
-      "alpha": 0.4
-    },
-    "indicatorColor": {
-      "type": "color",
-      "default": "surface.default.negative"
-    },
-    "cursorColor": {
-      "type": "color",
-      "default": "text.default.accent"
-    },
-    "captionColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "prefixColor": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    },
-    "suffixColor": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    }
-  },
-  "variations": [
-    {
-      "id": "s",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
+    ],
+    "variations": [
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.m"
+                },
+                "boxPaddingStart": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "boxPaddingEnd": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 40
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
-        "shape": {
-          "type": "shape",
-          "value": "round.m"
+        {
+            "id": "s.required-start",
+            "parent": "s",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ]
         },
-        "boxPaddingStart": {
-          "type": "dimension",
-          "value": 12.0
+        {
+            "id": "s.required-end",
+            "parent": "s",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ]
         },
-        "boxPaddingEnd": {
-          "type": "dimension",
-          "value": 12.0
+        {
+            "id": "s.inner-label",
+            "parent": "s",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 8.0
+        {
+            "id": "s.inner-label.required-start",
+            "parent": "s.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 8.0
+        {
+            "id": "s.inner-label.required-end",
+            "parent": "s.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 2.0
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.l"
+                },
+                "boxPaddingStart": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "boxPaddingEnd": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 4
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 48
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 6.0
+        {
+            "id": "m.required-start",
+            "parent": "m",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ]
         },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 40.0
+        {
+            "id": "m.required-end",
+            "parent": "m",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ]
         },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 40.0
+        {
+            "id": "m.inner-label",
+            "parent": "m",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
+        {
+            "id": "m.inner-label.required-start",
+            "parent": "m.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
+        {
+            "id": "m.inner-label.required-end",
+            "parent": "m.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xl",
+                    "adjustment": -2
+                },
+                "boxPaddingStart": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "boxPaddingEnd": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 56
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
+        {
+            "id": "l.required-start",
+            "parent": "l",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ]
         },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
+        {
+            "id": "l.required-end",
+            "parent": "l",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ]
         },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
+        {
+            "id": "l.inner-label",
+            "parent": "l",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 9
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 9
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
+        {
+            "id": "l.inner-label.required-start",
+            "parent": "l.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredStart"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
+        },
+        {
+            "id": "l.inner-label.required-end",
+            "parent": "l.inner-label",
+            "props": {
+                "fieldType": {
+                    "type": "value",
+                    "value": "requiredEnd"
+                },
+                "indicatorSize": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "indicatorAlignmentMode": {
+                    "type": "value",
+                    "value": "inside"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         }
-      }
-    },
-    {
-      "id": "s.required-start",
-      "parent": "s",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "s.required-end",
-      "parent": "s",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "s.inner-label",
-      "parent": "s",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 0.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    },
-    {
-      "id": "s.inner-label.required-start",
-      "parent": "s.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "s.inner-label.required-end",
-      "parent": "s.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "m",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
-        },
-        "shape": {
-          "type": "shape",
-          "value": "round.l"
-        },
-        "boxPaddingStart": {
-          "type": "dimension",
-          "value": 14.0
-        },
-        "boxPaddingEnd": {
-          "type": "dimension",
-          "value": 14.0
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 12.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 12.0
-        },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 48.0
-        },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 48.0
-        },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
-        }
-      }
-    },
-    {
-      "id": "m.required-start",
-      "parent": "m",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "m.required-end",
-      "parent": "m",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "m.inner-label",
-      "parent": "m",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 2.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    },
-    {
-      "id": "m.inner-label.required-start",
-      "parent": "m.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "m.inner-label.required-end",
-      "parent": "m.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "l",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
-        },
-        "shape": {
-          "type": "shape",
-          "value": "round.xl",
-          "adjustment": -2.0
-        },
-        "boxPaddingStart": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "boxPaddingEnd": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 10.0
-        },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 56.0
-        },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 56.0
-        },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
-        }
-      }
-    },
-    {
-      "id": "l.required-start",
-      "parent": "l",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "l.required-end",
-      "parent": "l",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "l.inner-label",
-      "parent": "l",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 2.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 9.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 9.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    },
-    {
-      "id": "l.inner-label.required-start",
-      "parent": "l.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredStart"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    },
-    {
-      "id": "l.inner-label.required-end",
-      "parent": "l.inner-label",
-      "props": {
-        "fieldType": {
-          "type": "value",
-          "value": "requiredEnd"
-        },
-        "indicatorSize": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "indicatorAlignmentMode": {
-          "type": "value",
-          "value": "inside"
-        }
-      }
-    }
-  ]
+    ]
 }

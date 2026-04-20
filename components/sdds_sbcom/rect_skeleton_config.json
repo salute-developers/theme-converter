@@ -9,7 +9,13 @@
                     "type": "gradient",
                     "default": "surface.default.skeleton-gradient"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "type",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "pulse",
@@ -19,7 +25,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-tertiary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "type",
+                    "value": "pulse"
+                }
+            ]
         }
     ],
     "props": {
@@ -30,6 +42,17 @@
         "duration": {
             "type": "float",
             "value": 1000
-        }   
-    }
+        }
+    },
+    "bindings": [
+        {
+            "name": "type",
+            "type": "enum",
+            "values": [
+                "default",
+                "pulse"
+            ],
+            "defaultValue": "default"
+        }
+    ]
 }

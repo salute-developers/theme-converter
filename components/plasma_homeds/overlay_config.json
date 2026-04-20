@@ -1,6 +1,18 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "kind",
+            "type": "enum",
+            "values": [
+                "default",
+                "direction-top",
+                "direction-bottom"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "default",
@@ -12,9 +24,15 @@
                 },
                 "blurRadius": {
                     "type": "dimension",
-                    "value": 16.0
+                    "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "kind",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "direction-top",
@@ -24,7 +42,13 @@
                     "type": "gradient",
                     "default": "overlay.default.gradient-up"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "kind",
+                    "value": "direction-top"
+                }
+            ]
         },
         {
             "id": "direction-bottom",
@@ -34,7 +58,13 @@
                     "type": "gradient",
                     "default": "overlay.default.gradient-down"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "kind",
+                    "value": "direction-bottom"
+                }
+            ]
         }
     ]
 }

@@ -80,23 +80,23 @@
         },
         "captionSpacing": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "captionPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "counterPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "titleBlockSpacing": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "titleBlockPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "titlePlacement": {
             "type": "value",
@@ -104,7 +104,7 @@
         },
         "titleCaptionPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 4
         },
         "titleStyle": {
             "type": "typography",
@@ -116,16 +116,29 @@
         },
         "hintHeight": {
             "type": "dimension",
-            "value": 14.0
+            "value": 14
         },
         "hintWidth": {
             "type": "dimension",
-            "value": 16.0
+            "value": 16
         },
         "optionalStyle": {
             "type": "typography",
             "value": "body.xs.normal"
         }
     },
+    "bindings": [
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "positive",
+                "negative",
+                "warning"
+            ]
+        }
+    ],
     "variations": []
 }

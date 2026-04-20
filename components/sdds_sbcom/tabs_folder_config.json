@@ -50,5 +50,6 @@
             "default": "surface.default.transparent-accent"
         }
     },
+    "bindings": [],
     "variations": []
 }

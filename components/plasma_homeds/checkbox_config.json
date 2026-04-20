@@ -169,6 +169,27 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "negative"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -262,7 +283,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -356,7 +383,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -450,7 +483,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }

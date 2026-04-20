@@ -23,10 +23,39 @@
             "default": "text.default.accent-gradient"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "defaultValue": "xxl",
+            "values": [
+                "xxl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ]
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "pilled"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "xxl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -73,6 +102,16 @@
         {
             "id": "xxl.pilled",
             "parent": "xxl",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -86,12 +125,18 @@
                 "statusOffsetY": {
                     "type": "dimension",
                     "value": 0
-                }    
+                }
             }
         },
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -138,6 +183,16 @@
         {
             "id": "l.pilled",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -156,6 +211,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -202,6 +263,16 @@
         {
             "id": "m.pilled",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -221,6 +292,13 @@
         {
             "id": "s",
             "parent": null,
+            "key": "size",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -263,6 +341,16 @@
         {
             "id": "s.pilled",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

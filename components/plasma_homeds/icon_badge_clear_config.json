@@ -63,6 +63,42 @@
             }
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "accent",
+                "negative",
+                "positive",
+                "warning",
+                "dark",
+                "light"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -88,7 +124,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
@@ -98,7 +140,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
@@ -124,7 +176,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
@@ -134,7 +192,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
@@ -160,7 +228,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
@@ -170,7 +244,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -196,7 +280,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
@@ -206,7 +296,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         }
     ]
 }

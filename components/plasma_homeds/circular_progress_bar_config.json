@@ -79,6 +79,37 @@
             "default": "surface.default.transparent-secondary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xxl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "gradient",
+                "info",
+                "negative",
+                "positive",
+                "warning"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "xxl",
@@ -104,7 +135,13 @@
                     "type": "typography",
                     "value": "header.h2.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ]
         },
         {
             "id": "xl",
@@ -130,7 +167,13 @@
                     "type": "typography",
                     "value": "header.h5.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -160,7 +203,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -190,7 +239,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -220,7 +275,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -250,7 +311,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -276,7 +343,13 @@
                     "type": "boolean",
                     "value": false
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
         }
     ]
 }

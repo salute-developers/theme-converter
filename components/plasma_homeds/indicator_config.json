@@ -79,6 +79,34 @@
             "value": "round.circle"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "accent",
+                "inactive",
+                "positive",
+                "warning",
+                "negative",
+                "dark",
+                "black",
+                "white"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -92,7 +120,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -106,7 +140,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -120,7 +160,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }

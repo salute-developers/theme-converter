@@ -1,10 +1,30 @@
 {
     "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
+        },
+        {
+            "name": "has-background",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "has-item-background",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "s",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item.s"
@@ -13,12 +33,28 @@
                     "type": "dimension",
                     "value": 8
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.no-background",
             "parent": "s",
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-background",
+                    "value": false
+                }
+            ]
         },
         {
             "id": "s.no-background.has-item-background",
@@ -28,7 +64,21 @@
                     "type": "component_style",
                     "value": "list-item.s.has-background"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-background",
+                    "value": false
+                },
+                {
+                    "name": "has-item-background",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "s.has-background",
@@ -63,7 +113,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-background",
+                    "value": true
+                }
+            ]
         }
     ],
     "props": {

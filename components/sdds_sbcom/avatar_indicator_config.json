@@ -10,10 +10,30 @@
             "value": "round.circle"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-14",
+                "size-12",
+                "size-10",
+                "size-8",
+                "size-6"
+            ],
+            "defaultValue": "size-14"
+        }
+    ],
     "variations": [
         {
             "id": "size-14",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-14"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -28,6 +48,12 @@
         {
             "id": "size-12",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-12"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -42,6 +68,12 @@
         {
             "id": "size-10",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-10"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -56,6 +88,12 @@
         {
             "id": "size-8",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-8"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -70,6 +108,12 @@
         {
             "id": "size-6",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-6"
+                }
+            ],
             "props": {
                 "width": {
                     "type": "dimension",

@@ -14,6 +14,29 @@
             "value": 8
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -36,7 +59,13 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
@@ -59,7 +88,17 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
@@ -82,7 +121,13 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
@@ -105,7 +150,17 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
@@ -128,7 +183,13 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
@@ -151,7 +212,17 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -174,7 +245,13 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
@@ -197,7 +274,17 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -220,7 +307,13 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
         },
         {
             "id": "xxs.pilled",
@@ -243,7 +336,17 @@
                     }
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         }
     ]
 }

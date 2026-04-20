@@ -1,6 +1,38 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "xs"
+        },
+        {
+            "name": "gap",
+            "type": "enum",
+            "values": [
+                "wide",
+                "dense",
+                "none"
+            ],
+            "defaultValue": "wide"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "pilled",
+                "segmented"
+            ],
+            "defaultValue": "pilled"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
@@ -10,7 +42,13 @@
                     "type": "component_style",
                     "value": "icon-button.xs.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.wide",
@@ -20,7 +58,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "xs.wide.pilled",
@@ -34,7 +82,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs.wide.segmented",
@@ -49,7 +111,21 @@
                     "value": "round.xxs",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "xs.dense",
@@ -59,7 +135,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "xs.dense.pilled",
@@ -73,7 +159,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs.dense.segmented",
@@ -88,7 +188,21 @@
                     "value": "round.xxs",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "xs.no-gap",
@@ -98,7 +212,17 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "xs.no-gap.pilled",
@@ -112,7 +236,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs.no-gap.segmented",
@@ -122,7 +260,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s",
@@ -132,7 +284,13 @@
                     "type": "component_style",
                     "value": "icon-button.s.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.wide",
@@ -142,7 +300,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "s.wide.pilled",
@@ -156,7 +324,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s.wide.segmented",
@@ -170,7 +352,21 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s.dense",
@@ -180,7 +376,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "s.dense.pilled",
@@ -194,7 +400,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s.dense.segmented",
@@ -208,7 +428,21 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s.no-gap",
@@ -218,7 +452,17 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "s.no-gap.pilled",
@@ -232,7 +476,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s.no-gap.segmented",
@@ -242,7 +500,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m",
@@ -252,7 +524,13 @@
                     "type": "component_style",
                     "value": "icon-button.m.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.wide",
@@ -262,7 +540,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "m.wide.pilled",
@@ -276,7 +564,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m.wide.segmented",
@@ -290,7 +592,21 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m.dense",
@@ -300,7 +616,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "m.dense.pilled",
@@ -314,7 +640,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m.dense.segmented",
@@ -328,7 +668,21 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m.no-gap",
@@ -338,7 +692,17 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "m.no-gap.pilled",
@@ -352,7 +716,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m.no-gap.segmented",
@@ -362,7 +740,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "l",
@@ -372,7 +764,13 @@
                     "type": "component_style",
                     "value": "icon-button.l.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.wide",
@@ -382,7 +780,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "l.wide.pilled",
@@ -396,7 +804,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "l.wide.segmented",
@@ -410,7 +832,21 @@
                     "type": "shape",
                     "value": "round.xs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "l.dense",
@@ -420,7 +856,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "l.dense.pilled",
@@ -434,7 +880,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "l.dense.segmented",
@@ -448,7 +908,21 @@
                     "type": "shape",
                     "value": "round.xs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "l.no-gap",
@@ -458,7 +932,17 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "l.no-gap.pilled",
@@ -472,7 +956,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "l.no-gap.segmented",
@@ -482,7 +980,21 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         }
     ]
 }

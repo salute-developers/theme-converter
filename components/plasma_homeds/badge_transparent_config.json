@@ -141,10 +141,47 @@
             }
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "accent",
+                "negative",
+                "positive",
+                "warning",
+                "dark",
+                "light"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "key": "size",
             "props": {
                 "shape": {
                     "type": "shape",
@@ -182,21 +219,39 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
             "parent": "l",
+            "key": "shape",
             "props": {
                 "shape": {
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
+            "key": "size",
             "props": {
                 "shape": {
                     "type": "shape",
@@ -234,21 +289,39 @@
                     "type": "dimension",
                     "value": 3
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
             "parent": "m",
+            "key": "shape",
             "props": {
                 "shape": {
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
+            "key": "size",
             "props": {
                 "shape": {
                     "type": "shape",
@@ -286,21 +359,39 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
             "parent": "s",
+            "key": "shape",
             "props": {
                 "shape": {
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
             "parent": null,
+            "key": "size",
             "props": {
                 "shape": {
                     "type": "shape",
@@ -338,17 +429,34 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
             "parent": "xs",
+            "key": "shape",
             "props": {
                 "shape": {
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         }
     ]
 }

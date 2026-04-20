@@ -14,10 +14,27 @@
             "value": 6
         }
     },
+    "bindings": [
+        {
+            "name": "chip-slot",
+            "type": "enum",
+            "values": [
+                "padding",
+                "avatar"
+            ],
+            "defaultValue": "padding"
+        }
+    ],
     "variations": [
         {
             "id": "chip-slot-padding",
             "parent": null,
+            "binding": [
+                {
+                    "name": "chip-slot",
+                    "value": "padding"
+                }
+            ],
             "props": {
                 "chipStyle": {
                     "type": "component_style",
@@ -28,6 +45,12 @@
         {
             "id": "chip-slot-avatar",
             "parent": null,
+            "binding": [
+                {
+                    "name": "chip-slot",
+                    "value": "avatar"
+                }
+            ],
             "props": {
                 "chipStyle": {
                     "type": "component_style",

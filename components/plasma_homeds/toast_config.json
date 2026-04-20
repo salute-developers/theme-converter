@@ -79,5 +79,17 @@
             "value": 12
         }
     },
+    "bindings": [
+        {
+            "name": "view",
+            "type": "enum",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "positive",
+                "negative"
+            ]
+        }
+    ],
     "variations": []
 }

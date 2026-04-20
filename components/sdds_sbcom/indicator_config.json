@@ -6,7 +6,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "state",
+                    "value": "success"
+                }
+            ]
         },
         "state-global-white": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "color",
                     "default": "surface.default.solid-primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "state",
+                    "value": "global-white"
+                }
+            ]
         },
         "state-mute": {
             "props": {
@@ -22,7 +34,13 @@
                     "type": "color",
                     "default": "text.default.paragraph"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "state",
+                    "value": "mute"
+                }
+            ]
         },
         "state-danger": {
             "props": {
@@ -30,7 +48,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "state",
+                    "value": "danger"
+                }
+            ]
         },
         "state-warning": {
             "props": {
@@ -38,7 +62,13 @@
                     "type": "color",
                     "default": "text.default.warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "state",
+                    "value": "warning"
+                }
+            ]
         }
     },
     "props": {
@@ -55,5 +85,19 @@
             "value": 8
         }
     },
+    "bindings": [
+        {
+            "name": "state",
+            "type": "enum",
+            "values": [
+                "success",
+                "global-white",
+                "mute",
+                "danger",
+                "warning"
+            ],
+            "defaultValue": "success"
+        }
+    ],
     "variations": []
 }

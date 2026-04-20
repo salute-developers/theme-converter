@@ -1,6 +1,22 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "ratio",
+            "type": "enum",
+            "values": [
+                "ratio_1_2",
+                "ratio_9_16",
+                "ratio_3_4",
+                "ratio_2_1",
+                "ratio_16_9",
+                "ratio_4_3",
+                "ratio_1_1"
+            ],
+            "defaultValue": "ratio_1_2"
+        }
+    ],
     "variations": [
         {
             "id": "ratio_1_2",
@@ -8,13 +24,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 1.0
+                    "value": 1
                 },
                 "height": {
                     "type": "float",
-                    "value": 2.0
+                    "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_1_2"
+                }
+            ]
         },
         {
             "id": "ratio_9_16",
@@ -22,13 +44,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 9.0
+                    "value": 9
                 },
                 "height": {
                     "type": "float",
-                    "value": 16.0
+                    "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_9_16"
+                }
+            ]
         },
         {
             "id": "ratio_3_4",
@@ -36,13 +64,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 3.0
+                    "value": 3
                 },
                 "height": {
                     "type": "float",
-                    "value": 4.0
+                    "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_3_4"
+                }
+            ]
         },
         {
             "id": "ratio_2_1",
@@ -50,13 +84,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 2.0
+                    "value": 2
                 },
                 "height": {
                     "type": "float",
-                    "value": 1.0
+                    "value": 1
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_2_1"
+                }
+            ]
         },
         {
             "id": "ratio_16_9",
@@ -64,13 +104,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 16.0
+                    "value": 16
                 },
                 "height": {
                     "type": "float",
-                    "value": 9.0
+                    "value": 9
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_16_9"
+                }
+            ]
         },
         {
             "id": "ratio_4_3",
@@ -78,13 +124,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 4.0
+                    "value": 4
                 },
                 "height": {
                     "type": "float",
-                    "value": 3.0
+                    "value": 3
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_4_3"
+                }
+            ]
         },
         {
             "id": "ratio_1_1",
@@ -92,13 +144,19 @@
             "props": {
                 "width": {
                     "type": "float",
-                    "value": 1.0
+                    "value": 1
                 },
                 "height": {
                     "type": "float",
-                    "value": 1.0
+                    "value": 1
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_1_1"
+                }
+            ]
         }
     ]
 }
