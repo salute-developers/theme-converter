@@ -1,9 +1,32 @@
 {
     "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "xs"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -18,6 +41,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -32,6 +61,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -46,6 +81,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -60,6 +101,12 @@
         {
             "id": "h2",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -74,6 +121,12 @@
         {
             "id": "h3",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -88,6 +141,12 @@
         {
             "id": "h4",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",
@@ -102,6 +161,12 @@
         {
             "id": "h5",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ],
             "props": {
                 "accordionItemStyle": {
                     "type": "component_style",

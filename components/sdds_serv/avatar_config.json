@@ -23,10 +23,29 @@
             "default": "text.default.accent-gradient"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "xxl"
+        }
+    ],
     "variations": [
         {
             "id": "xxl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -73,6 +92,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -119,6 +144,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -165,6 +196,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",

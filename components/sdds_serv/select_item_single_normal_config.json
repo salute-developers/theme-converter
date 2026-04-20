@@ -26,10 +26,30 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -76,6 +96,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -123,6 +149,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -169,6 +201,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -216,6 +254,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

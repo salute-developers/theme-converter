@@ -10,7 +10,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -22,7 +28,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -34,7 +46,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -46,7 +64,13 @@
                     "type": "color",
                     "default": "text.default.warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -58,7 +82,13 @@
                     "type": "color",
                     "default": "text.default.info"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "props": {
@@ -75,6 +105,45 @@
             "default": "text.default.primary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "content-before",
+            "type": "enum",
+            "values": [
+                "fixed",
+                "scalable"
+            ],
+            "defaultValue": "fixed"
+        },
+        {
+            "name": "has-close",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "positive",
+                "negative",
+                "warning",
+                "info"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -86,7 +155,13 @@
                             "type": "component_style",
                             "value": "link-button.l.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -94,7 +169,13 @@
                             "type": "component_style",
                             "value": "link-button.l.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -102,7 +183,13 @@
                             "type": "component_style",
                             "value": "link-button.l.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -110,7 +197,13 @@
                             "type": "component_style",
                             "value": "link-button.l.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 },
                 "info": {
                     "props": {
@@ -118,9 +211,21 @@
                             "type": "component_style",
                             "value": "link-button.l.info"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "info"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -184,6 +289,16 @@
         {
             "id": "l.has-close",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -210,7 +325,17 @@
         {
             "id": "l.content-scalable",
             "parent": "l",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 16
@@ -228,15 +353,29 @@
                     "value": "center"
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
             "id": "l.has-close-content-scalable",
             "parent": "l",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
+            "props": {
                 "closeIcon": {
                     "type": "icon",
                     "value": "close.24"
@@ -270,9 +409,9 @@
                     "value": "center"
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
@@ -285,7 +424,13 @@
                             "type": "component_style",
                             "value": "link-button.m.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -293,7 +438,13 @@
                             "type": "component_style",
                             "value": "link-button.m.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -301,7 +452,13 @@
                             "type": "component_style",
                             "value": "link-button.m.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -309,7 +466,13 @@
                             "type": "component_style",
                             "value": "link-button.m.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 },
                 "info": {
                     "props": {
@@ -317,9 +480,21 @@
                             "type": "component_style",
                             "value": "link-button.m.info"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "info"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -382,6 +557,16 @@
         {
             "id": "m.has-close",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -408,7 +593,17 @@
         {
             "id": "m.content-scalable",
             "parent": "m",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 12
@@ -426,15 +621,29 @@
                     "value": "center"
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
             "id": "m.has-close-content-scalable",
             "parent": "m",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 12
@@ -468,9 +677,9 @@
                     "value": 16
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
@@ -483,7 +692,13 @@
                             "type": "component_style",
                             "value": "link-button.s.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -491,7 +706,13 @@
                             "type": "component_style",
                             "value": "link-button.s.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -499,7 +720,13 @@
                             "type": "component_style",
                             "value": "link-button.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -507,7 +734,13 @@
                             "type": "component_style",
                             "value": "link-button.s.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 },
                 "info": {
                     "props": {
@@ -515,9 +748,21 @@
                             "type": "component_style",
                             "value": "link-button.s.info"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "info"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -581,6 +826,16 @@
         {
             "id": "s.has-close",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -607,7 +862,17 @@
         {
             "id": "s.content-scalable",
             "parent": "s",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 12
@@ -625,15 +890,29 @@
                     "value": "center"
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
             "id": "s.has-close-content-scalable",
             "parent": "s",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 12
@@ -667,9 +946,9 @@
                     "value": 12
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
@@ -682,7 +961,13 @@
                             "type": "component_style",
                             "value": "link-button.xs.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -690,7 +975,13 @@
                             "type": "component_style",
                             "value": "link-button.xs.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -698,7 +989,13 @@
                             "type": "component_style",
                             "value": "link-button.xs.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -706,7 +1003,13 @@
                             "type": "component_style",
                             "value": "link-button.xs.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 },
                 "info": {
                     "props": {
@@ -714,9 +1017,21 @@
                             "type": "component_style",
                             "value": "link-button.xs.info"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "info"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -779,6 +1094,16 @@
         {
             "id": "xs.has-close",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
             "props": {
                 "closeIcon": {
                     "type": "icon",
@@ -805,7 +1130,17 @@
         {
             "id": "xs.content-scalable",
             "parent": "xs",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 8
@@ -823,15 +1158,29 @@
                     "value": "center"
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         },
         {
             "id": "xs.has-close-content-scalable",
             "parent": "xs",
-            "props":{
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "content-before",
+                    "value": "scalable"
+                },
+                {
+                    "name": "has-close",
+                    "value": true
+                }
+            ],
+            "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
                     "value": 8
@@ -865,9 +1214,9 @@
                     "value": 12
                 },
                 "iconSize": {
-                   "type": "dimension",
-                   "value": 0
-               }
+                    "type": "dimension",
+                    "value": 0
+                }
             }
         }
     ]

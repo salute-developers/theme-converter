@@ -24,7 +24,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -38,7 +44,13 @@
                     "default": "surface.default.transparent-primary",
                     "alpha": 0.32
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -50,7 +62,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-accent"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -62,7 +80,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -74,7 +98,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -86,7 +116,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -98,13 +134,56 @@
                     "type": "color",
                     "default": "surface.default.transparent-info"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs",
+                "scalable"
+            ],
+            "defaultValue": "xxl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "info"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xxl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -119,6 +198,12 @@
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -133,6 +218,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -147,6 +238,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -161,6 +258,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -175,6 +278,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -189,6 +298,12 @@
         {
             "id": "xxs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -203,6 +318,12 @@
         {
             "id": "scalable",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "scalable"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",

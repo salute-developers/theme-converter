@@ -56,7 +56,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -114,7 +120,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -172,7 +184,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -230,7 +248,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -288,7 +312,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -346,7 +376,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -404,7 +440,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "props": {
@@ -421,10 +463,45 @@
             "default": "surface.default.clear"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "info"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -467,6 +544,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -509,6 +592,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -551,6 +640,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -593,6 +688,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -635,6 +736,12 @@
         {
             "id": "xxs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",

@@ -22,10 +22,29 @@
             "default": "text.default.secondary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -80,6 +99,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -134,6 +159,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -188,6 +219,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",

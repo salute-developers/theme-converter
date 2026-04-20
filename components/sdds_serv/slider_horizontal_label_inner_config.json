@@ -18,7 +18,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -38,7 +44,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "gradient": {
             "props": {
@@ -59,7 +71,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "gradient"
+                }
+            ]
         }
     },
     "props": {
@@ -115,7 +133,7 @@
             "type": "value",
             "value": "center"
         },
-         "tooltipStyle": {
+        "tooltipStyle": {
             "type": "component_style",
             "value": "tooltip.s"
         },
@@ -132,10 +150,56 @@
             "value": "top"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "limit-label-alignment",
+            "type": "enum",
+            "values": [
+                "end",
+                "center"
+            ],
+            "defaultValue": "end"
+        },
+        {
+            "name": "thumb-size",
+            "type": "enum",
+            "values": [
+                "default",
+                "s"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "accent",
+                "gradient"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -178,6 +242,16 @@
         {
             "id": "l.limit-label-center",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                }
+            ],
             "props": {
                 "limitLabelAlignment": {
                     "type": "value",
@@ -188,6 +262,16 @@
         {
             "id": "l.thumb-s",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -198,6 +282,20 @@
         {
             "id": "l.limit-label-center.thumb-s",
             "parent": "l.limit-label-center",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -208,6 +306,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -250,6 +354,16 @@
         {
             "id": "m.limit-label-center",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                }
+            ],
             "props": {
                 "limitLabelAlignment": {
                     "type": "value",
@@ -260,6 +374,16 @@
         {
             "id": "m.thumb-s",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -270,6 +394,20 @@
         {
             "id": "m.limit-label-center.thumb-s",
             "parent": "m.limit-label-center",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -280,6 +418,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -322,6 +466,16 @@
         {
             "id": "s.limit-label-center",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                }
+            ],
             "props": {
                 "limitLabelAlignment": {
                     "type": "value",
@@ -332,6 +486,16 @@
         {
             "id": "s.thumb-s",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -342,6 +506,20 @@
         {
             "id": "s.limit-label-center.thumb-s",
             "parent": "s.limit-label-center",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "limit-label-alignment",
+                    "value": "center"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",

@@ -36,10 +36,35 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "body-l",
+                "body-m",
+                "body-s",
+                "body-xs",
+                "body-xxs"
+            ],
+            "defaultValue": "h1"
+        }
+    ],
     "variations": [
         {
             "id": "h1",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -58,6 +83,12 @@
         {
             "id": "h2",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -76,6 +107,12 @@
         {
             "id": "h3",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -94,6 +131,12 @@
         {
             "id": "h4",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -112,6 +155,12 @@
         {
             "id": "h5",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -130,6 +179,12 @@
         {
             "id": "body-l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-l"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -148,6 +203,12 @@
         {
             "id": "body-m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-m"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -166,6 +227,12 @@
         {
             "id": "body-s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-s"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -184,6 +251,12 @@
         {
             "id": "body-xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-xs"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -202,6 +275,12 @@
         {
             "id": "body-xxs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-xxs"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",

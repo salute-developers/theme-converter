@@ -176,10 +176,39 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "orientation",
+            "type": "enum",
+            "values": [
+                "default",
+                "horizontal",
+                "vertical"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -230,6 +259,16 @@
         {
             "id": "l.horizontal",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -244,6 +283,16 @@
         {
             "id": "l.vertical",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -258,6 +307,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -308,6 +363,16 @@
         {
             "id": "m.horizontal",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -322,6 +387,16 @@
         {
             "id": "m.vertical",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -336,6 +411,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -386,6 +467,16 @@
         {
             "id": "s.horizontal",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -400,6 +491,16 @@
         {
             "id": "s.vertical",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -414,6 +515,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -464,6 +571,16 @@
         {
             "id": "xs.horizontal",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -478,6 +595,16 @@
         {
             "id": "xs.vertical",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",

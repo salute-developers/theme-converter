@@ -26,10 +26,33 @@
             "default": "text.default.primary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "xs"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -88,6 +111,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -147,6 +176,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -205,6 +240,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -264,6 +305,12 @@
         {
             "id": "h2",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -323,6 +370,12 @@
         {
             "id": "h3",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -381,6 +434,12 @@
         {
             "id": "h4",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -440,6 +499,12 @@
         {
             "id": "h5",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

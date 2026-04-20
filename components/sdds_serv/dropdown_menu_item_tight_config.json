@@ -6,7 +6,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -22,7 +34,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         }
     },
     "props": {
@@ -47,10 +65,40 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "positive",
+                "negative"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -93,6 +141,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -136,6 +190,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -178,6 +238,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -221,6 +287,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

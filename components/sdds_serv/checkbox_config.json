@@ -62,7 +62,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -126,7 +132,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         }
     },
     "props": {
@@ -169,10 +181,37 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "negative"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -267,6 +306,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -361,6 +406,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
