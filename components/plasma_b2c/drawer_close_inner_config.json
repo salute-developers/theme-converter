@@ -1,9 +1,30 @@
 {
     "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m"
+            ],
+            "defaultValue": "m"
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -38,6 +59,16 @@
         {
             "id": "m.has-shadow",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",

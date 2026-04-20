@@ -10,14 +10,38 @@
             "value": "divider"
         },
         "orientation": {
-                    "type": "value",
-                    "value": "vertical"
-                }
+            "type": "value",
+            "value": "vertical"
+        }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -52,6 +76,16 @@
         {
             "id": "l.has-shadow",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -62,6 +96,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -96,6 +136,16 @@
         {
             "id": "m.has-shadow",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -106,6 +156,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -141,6 +197,16 @@
         {
             "id": "s.has-shadow",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -151,6 +217,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "paddingStart": {
                     "type": "dimension",
@@ -185,6 +257,16 @@
         {
             "id": "xs.has-shadow",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",

@@ -56,7 +56,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -114,7 +120,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -172,7 +184,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -230,7 +248,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -288,7 +312,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -346,7 +376,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "clear": {
             "props": {
@@ -404,7 +440,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "clear"
+                }
+            ]
         },
         "dark": {
             "props": {
@@ -462,7 +504,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "dark"
+                }
+            ]
         },
         "black": {
             "props": {
@@ -520,7 +568,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "black"
+                }
+            ]
         },
         "white": {
             "props": {
@@ -578,7 +632,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "white"
+                }
+            ]
         }
     },
     "props": {
@@ -591,10 +651,57 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "clear",
+                "dark",
+                "black",
+                "white"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -633,6 +740,16 @@
         {
             "id": "xl.pilled",
             "parent": "xl",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -643,6 +760,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -682,6 +805,16 @@
         {
             "id": "l.pilled",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -692,6 +825,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -730,6 +869,16 @@
         {
             "id": "m.pilled",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -740,6 +889,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -779,6 +934,16 @@
         {
             "id": "s.pilled",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -789,6 +954,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -827,6 +998,16 @@
         {
             "id": "xs.pilled",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -837,6 +1018,12 @@
         {
             "id": "xxs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -875,6 +1062,16 @@
         {
             "id": "xxs.pilled",
             "parent": "xxs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

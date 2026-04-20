@@ -26,6 +26,32 @@
             "default": "surface.default.solid-card"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "l"
+            ],
+            "defaultValue": "m"
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "rounded",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "divider",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "m",
@@ -37,7 +63,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.m.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -45,7 +77,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.m.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -53,13 +91,36 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.m.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
+            "props": {}
         },
         {
             "id": "m.rounded",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",
@@ -71,6 +132,16 @@
         {
             "id": "m.shadow",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -81,6 +152,20 @@
         {
             "id": "m.shadow.rounded",
             "parent": "m.shadow",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",
@@ -92,6 +177,16 @@
         {
             "id": "m.divider",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "divider",
+                    "value": true
+                }
+            ],
             "props": {
                 "dividerThickness": {
                     "type": "dimension",
@@ -106,6 +201,20 @@
         {
             "id": "m.divider.rounded",
             "parent": "m.divider",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                },
+                {
+                    "name": "divider",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",
@@ -124,7 +233,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.l.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -132,7 +247,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.l.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -140,13 +261,36 @@
                             "type": "component_style",
                             "value": "tab-bar-item-clear.l.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
+            "props": {}
         },
         {
             "id": "l.rounded",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",
@@ -158,6 +302,16 @@
         {
             "id": "l.shadow",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -168,6 +322,20 @@
         {
             "id": "l.shadow.rounded",
             "parent": "l.shadow",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",
@@ -179,6 +347,16 @@
         {
             "id": "l.divider",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "divider",
+                    "value": true
+                }
+            ],
             "props": {
                 "dividerThickness": {
                     "type": "dimension",
@@ -193,6 +371,20 @@
         {
             "id": "l.divider.rounded",
             "parent": "l.divider",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                },
+                {
+                    "name": "divider",
+                    "value": true
+                }
+            ],
             "props": {
                 "topShape": {
                     "type": "shape",

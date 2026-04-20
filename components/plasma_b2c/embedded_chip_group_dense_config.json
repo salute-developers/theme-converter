@@ -14,6 +14,20 @@
             "value": 2
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
@@ -25,7 +39,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -33,7 +53,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -41,7 +67,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -49,7 +81,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -57,7 +95,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -65,9 +109,21 @@
                             "type": "component_style",
                             "value": "embedded-chip.xl.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {}
         },
         {
@@ -80,7 +136,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -88,7 +150,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -96,7 +164,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -104,7 +178,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -112,7 +192,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -120,9 +206,21 @@
                             "type": "component_style",
                             "value": "embedded-chip.l.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {}
         },
         {
@@ -135,7 +233,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -143,7 +247,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -151,7 +261,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -159,7 +275,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -167,7 +289,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -175,9 +303,21 @@
                             "type": "component_style",
                             "value": "embedded-chip.m.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {}
         },
         {
@@ -190,7 +330,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -198,7 +344,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -206,7 +358,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -214,7 +372,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -222,7 +386,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -230,9 +400,21 @@
                             "type": "component_style",
                             "value": "embedded-chip.s.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {}
         },
         {
@@ -245,7 +427,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -253,7 +441,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -261,7 +455,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -269,7 +469,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -277,7 +483,13 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -285,9 +497,21 @@
                             "type": "component_style",
                             "value": "embedded-chip.xs.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {}
         }
     ]

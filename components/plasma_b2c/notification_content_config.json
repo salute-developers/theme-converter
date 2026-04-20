@@ -14,7 +14,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -30,7 +36,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -46,7 +58,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -62,7 +80,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -78,7 +102,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "props": {
@@ -111,10 +141,48 @@
             "value": 6
         }
     },
+    "bindings": [
+        {
+            "name": "button-layout",
+            "type": "enum",
+            "values": [
+                "stretch",
+                "normal"
+            ],
+            "defaultValue": "stretch"
+        },
+        {
+            "name": "icon-placement",
+            "type": "enum",
+            "values": [
+                "top",
+                "start"
+            ],
+            "defaultValue": "top"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "positive",
+                "negative",
+                "warning",
+                "info"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "button-stretch",
             "parent": null,
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "stretch"
+                }
+            ],
             "props": {
                 "buttonLayout": {
                     "type": "value",
@@ -137,6 +205,16 @@
         {
             "id": "button-stretch.icon-top",
             "parent": "button-stretch",
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "stretch"
+                },
+                {
+                    "name": "icon-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "iconPlacement": {
                     "type": "value",
@@ -159,6 +237,16 @@
         {
             "id": "button-stretch.icon-start",
             "parent": "button-stretch",
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "stretch"
+                },
+                {
+                    "name": "icon-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "iconPlacement": {
                     "type": "value",
@@ -181,6 +269,12 @@
         {
             "id": "no-button-stretch",
             "parent": null,
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "normal"
+                }
+            ],
             "props": {
                 "buttonLayout": {
                     "type": "value",
@@ -207,6 +301,16 @@
         {
             "id": "no-button-stretch.icon-top",
             "parent": "no-button-stretch",
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "normal"
+                },
+                {
+                    "name": "icon-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "iconPlacement": {
                     "type": "value",
@@ -221,6 +325,16 @@
         {
             "id": "no-button-stretch.icon-start",
             "parent": "no-button-stretch",
+            "binding": [
+                {
+                    "name": "button-layout",
+                    "value": "normal"
+                },
+                {
+                    "name": "icon-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "iconPlacement": {
                     "type": "value",
