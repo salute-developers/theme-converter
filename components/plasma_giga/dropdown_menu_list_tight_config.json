@@ -4,52 +4,82 @@
         {
             "id": "xl",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-item-tight.xl.default"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-item-tight.l.default"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-item-tight.m.default"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-item-tight.s.default"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-item-tight.xs.default"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ],
     "props": {
@@ -61,5 +91,19 @@
             "type": "component_style",
             "value": "scroll-bar.s"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ]
 }

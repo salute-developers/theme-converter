@@ -25,7 +25,13 @@
                             "type": "component_style",
                             "value": "chip.l.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -33,7 +39,13 @@
                             "type": "component_style",
                             "value": "chip.l.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -41,7 +53,13 @@
                             "type": "component_style",
                             "value": "chip.l.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -49,7 +67,13 @@
                             "type": "component_style",
                             "value": "chip.l.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -57,7 +81,13 @@
                             "type": "component_style",
                             "value": "chip.l.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -65,10 +95,22 @@
                             "type": "component_style",
                             "value": "chip.l.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
@@ -80,7 +122,13 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -88,7 +136,13 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -96,7 +150,13 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -104,7 +164,13 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -112,7 +178,13 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -120,10 +192,26 @@
                             "type": "component_style",
                             "value": "chip.l.pilled.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
@@ -135,7 +223,13 @@
                             "type": "component_style",
                             "value": "chip.m.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -143,7 +237,13 @@
                             "type": "component_style",
                             "value": "chip.m.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -151,7 +251,13 @@
                             "type": "component_style",
                             "value": "chip.m.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -159,7 +265,13 @@
                             "type": "component_style",
                             "value": "chip.m.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -167,7 +279,13 @@
                             "type": "component_style",
                             "value": "chip.m.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -175,10 +293,22 @@
                             "type": "component_style",
                             "value": "chip.m.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
@@ -190,7 +320,13 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -198,7 +334,13 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -206,7 +348,13 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -214,7 +362,13 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -222,7 +376,13 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -230,10 +390,26 @@
                             "type": "component_style",
                             "value": "chip.m.pilled.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
@@ -245,7 +421,13 @@
                             "type": "component_style",
                             "value": "chip.s.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -253,7 +435,13 @@
                             "type": "component_style",
                             "value": "chip.s.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -261,7 +449,13 @@
                             "type": "component_style",
                             "value": "chip.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -269,7 +463,13 @@
                             "type": "component_style",
                             "value": "chip.s.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -277,7 +477,13 @@
                             "type": "component_style",
                             "value": "chip.s.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -285,10 +491,22 @@
                             "type": "component_style",
                             "value": "chip.s.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
@@ -300,7 +518,13 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -308,7 +532,13 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -316,7 +546,13 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -324,7 +560,13 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -332,7 +574,13 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -340,10 +588,26 @@
                             "type": "component_style",
                             "value": "chip.s.pilled.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -355,7 +619,13 @@
                             "type": "component_style",
                             "value": "chip.xs.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -363,7 +633,13 @@
                             "type": "component_style",
                             "value": "chip.xs.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -371,7 +647,13 @@
                             "type": "component_style",
                             "value": "chip.xs.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -379,7 +661,13 @@
                             "type": "component_style",
                             "value": "chip.xs.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -387,7 +675,13 @@
                             "type": "component_style",
                             "value": "chip.xs.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -395,10 +689,22 @@
                             "type": "component_style",
                             "value": "chip.xs.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
@@ -410,7 +716,13 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -418,7 +730,13 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -426,7 +744,13 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 },
                 "positive": {
                     "props": {
@@ -434,7 +758,13 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.positive"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "positive"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -442,7 +772,13 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "warning": {
                     "props": {
@@ -450,10 +786,48 @@
                             "type": "component_style",
                             "value": "chip.xs.pilled.warning"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "warning"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

@@ -83,7 +83,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.toggle-s",
@@ -105,7 +111,17 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "m",
@@ -143,7 +159,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.toggle-s",
@@ -165,7 +187,17 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s",
@@ -203,7 +235,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.toggle-s",
@@ -225,7 +263,37 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "toggle-size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
         }
     ]
 }

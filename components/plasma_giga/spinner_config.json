@@ -24,7 +24,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -38,7 +44,13 @@
                     "default": "surface.default.transparent-primary",
                     "alpha": 0.32
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -50,7 +62,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-accent"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -62,7 +80,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -74,7 +98,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -86,7 +116,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -98,7 +134,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-info"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "variations": [
@@ -114,7 +156,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ]
         },
         {
             "id": "xl",
@@ -128,7 +176,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -142,7 +196,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -156,7 +216,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -170,7 +236,13 @@
                     "type": "dimension",
                     "value": 3
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -184,7 +256,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -198,7 +276,13 @@
                     "type": "dimension",
                     "value": 1
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
         },
         {
             "id": "scalable",
@@ -212,7 +296,44 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "scalable"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs",
+                "scalable"
+            ],
+            "defaultValue": "xxl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "info"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

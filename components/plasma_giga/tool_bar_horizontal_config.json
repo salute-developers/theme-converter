@@ -10,9 +10,9 @@
             "value": "divider"
         },
         "orientation": {
-                    "type": "value",
-                    "value": "horizontal"
-                }
+            "type": "value",
+            "value": "horizontal"
+        }
     },
     "variations": [
         {
@@ -47,7 +47,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.has-shadow",
@@ -57,7 +63,17 @@
                     "type": "shadow",
                     "value": "down.soft.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "m",
@@ -91,7 +107,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.has-shadow",
@@ -101,7 +123,17 @@
                     "type": "shadow",
                     "value": "down.soft.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "s",
@@ -136,7 +168,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.has-shadow",
@@ -146,7 +184,17 @@
                     "type": "shadow",
                     "value": "down.soft.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "xs",
@@ -180,7 +228,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.has-shadow",
@@ -190,7 +244,35 @@
                     "type": "shadow",
                     "value": "down.soft.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
         }
     ]
 }

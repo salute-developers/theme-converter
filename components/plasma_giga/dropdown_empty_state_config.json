@@ -39,7 +39,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.has-button",
@@ -57,7 +63,17 @@
                     "type": "component_style",
                     "value": "basic-button.xs.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "has-button",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "s",
@@ -87,7 +103,13 @@
                     "type": "dimension",
                     "value": 14
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.has-button",
@@ -105,7 +127,17 @@
                     "type": "component_style",
                     "value": "basic-button.s.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-button",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "m",
@@ -135,7 +167,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.has-button",
@@ -153,7 +191,17 @@
                     "type": "component_style",
                     "value": "basic-button.m.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-button",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "l",
@@ -183,7 +231,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.has-button",
@@ -201,7 +255,17 @@
                     "type": "component_style",
                     "value": "basic-button.l.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-button",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "xl",
@@ -231,7 +295,13 @@
                     "type": "dimension",
                     "value": 18
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "xl.has-button",
@@ -249,7 +319,36 @@
                     "type": "component_style",
                     "value": "basic-button.xl.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                },
+                {
+                    "name": "has-button",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "has-button",
+            "type": "boolean",
+            "defaultValue": false
         }
     ]
 }

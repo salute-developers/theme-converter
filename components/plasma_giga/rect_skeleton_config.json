@@ -6,7 +6,13 @@
                     "type": "gradient",
                     "default": "surface.default.skeleton-gradient"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "lighter": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "gradient",
                     "default": "surface.default.skeleton-deep-gradient"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "lighter"
+                }
+            ]
         }
     },
     "variations": [],
@@ -27,5 +39,16 @@
             "type": "float",
             "value": 5000
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "lighter"
+            ],
+            "defaultValue": "default"
+        }
+    ]
 }

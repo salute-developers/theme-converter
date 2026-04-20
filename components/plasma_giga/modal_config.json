@@ -36,7 +36,8 @@
         },
         "paddingBottom": {
             "type": "dimension",
-            "value": 32 
+            "value": 32
         }
-    }
+    },
+    "bindings": []
 }

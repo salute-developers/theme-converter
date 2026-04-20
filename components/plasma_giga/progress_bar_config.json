@@ -10,7 +10,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -22,7 +28,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -34,7 +46,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "gradient": {
             "props": {
@@ -46,7 +64,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "gradient"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -58,7 +82,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -70,7 +100,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -82,7 +118,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -94,7 +136,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         }
     },
     "props": {
@@ -119,5 +167,22 @@
             "value": 0.4
         }
     },
-    "variations": []
+    "variations": [],
+    "bindings": [
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "gradient",
+                "info",
+                "negative",
+                "positive",
+                "warning"
+            ],
+            "defaultValue": "default"
+        }
+    ]
 }

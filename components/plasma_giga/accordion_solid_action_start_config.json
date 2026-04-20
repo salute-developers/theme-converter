@@ -9,7 +9,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.xs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "s",
@@ -19,7 +25,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "m",
@@ -29,7 +41,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "l",
@@ -39,7 +57,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.l"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "h2",
@@ -49,7 +73,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.h2"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ]
         },
         {
             "id": "h3",
@@ -59,7 +89,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.h3"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ]
         },
         {
             "id": "h4",
@@ -69,7 +105,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.h4"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ]
         },
         {
             "id": "h5",
@@ -79,7 +121,13 @@
                     "type": "component_style",
                     "value": "accordion-item-solid-action-start.h5"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ]
         }
     ],
     "props": {
@@ -87,5 +135,22 @@
             "type": "dimension",
             "value": 2.0
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "l"
+        }
+    ]
 }

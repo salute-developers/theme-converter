@@ -4,52 +4,82 @@
         {
             "id": "xl",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item-tight.xl"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item-tight.l"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item-tight.m"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item-tight.s"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-item-tight.xs"
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ],
     "props": {
@@ -57,5 +87,19 @@
             "type": "component_style",
             "value": "divider"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ]
 }

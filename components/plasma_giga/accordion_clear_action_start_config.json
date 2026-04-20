@@ -13,7 +13,13 @@
                     "type": "dimension",
                     "value": 4.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "s",
@@ -27,7 +33,13 @@
                     "type": "dimension",
                     "value": 6.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "m",
@@ -41,7 +53,13 @@
                     "type": "dimension",
                     "value": 8.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "l",
@@ -55,7 +73,13 @@
                     "type": "dimension",
                     "value": 10.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "h2",
@@ -69,7 +93,13 @@
                     "type": "dimension",
                     "value": 16.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ]
         },
         {
             "id": "h3",
@@ -83,7 +113,13 @@
                     "type": "dimension",
                     "value": 14.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ]
         },
         {
             "id": "h4",
@@ -97,7 +133,13 @@
                     "type": "dimension",
                     "value": 12.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ]
         },
         {
             "id": "h5",
@@ -111,7 +153,13 @@
                     "type": "dimension",
                     "value": 10.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ]
         }
     ],
     "props": {
@@ -119,5 +167,22 @@
             "type": "component_style",
             "value": "divider"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "l"
+        }
+    ]
 }

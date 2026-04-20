@@ -55,7 +55,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.m.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -63,7 +69,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.m.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -71,9 +83,21 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.m.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.shadow",
@@ -83,7 +107,17 @@
                     "type": "shadow",
                     "value": "down.soft.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "l",
@@ -95,7 +129,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.l.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "secondary": {
                     "props": {
@@ -103,7 +143,13 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.l.secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "accent": {
                     "props": {
@@ -111,9 +157,21 @@
                             "type": "component_style",
                             "value": "tab-bar-item-solid.l.accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "accent"
+                        }
+                    ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.shadow",
@@ -123,7 +181,33 @@
                     "type": "shadow",
                     "value": "down.soft.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
         }
     ]
 }

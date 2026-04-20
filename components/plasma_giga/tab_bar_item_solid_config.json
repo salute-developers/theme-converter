@@ -38,7 +38,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -78,7 +84,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -118,7 +130,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         }
     },
     "props": {
@@ -164,7 +182,13 @@
                     "type": "component_style",
                     "value": "indicator.m.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.label",
@@ -186,7 +210,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "bottom"
+                }
+            ]
         },
         {
             "id": "l",
@@ -224,7 +258,13 @@
                     "type": "component_style",
                     "value": "indicator.l.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.label",
@@ -246,7 +286,46 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "bottom"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "label-placement",
+            "type": "enum",
+            "values": [
+                "bottom"
+            ],
+            "defaultValue": "bottom"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "accent",
+                "secondary"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

@@ -6,7 +6,13 @@
                     "type": "color",
                     "default": "surface.default.solid-default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "color",
                     "default": "surface.default.transparent-tertiary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -22,7 +34,13 @@
                     "type": "color",
                     "default": "surface.default.accent"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "gradient": {
             "props": {
@@ -30,7 +48,13 @@
                     "type": "gradient",
                     "default": "surface.default.accent-gradient"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "gradient"
+                }
+            ]
         },
         "info": {
             "props": {
@@ -38,7 +62,13 @@
                     "type": "color",
                     "default": "surface.default.info"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -46,7 +76,13 @@
                     "type": "color",
                     "default": "surface.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -54,7 +90,13 @@
                     "type": "color",
                     "default": "surface.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -62,7 +104,13 @@
                     "type": "color",
                     "default": "surface.default.warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         }
     },
     "props": {
@@ -104,7 +152,13 @@
                     "type": "typography",
                     "value": "header.h2.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ]
         },
         {
             "id": "xl",
@@ -130,7 +184,13 @@
                     "type": "typography",
                     "value": "header.h5.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -160,7 +220,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -190,7 +256,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -220,7 +292,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -250,7 +328,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -276,7 +360,44 @@
                     "type": "boolean",
                     "value": false
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xxl"
+        },
+        {
+            "name": "view",
+            "type": "enum",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "gradient",
+                "info",
+                "negative",
+                "positive",
+                "warning"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

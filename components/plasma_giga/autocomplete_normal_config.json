@@ -14,7 +14,13 @@
                     "type": "component_style",
                     "value": "text-field.xl.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -28,7 +34,13 @@
                     "type": "component_style",
                     "value": "text-field.l.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -42,7 +54,13 @@
                     "type": "component_style",
                     "value": "text-field.m.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -56,7 +74,13 @@
                     "type": "component_style",
                     "value": "text-field.s.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -70,7 +94,27 @@
                     "type": "component_style",
                     "value": "text-field.xs.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
         }
     ]
 }
