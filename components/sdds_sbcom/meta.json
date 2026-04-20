@@ -1,11 +1,21 @@
 {
     "name": "sdds_sbcom",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "components": [
         {
             "componentName": "avatar",
             "styleName": "avatar",
             "config": "avatar_config.json"
+        },
+        {
+            "componentName": "indicator",
+            "styleName": "avatar-indicator",
+            "config": "avatar_indicator_config.json"
+        },
+        {
+            "componentName": "avatar-group",
+            "styleName": "avatar-group",
+            "config": "avatar_group_config.json"
         },
         {
             "componentName": "basic-button",
@@ -16,16 +26,6 @@
             "componentName": "icon-button",
             "styleName": "icon-button",
             "config": "icon_button_config.json"
-        },
-        {
-            "componentName": "icon-button",
-            "styleName": "icon-button-clear",
-            "config": "icon_button_clear_config.json"
-        },
-        {
-            "componentName": "link-button",
-            "styleName": "link-button",
-            "config": "link_button_config.json"
         },
         {
             "componentName": "bottom-sheet",
@@ -51,6 +51,16 @@
             "componentName": "counter",
             "styleName": "counter",
             "config": "counter_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "tab-bar-counter",
+            "config": "tab_bar_counter_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "tab-item-folder-counter",
+            "config": "tab_item_folder_counter_config.json"
         },
         {
             "componentName": "divider",
@@ -86,16 +96,6 @@
             "componentName": "radio-box",
             "styleName": "radio-box",
             "config": "radiobox_config.json"
-        },
-        {
-            "componentName": "segment",
-            "styleName": "segment",
-            "config": "segment_config.json"
-        },
-        {
-            "componentName": "segment-item",
-            "styleName": "segment-item",
-            "config": "segment_item_config.json"
         },
         {
             "componentName": "switch",
@@ -136,6 +136,16 @@
             "componentName": "list-item",
             "styleName": "dropdown-menu-item",
             "config": "dropdown_menu_item_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list",
+            "config": "list_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item",
+            "config": "list_item_config.json"
         },
         {
             "componentName": "dropdown-menu",
@@ -186,6 +196,21 @@
             "componentName": "collapsing-navigation-bar",
             "styleName": "collapsing-navigation-bar-internal-page",
             "config": "collapsing_navigation_bar_internal_page_config.json"
+        },
+        {
+            "componentName": "text-field",
+            "styleName": "search-bar",
+            "config": "search_bar_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "mention",
+            "config": "mention_config.json"
+        },
+        {
+            "componentName": "icon-badge",
+            "styleName": "voice-chat-badge",
+            "config": "voice_chat_badge_config.json"
         }
     ]
 }

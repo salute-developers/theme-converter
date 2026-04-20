@@ -1,0 +1,85 @@
+{
+    "view": {},
+    "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.accent-primary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        }
+    },
+    "variations": [
+        {
+            "id": "size-14",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 14
+                }
+            }
+        },
+        {
+            "id": "size-12",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            }
+        },
+        {
+            "id": "size-10",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 10
+                }
+            }
+        },
+        {
+            "id": "size-8",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "size-6",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            }
+        }
+    ]
+}

@@ -7,15 +7,11 @@
     },
     "captionPlacement": {
       "type": "value",
-      "value": "outer"
+      "value": "none"
     },
     "counterPlacement": {
       "type": "value",
-      "value": "outer"
-    },
-    "labelColor": {
-      "type": "color",
-      "default": "text.default.secondary"
+      "value": "none"
     },
     "backgroundColor": {
       "type": "color",
@@ -25,21 +21,27 @@
       "type": "color",
       "default": "text.default.primary"
     },
-    "counterColor": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "captionColor": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
     "startContentColor": {
       "type": "color",
-      "default": "text.default.secondary"
+      "default": "text.default.primary"
     },
     "endContentColor": {
       "type": "color",
-      "default": "text.default.primary"
+      "default": "text.default.primary",
+      "states": [
+        {
+          "state": [
+            "pressed"
+          ],
+          "value": "text.default.primary-active"
+        },
+        {
+          "state": [
+            "hovered"
+          ],
+          "value": "text.default.primary-hover"
+        }
+      ]
     },
     "cursorColor": {
       "type": "color",
@@ -47,7 +49,7 @@
     },
     "shape": {
       "type": "shape",
-      "value": "round.l"
+      "value": "round.circle"
     },
     "boxPaddingStart": {
       "type": "dimension",
@@ -59,19 +61,19 @@
     },
     "startContentPadding": {
       "type": "dimension",
-      "value": 4.0
+      "value": 16.0
     },
     "endContentPadding": {
       "type": "dimension",
-      "value": 8.0
+      "value": 16.0
     },
     "boxMinHeight": {
       "type": "dimension",
-      "value": 52.0
+      "value": 56.0
     },
     "alignmentMinHeight": {
       "type": "dimension",
-      "value": 52.0
+      "value": 56.0
     },
     "startContentSize": {
       "type": "dimension",
@@ -95,63 +97,15 @@
     },
     "labelPlacement": {
       "type": "value",
-      "value": "inner"
-    },
-    "labelPadding": {
-      "type": "dimension",
-      "value": 2.0
-    },
-    "labelStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
+      "value": "none"
     },
     "boxPaddingTop": {
       "type": "dimension",
-      "value": 8.0
+      "value": 16.0
     },
     "boxPaddingBottom": {
       "type": "dimension",
-      "value": 8.0
-    },
-    "captionStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "counterStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "helperTextPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
-     "scrollBarThickness": {
-      "type": "dimension",
-      "value": 4.0
-    },
-    "scrollBarPaddingTop": {
-      "type": "dimension",
-      "value": 21.0
-    },
-    "scrollBarPaddingBottom": {
-      "type": "dimension",
-      "value": 21.0
-    },
-    "scrollBarPaddingEnd": {
-      "type": "dimension",
-      "value": 12.0
-    },
-    "scrollBarTrackColor": {
-      "type": "color",
-      "default": "surface.default.clear"
-    },
-    "scrollBarThumbColor": {
-      "type": "color",
-      "default": "outline.default.default"
-    },
-    "singleLine": {
-      "type": "boolean",
-      "value": false
+      "value": 16.0
     }
   },
   "variations": []

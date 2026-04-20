@@ -10,7 +10,7 @@
         }
     },
     "view": {
-        "primary": {
+        "mode-primary": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -108,7 +108,7 @@
                 }
             }
         },
-        "accent-filled": {
+        "mode-accent-filled": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -166,21 +166,7 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "surface.default.accent-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "valueColor": {
                     "type": "color",
@@ -206,77 +192,77 @@
                 }
             }
         },
-        "accent-white": {
+        "mode-accent-white": {
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "text.default.accent",
+                    "default": "surface.default.accent-primary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "text.default.accent-active"
+                            "value": "surface.default.accent-primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.default.accent-hover"
+                            "value": "surface.default.accent-primary-hover"
                         }
                     ]
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "text.default.accent",
+                    "default": "surface.default.accent-primary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "text.default.accent-active"
+                            "value": "surface.default.accent-primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.default.accent-hover"
+                            "value": "surface.default.accent-primary-hover"
                         }
                     ]
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "text.default.accent",
+                    "default": "surface.default.accent-primary",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "text.default.accent-active"
+                            "value": "surface.default.accent-primary-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "text.default.accent-hover"
+                            "value": "surface.default.accent-primary-hover"
                         }
                     ]
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.solid-primary",
+                    "default": "surface.on-dark.solid-default",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.solid-primary-active"
+                            "value": "surface.on-dark.solid-default-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.solid-primary-hover"
+                            "value": "surface.on-dark.solid-default-hover"
                         }
                     ]
                 },
@@ -304,61 +290,19 @@
                 }
             }
         },
-        "accent-grey": {
+        "mode-accent-grey": {
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "text.default.accent",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.accent-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "text.default.accent-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "text.default.accent",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.accent-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "text.default.accent-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "text.default.accent",
-                    "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.accent-active"
-                        },
-                        {
-                            "state": [
-                                "hovered"
-                            ],
-                            "value": "text.default.accent-hover"
-                        }
-                    ]
+                    "default": "surface.default.accent-primary"
                 },
                 "backgroundColor": {
                     "type": "color",
@@ -402,7 +346,7 @@
                 }
             }
         },
-        "danger-tint": {
+        "mode-danger-tint": {
             "props": {
                 "iconColor": {
                     "type": "color",
@@ -460,19 +404,22 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.negative-minor",
+                    "default": "surface.default.negative",
+                    "alpha": 0.16,
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.negative-minor-active"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.negative-minor-hover"
+                            "alpha": 0.16,
+                            "value": "surface.default.negative-hover"
                         }
                     ]
                 },
@@ -503,7 +450,7 @@
     },
     "variations": [
         {
-            "id": "m",
+            "id": "size-48",
             "parent": null,
             "props": {
                 "labelStyle": {
@@ -553,7 +500,30 @@
             }
         },
         {
-            "id": "s",
+            "id": "size-48.bg-no",
+            "parent": "size-48",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-40",
             "parent": null,
             "props": {
                 "labelStyle": {
@@ -603,7 +573,30 @@
             }
         },
         {
-            "id": "xs",
+            "id": "size-40.bg-no",
+            "parent": "size-40",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-32",
             "parent": null,
             "props": {
                 "labelStyle": {
@@ -653,7 +646,30 @@
             }
         },
         {
-            "id": "xxs",
+            "id": "size-32.bg-no",
+            "parent": "size-32",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
+        },
+        {
+            "id": "size-24",
             "parent": null,
             "props": {
                 "labelStyle": {
@@ -701,6 +717,29 @@
                     "value": 2
                 }
             }
+        },
+        {
+            "id": "size-24.bg-no",
+            "parent": "size-24",
+            "view": {
+                "mode-accent-grey": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                },
+                "mode-danger-tint": {
+                    "props": {
+                        "backgroundColor": {
+                            "type": "color",
+                            "default": "surface.default.clear"
+                        }
+                    }
+                }
+            },
+            "props": {}
         }
     ]
 }

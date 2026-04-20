@@ -24,7 +24,7 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent"
+                    "default": "surface.default.accent-primary"
                 },
                 "endContentColor": {
                     "type": "color",

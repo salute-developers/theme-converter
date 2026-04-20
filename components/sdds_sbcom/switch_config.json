@@ -13,7 +13,7 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-primary"
                 }
             ]
         },
@@ -25,7 +25,7 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "outline.default.clear"
+                    "value": "outline.default.transparent-clear"
                 }
             ]
         },
@@ -51,7 +51,15 @@
         },
         "togglePadding": {
             "type": "dimension",
-            "value": 4
+            "value": 8,
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": 4
+                }
+            ]
         },
         "toggleTrackWidth": {
             "type": "dimension",
@@ -61,13 +69,41 @@
             "type": "dimension",
             "value": 32
         },
+        "toggleTrackBorderWidth": {
+            "type": "dimension",
+            "value": 1.5,
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": 0
+                }
+            ]
+        },
         "toggleThumbWidth": {
             "type": "dimension",
-            "value": 24
+            "value": 16,
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": 24
+                }
+            ]
         },
         "toggleThumbHeight": {
             "type": "dimension",
-            "value": 24
+            "value": 16,
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": 24
+                }
+            ]
         },
         "labelColor": {
             "type": "color",

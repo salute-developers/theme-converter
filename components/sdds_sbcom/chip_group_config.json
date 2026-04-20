@@ -16,22 +16,22 @@
     },
     "variations": [
         {
-            "id": "default",
+            "id": "chip-slot-padding",
             "parent": null,
             "props": {
                 "chipStyle": {
                     "type": "component_style",
-                    "value": "chip.default"
+                    "value": "chip.chip-slot-padding"
                 }
             }
         },
         {
-            "id": "has-content-start",
+            "id": "chip-slot-avatar",
             "parent": null,
             "props": {
                 "chipStyle": {
                     "type": "component_style",
-                    "value": "chip.has-content-start"
+                    "value": "chip.chip-slot-avatar"
                 }
             }
         }

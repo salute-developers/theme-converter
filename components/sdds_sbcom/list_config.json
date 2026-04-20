@@ -1,0 +1,14 @@
+{
+    "view": {},
+    "variations": [],
+    "props": {
+        "listItemStyle": {
+            "type": "component_style",
+            "value": "list-item"
+        },
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        }
+    }
+}

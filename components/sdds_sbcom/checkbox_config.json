@@ -9,13 +9,13 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "outline.default.clear"
+                    "value": "surface.default.clear"
                 },
                 {
                     "state": [
                         "indeterminate"
                     ],
-                    "value": "outline.default.clear"
+                    "value": "surface.default.clear"
                 }
             ]
         },
@@ -27,13 +27,13 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-primary"
                 },
                 {
                     "state": [
                         "indeterminate"
                     ],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.accent-primary"
                 }
             ]
         },
@@ -112,7 +112,7 @@
         },
         "toggleBorderWidth": {
             "type": "dimension",
-            "value": 0
+            "value": 1.5
         },
         "toggleWidth": {
             "type": "dimension",

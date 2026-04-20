@@ -1,31 +1,14 @@
 {
-    "view": {
-        "mute-no": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "surface.default.accent-primary"
-                },
-                "textColor": {
-                    "type": "color",
-                    "default": "text.on-dark.primary"
-                }
-            }
-        },
-        "mute-yes": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "text.default.paragraph"
-                },
-                "textColor": {
-                    "type": "color",
-                    "default": "text.on-dark.primary"
-                }
-            }
-        }
-    },
+    "view": {},
     "props": {
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.negative"
+        },
+        "textColor": {
+            "type": "color",
+            "default": "text.on-dark.primary"
+        },
         "shape": {
             "type": "shape",
             "value": "round.circle"
