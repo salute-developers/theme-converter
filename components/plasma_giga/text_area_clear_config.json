@@ -390,6 +390,14 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -422,6 +430,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -454,6 +466,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -494,6 +510,10 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -642,6 +662,14 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -674,6 +702,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -706,6 +738,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -738,6 +774,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -854,6 +894,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1002,6 +1046,14 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1034,6 +1086,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1066,6 +1122,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1098,6 +1158,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1214,6 +1278,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1362,6 +1430,14 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1394,6 +1470,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1426,6 +1506,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1458,6 +1542,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1574,6 +1662,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1722,6 +1814,14 @@
                 {
                     "name": "size",
                     "value": "xl"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1754,6 +1854,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1786,6 +1890,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -1818,6 +1926,10 @@
                 {
                     "name": "size",
                     "value": "xl"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1936,6 +2048,10 @@
                     "value": "xl"
                 },
                 {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
                     "name": "label-placement",
                     "value": "inner"
                 }
@@ -2031,23 +2147,25 @@
             "name": "required-placement",
             "type": "enum",
             "values": [
+                "none",
                 "start",
                 "end"
             ],
-            "defaultValue": "start"
+            "defaultValue": "none"
         },
         {
             "name": "label-placement",
             "type": "enum",
             "values": [
+                "none",
                 "outer",
                 "inner"
             ],
-            "defaultValue": "outer"
+            "defaultValue": "none"
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "warning",

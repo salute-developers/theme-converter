@@ -187,6 +187,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -263,6 +267,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ]
         },
@@ -313,13 +321,14 @@
             "name": "label-placement",
             "type": "enum",
             "values": [
+                "none",
                 "bottom"
             ],
-            "defaultValue": "bottom"
+            "defaultValue": "none"
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "accent",

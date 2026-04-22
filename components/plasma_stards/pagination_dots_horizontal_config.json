@@ -43,7 +43,13 @@
                     "type": "value",
                     "value": "2"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.active-type-line",
@@ -61,7 +67,17 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "active-type",
+                    "value": "line"
+                }
+            ]
         },
         {
             "id": "s",
@@ -79,7 +95,13 @@
                     "type": "value",
                     "value": "1"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.active-type-line",
@@ -97,7 +119,36 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "active-type",
+                    "value": "line"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "s"
+            ],
+            "defaultValue": "m"
+        },
+        {
+            "name": "active-type",
+            "type": "enum",
+            "values": [
+                "line"
+            ],
+            "defaultValue": "line"
         }
     ]
 }

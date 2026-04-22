@@ -166,7 +166,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "accent",
@@ -183,6 +183,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -259,6 +263,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {

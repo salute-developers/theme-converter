@@ -1,807 +1,961 @@
 {
-  "view": {
-    "default": {
-      "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
-        "captionColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        }
-      }
-    },
-    "error": {
-      "props": {
-        "valueColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
+    "view": {
+        "default": {
+            "props": {
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "placeholderColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                }
             },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
-        "placeholderColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
+        "error": {
+            "props": {
+                "valueColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "placeholderColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
+                },
+                "captionColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.negative",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
+                }
             },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
-            }
-          ]
-        },
-        "captionColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
-            }
-          ]
-        },
-        "startContentColor": {
-          "type": "color",
-          "default": "text.default.negative",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            },
-            {
-              "state": [
-                "activated"
-              ],
-              "value": "text.default.secondary"
-            }
-          ]
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "error"
+                }
+            ]
         }
-      }
-    }
-  },
-  "props": {
-    "disableAlpha": {
-      "type": "float",
-      "value": 0.4
     },
-    "prefixPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
-    "suffixPadding": {
-      "type": "dimension",
-      "value": 6.0
-    },
-    "dividerHeight": {
-      "type": "dimension",
-      "value": 1.0
-    },
-    "captionPlacement": {
-      "type": "value",
-      "value": "outer"
-    },
-    "counterPlacement": {
-      "type": "value",
-      "value": "outer"
-    },
-    "captionStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "counterStyle": {
-      "type": "typography",
-      "value": "body.xs.normal"
-    },
-    "optionalPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
-    "helperTextPadding": {
-      "type": "dimension",
-      "value": 4.0
-    },
-    "boxPaddingStart": {
-      "type": "dimension",
-      "value": 0.0
-    },
-    "boxPaddingEnd": {
-      "type": "dimension",
-      "value": 0.0
-    },
-    "endContentColor": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "states": [
-        {
-          "state": [
-            "focused"
-          ],
-          "value": "text.default.primary"
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
         },
-        {
-          "state": [
-            "pressed"
-          ],
-          "value": "text.default.secondary-active"
+        "prefixPadding": {
+            "type": "dimension",
+            "value": 6.0
         },
-        {
-          "state": [
-            "hovered"
-          ],
-          "value": "text.default.secondary-hover"
-        }
-      ]
-    },
-    "endContentColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "alpha": 0.4
-    },
-    "optionalColor": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    },
-    "counterColor": {
-      "type": "color",
-      "default": "text.default.secondary",
-      "states": [
-        {
-          "state": [
-            "focused"
-          ],
-          "value": "text.default.primary"
-        }
-      ]
-    },
-    "counterColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "indicatorColor": {
-      "type": "color",
-      "default": "surface.default.negative"
-    },
-    "cursorColor": {
-      "type": "color",
-      "default": "text.default.accent-main"
-    },
-    "valueColorReadOnly": {
-      "type": "color",
-      "default": "text.default.primary"
-    },
-    "captionColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "placeholderColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "startContentColorReadOnly": {
-      "type": "color",
-      "default": "text.default.secondary"
-    },
-    "prefixColor": {
-      "type": "color",
-      "default": "text.default.tertiary",
-      "states": [
-        {
-          "state": [
-            "focused"
-          ],
-          "value": "text.default.primary"
-        }
-      ]
-    },
-    "prefixColorReadOnly": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    },
-    "suffixColor": {
-      "type": "color",
-      "default": "text.default.tertiary",
-      "states": [
-        {
-          "state": [
-            "focused"
-          ],
-          "value": "text.default.primary"
-        }
-      ]
-    },
-    "suffixColorReadOnly": {
-      "type": "color",
-      "default": "text.default.tertiary"
-    },
-    "dividerColor": {
-      "type": "color",
-      "default": "surface.default.clear"
-    }
-  },
-  "variations": [
-    {
-      "id": "xs",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
+        "suffixPadding": {
+            "type": "dimension",
+            "value": 6.0
         },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 8.0
+        "dividerHeight": {
+            "type": "dimension",
+            "value": 1.0
         },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 8.0
+        "captionPlacement": {
+            "type": "value",
+            "value": "outer"
         },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 4.0
+        "counterPlacement": {
+            "type": "value",
+            "value": "outer"
         },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 4.0
+        "captionStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
         },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 32.0
+        "counterStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
         },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 32.0
+        "optionalPadding": {
+            "type": "dimension",
+            "value": 4.0
         },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 16.0
+        "helperTextPadding": {
+            "type": "dimension",
+            "value": 4.0
         },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 16.0
+        "boxPaddingStart": {
+            "type": "dimension",
+            "value": 0.0
         },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
+        "boxPaddingEnd": {
+            "type": "dimension",
+            "value": 0.0
         },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
+        "endContentColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "pressed"
+                    ],
+                    "value": "text.default.secondary-active"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                }
+            ]
         },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
-        }
-      }
-    },
-    {
-      "id": "xs.outer-label",
-      "parent": "xs",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "outer"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 2.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    },
-    {
-      "id": "s",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 40.0
-        },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 40.0
-        },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
-        }
-      }
-    },
-    {
-      "id": "s.outer-label",
-      "parent": "s",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "outer"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.s.normal"
-        }
-      }
-    },
-    {
-      "id": "s.inner-label",
-      "parent": "s",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
+        "endContentColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "alpha": 0.4
         },
         "optionalColor": {
-          "type": "color",
-          "default": "text.default.tertiary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
+            "type": "color",
+            "default": "text.default.tertiary"
         },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
+        "counterColor": {
+            "type": "color",
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
         },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 0.0
+        "counterColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
         },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
+        "indicatorColor": {
+            "type": "color",
+            "default": "surface.default.negative"
         },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 4.0
+        "cursorColor": {
+            "type": "color",
+            "default": "text.default.accent-main"
         },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 4.0
+        "valueColorReadOnly": {
+            "type": "color",
+            "default": "text.default.primary"
         },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
+        "captionColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "placeholderColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "startContentColorReadOnly": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
+        "prefixColor": {
+            "type": "color",
+            "default": "text.default.tertiary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
+        },
+        "prefixColorReadOnly": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "suffixColor": {
+            "type": "color",
+            "default": "text.default.tertiary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.primary"
+                }
+            ]
+        },
+        "suffixColorReadOnly": {
+            "type": "color",
+            "default": "text.default.tertiary"
+        },
+        "dividerColor": {
+            "type": "color",
+            "default": "surface.default.clear"
         }
-      }
     },
-    {
-      "id": "m",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
+    "variations": [
+        {
+            "id": "xs",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 32.0
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 32.0
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ]
         },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 12.0
+        {
+            "id": "xs.outer-label",
+            "parent": "xs",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "outer"
+                }
+            ]
         },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 12.0
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 40.0
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 40.0
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ]
         },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 6.0
+        {
+            "id": "s.outer-label",
+            "parent": "s",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "outer"
+                }
+            ]
         },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 8.0
+        {
+            "id": "s.inner-label",
+            "parent": "s",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "optionalColor": {
+                    "type": "color",
+                    "default": "text.default.tertiary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 0.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 48.0
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 12.0
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 48.0
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 48.0
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ]
         },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 48.0
+        {
+            "id": "m.outer-label",
+            "parent": "m",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "outer"
+                }
+            ]
         },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
+        {
+            "id": "m.inner-label",
+            "parent": "m",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "optionalColor": {
+                    "type": "color",
+                    "default": "text.default.tertiary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "none"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "startContentPadding": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                "endContentPadding": {
+                    "type": "dimension",
+                    "value": 10.0
+                },
+                "boxMinHeight": {
+                    "type": "dimension",
+                    "value": 56.0
+                },
+                "alignmentMinHeight": {
+                    "type": "dimension",
+                    "value": 56.0
+                },
+                "startContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "endContentSize": {
+                    "type": "dimension",
+                    "value": 24.0
+                },
+                "valueStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "placeholderStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "prefixStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "suffixStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "fieldType": {
+                    "type": "value",
+                    "value": "optional"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ]
         },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
+        {
+            "id": "l.outer-label",
+            "parent": "l",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "outer"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 4.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.l.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "outer"
+                }
+            ]
         },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
+        {
+            "id": "l.inner-label",
+            "parent": "l",
+            "props": {
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "optionalColor": {
+                    "type": "color",
+                    "default": "text.default.tertiary",
+                    "states": [
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
+                },
+                "labelPlacement": {
+                    "type": "value",
+                    "value": "inner"
+                },
+                "labelPadding": {
+                    "type": "dimension",
+                    "value": 2.0
+                },
+                "labelStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "boxPaddingTop": {
+                    "type": "dimension",
+                    "value": 9.0
+                },
+                "boxPaddingBottom": {
+                    "type": "dimension",
+                    "value": 9.0
+                },
+                "optionalStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "inner"
+                }
+            ]
         }
-      }
-    },
-    {
-      "id": "m.outer-label",
-      "parent": "m",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.primary"
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
         },
-        "labelPlacement": {
-          "type": "value",
-          "value": "outer"
+        {
+            "name": "label-placement",
+            "type": "enum",
+            "values": [
+                "none",
+                "outer",
+                "inner"
+            ],
+            "defaultValue": "none"
         },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.m.normal"
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "error"
+            ],
+            "defaultValue": "default"
         }
-      }
-    },
-    {
-      "id": "m.inner-label",
-      "parent": "m",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "optionalColor": {
-          "type": "color",
-          "default": "text.default.tertiary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 2.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 6.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    },
-    {
-      "id": "l",
-      "parent": null,
-      "props": {
-        "labelPlacement": {
-          "type": "value",
-          "value": "none"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 16.0
-        },
-        "startContentPadding": {
-          "type": "dimension",
-          "value": 8.0
-        },
-        "endContentPadding": {
-          "type": "dimension",
-          "value": 10.0
-        },
-        "boxMinHeight": {
-          "type": "dimension",
-          "value": 56.0
-        },
-        "alignmentMinHeight": {
-          "type": "dimension",
-          "value": 56.0
-        },
-        "startContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "endContentSize": {
-          "type": "dimension",
-          "value": 24.0
-        },
-        "valueStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "placeholderStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "prefixStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "suffixStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "fieldType": {
-          "type": "value",
-          "value": "optional"
-        }
-      }
-    },
-    {
-      "id": "l.outer-label",
-      "parent": "l",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.primary"
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "outer"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 4.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.l.normal"
-        }
-      }
-    },
-    {
-      "id": "l.inner-label",
-      "parent": "l",
-      "props": {
-        "labelColor": {
-          "type": "color",
-          "default": "text.default.secondary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "optionalColor": {
-          "type": "color",
-          "default": "text.default.tertiary",
-          "states": [
-            {
-              "state": [
-                "focused"
-              ],
-              "value": "text.default.primary"
-            }
-          ]
-        },
-        "labelPlacement": {
-          "type": "value",
-          "value": "inner"
-        },
-        "labelPadding": {
-          "type": "dimension",
-          "value": 2.0
-        },
-        "labelStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        },
-        "boxPaddingTop": {
-          "type": "dimension",
-          "value": 9.0
-        },
-        "boxPaddingBottom": {
-          "type": "dimension",
-          "value": 9.0
-        },
-        "optionalStyle": {
-          "type": "typography",
-          "value": "body.xs.normal"
-        }
-      }
-    }
-  ]
+    ]
 }

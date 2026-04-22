@@ -18,7 +18,23 @@
                     "type": "component_style",
                     "value": "avatar.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
         }
     ]
 }

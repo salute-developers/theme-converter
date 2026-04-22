@@ -9,7 +9,13 @@
                     "type": "typography",
                     "value": "text.l.normal"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -19,7 +25,13 @@
                     "type": "typography",
                     "value": "text.m.normal"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -29,7 +41,13 @@
                     "type": "typography",
                     "value": "text.s.normal"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -39,7 +57,13 @@
                     "type": "typography",
                     "value": "text.xs.normal"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ],
     "props": {
@@ -55,5 +79,18 @@
             "type": "float",
             "value": 700
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        }
+    ]
 }

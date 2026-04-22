@@ -16,20 +16,20 @@
             "name": "gap",
             "type": "enum",
             "values": [
+                "none",
                 "wide",
-                "dense",
-                "none"
+                "dense"
             ],
-            "defaultValue": "wide"
+            "defaultValue": "none"
         },
         {
             "name": "shape",
             "type": "enum",
             "values": [
-                "pilled",
+                "default",
                 "segmented"
             ],
-            "defaultValue": "pilled"
+            "defaultValue": "default"
         }
     ],
     "variations": [
@@ -93,6 +93,10 @@
                 {
                     "name": "gap",
                     "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -169,6 +173,10 @@
                 {
                     "name": "gap",
                     "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -245,6 +253,10 @@
                 {
                     "name": "gap",
                     "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -335,6 +347,10 @@
                 {
                     "name": "gap",
                     "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -413,6 +429,10 @@
                 {
                     "name": "gap",
                     "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -491,6 +511,10 @@
                 {
                     "name": "gap",
                     "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -580,6 +604,10 @@
                 {
                     "name": "gap",
                     "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -655,6 +683,10 @@
                 {
                     "name": "gap",
                     "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },
@@ -730,6 +762,10 @@
                 {
                     "name": "gap",
                     "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
                 }
             ]
         },

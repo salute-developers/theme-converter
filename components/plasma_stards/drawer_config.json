@@ -22,7 +22,13 @@
                     "value": "round.xl",
                     "adjustment": 2.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "no-background",
@@ -32,7 +38,13 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": false
+                }
+            ]
         }
     ],
     "props": {
@@ -56,5 +68,12 @@
             "type": "value",
             "value": "none"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "has-background",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ]
 }

@@ -108,7 +108,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "defaultValue": "default",
             "values": [
                 "default",

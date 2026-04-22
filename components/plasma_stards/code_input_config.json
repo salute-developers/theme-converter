@@ -105,7 +105,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "m",
@@ -155,7 +161,13 @@
                     "type": "dimension",
                     "value": 28
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "l",
@@ -205,7 +217,25 @@
                     "type": "dimension",
                     "value": 40
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
         }
     ]
 }

@@ -127,10 +127,11 @@
             "name": "required-placement",
             "type": "enum",
             "values": [
+                "none",
                 "start",
                 "end"
             ],
-            "defaultValue": "start"
+            "defaultValue": "none"
         },
         {
             "name": "title-placement",
@@ -144,7 +145,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "positive",
@@ -162,6 +163,10 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -262,6 +267,10 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "title-placement",
@@ -396,6 +405,10 @@
                     "value": "xs"
                 },
                 {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
                     "name": "title-placement",
                     "value": "start"
                 }
@@ -526,6 +539,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -626,6 +643,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "title-placement",
@@ -760,6 +781,10 @@
                     "value": "s"
                 },
                 {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
                     "name": "title-placement",
                     "value": "start"
                 }
@@ -890,6 +915,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -990,6 +1019,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "title-placement",
@@ -1124,6 +1157,10 @@
                     "value": "m"
                 },
                 {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
                     "name": "title-placement",
                     "value": "start"
                 }
@@ -1254,6 +1291,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1354,6 +1395,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "title-placement",
@@ -1486,6 +1531,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "title-placement",

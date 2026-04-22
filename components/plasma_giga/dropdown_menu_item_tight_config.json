@@ -330,7 +330,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "positive",

@@ -115,7 +115,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -169,7 +175,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -223,7 +235,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.16"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -277,7 +295,26 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.16"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
         }
     ]
 }

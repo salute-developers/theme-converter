@@ -14,7 +14,13 @@
                     "type": "float",
                     "value": 2.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_1_2"
+                }
+            ]
         },
         {
             "id": "ratio_9_16",
@@ -28,7 +34,13 @@
                     "type": "float",
                     "value": 16.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_9_16"
+                }
+            ]
         },
         {
             "id": "ratio_3_4",
@@ -42,7 +54,13 @@
                     "type": "float",
                     "value": 4.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_3_4"
+                }
+            ]
         },
         {
             "id": "ratio_2_1",
@@ -56,7 +74,13 @@
                     "type": "float",
                     "value": 1.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_2_1"
+                }
+            ]
         },
         {
             "id": "ratio_16_9",
@@ -70,7 +94,13 @@
                     "type": "float",
                     "value": 9.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_16_9"
+                }
+            ]
         },
         {
             "id": "ratio_4_3",
@@ -84,7 +114,13 @@
                     "type": "float",
                     "value": 3.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_4_3"
+                }
+            ]
         },
         {
             "id": "ratio_1_1",
@@ -98,7 +134,29 @@
                     "type": "float",
                     "value": 1.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "ratio",
+                    "value": "ratio_1_1"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "ratio",
+            "type": "enum",
+            "values": [
+                "ratio_1_1",
+                "ratio_1_2",
+                "ratio_3_4",
+                "ratio_9_16",
+                "ratio_2_1",
+                "ratio_4_3",
+                "ratio_16_9"
+            ],
+            "defaultValue": "ratio_1_1"
         }
     ]
 }

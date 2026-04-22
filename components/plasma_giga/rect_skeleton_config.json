@@ -43,7 +43,7 @@
     "bindings": [
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "lighter"

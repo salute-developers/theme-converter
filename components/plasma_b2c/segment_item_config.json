@@ -539,7 +539,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "primary",
                 "secondary",

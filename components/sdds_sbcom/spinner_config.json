@@ -121,13 +121,13 @@
             "name": "mode-color",
             "type": "enum",
             "values": [
-                "color-primary",
-                "color-secondary",
-                "color-global-white",
-                "color-accent",
-                "color-danger"
+                "primary",
+                "secondary",
+                "global-white",
+                "accent",
+                "danger"
             ],
-            "defaultValue": "color-primary"
+            "defaultValue": "primary"
         }
     ],
     "variations": [

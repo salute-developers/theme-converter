@@ -407,10 +407,11 @@
             "name": "required-placement",
             "type": "enum",
             "values": [
+                "none",
                 "start",
                 "end"
             ],
-            "defaultValue": "start"
+            "defaultValue": "none"
         },
         {
             "name": "label-placement",
@@ -424,7 +425,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "values": [
                 "default",
                 "success",
@@ -442,6 +443,14 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -518,6 +527,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -550,6 +563,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -578,6 +595,10 @@
                 {
                     "name": "size",
                     "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -694,6 +715,14 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -770,6 +799,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -802,6 +835,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -830,6 +867,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -938,6 +979,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1054,6 +1099,14 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1130,6 +1183,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1162,6 +1219,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1190,6 +1251,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1298,6 +1363,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1414,6 +1483,14 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1490,6 +1567,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1522,6 +1603,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1550,6 +1635,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1658,6 +1747,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -1774,6 +1867,14 @@
                 {
                     "name": "size",
                     "value": "xl"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1850,6 +1951,10 @@
                 {
                     "name": "required-placement",
                     "value": "start"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1882,6 +1987,10 @@
                 {
                     "name": "required-placement",
                     "value": "end"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
                 }
             ],
             "props": {
@@ -1910,6 +2019,10 @@
                 {
                     "name": "size",
                     "value": "xl"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",
@@ -2018,6 +2131,10 @@
                 {
                     "name": "size",
                     "value": "xl"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
                 },
                 {
                     "name": "label-placement",

@@ -25,7 +25,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -52,7 +58,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -78,7 +90,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -105,7 +123,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -131,7 +155,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ],
     "props": {
@@ -179,5 +209,19 @@
             "type": "color",
             "default": "outline.default.transparent-primary"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ]
 }

@@ -9,7 +9,13 @@
                     "type": "typography",
                     "value": "header.h1.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ]
         },
         {
             "id": "h2",
@@ -19,7 +25,13 @@
                     "type": "typography",
                     "value": "header.h2.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ]
         },
         {
             "id": "h3",
@@ -29,7 +41,13 @@
                     "type": "typography",
                     "value": "header.h3.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ]
         },
         {
             "id": "h4",
@@ -39,7 +57,13 @@
                     "type": "typography",
                     "value": "header.h4.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ]
         },
         {
             "id": "h5",
@@ -49,7 +73,13 @@
                     "type": "typography",
                     "value": "header.h5.bold"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ]
         }
     ],
     "props": {
@@ -65,5 +95,19 @@
             "type": "float",
             "value": 700
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "h1"
+        }
+    ]
 }

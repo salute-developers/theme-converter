@@ -38,7 +38,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -78,7 +84,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -118,7 +130,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -158,7 +176,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -198,7 +222,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "black": {
             "props": {
@@ -238,7 +268,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "black"
+                }
+            ]
         },
         "white": {
             "props": {
@@ -278,7 +314,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "white"
+                }
+            ]
         }
     },
     "props": {
@@ -320,7 +362,13 @@
                     "type": "dimension",
                     "value": 5
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -354,7 +402,13 @@
                     "type": "dimension",
                     "value": 5
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -388,7 +442,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -422,7 +482,13 @@
                     "type": "dimension",
                     "value": 2.5
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -456,7 +522,41 @@
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "accent",
+                "positive",
+                "warning",
+                "negative",
+                "black",
+                "white"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

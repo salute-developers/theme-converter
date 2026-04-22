@@ -142,7 +142,7 @@
         },
         {
             "name": "view",
-            "type": "enum",
+            "type": "view",
             "defaultValue": "default",
             "values": [
                 "default",
@@ -346,7 +346,7 @@
             "binding": [
                 {
                     "name": "size",
-                    "value": "xxl"
+                    "value": "s"
                 },
                 {
                     "name": "shape",
@@ -414,7 +414,7 @@
             "binding": [
                 {
                     "name": "size",
-                    "value": "xxl"
+                    "value": "xs"
                 },
                 {
                     "name": "shape",

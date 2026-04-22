@@ -2,12 +2,12 @@
     "view": {},
     "props": {
         "thumbColor": {
-          "type": "color",
-          "default": "surface.default.solid-tertiary"
+            "type": "color",
+            "default": "surface.default.solid-tertiary"
         },
         "trackColor": {
-          "type": "color",
-          "default": "surface.default.transparent-primary"
+            "type": "color",
+            "default": "surface.default.transparent-primary"
         },
         "shape": {
             "type": "shape",
@@ -24,20 +24,43 @@
             "parent": null,
             "props": {
                 "width": {
-                  "type": "dimension",
-                  "value": 2.0
+                    "type": "dimension",
+                    "value": 2.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
             "props": {
                 "width": {
-                  "type": "dimension",
-                  "value": 4.0
+                    "type": "dimension",
+                    "value": 4.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "s"
+            ],
+            "defaultValue": "m"
         }
     ]
 }
