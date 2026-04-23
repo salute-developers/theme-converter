@@ -54,7 +54,7 @@
             "props": {
                 "startColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 },
                 "endColor": {
                     "type": "color",

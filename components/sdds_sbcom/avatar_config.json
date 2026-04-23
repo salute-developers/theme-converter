@@ -7,11 +7,11 @@
         },
         "background": {
             "type": "gradient",
-            "default": "persona.default.blue-surface-accent-gradient"
+            "default": "personas.default.blue-surface-accent-gradient"
         },
         "activeStatusColor": {
             "type": "color",
-            "default": "surface.default.accent-primary"
+            "default": "surface.default.accent"
         },
         "inactiveStatusColor": {
             "type": "color",

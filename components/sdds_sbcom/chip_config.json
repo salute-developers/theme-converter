@@ -46,14 +46,14 @@
                         "selected",
                         "pressed"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 },
                 {
                     "state": [
                         "selected",
                         "hovered"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 },
                 {
                     "state": [
@@ -71,7 +71,7 @@
                     "state": [
                         "selected"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 }
             ]
         },

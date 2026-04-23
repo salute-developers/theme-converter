@@ -28,7 +28,7 @@
             "props": {
                 "indicatorColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 }
             }
         },

@@ -50,19 +50,19 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
+                    "default": "surface.default.accent",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-primary-active"
+                            "value": "surface.default.accent-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-primary-hover"
+                            "value": "surface.default.accent-hover"
                         }
                     ]
                 },
