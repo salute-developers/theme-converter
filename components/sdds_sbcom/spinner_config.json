@@ -18,7 +18,7 @@
             "props": {
                 "startColor": {
                     "type": "color",
-                    "default": "surface.default.solid-primary"
+                    "default": "text.default.primary"
                 },
                 "endColor": {
                     "type": "color",
@@ -42,7 +42,7 @@
             "props": {
                 "startColor": {
                     "type": "color",
-                    "default": "surface.on-dark.solid-primary"
+                    "default": "surface.default.solid-primary"
                 },
                 "endColor": {
                     "type": "color",

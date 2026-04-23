@@ -174,22 +174,19 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.negative",
-                    "alpha": 0.16,
+                    "default": "surface.default.transparent-negative",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "alpha": 0.16,
-                            "value": "surface.default.negative-active"
+                            "value": "surface.default.transparent-negative-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "alpha": 0.16,
-                            "value": "surface.default.negative-hover"
+                            "value": "surface.default.transparent-negative-hover"
                         }
                     ]
                 },
