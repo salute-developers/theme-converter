@@ -11,7 +11,7 @@
         },
         "toggleBorderColor": {
             "type": "color",
-            "default": "text.default.accent"
+            "default": "surface.default.accent"
         },
         "toggleBorderOffset": {
             "type": "dimension",
@@ -19,7 +19,7 @@
         },
         "toggleIconColor": {
             "type": "color",
-            "default": "surface.default.accent-primary"
+            "default": "surface.default.accent"
         },
         "backgroundColor": {
             "type": "color",

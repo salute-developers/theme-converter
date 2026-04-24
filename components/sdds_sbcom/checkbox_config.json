@@ -27,13 +27,13 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 },
                 {
                     "state": [
                         "indeterminate"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 }
             ]
         },

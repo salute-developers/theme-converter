@@ -13,7 +13,7 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "surface.default.accent-primary"
+                    "value": "surface.default.accent"
                 }
             ]
         },
@@ -25,7 +25,7 @@
                     "state": [
                         "checked"
                     ],
-                    "value": "outline.default.transparent-clear"
+                    "value": "outline.default.clear"
                 }
             ]
         },

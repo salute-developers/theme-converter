@@ -166,7 +166,7 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 },
                 "valueColor": {
                     "type": "color",
@@ -196,55 +196,55 @@
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
+                    "default": "surface.default.accent",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-primary-active"
+                            "value": "surface.default.accent-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-primary-hover"
+                            "value": "surface.default.accent-hover"
                         }
                     ]
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
+                    "default": "surface.default.accent",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-primary-active"
+                            "value": "surface.default.accent-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-primary-hover"
+                            "value": "surface.default.accent-hover"
                         }
                     ]
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary",
+                    "default": "surface.default.accent",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.default.accent-primary-active"
+                            "value": "surface.default.accent-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.default.accent-primary-hover"
+                            "value": "surface.default.accent-hover"
                         }
                     ]
                 },
@@ -294,15 +294,15 @@
             "props": {
                 "iconColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 },
                 "spinnerColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "surface.default.accent-primary"
+                    "default": "surface.default.accent"
                 },
                 "backgroundColor": {
                     "type": "color",
@@ -404,22 +404,19 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.negative",
-                    "alpha": 0.16,
+                    "default": "surface.default.transparent-negative",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "alpha": 0.16,
-                            "value": "surface.default.negative-active"
+                            "value": "surface.default.transparent-negative-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "alpha": 0.16,
-                            "value": "surface.default.negative-hover"
+                            "value": "surface.default.transparent-negative-hover"
                         }
                     ]
                 },
