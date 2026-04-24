@@ -27,13 +27,12 @@
         {
             "name": "size",
             "type": "enum",
-            "defaultValue": "xxl",
+            "defaultValue": "m",
             "values": [
                 "xxl",
                 "l",
                 "m",
-                "s",
-                "xs"
+                "s"
             ]
         },
         {
