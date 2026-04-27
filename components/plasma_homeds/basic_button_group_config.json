@@ -1,30 +1,80 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m"
+            ],
+            "defaultValue": "xs"
+        },
+        {
+            "name": "gap",
+            "type": "enum",
+            "values": [
+                "none",
+                "wide",
+                "dense"
+            ],
+            "defaultValue": "none"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "segmented"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "key": "size",
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
                     "value": "basic-button.xs.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.wide",
             "parent": "xs",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "xs.wide.default",
             "parent": "xs.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -34,11 +84,26 @@
                     "type": "shape",
                     "value": "round.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "xs.wide.segmented",
             "parent": "xs.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -49,21 +114,47 @@
                     "value": "round.xxs",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "xs.dense",
             "parent": "xs",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "xs.dense.default",
             "parent": "xs.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -73,11 +164,26 @@
                     "type": "shape",
                     "value": "round.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "xs.dense.segmented",
             "parent": "xs.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -88,21 +194,47 @@
                     "value": "round.xxs",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "xs.no-gap",
             "parent": "xs",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "xs.no-gap.default",
             "parent": "xs.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -112,41 +244,89 @@
                     "type": "shape",
                     "value": "round.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "xs.no-gap.segmented",
             "parent": "xs.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
                     "value": "round.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
+            "key": "size",
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
                     "value": "basic-button.s.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.wide",
             "parent": "s",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "s.wide.default",
             "parent": "s.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -158,11 +338,26 @@
                     "value": "round.m",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "s.wide.segmented",
             "parent": "s.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -173,21 +368,47 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s.dense",
             "parent": "s",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "s.dense.default",
             "parent": "s.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -199,11 +420,26 @@
                     "value": "round.m",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "s.dense.segmented",
             "parent": "s.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -214,21 +450,47 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "s.no-gap",
             "parent": "s",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "s.no-gap.default",
             "parent": "s.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -240,42 +502,90 @@
                     "value": "round.m",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "s.no-gap.segmented",
             "parent": "s.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
                     "value": "round.m",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
+            "key": "size",
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
                     "value": "basic-button.m.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.wide",
             "parent": "m",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ]
         },
         {
             "id": "m.wide.default",
             "parent": "m.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -285,11 +595,26 @@
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "m.wide.segmented",
             "parent": "m.wide",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -299,21 +624,47 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m.dense",
             "parent": "m",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ]
         },
         {
             "id": "m.dense.default",
             "parent": "m.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -323,11 +674,26 @@
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "m.dense.segmented",
             "parent": "m.dense",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -337,21 +703,47 @@
                     "type": "shape",
                     "value": "round.xxs"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m.no-gap",
             "parent": "m",
+            "key": "gap",
             "props": {
                 "spacing": {
                     "type": "dimension",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ]
         },
         {
             "id": "m.no-gap.default",
             "parent": "m.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -361,17 +753,46 @@
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ]
         },
         {
             "id": "m.no-gap.segmented",
             "parent": "m.no-gap",
+            "key": "shape",
             "props": {
                 "externalShape": {
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         }
     ]
 }

@@ -64,10 +64,39 @@
             "value": "dots.horizontal.outline.24"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "orientation",
+            "type": "enum",
+            "values": [
+                "default",
+                "horizontal",
+                "vertical"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -86,6 +115,16 @@
         {
             "id": "l.vertical",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -104,6 +143,16 @@
         {
             "id": "l.horizontal",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -114,6 +163,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -132,6 +187,16 @@
         {
             "id": "m.vertical",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -150,6 +215,16 @@
         {
             "id": "m.horizontal",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -160,6 +235,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -178,6 +259,16 @@
         {
             "id": "s.vertical",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -196,6 +287,16 @@
         {
             "id": "s.horizontal",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -206,6 +307,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -224,6 +331,16 @@
         {
             "id": "xs.vertical",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",
@@ -242,6 +359,16 @@
         {
             "id": "xs.horizontal",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ],
             "props": {
                 "orientation": {
                     "type": "value",

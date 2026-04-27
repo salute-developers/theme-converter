@@ -30,10 +30,34 @@
             "value": 3
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-72",
+                "size-64",
+                "size-56",
+                "size-44",
+                "size-40",
+                "size-36",
+                "size-32",
+                "size-26",
+                "size-24"
+            ],
+            "defaultValue": "size-72"
+        }
+    ],
     "variations": [
         {
             "id": "size-72",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-72"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -76,6 +100,12 @@
         {
             "id": "size-64",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-64"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -118,6 +148,12 @@
         {
             "id": "size-56",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-56"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -160,6 +196,12 @@
         {
             "id": "size-44",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-44"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -202,6 +244,12 @@
         {
             "id": "size-40",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-40"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -244,6 +292,12 @@
         {
             "id": "size-36",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-36"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -286,6 +340,12 @@
         {
             "id": "size-32",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-32"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -328,6 +388,12 @@
         {
             "id": "size-26",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-26"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",
@@ -346,6 +412,12 @@
         {
             "id": "size-24",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-24"
+                }
+            ],
             "props": {
                 "textStyle": {
                     "type": "typography",

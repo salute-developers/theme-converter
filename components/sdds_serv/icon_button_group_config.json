@@ -1,10 +1,49 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "xs"
+        },
+        {
+            "name": "gap",
+            "type": "enum",
+            "values": [
+                "wide",
+                "dense",
+                "none"
+            ],
+            "defaultValue": "wide"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled",
+                "segmented"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
@@ -15,6 +54,16 @@
         {
             "id": "xs.wide",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -25,6 +74,20 @@
         {
             "id": "xs.wide.default",
             "parent": "xs.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -39,6 +102,20 @@
         {
             "id": "xs.wide.pilled",
             "parent": "xs.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -53,6 +130,20 @@
         {
             "id": "xs.wide.segmented",
             "parent": "xs.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -68,6 +159,16 @@
         {
             "id": "xs.dense",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -78,6 +179,20 @@
         {
             "id": "xs.dense.default",
             "parent": "xs.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -92,6 +207,20 @@
         {
             "id": "xs.dense.pilled",
             "parent": "xs.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -106,6 +235,20 @@
         {
             "id": "xs.dense.segmented",
             "parent": "xs.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -121,6 +264,16 @@
         {
             "id": "xs.no-gap",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -131,6 +284,20 @@
         {
             "id": "xs.no-gap.default",
             "parent": "xs.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -145,6 +312,20 @@
         {
             "id": "xs.no-gap.pilled",
             "parent": "xs.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -159,6 +340,20 @@
         {
             "id": "xs.no-gap.segmented",
             "parent": "xs.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -169,6 +364,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
@@ -179,6 +380,16 @@
         {
             "id": "s.wide",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -189,6 +400,20 @@
         {
             "id": "s.wide.default",
             "parent": "s.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -205,6 +430,20 @@
         {
             "id": "s.wide.pilled",
             "parent": "s.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -219,6 +458,20 @@
         {
             "id": "s.wide.segmented",
             "parent": "s.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -234,6 +487,16 @@
         {
             "id": "s.dense",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -244,6 +507,20 @@
         {
             "id": "s.dense.default",
             "parent": "s.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -260,6 +537,20 @@
         {
             "id": "s.dense.pilled",
             "parent": "s.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -274,6 +565,20 @@
         {
             "id": "s.dense.segmented",
             "parent": "s.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -289,6 +594,16 @@
         {
             "id": "s.no-gap",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -299,6 +614,20 @@
         {
             "id": "s.no-gap.default",
             "parent": "s.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -315,6 +644,20 @@
         {
             "id": "s.no-gap.pilled",
             "parent": "s.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -329,6 +672,20 @@
         {
             "id": "s.no-gap.segmented",
             "parent": "s.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -340,6 +697,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
@@ -350,6 +713,16 @@
         {
             "id": "m.wide",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -360,6 +733,20 @@
         {
             "id": "m.wide.default",
             "parent": "m.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -374,6 +761,20 @@
         {
             "id": "m.wide.pilled",
             "parent": "m.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -388,6 +789,20 @@
         {
             "id": "m.wide.segmented",
             "parent": "m.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -402,6 +817,16 @@
         {
             "id": "m.dense",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -412,6 +837,20 @@
         {
             "id": "m.dense.default",
             "parent": "m.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -426,6 +865,20 @@
         {
             "id": "m.dense.pilled",
             "parent": "m.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -440,6 +893,20 @@
         {
             "id": "m.dense.segmented",
             "parent": "m.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -454,6 +921,16 @@
         {
             "id": "m.no-gap",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -464,6 +941,20 @@
         {
             "id": "m.no-gap.default",
             "parent": "m.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -478,6 +969,20 @@
         {
             "id": "m.no-gap.pilled",
             "parent": "m.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -492,6 +997,20 @@
         {
             "id": "m.no-gap.segmented",
             "parent": "m.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -502,6 +1021,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "buttonStyle": {
                     "type": "component_style",
@@ -512,6 +1037,16 @@
         {
             "id": "l.wide",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -522,6 +1057,20 @@
         {
             "id": "l.wide.default",
             "parent": "l.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -538,6 +1087,20 @@
         {
             "id": "l.wide.pilled",
             "parent": "l.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -552,6 +1115,20 @@
         {
             "id": "l.wide.segmented",
             "parent": "l.wide",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "wide"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -567,6 +1144,16 @@
         {
             "id": "l.dense",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -577,6 +1164,20 @@
         {
             "id": "l.dense.default",
             "parent": "l.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -593,6 +1194,20 @@
         {
             "id": "l.dense.pilled",
             "parent": "l.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -607,6 +1222,20 @@
         {
             "id": "l.dense.segmented",
             "parent": "l.dense",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "dense"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -622,6 +1251,16 @@
         {
             "id": "l.no-gap",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "spacing": {
                     "type": "dimension",
@@ -632,6 +1271,20 @@
         {
             "id": "l.no-gap.default",
             "parent": "l.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "default"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -648,6 +1301,20 @@
         {
             "id": "l.no-gap.pilled",
             "parent": "l.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",
@@ -662,6 +1329,20 @@
         {
             "id": "l.no-gap.segmented",
             "parent": "l.no-gap",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "gap",
+                    "value": "none"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "externalShape": {
                     "type": "shape",

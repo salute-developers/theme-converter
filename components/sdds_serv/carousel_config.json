@@ -34,10 +34,27 @@
             "value": 12.0
         }
     },
+    "bindings": [
+        {
+            "name": "buttons-placement",
+            "type": "enum",
+            "values": [
+                "inner",
+                "outer"
+            ],
+            "defaultValue": "inner"
+        }
+    ],
     "variations": [
         {
             "id": "buttons-placement-inner",
             "parent": null,
+            "binding": [
+                {
+                    "name": "buttons-placement",
+                    "value": "inner"
+                }
+            ],
             "props": {
                 "buttonsPlacement": {
                     "type": "value",
@@ -56,6 +73,12 @@
         {
             "id": "buttons-placement-outer",
             "parent": null,
+            "binding": [
+                {
+                    "name": "buttons-placement",
+                    "value": "outer"
+                }
+            ],
             "props": {
                 "buttonsPlacement": {
                     "type": "value",

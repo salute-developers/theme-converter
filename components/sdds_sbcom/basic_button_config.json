@@ -106,7 +106,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode",
+                    "value": "primary"
+                }
+            ]
         },
         "mode-accent-filled": {
             "props": {
@@ -190,7 +196,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode",
+                    "value": "accent-filled"
+                }
+            ]
         },
         "mode-accent-white": {
             "props": {
@@ -288,7 +300,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode",
+                    "value": "accent-white"
+                }
+            ]
         },
         "mode-accent-grey": {
             "props": {
@@ -344,7 +362,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode",
+                    "value": "accent-grey"
+                }
+            ]
         },
         "mode-danger-tint": {
             "props": {
@@ -442,7 +466,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode",
+                    "value": "danger-tint"
+                }
+            ]
         }
     },
     "variations": [
@@ -494,7 +524,17 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-48"
+                },
+                {
+                    "name": "bg",
+                    "value": "yes"
+                }
+            ]
         },
         {
             "id": "size-48.bg-no",
@@ -506,7 +546,13 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "accent-grey"
+                        }
+                    ]
                 },
                 "mode-danger-tint": {
                     "props": {
@@ -514,10 +560,26 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "danger-tint"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-48"
+                },
+                {
+                    "name": "bg",
+                    "value": "no"
+                }
+            ]
         },
         {
             "id": "size-40",
@@ -567,7 +629,17 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-40"
+                },
+                {
+                    "name": "bg",
+                    "value": "yes"
+                }
+            ]
         },
         {
             "id": "size-40.bg-no",
@@ -579,7 +651,13 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "accent-grey"
+                        }
+                    ]
                 },
                 "mode-danger-tint": {
                     "props": {
@@ -587,10 +665,26 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "danger-tint"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-40"
+                },
+                {
+                    "name": "bg",
+                    "value": "no"
+                }
+            ]
         },
         {
             "id": "size-32",
@@ -640,7 +734,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-32"
+                },
+                {
+                    "name": "bg",
+                    "value": "yes"
+                }
+            ]
         },
         {
             "id": "size-32.bg-no",
@@ -652,7 +756,13 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "accent-grey"
+                        }
+                    ]
                 },
                 "mode-danger-tint": {
                     "props": {
@@ -660,10 +770,26 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "danger-tint"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-32"
+                },
+                {
+                    "name": "bg",
+                    "value": "no"
+                }
+            ]
         },
         {
             "id": "size-24",
@@ -713,7 +839,17 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-24"
+                },
+                {
+                    "name": "bg",
+                    "value": "yes"
+                }
+            ]
         },
         {
             "id": "size-24.bg-no",
@@ -725,7 +861,13 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "accent-grey"
+                        }
+                    ]
                 },
                 "mode-danger-tint": {
                     "props": {
@@ -733,10 +875,60 @@
                             "type": "color",
                             "default": "surface.default.clear"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode",
+                            "value": "danger-tint"
+                        }
+                    ]
                 }
             },
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-24"
+                },
+                {
+                    "name": "bg",
+                    "value": "no"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-48",
+                "size-40",
+                "size-32",
+                "size-24"
+            ],
+            "defaultValue": "size-48"
+        },
+        {
+            "name": "bg",
+            "type": "enum",
+            "values": [
+                "yes",
+                "no"
+            ],
+            "defaultValue": "yes"
+        },
+        {
+            "name": "mode",
+            "type": "enum",
+            "values": [
+                "primary",
+                "accent-filled",
+                "accent-white",
+                "accent-grey",
+                "danger-tint"
+            ],
+            "defaultValue": "primary"
         }
     ]
 }

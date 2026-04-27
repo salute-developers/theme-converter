@@ -88,7 +88,7 @@
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.m.normal",
-                     "states": [
+                    "states": [
                         {
                             "state": [
                                 "focused"
@@ -121,7 +121,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.has-background",
@@ -159,7 +165,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -213,7 +225,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.has-background",
@@ -252,7 +270,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -306,7 +330,13 @@
                     "type": "dimension",
                     "value": 24
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.has-background",
@@ -344,7 +374,25 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
         }
     ]
 }

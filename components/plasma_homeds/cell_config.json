@@ -22,6 +22,19 @@
             "default": "text.default.secondary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -29,11 +42,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -75,7 +88,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -83,11 +102,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -129,7 +148,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -137,11 +162,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -183,7 +208,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.24"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -191,11 +222,11 @@
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 },
                 "contentPaddingEnd": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -237,7 +268,13 @@
                     "type": "icon",
                     "value": "disclosure.right.outline.16"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ]
 }

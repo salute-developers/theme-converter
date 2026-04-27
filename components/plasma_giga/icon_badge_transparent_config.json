@@ -10,7 +10,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -22,7 +28,13 @@
                     "type": "color",
                     "default": "text.default.accent"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -34,7 +46,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -46,7 +64,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -58,7 +82,13 @@
                     "type": "color",
                     "default": "text.default.warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "dark": {
             "props": {
@@ -70,7 +100,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "dark"
+                }
+            ]
         },
         "light": {
             "props": {
@@ -82,7 +118,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "light"
+                }
+            ]
         }
     },
     "variations": [
@@ -110,7 +152,13 @@
                     "type": "dimension",
                     "value": 16
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
@@ -120,7 +168,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
@@ -146,7 +204,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
@@ -156,7 +220,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
@@ -182,7 +256,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
@@ -192,7 +272,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -218,7 +308,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
@@ -228,7 +324,53 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "accent",
+                "negative",
+                "positive",
+                "warning",
+                "dark",
+                "light"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

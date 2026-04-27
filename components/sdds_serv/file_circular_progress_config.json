@@ -70,7 +70,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -92,9 +98,37 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "xs"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "negative"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
@@ -106,7 +140,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.xs.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -114,9 +154,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.xs.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "startContentPadding": {
                     "type": "dimension",
@@ -150,7 +202,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -158,9 +216,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "startContentPadding": {
                     "type": "dimension",
@@ -194,7 +264,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -202,9 +278,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "startContentPadding": {
                     "type": "dimension",
@@ -238,7 +326,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.default"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "default"
+                        }
+                    ]
                 },
                 "negative": {
                     "props": {
@@ -246,9 +340,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.s.negative"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "view",
+                            "value": "negative"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "startContentPadding": {
                     "type": "dimension",

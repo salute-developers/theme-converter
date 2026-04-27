@@ -4,7 +4,7 @@
         {
             "id": "xl",
             "parent": null,
-            "props": { 
+            "props": {
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.xl"
@@ -29,12 +29,18 @@
                     "type": "dimension",
                     "value": 12
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
             "parent": null,
-            "props": { 
+            "props": {
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.l"
@@ -60,12 +66,18 @@
                     "type": "dimension",
                     "value": 8
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
-            "props": { 
+            "props": {
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.m"
@@ -90,12 +102,18 @@
                     "type": "dimension",
                     "value": 8
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
-            "props": { 
+            "props": {
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.s"
@@ -121,12 +139,18 @@
                     "type": "dimension",
                     "value": 8
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
             "parent": null,
-            "props": { 
+            "props": {
                 "listStyle": {
                     "type": "component_style",
                     "value": "dropdown-menu-list-tight.xs"
@@ -151,7 +175,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         }
     ],
     "props": {
@@ -191,5 +221,19 @@
             "type": "dimension",
             "value": 2
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        }
+    ]
 }

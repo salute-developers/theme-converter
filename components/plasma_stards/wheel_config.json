@@ -57,7 +57,13 @@
                     "type": "dimension",
                     "value": 8.0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ]
         },
         {
             "id": "h1.right-align",
@@ -67,7 +73,17 @@
                     "type": "value",
                     "value": "end"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "right"
+                }
+            ]
         },
         {
             "id": "h1.center-align",
@@ -77,7 +93,17 @@
                     "type": "value",
                     "value": "center"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "center"
+                }
+            ]
         },
         {
             "id": "h1.left-align",
@@ -87,7 +113,17 @@
                     "type": "value",
                     "value": "start"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "left"
+                }
+            ]
         },
         {
             "id": "h1.mixed-align",
@@ -97,7 +133,17 @@
                     "type": "value",
                     "value": "mixed"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "mixed"
+                }
+            ]
         }
     ],
     "props": {
@@ -127,7 +173,9 @@
             "default": "text.default.primary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.primary"
                 }
             ]
@@ -137,7 +185,9 @@
             "default": "text.default.secondary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.secondary"
                 }
             ]
@@ -147,7 +197,9 @@
             "default": "text.default.primary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "text.inverse.primary"
                 }
             ]
@@ -192,5 +244,26 @@
             "type": "component_style",
             "value": "divider"
         }
-    }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1"
+            ],
+            "defaultValue": "h1"
+        },
+        {
+            "name": "alignment",
+            "type": "enum",
+            "values": [
+                "left",
+                "right",
+                "center",
+                "mixed"
+            ],
+            "defaultValue": "left"
+        }
+    ]
 }

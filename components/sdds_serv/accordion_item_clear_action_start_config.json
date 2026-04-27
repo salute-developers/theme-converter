@@ -26,10 +26,33 @@
             "default": "text.default.primary"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "xs"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -68,6 +91,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -106,6 +135,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -144,6 +179,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -182,6 +223,12 @@
         {
             "id": "h2",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -220,6 +267,12 @@
         {
             "id": "h3",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -258,6 +311,12 @@
         {
             "id": "h4",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",
@@ -296,6 +355,12 @@
         {
             "id": "h5",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ],
             "props": {
                 "paddingTop": {
                     "type": "dimension",

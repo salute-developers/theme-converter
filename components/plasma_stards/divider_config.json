@@ -14,5 +14,6 @@
             "default": "surface.default.transparent-tertiary"
         }
     },
-    "variations": []
+    "variations": [],
+    "bindings": []
 }

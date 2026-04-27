@@ -60,7 +60,13 @@
                     "type": "component_style",
                     "value": "indicator.l"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -98,7 +104,13 @@
                     "type": "component_style",
                     "value": "indicator.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -136,7 +148,13 @@
                     "type": "component_style",
                     "value": "indicator.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -174,7 +192,26 @@
                     "type": "component_style",
                     "value": "indicator.s"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "xxl"
         }
     ]
 }

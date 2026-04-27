@@ -74,7 +74,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -150,7 +156,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -226,7 +238,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -302,7 +320,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -378,7 +402,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -454,7 +484,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         }
     },
     "props": {
@@ -505,7 +541,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -548,7 +590,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -591,7 +639,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -634,7 +688,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -677,7 +737,40 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "accent",
+                "negative",
+                "positive",
+                "secondary",
+                "warning"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

@@ -1,5 +1,6 @@
 {
     "view": {},
+    "bindings": [],
     "variations": [],
     "props": {
         "shape": {
@@ -36,7 +37,7 @@
         },
         "paddingBottom": {
             "type": "dimension",
-            "value": 32 
+            "value": 32
         },
         "overlayStyle": {
             "type": "component_style",

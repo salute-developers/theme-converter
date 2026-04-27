@@ -18,7 +18,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -38,7 +44,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "gradient": {
             "props": {
@@ -59,7 +71,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "gradient"
+                }
+            ]
         }
     },
     "props": {
@@ -120,10 +138,65 @@
             "value": "end"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "alignment",
+            "type": "enum",
+            "values": [
+                "start",
+                "end"
+            ],
+            "defaultValue": "start"
+        },
+        {
+            "name": "label-alignment",
+            "type": "enum",
+            "values": [
+                "start",
+                "end"
+            ],
+            "defaultValue": "start"
+        },
+        {
+            "name": "thumb-size",
+            "type": "enum",
+            "values": [
+                "default",
+                "s"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "accent",
+                "gradient"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -178,6 +251,16 @@
         {
             "id": "l.alignment-end",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "alignment": {
                     "type": "value",
@@ -196,6 +279,16 @@
         {
             "id": "l.label-end",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -206,6 +299,20 @@
         {
             "id": "l.alignment-end.label-end",
             "parent": "l.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -216,6 +323,16 @@
         {
             "id": "l.thumb-s",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -226,6 +343,20 @@
         {
             "id": "l.alignment-end.thumb-s",
             "parent": "l.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -236,6 +367,20 @@
         {
             "id": "l.label-end.thumb-s",
             "parent": "l.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -246,6 +391,24 @@
         {
             "id": "l.alignment-end.label-end.thumb-s",
             "parent": "l.alignment-end.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -256,6 +419,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -310,6 +479,16 @@
         {
             "id": "m.alignment-end",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "alignment": {
                     "type": "value",
@@ -328,6 +507,16 @@
         {
             "id": "m.label-end",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -338,6 +527,20 @@
         {
             "id": "m.alignment-end.label-end",
             "parent": "m.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -348,6 +551,16 @@
         {
             "id": "m.thumb-s",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -358,6 +571,20 @@
         {
             "id": "m.alignment-end.thumb-s",
             "parent": "m.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -368,6 +595,20 @@
         {
             "id": "m.label-end.thumb-s",
             "parent": "m.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -378,6 +619,24 @@
         {
             "id": "m.alignment-end.label-end.thumb-s",
             "parent": "m.alignment-end.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -388,6 +647,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "titleStyle": {
                     "type": "typography",
@@ -442,6 +707,16 @@
         {
             "id": "s.alignment-end",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "alignment": {
                     "type": "value",
@@ -460,6 +735,16 @@
         {
             "id": "s.label-end",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -470,6 +755,20 @@
         {
             "id": "s.alignment-end.label-end",
             "parent": "s.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "labelAlignment": {
                     "type": "value",
@@ -480,6 +779,16 @@
         {
             "id": "s.thumb-s",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -490,6 +799,20 @@
         {
             "id": "s.alignment-end.thumb-s",
             "parent": "s.alignment-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -500,6 +823,20 @@
         {
             "id": "s.label-end.thumb-s",
             "parent": "s.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",
@@ -510,6 +847,24 @@
         {
             "id": "s.alignment-end.label-end.thumb-s",
             "parent": "s.alignment-end.label-end",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "label-alignment",
+                    "value": "end"
+                },
+                {
+                    "name": "thumb-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "thumbSize": {
                     "type": "dimension",

@@ -1,5 +1,26 @@
 {
     "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1"
+            ],
+            "defaultValue": "h1"
+        },
+        {
+            "name": "alignment",
+            "type": "enum",
+            "values": [
+                "left",
+                "right",
+                "center",
+                "mixed"
+            ],
+            "defaultValue": "left"
+        }
+    ],
     "variations": [
         {
             "id": "h1",
@@ -19,21 +40,27 @@
                 },
                 "itemTextAfterPadding": {
                     "type": "dimension",
-                    "value": 2.0
+                    "value": 2
                 },
                 "itemMinSpacing": {
                     "type": "dimension",
-                    "value": 20.0
+                    "value": 20
                 },
                 "descriptionPadding": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 },
                 "separatorSpacing": {
                     "type": "dimension",
-                    "value": 40.0
+                    "value": 40
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ]
         },
         {
             "id": "h1.right-align",
@@ -43,7 +70,17 @@
                     "type": "value",
                     "value": "end"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "right"
+                }
+            ]
         },
         {
             "id": "h1.center-align",
@@ -53,7 +90,17 @@
                     "type": "value",
                     "value": "center"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "center"
+                }
+            ]
         },
         {
             "id": "h1.left-align",
@@ -63,7 +110,17 @@
                     "type": "value",
                     "value": "start"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "left"
+                }
+            ]
         },
         {
             "id": "h1.mixed-align",
@@ -73,7 +130,17 @@
                     "type": "value",
                     "value": "mixed"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                },
+                {
+                    "name": "alignment",
+                    "value": "mixed"
+                }
+            ]
         }
     ],
     "props": {

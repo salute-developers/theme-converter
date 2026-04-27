@@ -102,7 +102,13 @@
                     "type": "dimension",
                     "value": 10
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.segmented",
@@ -117,7 +123,17 @@
                     "value": "round.l",
                     "adjustment": -2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
         },
         {
             "id": "m",
@@ -151,7 +167,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.segmented",
@@ -165,7 +187,36 @@
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "segmented"
+            ],
+            "defaultValue": "segmented"
         }
     ]
 }

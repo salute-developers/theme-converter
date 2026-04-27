@@ -36,6 +36,26 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5",
+                "h6",
+                "body-l",
+                "body-m",
+                "body-s",
+                "body-xs",
+                "body-xxs"
+            ],
+            "defaultValue": "h1"
+        }
+    ],
     "variations": [
         {
             "id": "h1",
@@ -47,13 +67,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 52.0
+                    "value": 52
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ]
         },
         {
             "id": "h2",
@@ -65,13 +91,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 24.0
+                    "value": 24
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 8.0
+                    "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ]
         },
         {
             "id": "h3",
@@ -83,13 +115,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 24.0
+                    "value": 24
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ]
         },
         {
             "id": "h4",
@@ -101,13 +139,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 24.0
+                    "value": 24
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ]
         },
         {
             "id": "h5",
@@ -119,13 +163,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 24.0
+                    "value": 24
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ]
         },
         {
             "id": "h6",
@@ -137,13 +187,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 16.0
+                    "value": 16
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 2.0
+                    "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h6"
+                }
+            ]
         },
         {
             "id": "body-l",
@@ -155,13 +211,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 22.0
+                    "value": 22
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-l"
+                }
+            ]
         },
         {
             "id": "body-m",
@@ -173,13 +235,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 20.0
+                    "value": 20
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-m"
+                }
+            ]
         },
         {
             "id": "body-s",
@@ -191,13 +259,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 18.0
+                    "value": 18
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 2.0
+                    "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-s"
+                }
+            ]
         },
         {
             "id": "body-xs",
@@ -209,13 +283,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 14.0
+                    "value": 14
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 2.0
+                    "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-xs"
+                }
+            ]
         },
         {
             "id": "body-xxs",
@@ -227,13 +307,19 @@
                 },
                 "iconSize": {
                     "type": "dimension",
-                    "value": 12.0
+                    "value": 12
                 },
                 "iconMargin": {
                     "type": "dimension",
-                    "value": 2.0
+                    "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "body-xxs"
+                }
+            ]
         }
     ]
 }

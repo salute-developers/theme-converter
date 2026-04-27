@@ -42,17 +42,35 @@
         {
             "id": "horizontal",
             "parent": null,
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                }
+            ]
         },
         {
             "id": "vertical",
             "parent": null,
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                }
+            ]
         },
         {
             "id": "square",
             "parent": null,
-            "props": {}
+            "props": {},
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "square"
+                }
+            ]
         },
         {
             "id": "square.l",
@@ -70,7 +88,17 @@
                     "type": "dimension",
                     "value": 256
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "square"
+                },
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "vertical.m",
@@ -88,7 +116,17 @@
                     "type": "dimension",
                     "value": 286
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                },
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "horizontal.s",
@@ -106,7 +144,17 @@
                     "type": "dimension",
                     "value": 106
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                },
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "vertical.s",
@@ -124,7 +172,17 @@
                     "type": "dimension",
                     "value": 180
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "vertical"
+                },
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "horizontal.xs",
@@ -142,7 +200,17 @@
                     "type": "dimension",
                     "value": 68
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "horizontal"
+                },
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "square.xs",
@@ -160,7 +228,40 @@
                     "type": "dimension",
                     "value": 120
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "orientation",
+                    "value": "square"
+                },
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "orientation",
+            "type": "enum",
+            "values": [
+                "horizontal",
+                "vertical",
+                "square"
+            ],
+            "defaultValue": "horizontal"
+        },
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "l"
         }
     ]
 }

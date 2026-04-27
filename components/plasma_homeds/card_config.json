@@ -5,7 +5,7 @@
             "type": "color",
             "default": "surface.default.clear"
         },
-         "labelStyle": {
+        "labelStyle": {
             "type": "typography",
             "value": "body.xs.normal"
         },
@@ -38,10 +38,29 @@
             "value": 0
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "has-inner-paddings",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "key": "size",
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -75,11 +94,18 @@
                     "type": "dimension",
                     "value": 128
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "xl.has-inner-paddings",
             "parent": "xl",
+            "key": "has-inner-padding",
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -89,11 +115,22 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                },
+                {
+                    "name": "has-inner-paddings",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "l",
             "parent": null,
+            "key": "size",
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -127,7 +164,13 @@
                     "type": "dimension",
                     "value": 104
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.has-inner-paddings",
@@ -141,11 +184,22 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "has-inner-paddings",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "m",
             "parent": null,
+            "key": "size",
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -179,7 +233,13 @@
                     "type": "dimension",
                     "value": 80
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.has-inner-paddings",
@@ -193,11 +253,22 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "has-inner-paddings",
+                    "value": true
+                }
+            ]
         },
         {
             "id": "s",
             "parent": null,
+            "key": "size",
             "props": {
                 "contentPaddingStart": {
                     "type": "dimension",
@@ -231,7 +302,13 @@
                     "type": "dimension",
                     "value": 56
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.has-inner-paddings",
@@ -245,7 +322,17 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "has-inner-paddings",
+                    "value": true
+                }
+            ]
         }
     ]
 }

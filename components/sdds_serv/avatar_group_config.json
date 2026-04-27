@@ -1,10 +1,26 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
+        }
+    ],
     "variations": [
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "itemOffset": {
                     "type": "dimension",

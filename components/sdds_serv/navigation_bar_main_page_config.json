@@ -86,10 +86,33 @@
             "value": 16.0
         }
     },
+    "bindings": [
+        {
+            "name": "has-background",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "has-shadow",
+            "type": "boolean",
+            "defaultValue": false
+        },
+        {
+            "name": "rounded",
+            "type": "boolean",
+            "defaultValue": false
+        }
+    ],
     "variations": [
         {
             "id": "no-background",
             "parent": null,
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": false
+                }
+            ],
             "props": {
                 "backgroundColor": {
                     "type": "color",
@@ -100,6 +123,16 @@
         {
             "id": "no-background.rounded",
             "parent": "no-background",
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": false
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "bottomShape": {
                     "type": "shape",
@@ -110,6 +143,12 @@
         {
             "id": "has-background",
             "parent": null,
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": true
+                }
+            ],
             "props": {
                 "backgroundColor": {
                     "type": "color",
@@ -120,6 +159,16 @@
         {
             "id": "has-background.rounded",
             "parent": "has-background",
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": true
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "bottomShape": {
                     "type": "shape",
@@ -130,6 +179,16 @@
         {
             "id": "has-background.shadow",
             "parent": "has-background",
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": true
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                }
+            ],
             "props": {
                 "shadow": {
                     "type": "shadow",
@@ -140,6 +199,20 @@
         {
             "id": "has-background.shadow.rounded",
             "parent": "has-background.shadow",
+            "binding": [
+                {
+                    "name": "has-background",
+                    "value": true
+                },
+                {
+                    "name": "has-shadow",
+                    "value": true
+                },
+                {
+                    "name": "rounded",
+                    "value": true
+                }
+            ],
             "props": {
                 "bottomShape": {
                     "type": "shape",

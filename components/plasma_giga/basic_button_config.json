@@ -106,7 +106,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -204,7 +210,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -302,7 +314,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -400,7 +418,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -498,7 +522,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -596,7 +626,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "clear": {
             "props": {
@@ -694,7 +730,13 @@
                     "type": "float",
                     "value": 0.06
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "clear"
+                }
+            ]
         },
         "dark": {
             "props": {
@@ -792,7 +834,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "dark"
+                }
+            ]
         },
         "black": {
             "props": {
@@ -890,7 +938,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "black"
+                }
+            ]
         },
         "white": {
             "props": {
@@ -988,7 +1042,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "white"
+                }
+            ]
         }
     },
     "variations": [
@@ -1040,7 +1100,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -1090,7 +1156,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -1140,7 +1212,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -1190,7 +1268,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -1240,7 +1324,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -1290,7 +1380,45 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "clear",
+                "dark",
+                "black",
+                "white"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

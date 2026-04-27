@@ -10,7 +10,9 @@
             "default": "surface.default.clear",
             "states": [
                 {
-                    "state": ["checked"],
+                    "state": [
+                        "checked"
+                    ],
                     "value": "surface.default.accent"
                 }
             ]
@@ -20,15 +22,22 @@
             "default": "outline.default.transparent-tertiary",
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": "outline.default.accent"
                 },
                 {
-                    "state": ["focused", "checked"],
+                    "state": [
+                        "focused",
+                        "checked"
+                    ],
                     "value": "outline.default.accent"
                 },
                 {
-                    "state": ["checked"],
+                    "state": [
+                        "checked"
+                    ],
                     "value": "surface.default.clear"
                 }
             ]
@@ -38,7 +47,9 @@
             "value": 0,
             "states": [
                 {
-                    "state": ["focused"],
+                    "state": [
+                        "focused"
+                    ],
                     "value": 3
                 },
                 {
@@ -67,10 +78,28 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "toggleBorderWidth": {
                     "type": "dimension",
@@ -126,6 +155,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "toggleBorderWidth": {
                     "type": "dimension",
@@ -181,6 +216,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "toggleBorderWidth": {
                     "type": "dimension",

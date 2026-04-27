@@ -86,5 +86,6 @@
             "default": "surface.default.solid-primary"
         }
     },
+    "bindings": [],
     "variations": []
 }

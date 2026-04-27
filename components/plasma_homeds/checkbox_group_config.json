@@ -1,6 +1,18 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -18,7 +30,13 @@
                     "type": "component_style",
                     "value": "check-box.l.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -36,7 +54,13 @@
                     "type": "component_style",
                     "value": "check-box.m.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -54,7 +78,13 @@
                     "type": "component_style",
                     "value": "check-box.s.default"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }

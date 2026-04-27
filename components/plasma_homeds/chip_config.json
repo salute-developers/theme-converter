@@ -159,6 +159,38 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "pilled"
+            ],
+            "defaultValue": "default"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "secondary"
+            ]
+        }
+    ],
     "variations": [
         {
             "id": "l",
@@ -200,7 +232,13 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "l.pilled",
@@ -210,7 +248,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "m",
@@ -253,7 +301,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "m.pilled",
@@ -263,7 +317,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "s",
@@ -305,7 +369,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         },
         {
             "id": "s.pilled",
@@ -315,7 +385,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xs",
@@ -357,7 +437,13 @@
                     "type": "dimension",
                     "value": 4
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ]
         },
         {
             "id": "xs.pilled",
@@ -367,7 +453,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         },
         {
             "id": "xxs",
@@ -409,7 +505,13 @@
                     "type": "dimension",
                     "value": 2
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ]
         },
         {
             "id": "xxs.pilled",
@@ -419,7 +521,17 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                },
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
         }
     ]
 }

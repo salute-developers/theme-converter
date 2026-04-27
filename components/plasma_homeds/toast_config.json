@@ -79,5 +79,17 @@
             "value": 12
         }
     },
+    "bindings": [
+        {
+            "name": "view",
+            "type": "view",
+            "defaultValue": "default",
+            "values": [
+                "default",
+                "positive",
+                "negative"
+            ]
+        }
+    ],
     "variations": []
 }

@@ -6,7 +6,13 @@
                     "type": "color",
                     "default": "text.default.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -22,7 +34,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         }
     },
     "props": {
@@ -84,7 +102,13 @@
                     "type": "shape",
                     "value": "round.m"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "shape",
+                    "value": "rounded"
+                }
+            ]
         },
         {
             "id": "pilled",
@@ -94,7 +118,34 @@
                     "type": "shape",
                     "value": "round.circle"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "shape",
+                    "value": "pilled"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "rounded",
+                "pilled"
+            ],
+            "defaultValue": "rounded"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "positive",
+                "negative"
+            ],
+            "defaultValue": "default"
         }
     ]
 }

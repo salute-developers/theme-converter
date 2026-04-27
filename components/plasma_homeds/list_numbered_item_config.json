@@ -10,6 +10,16 @@
             "value": 0.4
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
+        }
+    ],
     "variations": [
         {
             "id": "s",
@@ -37,13 +47,19 @@
                 },
                 "contentPaddingStart": {
                     "type": "dimension",
-                    "value": 6.0
+                    "value": 6
                 },
                 "counterStyle": {
                     "type": "component_style",
                     "value": "counter.xs.secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }

@@ -60,10 +60,30 @@
             "value": "horizontal"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "h1",
+                "h2",
+                "h3",
+                "h4",
+                "h5"
+            ],
+            "defaultValue": "h1"
+        }
+    ],
     "variations": [
         {
             "id": "h1",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h1"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -86,6 +106,12 @@
         {
             "id": "h2",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h2"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -108,6 +134,12 @@
         {
             "id": "h3",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h3"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -130,6 +162,12 @@
         {
             "id": "h4",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",
@@ -152,6 +190,12 @@
         {
             "id": "h5",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h5"
+                }
+            ],
             "props": {
                 "tabItemStyle": {
                     "type": "component_style",

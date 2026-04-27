@@ -102,7 +102,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -200,7 +206,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -298,7 +310,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -396,7 +414,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -494,7 +518,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -592,7 +622,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         },
         "clear": {
             "props": {
@@ -690,7 +726,13 @@
                     "type": "float",
                     "value": 0.06
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "clear"
+                }
+            ]
         },
         "dark": {
             "props": {
@@ -788,7 +830,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "dark"
+                }
+            ]
         },
         "black": {
             "props": {
@@ -886,7 +934,13 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "black"
+                }
+            ]
         },
         "white": {
             "props": {
@@ -984,13 +1038,57 @@
                     "type": "float",
                     "value": 0
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "white"
+                }
+            ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xl",
+                "l",
+                "m",
+                "s",
+                "xs",
+                "xxs"
+            ],
+            "defaultValue": "xl"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "secondary",
+                "accent",
+                "positive",
+                "negative",
+                "warning",
+                "clear",
+                "dark",
+                "black",
+                "white"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xl",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xl"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -1045,6 +1143,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -1100,6 +1204,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -1154,6 +1264,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -1209,6 +1325,12 @@
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",
@@ -1263,6 +1385,12 @@
         {
             "id": "xxs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxs"
+                }
+            ],
             "props": {
                 "shape": {
                     "type": "shape",

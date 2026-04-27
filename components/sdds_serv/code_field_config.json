@@ -68,10 +68,36 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "shape",
+            "type": "enum",
+            "values": [
+                "default",
+                "segmented"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "itemShape": {
                     "type": "shape",
@@ -107,6 +133,16 @@
         {
             "id": "l.segmented",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "itemShape": {
                     "type": "shape",
@@ -122,6 +158,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "itemShape": {
                     "type": "shape",
@@ -156,6 +198,16 @@
         {
             "id": "m.segmented",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "shape",
+                    "value": "segmented"
+                }
+            ],
             "props": {
                 "itemShape": {
                     "type": "shape",

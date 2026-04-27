@@ -6,7 +6,13 @@
                     "type": "color",
                     "default": "text.default.secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "positive": {
             "props": {
@@ -14,7 +20,13 @@
                     "type": "color",
                     "default": "text.default.positive"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
         },
         "negative": {
             "props": {
@@ -22,7 +34,13 @@
                     "type": "color",
                     "default": "text.default.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
         },
         "warning": {
             "props": {
@@ -30,7 +48,13 @@
                     "type": "color",
                     "default": "text.default.warning"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "warning"
+                }
+            ]
         }
     },
     "props": {
@@ -87,10 +111,64 @@
             "value": 4.0
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xs",
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "xs"
+        },
+        {
+            "name": "required-placement",
+            "type": "enum",
+            "values": [
+                "none",
+                "start",
+                "end"
+            ],
+            "defaultValue": "none"
+        },
+        {
+            "name": "title-placement",
+            "type": "enum",
+            "values": [
+                "none",
+                "top",
+                "start"
+            ],
+            "defaultValue": "none"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "positive",
+                "negative",
+                "warning"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "xs",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "titleBlockPadding": {
                     "type": "dimension",
@@ -121,6 +199,16 @@
         {
             "id": "xs.required-start",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -143,6 +231,16 @@
         {
             "id": "xs.required-end",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -165,6 +263,20 @@
         {
             "id": "xs.title-top",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -203,6 +315,20 @@
         {
             "id": "xs.title-top.required-start",
             "parent": "xs.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -229,6 +355,20 @@
         {
             "id": "xs.title-top.required-end",
             "parent": "xs.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -259,6 +399,20 @@
         {
             "id": "xs.title-start",
             "parent": "xs",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -297,6 +451,20 @@
         {
             "id": "xs.title-start.required-start",
             "parent": "xs.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -323,6 +491,20 @@
         {
             "id": "xs.title-start.required-end",
             "parent": "xs.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -353,6 +535,16 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "titleBlockPadding": {
                     "type": "dimension",
@@ -383,6 +575,16 @@
         {
             "id": "s.required-start",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -405,6 +607,16 @@
         {
             "id": "s.required-end",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -427,6 +639,20 @@
         {
             "id": "s.title-top",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -465,6 +691,20 @@
         {
             "id": "s.title-top.required-start",
             "parent": "s.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -491,6 +731,20 @@
         {
             "id": "s.title-top.required-end",
             "parent": "s.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -521,6 +775,20 @@
         {
             "id": "s.title-start",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -559,6 +827,20 @@
         {
             "id": "s.title-start.required-start",
             "parent": "s.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -585,6 +867,20 @@
         {
             "id": "s.title-start.required-end",
             "parent": "s.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -615,6 +911,16 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "titleBlockPadding": {
                     "type": "dimension",
@@ -645,6 +951,16 @@
         {
             "id": "m.required-start",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -667,6 +983,16 @@
         {
             "id": "m.required-end",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -689,6 +1015,20 @@
         {
             "id": "m.title-top",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -727,6 +1067,20 @@
         {
             "id": "m.title-top.required-start",
             "parent": "m.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -753,6 +1107,20 @@
         {
             "id": "m.title-top.required-end",
             "parent": "m.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -783,6 +1151,20 @@
         {
             "id": "m.title-start",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -821,6 +1203,20 @@
         {
             "id": "m.title-start.required-start",
             "parent": "m.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -847,6 +1243,20 @@
         {
             "id": "m.title-start.required-end",
             "parent": "m.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -877,6 +1287,16 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "titleBlockPadding": {
                     "type": "dimension",
@@ -907,6 +1327,16 @@
         {
             "id": "l.required-start",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -929,6 +1359,16 @@
         {
             "id": "l.required-end",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -951,6 +1391,20 @@
         {
             "id": "l.title-top",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -989,6 +1443,20 @@
         {
             "id": "l.title-top.required-start",
             "parent": "l.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -1015,6 +1483,20 @@
         {
             "id": "l.title-top.required-end",
             "parent": "l.title-top",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "top"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -1045,6 +1527,20 @@
         {
             "id": "l.title-start",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "none"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "titlePlacement": {
                     "type": "value",
@@ -1083,6 +1579,20 @@
         {
             "id": "l.title-start.required-start",
             "parent": "l.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "start"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",
@@ -1109,6 +1619,20 @@
         {
             "id": "l.title-start.required-end",
             "parent": "l.title-start",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "required-placement",
+                    "value": "end"
+                },
+                {
+                    "name": "title-placement",
+                    "value": "start"
+                }
+            ],
             "props": {
                 "formItemType": {
                     "type": "value",

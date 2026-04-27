@@ -10,7 +10,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mute",
+                    "value": "no"
+                }
+            ]
         },
         "mute-yes": {
             "props": {
@@ -22,7 +28,13 @@
                     "type": "color",
                     "default": "text.on-dark.primary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mute",
+                    "value": "yes"
+                }
+            ]
         }
     },
     "props": {
@@ -47,5 +59,16 @@
             "value": 18
         }
     },
+    "bindings": [
+        {
+            "name": "mute",
+            "type": "enum",
+            "values": [
+                "no",
+                "yes"
+            ],
+            "defaultValue": "no"
+        }
+    ],
     "variations": []
 }

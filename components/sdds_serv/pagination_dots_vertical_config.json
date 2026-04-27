@@ -26,10 +26,36 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "s"
+            ],
+            "defaultValue": "m"
+        },
+        {
+            "name": "active-type",
+            "type": "enum",
+            "values": [
+                "default",
+                "line"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "dotWidth": {
                     "type": "dimension",
@@ -48,6 +74,16 @@
         {
             "id": "m.active-type-line",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "active-type",
+                    "value": "line"
+                }
+            ],
             "props": {
                 "dotHeight": {
                     "type": "dimension",
@@ -66,6 +102,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "dotWidth": {
                     "type": "dimension",
@@ -84,6 +126,16 @@
         {
             "id": "s.active-type-line",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "active-type",
+                    "value": "line"
+                }
+            ],
             "props": {
                 "dotHeight": {
                     "type": "dimension",

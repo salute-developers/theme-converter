@@ -46,10 +46,36 @@
             "value": 2
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        },
+        {
+            "name": "toggle-size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
+        }
+    ],
     "variations": [
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -88,6 +114,16 @@
         {
             "id": "l.toggle-s",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "toggleTrackWidth": {
                     "type": "dimension",
@@ -110,6 +146,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -148,6 +190,16 @@
         {
             "id": "m.toggle-s",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "toggleTrackWidth": {
                     "type": "dimension",
@@ -170,6 +222,12 @@
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "labelStyle": {
                     "type": "typography",
@@ -208,6 +266,16 @@
         {
             "id": "s.toggle-s",
             "parent": "s",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "toggleTrackWidth": {
                     "type": "dimension",

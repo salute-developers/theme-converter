@@ -24,7 +24,13 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode-color",
+                    "value": "primary"
+                }
+            ]
         },
         "mode-color-secondary": {
             "props": {
@@ -36,7 +42,13 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode-color",
+                    "value": "secondary"
+                }
+            ]
         },
         "mode-color-global-white": {
             "props": {
@@ -48,7 +60,13 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode-color",
+                    "value": "global-white"
+                }
+            ]
         },
         "mode-color-accent": {
             "props": {
@@ -60,7 +78,13 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode-color",
+                    "value": "accent"
+                }
+            ]
         },
         "mode-color-danger": {
             "props": {
@@ -72,13 +96,50 @@
                     "type": "color",
                     "default": "surface.default.clear"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "mode-color",
+                    "value": "danger"
+                }
+            ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-40",
+                "size-32",
+                "size-24",
+                "size-16"
+            ],
+            "defaultValue": "size-40"
+        },
+        {
+            "name": "mode-color",
+            "type": "enum",
+            "values": [
+                "primary",
+                "secondary",
+                "global-white",
+                "accent",
+                "danger"
+            ],
+            "defaultValue": "primary"
+        }
+    ],
     "variations": [
         {
             "id": "size-40",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-40"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -89,6 +150,12 @@
         {
             "id": "size-32",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-32"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -99,6 +166,12 @@
         {
             "id": "size-24",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-24"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",
@@ -109,6 +182,12 @@
         {
             "id": "size-16",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-16"
+                }
+            ],
             "props": {
                 "size": {
                     "type": "dimension",

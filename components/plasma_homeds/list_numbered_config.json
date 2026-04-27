@@ -1,10 +1,20 @@
 {
     "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s"
+            ],
+            "defaultValue": "s"
+        }
+    ],
     "variations": [
         {
             "id": "s",
             "parent": null,
-            "props": { 
+            "props": {
                 "listItemStyle": {
                     "type": "component_style",
                     "value": "list-numbered-item.s"
@@ -13,7 +23,13 @@
                     "type": "dimension",
                     "value": 12
                 }
-             }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ],
     "props": {

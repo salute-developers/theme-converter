@@ -56,10 +56,28 @@
             ]
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "s",
+                "m",
+                "l"
+            ],
+            "defaultValue": "s"
+        }
+    ],
     "variations": [
         {
             "id": "s",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
             "props": {
                 "itemHeight": {
                     "type": "dimension",
@@ -110,6 +128,12 @@
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
             "props": {
                 "itemHeight": {
                     "type": "dimension",
@@ -160,6 +184,12 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ],
             "props": {
                 "itemHeight": {
                     "type": "dimension",

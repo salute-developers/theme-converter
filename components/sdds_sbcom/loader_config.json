@@ -1,6 +1,31 @@
 {
     "view": {},
     "props": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-40",
+                "size-32",
+                "size-24",
+                "size-16"
+            ],
+            "defaultValue": "size-40"
+        },
+        {
+            "name": "mode-color",
+            "type": "enum",
+            "values": [
+                "primary",
+                "secondary",
+                "global-white",
+                "accent",
+                "danger"
+            ],
+            "defaultValue": "primary"
+        }
+    ],
     "variations": [
         {
             "id": "size-40",
@@ -16,7 +41,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-40.mode-color-primary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "primary"
+                        }
+                    ]
                 },
                 "mode-color-secondary": {
                     "props": {
@@ -28,7 +59,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-40.mode-color-secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "mode-color-global-white": {
                     "props": {
@@ -40,7 +77,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-40.mode-color-global-white"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "global-white"
+                        }
+                    ]
                 },
                 "mode-color-accent": {
                     "props": {
@@ -52,7 +95,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-40.mode-color-accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "mode-color-danger": {
                     "props": {
@@ -64,9 +113,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-40.mode-color-danger"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "danger"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-40"
+                }
+            ],
             "props": {}
         },
         {
@@ -83,7 +144,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-32.mode-color-primary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "primary"
+                        }
+                    ]
                 },
                 "mode-color-secondary": {
                     "props": {
@@ -95,7 +162,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-32.mode-color-secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "mode-color-global-white": {
                     "props": {
@@ -107,7 +180,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-32.mode-color-global-white"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "global-white"
+                        }
+                    ]
                 },
                 "mode-color-accent": {
                     "props": {
@@ -119,7 +198,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-32.mode-color-accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "mode-color-danger": {
                     "props": {
@@ -131,9 +216,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-32.mode-color-danger"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "danger"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-32"
+                }
+            ],
             "props": {}
         },
         {
@@ -150,7 +247,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-24.mode-color-primary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "primary"
+                        }
+                    ]
                 },
                 "mode-color-secondary": {
                     "props": {
@@ -162,7 +265,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-24.mode-color-secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "mode-color-global-white": {
                     "props": {
@@ -174,7 +283,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-24.mode-color-global-white"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "global-white"
+                        }
+                    ]
                 },
                 "mode-color-accent": {
                     "props": {
@@ -186,7 +301,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-24.mode-color-accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "mode-color-danger": {
                     "props": {
@@ -198,9 +319,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-24.mode-color-danger"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "danger"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-24"
+                }
+            ],
             "props": {}
         },
         {
@@ -217,7 +350,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-16.mode-color-primary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "primary"
+                        }
+                    ]
                 },
                 "mode-color-secondary": {
                     "props": {
@@ -229,7 +368,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-16.mode-color-secondary"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "secondary"
+                        }
+                    ]
                 },
                 "mode-color-global-white": {
                     "props": {
@@ -241,7 +386,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-16.mode-color-global-white"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "global-white"
+                        }
+                    ]
                 },
                 "mode-color-accent": {
                     "props": {
@@ -253,7 +404,13 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-16.mode-color-accent"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "accent"
+                        }
+                    ]
                 },
                 "mode-color-danger": {
                     "props": {
@@ -265,9 +422,21 @@
                             "type": "component_style",
                             "value": "circular-progress-bar.size-16.mode-color-danger"
                         }
-                    }
+                    },
+                    "binding": [
+                        {
+                            "name": "mode-color",
+                            "value": "danger"
+                        }
+                    ]
                 }
             },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-16"
+                }
+            ],
             "props": {}
         }
     ]

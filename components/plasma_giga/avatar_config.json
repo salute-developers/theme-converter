@@ -68,7 +68,13 @@
                     "type": "component_style",
                     "value": "counter.l.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xxl"
+                }
+            ]
         },
         {
             "id": "l",
@@ -114,7 +120,13 @@
                     "type": "component_style",
                     "value": "counter.s.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
         },
         {
             "id": "m",
@@ -160,7 +172,13 @@
                     "type": "component_style",
                     "value": "counter.xs.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
         },
         {
             "id": "s",
@@ -202,7 +220,26 @@
                     "type": "component_style",
                     "value": "counter.xxs.negative"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        }
+    ],
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "xxl",
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "xxl"
         }
     ]
 }

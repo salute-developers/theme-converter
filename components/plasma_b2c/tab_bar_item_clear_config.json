@@ -26,7 +26,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
         },
         "accent": {
             "props": {
@@ -54,7 +60,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "accent"
+                }
+            ]
         },
         "secondary": {
             "props": {
@@ -66,7 +78,13 @@
                     "type": "color",
                     "default": "text.default.secondary"
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "secondary"
+                }
+            ]
         }
     },
     "props": {
@@ -79,10 +97,50 @@
             "value": "body.xxs.bold"
         }
     },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "l"
+            ],
+            "defaultValue": "m"
+        },
+        {
+            "name": "label-placement",
+            "type": "enum",
+            "values": [
+                "none",
+                "bottom"
+            ],
+            "defaultValue": "none"
+        },
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "accent",
+                "secondary"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": [
         {
             "id": "m",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "labelPlacement": {
                     "type": "value",
@@ -121,6 +179,16 @@
         {
             "id": "m.label",
             "parent": "m",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "bottom"
+                }
+            ],
             "props": {
                 "labelPlacement": {
                     "type": "value",
@@ -143,6 +211,16 @@
         {
             "id": "l",
             "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "none"
+                }
+            ],
             "props": {
                 "labelPlacement": {
                     "type": "value",
@@ -181,6 +259,16 @@
         {
             "id": "l.label",
             "parent": "l",
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                },
+                {
+                    "name": "label-placement",
+                    "value": "bottom"
+                }
+            ],
             "props": {
                 "labelPlacement": {
                     "type": "value",
