@@ -15,7 +15,8 @@
             "name": "size",
             "type": "enum",
             "values": [
-                "s"
+                "s",
+                "m"
             ],
             "defaultValue": "s"
         }
@@ -26,6 +27,54 @@
             "parent": null,
             "props": {
                 "titleStyle": {
+                    "type": "typography",
+                    "value": "body.s.normal"
+                },
+                "subtitleStyle": {
+                    "type": "typography",
+                    "value": "body.xs.normal"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 0
+                },
+                "contentPaddingStart": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "counterStyle": {
+                    "type": "component_style",
+                    "value": "counter.s.secondary"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "titleStyle": {
+                    "type": "typography",
+                    "value": "body.m.normal"
+                },
+                "subtitleStyle": {
                     "type": "typography",
                     "value": "body.s.normal"
                 },
@@ -51,13 +100,13 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xs.secondary"
+                    "value": "counter.s.secondary"
                 }
             },
             "binding": [
                 {
                     "name": "size",
-                    "value": "s"
+                    "value": "m"
                 }
             ]
         }
