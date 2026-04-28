@@ -5,7 +5,8 @@
             "name": "size",
             "type": "enum",
             "values": [
-                "s"
+                "s",
+                "m"
             ],
             "defaultValue": "s"
         }
@@ -28,6 +29,26 @@
                 {
                     "name": "size",
                     "value": "s"
+                }
+            ]
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "listItemStyle": {
+                    "type": "component_style",
+                    "value": "list-numbered-item.m"
+                },
+                "gap": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
                 }
             ]
         }
