@@ -11,6 +11,10 @@
             "type": "component_style",
             "value": "scroll-bar"
         },
+        "overlayStyle": {
+            "type": "component_style",
+            "value": "overlay"
+        },
         "backgroundColor": {
             "type": "color",
             "default": "surface.default.solid-primary"
