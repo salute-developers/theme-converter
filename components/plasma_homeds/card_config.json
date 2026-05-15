@@ -9,9 +9,25 @@
             "type": "typography",
             "value": "body.xs.normal"
         },
+        "titleStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
+        "subtitleStyle": {
+            "type": "typography",
+            "value": "body.xs.normal"
+        },
         "labelColor": {
             "type": "color",
             "default": "text.default.primary"
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "subtitleColor": {
+            "type": "color",
+            "default": "text.default.secondary"
         },
         "orientation": {
             "type": "value",
@@ -36,6 +52,10 @@
         "paddingBottom": {
             "type": "dimension",
             "value": 0
+        },
+        "subtitleGap": {
+            "type": "dimension",
+            "value": 2
         }
     },
     "bindings": [
