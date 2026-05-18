@@ -90,6 +90,10 @@
                     "type": "dimension",
                     "value": 8.0
                 },
+                 "contentPaddingStart": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.l.normal",
@@ -152,6 +156,10 @@
                     "value": 48.0
                 },
                 "contentPaddingEnd": {
+                    "type": "dimension",
+                    "value": 8.0
+                },
+                 "contentPaddingStart": {
                     "type": "dimension",
                     "value": 8.0
                 },
@@ -219,6 +227,10 @@
                     "type": "dimension",
                     "value": 6.0
                 },
+                 "contentPaddingStart": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
                 "titleStyle": {
                     "type": "typography",
                     "value": "body.s.normal",
@@ -281,6 +293,10 @@
                     "value": 32.0
                 },
                 "contentPaddingEnd": {
+                    "type": "dimension",
+                    "value": 6.0
+                },
+                 "contentPaddingStart": {
                     "type": "dimension",
                     "value": 6.0
                 },
