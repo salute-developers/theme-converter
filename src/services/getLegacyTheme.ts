@@ -67,7 +67,7 @@ const compatibleTypography: Record<string, string> = {
     sdds_sbcom: 'sdds_sbcom',
     plasma_web_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
     plasma_b2c_ACTUAL_TYPOGRAPHY: 'plasma_ACTUAL_TYPOGRAPHY',
-    plasma_homeds: 'plasma_ACTUAL_TYPOGRAPHY',
+    plasma_homeds: 'plasma_homeds',
 };
 
 const compatibleShape: Record<string, string> = {
