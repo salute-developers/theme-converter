@@ -585,6 +585,26 @@
             "config": "select_multiple_tight_config.json"
         },
         {
+            "componentName": "combo-box",
+            "styleName": "combo-box-single-normal",
+            "config": "combo_box_single_normal_config.json"
+        },
+        {
+            "componentName": "combo-box",
+            "styleName": "combo-box-single-tight",
+            "config": "combo_box_single_tight_config.json"
+        },
+        {
+            "componentName": "combo-box",
+            "styleName": "combo-box-multiple-normal",
+            "config": "combo_box_multiple_normal_config.json"
+        },
+        {
+            "componentName": "combo-box",
+            "styleName": "combo-box-multiple-tight",
+            "config": "combo_box_multiple_tight_config.json"
+        },
+        {
             "componentName": "select-item",
             "styleName": "select-item-single-normal",
             "config": "select_item_single_normal_config.json"
