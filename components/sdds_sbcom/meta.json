@@ -211,6 +211,16 @@
             "componentName": "icon-badge",
             "styleName": "voice-chat-badge",
             "config": "voice_chat_badge_config.json"
+        },
+        {
+            "componentName": "navigation-drawer",
+            "styleName": "navigation-drawer",
+            "config": "navigation_drawer_config.json"
+        },
+        {
+            "componentName": "navigation-drawer-item",
+            "styleName": "navigation-drawer-item",
+            "config": "navigation_drawer_item_config.json"
         }
     ]
 }
