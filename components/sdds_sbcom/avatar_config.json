@@ -35,6 +35,8 @@
             "name": "size",
             "type": "enum",
             "values": [
+                "size-180",
+                "size-100",
                 "size-72",
                 "size-64",
                 "size-56",
@@ -49,6 +51,54 @@
         }
     ],
     "variations": [
+        {
+            "id": "size-180",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-180"
+                }
+            ],
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h-xxl.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 180
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 180
+                }
+            }
+        },
+        {
+            "id": "size-100",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-100"
+                }
+            ],
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h-xl.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 100
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 100
+                }
+            }
+        },
         {
             "id": "size-72",
             "parent": null,
