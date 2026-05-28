@@ -628,6 +628,36 @@
             "componentName": "select-item",
             "styleName": "select-item-multiple-tight",
             "config": "select_item_multiple_tight_config.json"
+        },
+        {
+            "componentName": "chip-group",
+            "styleName": "ai-answer-chip-group",
+            "config": "ai_answer_chip_group_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "embedded-icon-button",
+            "config": "embedded_icon_button_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "embedded-icon-button-group",
+            "config": "embedded_icon_button_group_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "ai-answer-icon-button-group",
+            "config": "ai_answer_icon_button_group_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "ai-answer-basic-button-group",
+            "config": "ai_answer_basic_button_group_config.json"
+        },
+        {
+            "componentName": "answer",
+            "styleName": "answer",
+            "config": "ai_answer_config.json"
         }
     ]
 }
