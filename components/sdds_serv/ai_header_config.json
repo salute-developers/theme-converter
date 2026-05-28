@@ -7,6 +7,14 @@
         "dividerColor": {
             "type": "color",
             "default": "surface.default.transparent-tertiary"
+        },
+        "titleColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "subtitleColor": {
+            "type": "color",
+            "default": "text.default.primary"
         }
     },
     "view": {
