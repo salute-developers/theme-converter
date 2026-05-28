@@ -138,19 +138,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
+                    "value": "embedded-icon-button.xs.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.16"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.16"
+                    "value": "embedded-icon-button.xs.secondary"
                 }
             }
         },
@@ -202,19 +194,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
+                    "value": "embedded-icon-button.xs.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.16"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.16"
+                    "value": "embedded-icon-button.xs.secondary"
                 }
             }
         },
@@ -266,19 +250,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.s.clear"
+                    "value": "embedded-icon-button.s.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.s.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.s.secondary"
                 }
             }
         },
@@ -330,19 +306,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.m.clear"
+                    "value": "embedded-icon-button.m.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.m.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.m.secondary"
                 }
             }
         },
@@ -394,19 +362,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.l.clear"
+                    "value": "embedded-icon-button.l.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.l.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.l.secondary"
                 }
             }
         },
@@ -458,19 +418,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
+                    "value": "embedded-icon-button.xs.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.xs.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.16"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.16"
+                    "value": "embedded-icon-button.xs.secondary"
                 }
             }
         },
@@ -530,19 +482,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.s.clear"
+                    "value": "embedded-icon-button.s.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.s.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.s.secondary"
                 }
             }
         },
@@ -602,19 +546,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.m.clear"
+                    "value": "embedded-icon-button.m.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.m.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.m.secondary"
                 }
             }
         },
@@ -666,19 +602,11 @@
                 },
                 "startButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.l.clear"
+                    "value": "embedded-icon-button.l.secondary"
                 },
                 "endButtonStyle": {
                     "type": "component_style",
-                    "value": "icon-button.l.clear"
-                },
-                "startButtonIcon": {
-                    "type": "icon",
-                    "value": "panel.sidebar.l.outline.24"
-                },
-                "endButtonIcon": {
-                    "type": "icon",
-                    "value": "close.24"
+                    "value": "embedded-icon-button.l.secondary"
                 }
             }
         }
