@@ -605,6 +605,11 @@
             "config": "combo_box_multiple_tight_config.json"
         },
         {
+            "componentName": "ai-header",
+            "styleName": "ai-header",
+            "config": "ai_header_config.json"
+        },
+        {
             "componentName": "select-item",
             "styleName": "select-item-single-normal",
             "config": "select_item_single_normal_config.json"
