@@ -183,6 +183,10 @@
                     "type": "boolean",
                     "value": true
                 },
+                "itemSelectorColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-primary"
+                },
                 "itemSelectorShape": {
                     "type": "shape",
                     "value": "round.xl"
@@ -260,10 +264,6 @@
         "wheelCount": {
             "type": "value",
             "value": "3"
-        },
-        "itemSelectorColor": {
-            "type": "color",
-            "default": "surface.default.solid-default"
         },
         "itemTextColor": {
             "type": "color",
