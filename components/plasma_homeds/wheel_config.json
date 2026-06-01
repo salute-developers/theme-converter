@@ -147,6 +147,10 @@
             "id": "h4",
             "parent": null,
             "props": {
+                "textAfterMode": {
+                    "type": "value",
+                    "value": "static"
+                },
                 "itemTextStyle": {
                     "type": "typography",
                     "value": "header.h4.bold"
@@ -208,26 +212,6 @@
             ]
         },
         {
-            "id": "h4.right-align",
-            "parent": "h4",
-            "props": {
-                "itemAlignment": {
-                    "type": "value",
-                    "value": "end"
-                }
-            },
-            "binding": [
-                {
-                    "name": "size",
-                    "value": "h4"
-                },
-                {
-                    "name": "alignment",
-                    "value": "right"
-                }
-            ]
-        },
-        {
             "id": "h4.center-align",
             "parent": "h4",
             "props": {
@@ -244,26 +228,6 @@
                 {
                     "name": "alignment",
                     "value": "center"
-                }
-            ]
-        },
-        {
-            "id": "h4.left-align",
-            "parent": "h4",
-            "props": {
-                "itemAlignment": {
-                    "type": "value",
-                    "value": "start"
-                }
-            },
-            "binding": [
-                {
-                    "name": "size",
-                    "value": "h4"
-                },
-                {
-                    "name": "alignment",
-                    "value": "left"
                 }
             ]
         },
