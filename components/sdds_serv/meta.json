@@ -660,8 +660,8 @@
             "config": "ai_answer_basic_button_group_config.json"
         },
         {
-            "componentName": "answer",
-            "styleName": "answer",
+            "componentName": "ai-answer",
+            "styleName": "ai-answer",
             "config": "ai_answer_config.json"
         }
     ]
