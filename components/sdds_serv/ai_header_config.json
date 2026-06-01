@@ -162,7 +162,7 @@
                 },
                 "subtitleStyle": {
                     "type": "typography",
-                    "value": "body.s.normal"
+                    "value": "body.xs.normal"
                 },
                 "textPaddingStart": {
                     "type": "dimension",
@@ -218,7 +218,7 @@
                 },
                 "subtitleStyle": {
                     "type": "typography",
-                    "value": "body.m.normal"
+                    "value": "body.s.normal"
                 },
                 "textPaddingStart": {
                     "type": "dimension",
@@ -274,7 +274,7 @@
                 },
                 "subtitleStyle": {
                     "type": "typography",
-                    "value": "body.l.normal"
+                    "value": "body.m.normal"
                 },
                 "textPaddingStart": {
                     "type": "dimension",
@@ -330,7 +330,7 @@
                 },
                 "subtitleStyle": {
                     "type": "typography",
-                    "value": "body.l.normal"
+                    "value": "body.m.normal"
                 },
                 "textPaddingStart": {
                     "type": "dimension",
@@ -506,7 +506,7 @@
                 },
                 "subtitleStyle": {
                     "type": "typography",
-                    "value": "body.m.normal"
+                    "value": "body.l.normal"
                 },
                 "textPaddingStart": {
                     "type": "dimension",
