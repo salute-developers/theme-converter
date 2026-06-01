@@ -20,6 +20,14 @@
         "disclosureIconColor": {
             "type": "color",
             "default": "text.default.secondary"
+        },
+        "contentStartColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "contentEndColor": {
+            "type": "color",
+            "default": "text.default.secondary"
         }
     },
     "bindings": [
