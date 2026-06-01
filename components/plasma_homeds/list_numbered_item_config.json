@@ -8,6 +8,10 @@
         "disableAlpha": {
             "type": "float",
             "value": 0.4
+        },
+        "gravity": {
+            "type":"value",
+            "value": "top"
         }
     },
     "bindings": [
