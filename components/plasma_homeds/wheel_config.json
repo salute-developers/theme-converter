@@ -5,7 +5,8 @@
             "name": "size",
             "type": "enum",
             "values": [
-                "h1"
+                "h1",
+                "h4"
             ],
             "defaultValue": "h1"
         },
@@ -141,6 +142,150 @@
                     "value": "mixed"
                 }
             ]
+        },
+        {
+            "id": "h4",
+            "parent": null,
+            "props": {
+                "itemTextStyle": {
+                    "type": "typography",
+                    "value": "header.h4.bold"
+                },
+                "itemTextAfterStyle": {
+                    "type": "typography",
+                    "value": "header.h4.bold"
+                },
+                "descriptionStyle": {
+                    "type": "typography",
+                    "value": "body.s.bold"
+                },
+                "itemTextAfterPadding": {
+                    "type": "dimension",
+                    "value": 2
+                },
+                "itemMinSpacing": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "descriptionPadding": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "separatorSpacing": {
+                    "type": "dimension",
+                    "value": 24
+                },
+                "itemSelectorEnabled": {
+                    "type": "boolean",
+                    "value": true
+                },
+                "itemSelectorShape": {
+                    "type": "shape",
+                    "value": "round.xl"
+                },
+                "itemSelectorPaddingTop": {
+                    "type": "dimension",
+                    "value": 16.0
+                },
+                "itemSelectorPaddingStart": {
+                    "type": "dimension",
+                    "value": 0.0
+                },
+                "itemSelectorPaddingEnd": {
+                    "type": "dimension",
+                    "value": 0.0
+                },
+                "itemSelectorPaddingBottom": {
+                    "type": "dimension",
+                    "value": 16.0
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                }
+            ]
+        },
+        {
+            "id": "h4.right-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "end"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "right"
+                }
+            ]
+        },
+        {
+            "id": "h4.center-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "center"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "center"
+                }
+            ]
+        },
+        {
+            "id": "h4.left-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "start"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "left"
+                }
+            ]
+        },
+        {
+            "id": "h4.mixed-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "mixed"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "mixed"
+                }
+            ]
         }
     ],
     "props": {
@@ -151,6 +296,10 @@
         "wheelCount": {
             "type": "value",
             "value": "3"
+        },
+        "itemSelectorColor": {
+            "type": "color",
+            "default": "surface.default.solid-default"
         },
         "itemTextColor": {
             "type": "color",
