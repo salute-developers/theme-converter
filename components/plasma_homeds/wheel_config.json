@@ -8,7 +8,7 @@
                 "h1",
                 "h4"
             ],
-            "defaultValue": "h1"
+            "defaultValue": "h4"
         },
         {
             "name": "alignment",
@@ -19,7 +19,7 @@
                 "center",
                 "mixed"
             ],
-            "defaultValue": "left"
+            "defaultValue": "center"
         }
     ],
     "variations": [
