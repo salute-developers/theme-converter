@@ -35,6 +35,10 @@
                     "type": "typography",
                     "value": "header.h1.bold"
                 },
+                "itemTextAfterColor": {
+                    "type": "color",
+                    "default": "text.default.secondary"
+                },
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.s.bold"
@@ -159,6 +163,10 @@
                     "type": "typography",
                     "value": "header.h4.bold"
                 },
+                "itemTextAfterColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
                 "descriptionStyle": {
                     "type": "typography",
                     "value": "body.s.bold"
@@ -169,7 +177,7 @@
                 },
                 "itemMinSpacing": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 32
                 },
                 "descriptionPadding": {
                     "type": "dimension",
@@ -216,6 +224,26 @@
             ]
         },
         {
+            "id": "h4.right-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "end"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "right"
+                }
+            ]
+        },
+        {
             "id": "h4.center-align",
             "parent": "h4",
             "props": {
@@ -232,6 +260,26 @@
                 {
                     "name": "alignment",
                     "value": "center"
+                }
+            ]
+        },
+        {
+            "id": "h4.left-align",
+            "parent": "h4",
+            "props": {
+                "itemAlignment": {
+                    "type": "value",
+                    "value": "start"
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "h4"
+                },
+                {
+                    "name": "alignment",
+                    "value": "left"
                 }
             ]
         },
@@ -268,10 +316,6 @@
         "itemTextColor": {
             "type": "color",
             "default": "text.default.primary"
-        },
-        "itemTextAfterColor": {
-            "type": "color",
-            "default": "text.default.secondary"
         },
         "descriptionColor": {
             "type": "color",
