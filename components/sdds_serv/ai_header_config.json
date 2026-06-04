@@ -143,6 +143,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.s.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
                 }
             }
         },
@@ -199,6 +207,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.s.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
                 }
             }
         },
@@ -255,6 +271,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.m.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.m"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.m"
                 }
             }
         },
@@ -311,6 +335,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.l.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.l"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.l"
                 }
             }
         },
@@ -367,6 +399,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.xl.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.xl"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.xl"
                 }
             }
         },
@@ -423,6 +463,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.s.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.s"
                 }
             }
         },
@@ -487,6 +535,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.m.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.m"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.m"
                 }
             }
         },
@@ -551,6 +607,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.l.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.l"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.l"
                 }
             }
         },
@@ -607,6 +671,14 @@
                 "endButtonStyle": {
                     "type": "component_style",
                     "value": "ai-header-embedded-icon-button.xl.secondary"
+                },
+                "startButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.xl"
+                },
+                "endButtonGroupStyle": {
+                    "type": "component_style",
+                    "value": "ai-header-embedded-icon-button-group.xl"
                 }
             }
         }

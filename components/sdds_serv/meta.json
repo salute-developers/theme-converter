@@ -615,6 +615,11 @@
             "config": "ai_header_embedded_icon_button_config.json"
         },
         {
+            "componentName": "button-group",
+            "styleName": "ai-header-embedded-icon-button-group",
+            "config": "ai_header_embedded_icon_button_group_config.json"
+        },
+        {
             "componentName": "select-item",
             "styleName": "select-item-single-normal",
             "config": "select_item_single_normal_config.json"
