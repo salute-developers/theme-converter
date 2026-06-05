@@ -110,11 +110,27 @@
                 },
                 "toggleIconWidth": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 10
+                        }
+                    ]
                 },
                 "toggleIconHeight": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 10
+                        }
+                    ]
                 },
                 "textPadding": {
                     "type": "dimension",
@@ -171,11 +187,27 @@
                 },
                 "toggleIconWidth": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 10
+                        }
+                    ]
                 },
                 "toggleIconHeight": {
                     "type": "dimension",
-                    "value": 10
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 10
+                        }
+                    ]
                 },
                 "textPadding": {
                     "type": "dimension",
@@ -232,11 +264,27 @@
                 },
                 "toggleIconWidth": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 8
+                        }
+                    ]
                 },
                 "toggleIconHeight": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 0,
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": 8
+                        }
+                    ]
                 },
                 "textPadding": {
                     "type": "dimension",
