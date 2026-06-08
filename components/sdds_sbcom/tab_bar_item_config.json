@@ -33,6 +33,14 @@
             "type": "dimension",
             "value": 24
         },
+        "extraOffsetX": {
+            "type": "dimension",
+            "value": 12
+        },
+        "extraOffsetY": {
+            "type": "dimension",
+            "value": -2
+        },
         "counterStyle": {
             "type": "component_style",
             "value": "tab-bar-counter"

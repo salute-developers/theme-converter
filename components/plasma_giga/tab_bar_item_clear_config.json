@@ -106,6 +106,14 @@
                     "type": "value",
                     "value": "none"
                 },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": -8
+                },
                 "shape": {
                     "type": "shape",
                     "value": "round.l"
@@ -185,6 +193,14 @@
                 "labelPlacement": {
                     "type": "value",
                     "value": "none"
+                },
+                "extraOffsetX": {
+                    "type": "dimension",
+                    "value": 26
+                },
+                "extraOffsetY": {
+                    "type": "dimension",
+                    "value": -10
                 },
                 "shape": {
                     "type": "shape",

@@ -31,12 +31,6 @@
             "states": [
                 {
                     "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
-                },
-                {
-                    "state": [
                         "hovered"
                     ],
                     "value": "text.default.primary-hover"

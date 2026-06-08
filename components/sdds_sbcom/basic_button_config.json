@@ -18,12 +18,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.primary-hover"
@@ -34,12 +28,6 @@
                     "type": "color",
                     "default": "text.default.primary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.primary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -54,12 +42,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.primary-hover"
@@ -72,12 +54,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.solid-primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.default.solid-primary-hover"
@@ -88,12 +64,6 @@
                     "type": "color",
                     "default": "text.default.secondary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -122,12 +92,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.on-dark.primary-hover"
@@ -140,12 +104,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.primary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.on-dark.primary-hover"
@@ -156,12 +114,6 @@
                     "type": "color",
                     "default": "text.on-dark.primary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.primary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -178,12 +130,6 @@
                     "type": "color",
                     "default": "text.on-dark.secondary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -212,12 +158,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.default.accent-hover"
@@ -228,12 +168,6 @@
                     "type": "color",
                     "default": "surface.default.accent",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -248,12 +182,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.accent-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.default.accent-hover"
@@ -266,12 +194,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.on-dark.solid-default-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.on-dark.solid-default-hover"
@@ -282,12 +204,6 @@
                     "type": "color",
                     "default": "text.default.secondary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -328,12 +244,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.transparent-secondary-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.default.transparent-secondary-hover"
@@ -344,12 +254,6 @@
                     "type": "color",
                     "default": "text.default.secondary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -378,12 +282,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.negative-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.negative-hover"
@@ -394,12 +292,6 @@
                     "type": "color",
                     "default": "text.default.negative",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.negative-active"
-                        },
                         {
                             "state": [
                                 "hovered"
@@ -414,12 +306,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "text.default.negative-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "text.default.negative-hover"
@@ -432,12 +318,6 @@
                     "states": [
                         {
                             "state": [
-                                "pressed"
-                            ],
-                            "value": "surface.default.transparent-negative-active"
-                        },
-                        {
-                            "state": [
                                 "hovered"
                             ],
                             "value": "surface.default.transparent-negative-hover"
@@ -448,12 +328,6 @@
                     "type": "color",
                     "default": "text.on-dark.secondary",
                     "states": [
-                        {
-                            "state": [
-                                "pressed"
-                            ],
-                            "value": "text.on-dark.secondary-active"
-                        },
                         {
                             "state": [
                                 "hovered"

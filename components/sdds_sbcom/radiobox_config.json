@@ -34,12 +34,6 @@
                 },
                 {
                     "state": [
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-accent"
-                },
-                {
-                    "state": [
                         "focused"
                     ],
                     "value": "surface.default.transparent-accent"
