@@ -4,14 +4,7 @@
         "thumbColor": {
             "type": "color",
             "default": "outline.default.transparent-primary",
-            "states": [
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "outline.default.transparent-primary-active"
-                }
-            ]
+            "states": []
         },
         "trackColor": {
             "type": "color",

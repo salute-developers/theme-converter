@@ -44,22 +44,9 @@
                 {
                     "state": [
                         "selected",
-                        "pressed"
-                    ],
-                    "value": "surface.default.accent"
-                },
-                {
-                    "state": [
-                        "selected",
                         "hovered"
                     ],
                     "value": "surface.default.accent"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-tertiary-active"
                 },
                 {
                     "state": [
@@ -82,22 +69,9 @@
                 {
                     "state": [
                         "selected",
-                        "pressed"
-                    ],
-                    "value": "text.on-dark.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
                         "hovered"
                     ],
                     "value": "text.on-dark.primary-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
                 },
                 {
                     "state": [
@@ -120,22 +94,9 @@
                 {
                     "state": [
                         "selected",
-                        "pressed"
-                    ],
-                    "value": "text.on-dark.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
                         "hovered"
                     ],
                     "value": "text.on-dark.primary-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
                 },
                 {
                     "state": [
@@ -158,22 +119,9 @@
                 {
                     "state": [
                         "selected",
-                        "pressed"
-                    ],
-                    "value": "text.on-dark.primary-active"
-                },
-                {
-                    "state": [
-                        "selected",
                         "hovered"
                     ],
                     "value": "text.on-dark.primary-hover"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "text.default.primary-active"
                 },
                 {
                     "state": [

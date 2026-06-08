@@ -28,12 +28,6 @@
                         "hovered"
                     ],
                     "value": "surface.default.transparent-primary"
-                },
-                {
-                    "state": [
-                        "pressed"
-                    ],
-                    "value": "surface.default.transparent-secondary"
                 }
             ]
         },

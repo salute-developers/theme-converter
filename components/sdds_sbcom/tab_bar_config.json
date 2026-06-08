@@ -35,7 +35,7 @@
         },
         "itemSpacing": {
             "type": "dimension",
-            "value": 0
+            "value": -12
         },
         "backgroundColor": {
             "type": "color",

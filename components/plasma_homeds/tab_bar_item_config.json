@@ -38,6 +38,14 @@
             "type": "value",
             "value": "bottom"
         },
+        "extraOffsetX": {
+            "type": "dimension",
+            "value": 16
+        },
+        "extraOffsetY": {
+            "type": "dimension",
+            "value": -8
+        },
         "labelPadding": {
             "type": "dimension",
             "value": 2
