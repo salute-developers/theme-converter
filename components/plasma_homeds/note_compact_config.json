@@ -100,11 +100,11 @@
         },
         "titleStyle": {
             "type": "typography",
-            "value": "text.s.bold"
+            "value": "body.m.normal"
         },
         "textStyle": {
             "type": "typography",
-            "value": "text.s.normal"
+            "value": "body.s.normal"
         },
         "paddingStart": {
             "type": "dimension",
@@ -178,7 +178,7 @@
                 },
                 "contentBeforeArrangement": {
                     "type": "value",
-                    "value": "top"
+                    "value": "center"
                 },
                 "iconSize": {
                     "type": "dimension",
