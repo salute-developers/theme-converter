@@ -67,11 +67,11 @@
         },
         "paddingStart": {
             "type": "dimension",
-            "value": 16.0
+            "value": 24.0
         },
         "paddingEnd": {
             "type": "dimension",
-            "value": 16.0
+            "value": 24.0
         },
         "paddingTop": {
             "type": "dimension",
