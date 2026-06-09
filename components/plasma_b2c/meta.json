@@ -497,6 +497,11 @@
             "componentName": "file",
             "styleName": "file-linear-progress",
             "config": "file_linear_progress_config.json"
+        },
+        {
+            "componentName": "drop-zone",
+            "styleName": "drop-zone",
+            "config": "drop_zone_config.json"
         }
     ]
 }

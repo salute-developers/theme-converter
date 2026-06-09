@@ -457,6 +457,11 @@
             "componentName": "dropdown-empty-state",
             "styleName": "dropdown-empty-state",
             "config": "dropdown_empty_state_config.json"
+        },
+        {
+            "componentName": "drop-zone",
+            "styleName": "drop-zone",
+            "config": "drop_zone_config.json"
         }
     ]
 }
