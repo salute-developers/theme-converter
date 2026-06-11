@@ -95,8 +95,7 @@
                 },
                 "shape": {
                     "type": "shape",
-                    "value": "round.xxl",
-                    "adjustment": -4
+                    "value": "round.xl"
                 },
                 "paddingStart": {
                     "type": "dimension",
@@ -200,8 +199,7 @@
                 },
                 "shape": {
                     "type": "shape",
-                    "value": "round.xxl",
-                    "adjustment": -4
+                    "value": "round.xl"
                 },
                 "paddingStart": {
                     "type": "dimension",
