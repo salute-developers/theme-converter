@@ -88,6 +88,10 @@
                 {
                     "name": "size",
                     "value": "l"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "l"
                 }
             ]
         },
@@ -164,6 +168,10 @@
                 {
                     "name": "size",
                     "value": "m"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "l"
                 }
             ]
         },
@@ -240,6 +248,10 @@
                 {
                     "name": "size",
                     "value": "s"
+                },
+                {
+                    "name": "toggle-size",
+                    "value": "l"
                 }
             ]
         },
@@ -291,9 +303,10 @@
             "name": "toggle-size",
             "type": "enum",
             "values": [
+                "l",
                 "s"
             ],
-            "defaultValue": "s"
+            "defaultValue": "l"
         }
     ]
 }
