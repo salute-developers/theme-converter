@@ -13,6 +13,10 @@
             "type": "color",
             "default": "text.default.secondary"
         },
+        "disclosureTextColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
         "disclosureIconColor": {
             "type": "color",
             "default": "text.default.secondary"
