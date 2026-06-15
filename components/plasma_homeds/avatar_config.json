@@ -86,15 +86,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.l.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.l.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.l"
                 }
             }
         },
@@ -175,15 +167,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.m.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.m.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.m"
                 }
             }
         },
@@ -263,15 +247,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.m.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.m.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.m"
                 }
             }
         },
@@ -349,15 +325,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.s.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.s.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.s"
                 }
             }
         },

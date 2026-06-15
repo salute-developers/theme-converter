@@ -50,15 +50,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.l.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.l.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.l"
                 }
             },
             "binding": [
@@ -102,15 +94,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.m.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.m.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.m"
                 }
             },
             "binding": [
@@ -154,15 +138,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.m.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.m.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.m"
                 }
             },
             "binding": [
@@ -206,15 +182,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "avatar-indicator.s.inactive",
-                    "states": [
-                        {
-                            "state": [
-                                "active"
-                            ],
-                            "value": "avatar-indicator.s.active"
-                        }
-                    ]
+                    "value": "avatar-indicator.s"
                 }
             },
             "binding": [

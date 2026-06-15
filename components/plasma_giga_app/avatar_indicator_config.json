@@ -1,38 +1,21 @@
 {
-    "view": {
-        "active": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "surface.default.positive"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "active"
-                }
-            ]
-        },
-        "inactive": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "surface.on-light.solid-tertiary"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "inactive"
-                }
-            ]
-        }
-    },
+    "view": {},
     "props": {
         "shape": {
             "type": "shape",
             "value": "round.circle"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.positive",
+            "states": [
+                {
+                    "state": [
+                        "inactive"
+                    ],
+                    "value": "surface.on-light.solid-tertiary"
+                }
+            ]
         }
     },
     "bindings": [
@@ -45,15 +28,6 @@
                 "s"
             ],
             "defaultValue": "l"
-        },
-        {
-            "name": "view",
-            "type": "view",
-            "values": [
-                "active",
-                "inactive"
-            ],
-            "defaultValue": "active"
         }
     ],
     "variations": [

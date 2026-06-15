@@ -1,38 +1,17 @@
 {
-    "view": {
-        "active": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "surface.default.accent"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "active"
-                }
-            ]
-        },
-        "inactive": {
-            "props": {
-                "backgroundColor": {
-                    "type": "color",
-                    "default": "text.default.tertiary"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "inactive"
-                }
-            ]
-        }
-    },
+    "view": {},
     "props": {
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.accent"
+            "default": "surface.default.accent",
+            "states": [
+                {
+                    "state": [
+                        "inactive"
+                    ],
+                    "value": "text.default.tertiary"
+                }
+            ]
         },
         "shape": {
             "type": "shape",
@@ -51,15 +30,6 @@
                 "size-6"
             ],
             "defaultValue": "size-14"
-        },
-        {
-            "name": "view",
-            "type": "view",
-            "values": [
-                "active",
-                "inactive"
-            ],
-            "defaultValue": "active"
         }
     ],
     "variations": [
