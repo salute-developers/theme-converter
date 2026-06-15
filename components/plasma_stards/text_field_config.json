@@ -247,6 +247,10 @@
         "suffixColorReadOnly": {
             "type": "color",
             "default": "text.default.tertiary"
+        },
+        "singleLine": {
+            "type": "boolean",
+            "value": true
         }
     },
     "variations": [
