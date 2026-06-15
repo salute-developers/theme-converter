@@ -8,6 +8,11 @@
             "config": "avatar_config.json"
         },
         {
+            "componentName": "indicator",
+            "styleName": "avatar-indicator",
+            "config": "avatar_indicator_config.json"
+        },
+        {
             "componentName": "avatar-group",
             "styleName": "avatar-group",
             "config": "avatar_group_config.json"
@@ -121,6 +126,11 @@
             "componentName": "counter",
             "styleName": "counter",
             "config": "counter_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "segment-item-counter",
+            "config": "segment_item_counter_config.json"
         },
         {
             "componentName": "divider",

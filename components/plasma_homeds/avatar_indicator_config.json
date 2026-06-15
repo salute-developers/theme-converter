@@ -4,7 +4,7 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.accent"
+                    "default": "surface.default.positive"
                 }
             },
             "binding": [
@@ -18,7 +18,7 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "text.default.tertiary"
+                    "default": "surface.on-light.solid-tertiary"
                 }
             },
             "binding": [
@@ -30,10 +30,6 @@
         }
     },
     "props": {
-        "backgroundColor": {
-            "type": "color",
-            "default": "surface.default.accent"
-        },
         "shape": {
             "type": "shape",
             "value": "round.circle"
@@ -44,13 +40,11 @@
             "name": "size",
             "type": "enum",
             "values": [
-                "size-14",
-                "size-12",
-                "size-10",
-                "size-8",
-                "size-6"
+                "l",
+                "m",
+                "s"
             ],
-            "defaultValue": "size-14"
+            "defaultValue": "l"
         },
         {
             "name": "view",
@@ -64,34 +58,8 @@
     ],
     "variations": [
         {
-            "id": "size-14",
+            "id": "l",
             "parent": null,
-            "binding": [
-                {
-                    "name": "size",
-                    "value": "size-14"
-                }
-            ],
-            "props": {
-                "width": {
-                    "type": "dimension",
-                    "value": 14
-                },
-                "height": {
-                    "type": "dimension",
-                    "value": 14
-                }
-            }
-        },
-        {
-            "id": "size-12",
-            "parent": null,
-            "binding": [
-                {
-                    "name": "size",
-                    "value": "size-12"
-                }
-            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -101,37 +69,17 @@
                     "type": "dimension",
                     "value": 12
                 }
-            }
-        },
-        {
-            "id": "size-10",
-            "parent": null,
+            },
             "binding": [
                 {
                     "name": "size",
-                    "value": "size-10"
+                    "value": "l"
                 }
-            ],
-            "props": {
-                "width": {
-                    "type": "dimension",
-                    "value": 10
-                },
-                "height": {
-                    "type": "dimension",
-                    "value": 10
-                }
-            }
+            ]
         },
         {
-            "id": "size-8",
+            "id": "m",
             "parent": null,
-            "binding": [
-                {
-                    "name": "size",
-                    "value": "size-8"
-                }
-            ],
             "props": {
                 "width": {
                     "type": "dimension",
@@ -141,17 +89,17 @@
                     "type": "dimension",
                     "value": 8
                 }
-            }
-        },
-        {
-            "id": "size-6",
-            "parent": null,
+            },
             "binding": [
                 {
                     "name": "size",
-                    "value": "size-6"
+                    "value": "m"
                 }
-            ],
+            ]
+        },
+        {
+            "id": "s",
+            "parent": null,
             "props": {
                 "width": {
                     "type": "dimension",
@@ -161,7 +109,13 @@
                     "type": "dimension",
                     "value": 6
                 }
-            }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
         }
     ]
 }
