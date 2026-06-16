@@ -9,14 +9,6 @@
             "type": "gradient",
             "default": "personas.default.blue-surface-accent-gradient"
         },
-        "activeStatusColor": {
-            "type": "color",
-            "default": "surface.default.accent"
-        },
-        "inactiveStatusColor": {
-            "type": "color",
-            "default": "text.default.tertiary"
-        },
         "textColor": {
             "type": "color",
             "default": "text.on-dark.primary"
@@ -125,10 +117,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-14"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 4
@@ -144,6 +132,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": 0
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-14"
                 }
             }
         },
@@ -173,10 +165,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-12"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 3
@@ -192,6 +180,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": 3
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-12"
                 }
             }
         },
@@ -221,10 +213,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-20"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-10"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 4
@@ -240,6 +228,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": -1
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-10"
                 }
             }
         },
@@ -269,10 +261,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-18"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-8"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 3
@@ -288,6 +276,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": 0
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-8"
                 }
             }
         },
@@ -317,10 +309,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-16"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-8"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 2
@@ -336,6 +324,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": -1
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-8"
                 }
             }
         },
@@ -365,10 +357,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-14"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-6"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 2
@@ -384,6 +372,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": 0
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-6"
                 }
             }
         },
@@ -413,10 +405,6 @@
                     "type": "component_style",
                     "value": "voice-chat-badge.size-14"
                 },
-                "statusStyle": {
-                    "type": "component_style",
-                    "value": "avatar-indicator.size-6"
-                },
                 "statusOffsetX": {
                     "type": "dimension",
                     "value": 1
@@ -432,6 +420,10 @@
                 "extraOffsetY": {
                     "type": "dimension",
                     "value": 0
+                },
+                "statusStyle": {
+                    "type": "component_style",
+                    "value": "avatar-indicator.size-6"
                 }
             }
         },

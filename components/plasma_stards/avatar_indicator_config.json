@@ -1,0 +1,95 @@
+{
+    "view": {},
+    "props": {
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.positive",
+            "states": [
+                {
+                    "state": [
+                        "inactive"
+                    ],
+                    "value": "surface.on-light.solid-tertiary"
+                }
+            ]
+        }
+    },
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "l",
+                "m",
+                "s"
+            ],
+            "defaultValue": "l"
+        }
+    ],
+    "variations": [
+        {
+            "id": "l",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "l"
+                }
+            ]
+        },
+        {
+            "id": "m",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ]
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ]
+        }
+    ]
+}

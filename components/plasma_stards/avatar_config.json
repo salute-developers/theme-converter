@@ -10,14 +10,6 @@
             "default": "surface.default.gradient-main",
             "alpha": 0.2
         },
-        "activeStatusColor": {
-            "type": "color",
-            "default": "surface.default.positive"
-        },
-        "inactiveStatusColor": {
-            "type": "color",
-            "default": "surface.on-light.solid-tertiary"
-        },
         "textColor": {
             "type": "gradient",
             "default": "text.default.gradient-main"
@@ -58,7 +50,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "indicator.l"
+                    "value": "avatar-indicator.l"
                 }
             },
             "binding": [
@@ -102,7 +94,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "indicator.m"
+                    "value": "avatar-indicator.m"
                 }
             },
             "binding": [
@@ -146,7 +138,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "indicator.m"
+                    "value": "avatar-indicator.m"
                 }
             },
             "binding": [
@@ -190,7 +182,7 @@
                 },
                 "statusStyle": {
                     "type": "component_style",
-                    "value": "indicator.s"
+                    "value": "avatar-indicator.s"
                 }
             },
             "binding": [

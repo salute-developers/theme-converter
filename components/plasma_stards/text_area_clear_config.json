@@ -294,6 +294,10 @@
         "dividerColor": {
             "type": "color",
             "default": "surface.default.clear"
+        },
+        "singleLine": {
+            "type": "boolean",
+            "value": false
         }
     },
     "variations": [

@@ -557,33 +557,7 @@
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "counter.s.accent",
-                            "props": {
-                                "backgroundColor": {
-                                    "type": "color",
-                                    "default": "surface.default.accent",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "surface.on-dark.solid-default"
-                                        }
-                                    ]
-                                },
-                                "textColor": {
-                                    "type": "color",
-                                    "default": "text.on-dark.primary",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "text.on-light.primary"
-                                        }
-                                    ]
-                                }
-                            }
+                            "value": "segment-item-counter.s.accent"
                         }
                     },
                     "binding": [
@@ -652,7 +626,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.s.accent"
+                    "value": "segment-item-counter.s.default"
                 }
             }
         },
@@ -696,33 +670,7 @@
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "counter.s.accent",
-                            "props": {
-                                "backgroundColor": {
-                                    "type": "color",
-                                    "default": "surface.default.accent",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "surface.on-dark.solid-default"
-                                        }
-                                    ]
-                                },
-                                "textColor": {
-                                    "type": "color",
-                                    "default": "text.on-dark.primary",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "text.on-light.primary"
-                                        }
-                                    ]
-                                }
-                            }
+                            "value": "segment-item-counter.s.accent"
                         }
                     },
                     "binding": [
@@ -791,7 +739,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.s.accent"
+                    "value": "segment-item-counter.s.default"
                 }
             }
         },
@@ -835,33 +783,7 @@
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "counter.xs.accent",
-                            "props": {
-                                "backgroundColor": {
-                                    "type": "color",
-                                    "default": "surface.default.accent",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "surface.on-dark.solid-default"
-                                        }
-                                    ]
-                                },
-                                "textColor": {
-                                    "type": "color",
-                                    "default": "text.on-dark.primary",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "text.on-light.primary"
-                                        }
-                                    ]
-                                }
-                            }
+                            "value": "segment-item-counter.xs.accent"
                         }
                     },
                     "binding": [
@@ -930,7 +852,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xs.accent"
+                    "value": "segment-item-counter.xs.default"
                 }
             }
         },
@@ -974,33 +896,7 @@
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "counter.xs.accent",
-                            "props": {
-                                "backgroundColor": {
-                                    "type": "color",
-                                    "default": "surface.default.accent",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "surface.on-dark.solid-default"
-                                        }
-                                    ]
-                                },
-                                "textColor": {
-                                    "type": "color",
-                                    "default": "text.on-dark.primary",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "text.on-light.primary"
-                                        }
-                                    ]
-                                }
-                            }
+                            "value": "segment-item-counter.xs.accent"
                         }
                     },
                     "binding": [
@@ -1069,7 +965,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xs.accent"
+                    "value": "segment-item-counter.xs.default"
                 }
             }
         },
@@ -1113,33 +1009,7 @@
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "counter.xxs.accent",
-                            "props": {
-                                "backgroundColor": {
-                                    "type": "color",
-                                    "default": "surface.default.accent",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "surface.on-dark.solid-default"
-                                        }
-                                    ]
-                                },
-                                "textColor": {
-                                    "type": "color",
-                                    "default": "text.on-dark.primary",
-                                    "states": [
-                                        {
-                                            "state": [
-                                                "selected"
-                                            ],
-                                            "value": "text.on-light.primary"
-                                        }
-                                    ]
-                                }
-                            }
+                            "value": "segment-item-counter.xxs.accent"
                         }
                     },
                     "binding": [
@@ -1208,7 +1078,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "counter.xxs.accent"
+                    "value": "segment-item-counter.xxs.default"
                 }
             }
         },

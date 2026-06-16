@@ -318,6 +318,10 @@
         "suffixColor": {
             "type": "color",
             "default": "text.default.tertiary"
+        },
+        "singleLine": {
+            "type": "boolean",
+            "value": false
         }
     },
     "bindings": [
