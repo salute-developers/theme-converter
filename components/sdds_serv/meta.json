@@ -687,6 +687,11 @@
             "componentName": "drop-zone",
             "styleName": "drop-zone",
             "config": "drop_zone_config.json"
+        },
+        {
+            "componentName": "splitter",
+            "styleName": "splitter",
+            "config": "splitter_config.json"
         }
     ]
 }
