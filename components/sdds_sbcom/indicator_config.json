@@ -1,16 +1,16 @@
 {
     "view": {
-        "state-success": {
+        "state-accent": {
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "text.default.positive"
+                    "default": "text.default.accent"
                 }
             },
             "binding": [
                 {
                     "name": "state",
-                    "value": "success"
+                    "value": "accent"
                 }
             ]
         },
@@ -18,7 +18,7 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.default.solid-primary"
+                    "default": "surface.on-light.solid-primary"
                 }
             },
             "binding": [
@@ -32,7 +32,7 @@
             "props": {
                 "backgroundColor": {
                     "type": "color",
-                    "default": "text.default.paragraph"
+                    "default": "surface.default.solid-deep"
                 }
             },
             "binding": [
@@ -75,14 +75,6 @@
         "shape": {
             "type": "shape",
             "value": "round.circle"
-        },
-        "width": {
-            "type": "dimension",
-            "value": 8
-        },
-        "height": {
-            "type": "dimension",
-            "value": 8
         }
     },
     "bindings": [
@@ -90,14 +82,127 @@
             "name": "state",
             "type": "enum",
             "values": [
-                "success",
+                "accent",
                 "global-white",
                 "mute",
                 "danger",
                 "warning"
             ],
-            "defaultValue": "success"
+            "defaultValue": "accent"
+        },
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "size-14",
+                "size-12",
+                "size-10",
+                "size-8",
+                "size-6"
+            ],
+            "defaultValue": "size-8"
         }
     ],
-    "variations": []
+    "variations": [
+        {
+            "id": "size-14",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 14
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 14
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-14"
+                }
+            ]
+        },
+        {
+            "id": "size-12",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 12
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 12
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-12"
+                }
+            ]
+        },
+        {
+            "id": "size-10",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 10
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-10"
+                }
+            ]
+        },
+        {
+            "id": "size-8",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-8"
+                }
+            ]
+        },
+        {
+            "id": "size-6",
+            "parent": null,
+            "props": {
+                "width": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 6
+                }
+            },
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-6"
+                }
+            ]
+        }
+    ]
 }

@@ -47,7 +47,7 @@
         },
         "indicatorStyle": {
             "type": "component_style",
-            "value": "indicator.state-danger"
+            "value": "indicator.size-6.state-danger"
         },
         "labelColor": {
             "type": "color",

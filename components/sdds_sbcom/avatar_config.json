@@ -28,6 +28,7 @@
             "type": "enum",
             "values": [
                 "size-180",
+                "size-120",
                 "size-100",
                 "size-72",
                 "size-64",
@@ -37,7 +38,8 @@
                 "size-36",
                 "size-32",
                 "size-26",
-                "size-24"
+                "size-24",
+                "size-16"
             ],
             "defaultValue": "size-72"
         }
@@ -64,6 +66,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 180
+                }
+            }
+        },
+        {
+            "id": "size-120",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-120"
+                }
+            ],
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "header.h-xl.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 120
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 120
                 }
             }
         },
@@ -472,6 +498,30 @@
                 "height": {
                     "type": "dimension",
                     "value": 24
+                }
+            }
+        },
+        {
+            "id": "size-16",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "size-16"
+                }
+            ],
+            "props": {
+                "textStyle": {
+                    "type": "typography",
+                    "value": "body.xxxs.medium"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 16
+                },
+                "height": {
+                    "type": "dimension",
+                    "value": 16
                 }
             }
         }

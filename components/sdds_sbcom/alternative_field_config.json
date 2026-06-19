@@ -1,72 +1,5 @@
 {
-    "view": {
-        "default": {
-            "props": {
-                "labelColor": {
-                    "type": "color",
-                    "default": "text.default.secondary"
-                },
-                "captionColor": {
-                    "type": "color",
-                    "default": "text.default.secondary"
-                },
-                "counterColor": {
-                    "type": "color",
-                    "default": "text.default.secondary"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "default"
-                }
-            ]
-        },
-        "success": {
-            "props": {
-                "labelColor": {
-                    "type": "color",
-                    "default": "text.default.positive"
-                },
-                "captionColor": {
-                    "type": "color",
-                    "default": "text.default.positive"
-                },
-                "counterColor": {
-                    "type": "color",
-                    "default": "text.default.positive"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "success"
-                }
-            ]
-        },
-        "error": {
-            "props": {
-                "labelColor": {
-                    "type": "color",
-                    "default": "text.default.negative"
-                },
-                "captionColor": {
-                    "type": "color",
-                    "default": "text.default.negative"
-                },
-                "counterColor": {
-                    "type": "color",
-                    "default": "text.default.negative"
-                }
-            },
-            "binding": [
-                {
-                    "name": "view",
-                    "value": "error"
-                }
-            ]
-        }
-    },
+    "view": {},
     "props": {
         "disableAlpha": {
             "type": "float",
@@ -74,19 +7,23 @@
         },
         "captionPlacement": {
             "type": "value",
-            "value": "outer"
+            "value": "none"
         },
         "counterPlacement": {
             "type": "value",
-            "value": "outer"
+            "value": "none"
         },
         "labelColor": {
             "type": "color",
             "default": "text.default.secondary"
         },
+        "dividerColor": {
+            "type": "color",
+            "default": "surface.on-dark.solid-default"
+        },
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.transparent-primary"
+            "default": "surface.default.clear"
         },
         "valueColor": {
             "type": "color",
@@ -126,11 +63,11 @@
         },
         "startContentPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 12.0
         },
         "endContentPadding": {
             "type": "dimension",
-            "value": 8.0
+            "value": 12.0
         },
         "boxMinHeight": {
             "type": "dimension",
@@ -162,27 +99,19 @@
         },
         "labelPlacement": {
             "type": "value",
-            "value": "inner"
+            "value": "none"
         },
         "labelPadding": {
             "type": "dimension",
-            "value": 2.0
-        },
-        "labelStyle": {
-            "type": "typography",
-            "value": "body.xs.normal"
+            "value": 0.0
         },
         "boxPaddingTop": {
             "type": "dimension",
-            "value": 8.0
+            "value": 14.0
         },
         "boxPaddingBottom": {
             "type": "dimension",
-            "value": 8.0
-        },
-        "captionStyle": {
-            "type": "typography",
-            "value": "body.xs.normal"
+            "value": 14.0
         },
         "counterStyle": {
             "type": "typography",
@@ -190,7 +119,7 @@
         },
         "helperTextPadding": {
             "type": "dimension",
-            "value": 4.0
+            "value": 0.0
         },
         "scrollBarThickness": {
             "type": "dimension",
@@ -221,17 +150,6 @@
             "value": false
         }
     },
-    "bindings": [
-        {
-            "name": "view",
-            "type": "enum",
-            "values": [
-                "default",
-                "success",
-                "error"
-            ],
-            "defaultValue": "default"
-        }
-    ],
+    "bindings": [],
     "variations": []
 }

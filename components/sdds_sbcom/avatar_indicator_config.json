@@ -3,7 +3,7 @@
     "props": {
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.accent",
+            "default": "text.default.accent",
             "states": [
                 {
                     "state": [

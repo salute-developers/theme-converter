@@ -1,65 +1,144 @@
 {
-    "view": {},
+    "view": {
+        "variant-default": {
+            "props": {
+                "toggleBorderColor": {
+                    "type": "color",
+                    "default": "text.default.paragraph",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "surface.default.clear"
+                        }
+                    ]
+                },
+                "toggleColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "surface.default.accent"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "alpha": 0.08,
+                            "value": "surface.default.transparent-accent"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.default.transparent-accent"
+                        }
+                    ]
+                },
+                "toggleIconColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                }
+            },
+            "binding": [
+                {
+                    "name": "variant",
+                    "value": "default"
+                }
+            ]
+        },
+        "variant-poll": {
+            "props": {
+                "toggleBorderColor": {
+                    "type": "color",
+                    "default": "outline.on-light.default",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "surface.default.clear"
+                        }
+                    ]
+                },
+                "toggleColor": {
+                    "type": "color",
+                    "default": "surface.on-dark.transparent-tertiary",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.on-light.solid-primary"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "surface.on-light.solid-primary"
+                        }
+                    ]
+                },
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "hovered"
+                            ],
+                            "value": "surface.on-dark.transparent-tertiary"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "surface.on-dark.transparent-tertiary"
+                        }
+                    ]
+                },
+                "toggleIconColor": {
+                    "type": "color",
+                    "default": "text.on-light.accent"
+                }
+            },
+            "binding": [
+                {
+                    "name": "variant",
+                    "value": "poll"
+                }
+            ]
+        }
+    },
     "props": {
-        "toggleBorderColor": {
-            "type": "color",
-            "default": "text.default.paragraph",
-            "states": [
-                {
-                    "state": [
-                        "checked"
-                    ],
-                    "value": "surface.default.clear"
-                },
-                {
-                    "state": [
-                        "indeterminate"
-                    ],
-                    "value": "surface.default.clear"
-                }
-            ]
-        },
-        "toggleColor": {
-            "type": "color",
-            "default": "surface.default.clear",
-            "states": [
-                {
-                    "state": [
-                        "checked"
-                    ],
-                    "value": "surface.default.accent"
-                },
-                {
-                    "state": [
-                        "indeterminate"
-                    ],
-                    "value": "surface.default.accent"
-                }
-            ]
-        },
-        "backgroundColor": {
-            "type": "color",
-            "default": "surface.default.clear",
-            "states": [
-                {
-                    "state": [
-                        "hovered"
-                    ],
-                    "alpha": 0.08,
-                    "value": "surface.default.transparent-accent"
-                },
-                {
-                    "state": [
-                        "focused"
-                    ],
-                    "value": "surface.default.transparent-accent"
-                }
-            ]
-        },
-        "toggleIconColor": {
-            "type": "color",
-            "default": "text.on-dark.primary"
-        },
         "labelColor": {
             "type": "color",
             "default": "text.default.primary"
@@ -153,6 +232,16 @@
             ]
         }
     },
-    "bindings": [],
+    "bindings": [
+        {
+            "name": "variant",
+            "type": "enum",
+            "values": [
+                "default",
+                "poll"
+            ],
+            "defaultValue": "default"
+        }
+    ],
     "variations": []
 }
