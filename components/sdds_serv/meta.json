@@ -692,6 +692,26 @@
             "componentName": "splitter",
             "styleName": "splitter",
             "config": "splitter_config.json"
+        },
+        {
+            "componentName": "file",
+            "styleName": "ai-input-file-circular-progress",
+            "config": "ai_input_file_circular_progress_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "ai-input-icon-button-group",
+            "config": "ai_input_icon_button_group_config.json"
+        },
+        {
+            "componentName": "ai-input",
+            "styleName": "ai-input-condensed",
+            "config": "ai_input_condensed_config.json"
+        },
+        {
+            "componentName": "ai-input",
+            "styleName": "ai-input-extended",
+            "config": "ai_input_extended_config.json"
         }
     ]
 }
