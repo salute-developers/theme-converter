@@ -11,7 +11,7 @@
         },
         "backgroundColor": {
             "type": "color",
-            "default": "outline.default.default"
+            "default": "outline.default.primary"
         }
     },
     "bindings": [],

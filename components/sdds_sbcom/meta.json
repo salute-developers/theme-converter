@@ -113,6 +113,11 @@
             "config": "text_field_config.json"
         },
         {
+            "componentName": "text-field",
+            "styleName": "alternative-field",
+            "config": "alternative_field_config.json"
+        },
+        {
             "componentName": "tooltip",
             "styleName": "tooltip",
             "config": "tooltip_config.json"
@@ -226,6 +231,11 @@
             "componentName": "navigation-drawer-item",
             "styleName": "navigation-drawer-item",
             "config": "navigation_drawer_item_config.json"
+        },
+        {
+            "componentName": "tool-bar",
+            "styleName": "tool-bar",
+            "config": "tool_bar_config.json"
         }
     ]
 }

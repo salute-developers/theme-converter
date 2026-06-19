@@ -5,8 +5,7 @@
     "props": {
         "shape": {
             "type": "shape",
-            "value": "round.xxl",
-            "adjustment": -4
+            "value": "round.3xl"
         },
         "backgroundColor": {
             "type": "color",
