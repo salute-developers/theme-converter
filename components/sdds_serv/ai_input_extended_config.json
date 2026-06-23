@@ -2,15 +2,7 @@
     "props": {
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.transparent-primary",
-            "states": [
-                {
-                    "state": [
-                        "focused"
-                    ],
-                    "value": "surface.default.transparent-secondary"
-                }
-            ]
+            "default": "surface.default.transparent-primary"
         },
         "inputColor": {
             "type": "color",
@@ -18,7 +10,15 @@
         },
         "placeholderColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "text.default.tertiary"
+                }
+            ]
         },
         "cursorColor": {
             "type": "color",
