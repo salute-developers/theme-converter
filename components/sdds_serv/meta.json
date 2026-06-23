@@ -579,6 +579,11 @@
             "config": "editable_config.json"
         },
         {
+            "componentName": "editable",
+            "styleName": "ai-user-message-editable",
+            "config": "ai_user_message_editable_config.json"
+        },
+        {
             "componentName": "select",
             "styleName": "select-single-normal",
             "config": "select_single_normal_config.json"
@@ -712,6 +717,16 @@
             "componentName": "ai-input",
             "styleName": "ai-input-extended",
             "config": "ai_input_extended_config.json"
+        },
+        {
+            "componentName": "ai-user-message",
+            "styleName": "ai-user-message",
+            "config": "ai_user_message_config.json"
+        },
+        {
+            "componentName": "button-group",
+            "styleName": "ai-user-message-embedded-icon-button-group",
+            "config": "ai_user_message_embedded_icon_button_group_config.json"
         }
     ]
 }
