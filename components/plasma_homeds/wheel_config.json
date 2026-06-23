@@ -187,31 +187,31 @@
                     "type": "dimension",
                     "value": 24
                 },
-                "itemSelectorEnabled": {
+                "selectionIndicatorEnabled": {
                     "type": "boolean",
                     "value": true
                 },
-                "itemSelectorColor": {
+                "selectionIndicatorColor": {
                     "type": "color",
                     "default": "surface.default.transparent-primary"
                 },
-                "itemSelectorShape": {
+                "selectionIndicatorShape": {
                     "type": "shape",
                     "value": "round.xl"
                 },
-                "itemSelectorPaddingTop": {
+                "selectionIndicatorPaddingTop": {
                     "type": "dimension",
                     "value": 16.0
                 },
-                "itemSelectorPaddingStart": {
+                "selectionIndicatorPaddingStart": {
                     "type": "dimension",
                     "value": 0.0
                 },
-                "itemSelectorPaddingEnd": {
+                "selectionIndicatorPaddingEnd": {
                     "type": "dimension",
                     "value": 0.0
                 },
-                "itemSelectorPaddingBottom": {
+                "selectionIndicatorPaddingBottom": {
                     "type": "dimension",
                     "value": 16.0
                 }
