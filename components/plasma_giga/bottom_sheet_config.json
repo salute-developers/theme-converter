@@ -5,7 +5,7 @@
             "type": "color",
             "default": "surface.default.solid-card"
         },
-        "shape": {
+        "topShape": {
             "type": "shape",
             "value": "round.xl"
         },
