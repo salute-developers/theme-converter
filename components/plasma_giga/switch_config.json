@@ -23,7 +23,15 @@
         },
         "toggleThumbColor": {
             "type": "color",
-            "default": "surface.inverse.solid-default"
+            "default": "surface.on-dark.solid-default",
+            "states": [
+                {
+                    "state": [
+                        "checked"
+                    ],
+                    "value": "surface.inverse.solid-default"
+                }
+            ]
         },
         "labelColor": {
             "type": "color",
