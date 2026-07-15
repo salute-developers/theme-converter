@@ -3,7 +3,7 @@
     "props": {
         "backIcon": {
             "type": "icon",
-            "value": "disclosure.left.outline.24"
+            "value": "chevron.left.24"
         },
         "backIconMargin": {
             "type": "dimension",
