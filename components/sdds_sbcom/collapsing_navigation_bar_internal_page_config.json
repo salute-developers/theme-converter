@@ -85,6 +85,18 @@
             "type": "dimension",
             "value": 8.0
         },
+        "minContentHeight": {
+            "type": "dimension",
+            "value": 36.0,
+            "states": [
+                {
+                    "state": [
+                        "collapsed"
+                    ],
+                    "value": 28.0
+                }
+            ]
+        },
         "horizontalSpacing": {
             "type": "dimension",
             "value": 4.0

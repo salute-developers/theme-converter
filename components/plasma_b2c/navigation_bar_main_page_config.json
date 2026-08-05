@@ -77,6 +77,10 @@
             "type": "dimension",
             "value": 20.0
         },
+        "minContentHeight": {
+            "type": "dimension",
+            "value": 24.0
+        },
         "horizontalSpacing": {
             "type": "dimension",
             "value": 16.0
