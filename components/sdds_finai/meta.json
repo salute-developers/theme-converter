@@ -1,0 +1,26 @@
+{
+    "name": "sdds_finai",
+    "version": "0.1.0",
+    "components": [
+        {
+            "componentName": "basic-button",
+            "styleName": "basic-button",
+            "config": "basic_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "icon-button",
+            "config": "icon_button_config.json"
+        },
+        {
+            "componentName": "link-button",
+            "styleName": "link-button",
+            "config": "link_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "embedded-icon-button",
+            "config": "embedded_icon_button_config.json"
+        }
+    ]
+}
