@@ -4,7 +4,15 @@
             "props": {
                 "valueColor": {
                     "type": "color",
-                    "default": "text.default.primary"
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
                 },
                 "captionColor": {
                     "type": "color",
@@ -15,6 +23,19 @@
                                 "focused"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -27,6 +48,19 @@
                                 "focused"
                             ],
                             "value": "text.default.primary"
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "focused"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -39,6 +73,12 @@
                                 "focused"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 }
@@ -64,7 +104,21 @@
                         },
                         {
                             "state": [
+                                "focused",
                                 "activated"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.primary"
                         }
@@ -82,7 +136,21 @@
                         },
                         {
                             "state": [
+                                 "focused",
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -100,7 +168,21 @@
                         },
                         {
                             "state": [
+                                "focused",
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -118,7 +200,21 @@
                         },
                         {
                             "state": [
+                                "focused",
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -194,6 +290,13 @@
                 },
                 {
                     "state": [
+                        "focused",
+                        "activated"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
                         "pressed"
                     ],
                     "value": "text.default.secondary-active"
@@ -203,6 +306,13 @@
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary",
+                    "alpha": 0.4
                 }
             ]
         },
@@ -224,6 +334,12 @@
                         "focused"
                     ],
                     "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
                 }
             ]
         },
@@ -264,6 +380,19 @@
                         "focused"
                     ],
                     "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "activated",
+                        "focused"
+                    ],
+                    "value": "text.default.tertiary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.tertiary"
                 }
             ]
         },
@@ -280,6 +409,19 @@
                         "focused"
                     ],
                     "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "activated",
+                        "focused"
+                    ],
+                    "value": "text.default.tertiary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.tertiary"
                 }
             ]
         },

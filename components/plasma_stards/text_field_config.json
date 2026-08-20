@@ -4,7 +4,15 @@
             "props": {
                 "captionColor": {
                     "type": "color",
-                    "default": "text.default.secondary"
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
                 },
                 "backgroundColor": {
                     "type": "color",
@@ -18,9 +26,25 @@
                         },
                         {
                             "state": [
+                                "focused",
                                 "activated"
                             ],
                             "value": "surface.default.transparent-secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
                         }
                     ]
                 }
@@ -43,6 +67,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -58,9 +95,25 @@
                         },
                         {
                             "state": [
+                                "focused",
                                 "activated"
                             ],
                             "value": "surface.default.transparent-secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
                         }
                     ]
                 }
@@ -119,6 +172,19 @@
                         "focused"
                     ],
                     "value": "text.on-light.primary"
+                },
+                {
+                    "state": [
+                        "focused",
+                        "activated"
+                    ],
+                    "value": "text.default.primary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.primary"
                 }
             ]
         },
@@ -135,6 +201,19 @@
                         "focused"
                     ],
                     "value": "text.on-light.secondary"
+                },
+                {
+                    "state": [
+                        "focused",
+                        "activated"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
                 }
             ]
         },
@@ -154,6 +233,13 @@
                 },
                 {
                     "state": [
+                        "focused",
+                        "activated"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
                         "pressed"
                     ],
                     "value": "text.default.secondary-active"
@@ -163,6 +249,13 @@
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary",
+                    "alpha": 0.4
                 }
             ]
         },
@@ -177,7 +270,15 @@
         },
         "counterColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
+                }
+            ]
         },
         "placeholderColor": {
             "type": "color",
@@ -188,6 +289,19 @@
                         "focused"
                     ],
                     "value": "text.on-light.secondary"
+                },
+                {
+                    "state": [
+                        "activated",
+                        "focused"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
                 }
             ]
         },
@@ -225,6 +339,19 @@
                         "focused"
                     ],
                     "value": "text.on-light.tertiary"
+                },
+                 {
+                    "state": [
+                        "activated",
+                        "focused"
+                    ],
+                    "value": "text.default.tertiary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.tertiary"
                 }
             ]
         },
@@ -241,6 +368,19 @@
                         "focused"
                     ],
                     "value": "text.on-light.tertiary"
+                },
+                {
+                    "state": [
+                        "activated",
+                        "focused"
+                    ],
+                    "value": "text.default.tertiary"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.tertiary"
                 }
             ]
         },
@@ -517,6 +657,13 @@
                                 "focused"
                             ],
                             "value": "text.on-light.secondary"
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "focused"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -529,6 +676,13 @@
                                 "focused"
                             ],
                             "value": "text.on-light.tertiary"
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "focused"
+                            ],
+                            "value": "text.default.tertiary"
                         }
                     ]
                 },
@@ -701,6 +855,13 @@
                                 "focused"
                             ],
                             "value": "text.on-light.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "focused"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -713,6 +874,13 @@
                                 "focused"
                             ],
                             "value": "text.on-light.tertiary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "focused"
+                            ],
+                            "value": "text.default.tertiary"
                         }
                     ]
                 },
