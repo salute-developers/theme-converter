@@ -4,7 +4,15 @@
             "props": {
                 "captionColor": {
                     "type": "color",
-                    "default": "text.default.secondary"
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
                 },
                 "backgroundColor": {
                     "type": "color",
@@ -15,6 +23,21 @@
                                 "activated"
                             ],
                             "value": "surface.default.transparent-secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
                         }
                     ]
                 }
@@ -37,6 +60,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -49,6 +85,21 @@
                                 "activated"
                             ],
                             "value": "surface.default.transparent-secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
                         }
                     ]
                 }
@@ -71,6 +122,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -83,6 +147,21 @@
                                 "activated"
                             ],
                             "value": "surface.default.transparent-secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
+                        },
+                         {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.solid-primary",
+                            "alpha": 0.4
                         }
                     ]
                 }
@@ -179,6 +258,13 @@
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary",
+                    "alpha": 0.4
                 }
             ]
         },
@@ -204,6 +290,19 @@
                         "activated"
                     ],
                     "value": "text.default.tertiary"
+                },
+                 {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
+                },
+                {
+                    "state": [
+                        "activated",
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary"
                 }
             ]
         },

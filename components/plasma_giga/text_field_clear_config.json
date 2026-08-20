@@ -4,11 +4,27 @@
             "props": {
                 "valueColor": {
                     "type": "color",
-                    "default": "text.default.primary"
+                    "default": "text.default.primary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        }
+                    ]
                 },
                 "captionColor": {
                     "type": "color",
-                    "default": "text.default.secondary"
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                    ]
                 },
                 "placeholderColor": {
                     "type": "color",
@@ -19,6 +35,19 @@
                                 "activated"
                             ],
                             "value": "text.default.tertiary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -31,12 +60,33 @@
                                 "activated"
                             ],
                             "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "readonly",
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 },
                 "startContentColor": {
                     "type": "color",
-                    "default": "text.default.secondary"
+                    "default": "text.default.secondary",
+                    "states": [
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        }
+                    ]
                 }
             },
             "binding": [
@@ -57,6 +107,19 @@
                                 "activated"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
                         }
                     ]
                 },
@@ -69,6 +132,19 @@
                                 "activated"
                             ],
                             "value": "text.default.tertiary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -79,6 +155,20 @@
                         {
                             "state": [
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        }
+                        ,
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -93,6 +183,19 @@
                                 "activated"
                             ],
                             "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "readonly",
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 },
@@ -105,6 +208,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 }
@@ -127,6 +243,19 @@
                                 "activated"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
                         }
                     ]
                 },
@@ -139,6 +268,19 @@
                                 "activated"
                             ],
                             "value": "text.default.tertiary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -149,6 +291,19 @@
                         {
                             "state": [
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -163,6 +318,19 @@
                                 "activated"
                             ],
                             "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "readonly",
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 },
@@ -175,6 +343,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 }
@@ -197,6 +378,19 @@
                                 "activated"
                             ],
                             "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.primary"
                         }
                     ]
                 },
@@ -209,6 +403,19 @@
                                 "activated"
                             ],
                             "value": "text.default.tertiary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
                         }
                     ]
                 },
@@ -219,6 +426,19 @@
                         {
                             "state": [
                                 "activated"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
                             ],
                             "value": "text.default.secondary"
                         }
@@ -233,6 +453,19 @@
                                 "activated"
                             ],
                             "value": "surface.default.accent"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "readonly",
+                                "activated"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 },
@@ -245,6 +478,19 @@
                                 "activated"
                             ],
                             "value": "text.default.secondary"
+                        },
+                        {
+                            "state": [
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
+                        },
+                        {
+                            "state": [
+                                "activated",
+                                "readonly"
+                            ],
+                            "value": "surface.default.transparent-primary"
                         }
                     ]
                 }
@@ -333,6 +579,13 @@
                         "hovered"
                     ],
                     "value": "text.default.secondary-hover"
+                },
+                {
+                    "state": [
+                        "readonly"
+                    ],
+                    "value": "text.default.secondary",
+                    "alpha": 0.4
                 }
             ]
         },
