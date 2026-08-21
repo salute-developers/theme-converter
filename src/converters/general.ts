@@ -2,6 +2,10 @@ import { TokenVariation } from '../types';
 import { camelToKebab } from '../utils';
 
 export const getType = (paths: string[], value: any): TokenVariation => {
+    if (paths.find((path) => path.includes('shadow'))) {
+        return 'shadow';
+    }
+
     if (
         paths.find((path) => path.toLowerCase().includes('gradient')) ||
         value?.xml ||
@@ -10,10 +14,6 @@ export const getType = (paths: string[], value: any): TokenVariation => {
         (value?.length && value[0].swift)
     ) {
         return 'gradient';
-    }
-
-    if (paths.find((path) => path.includes('shadow'))) {
-        return 'shadow';
     }
 
     if (paths.find((path) => path.includes('border'))) {

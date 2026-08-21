@@ -169,10 +169,10 @@ export const getAndroidShadowToken = (key: string, values: any) => {
         return {
             [key]: values.map(({ android }) => ({
                 color: getHEXAColor(android.color),
-                offsetX: android.offsetX || 0,
-                offsetY: android.offsetY || 4.0,
-                spreadRadius: android.spreadRadius || -4.0,
-                blurRadius: android.blurRadius || 14.0,
+                offsetX: android.offsetX ?? 0,
+                offsetY: android.offsetY ?? 4.0,
+                spreadRadius: android.spreadRadius ?? -4.0,
+                blurRadius: android.blurRadius ?? 14.0,
                 fallbackElevation: Number(android.elevation) || android.fallbackElevation || 0,
             })),
         };

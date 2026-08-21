@@ -180,10 +180,10 @@ export const getIOSShadowToken = (key: string, values: any) => {
             // INFO: Временно берутся значения из android
             [key]: values.map(({ android, ios }) => ({
                 color: getHEXAColor(android.color || ios?.color),
-                offsetX: android.offsetX || ios?.offset.width || 0,
-                offsetY: android.offsetY || ios?.offset.height || 4.0,
-                spreadRadius: android.spreadRadius || ios?.radius || -4.0,
-                blurRadius: android.blurRadius || ios?.radius || 14.0,
+                offsetX: android.offsetX ?? ios?.offset.width ?? 0,
+                offsetY: android.offsetY ?? ios?.offset.height ?? 4.0,
+                spreadRadius: android.spreadRadius ?? ios?.radius ?? -4.0,
+                blurRadius: android.blurRadius ?? ios?.radius ?? 14.0,
             })),
         };
     }
