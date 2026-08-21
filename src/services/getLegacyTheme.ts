@@ -90,6 +90,7 @@ const compatibleShape: Record<string, string> = {
 const compatibleShadow: Record<string, string> = {
     sdds_serv: 'sdds_serv',
     sdds_sbcom: 'sdds_sbcom',
+    sdds_finai: 'sdds_finai',
 };
 
 const compatibleSpacing: Record<string, string> = {
