@@ -1,0 +1,101 @@
+{
+    "name": "sdds_finai",
+    "version": "0.1.0",
+    "components": [
+        {
+            "componentName": "avatar",
+            "styleName": "avatar",
+            "config": "avatar_config.json"
+        },
+        {
+            "componentName": "avatar-group",
+            "styleName": "avatar-group",
+            "config": "avatar_group_config.json"
+        },
+        {
+            "componentName": "indicator",
+            "styleName": "avatar-indicator",
+            "config": "avatar_indicator_config.json"
+        },
+        {
+            "componentName": "basic-button",
+            "styleName": "basic-button",
+            "config": "basic_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "icon-button",
+            "config": "icon_button_config.json"
+        },
+        {
+            "componentName": "icon-button",
+            "styleName": "embedded-icon-button",
+            "config": "embedded_icon_button_config.json"
+        },
+        {
+            "componentName": "link-button",
+            "styleName": "link-button",
+            "config": "link_button_config.json"
+        },
+        {
+            "componentName": "bottom-sheet",
+            "styleName": "modal-bottom-sheet",
+            "config": "bottom_sheet_config.json"
+        },
+        {
+            "componentName": "cell",
+            "styleName": "cell",
+            "config": "cell_config.json"
+        },
+        {
+            "componentName": "check-box",
+            "styleName": "check-box",
+            "config": "checkbox_config.json"
+        },
+        {
+            "componentName": "counter",
+            "styleName": "counter",
+            "config": "counter_config.json"
+        },
+        {
+            "componentName": "divider",
+            "styleName": "divider",
+            "config": "divider_config.json"
+        },
+        {
+            "componentName": "indicator",
+            "styleName": "indicator",
+            "config": "indicator_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list-normal",
+            "config": "list_normal_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item-normal",
+            "config": "list_item_normal_config.json"
+        },
+        {
+            "componentName": "list",
+            "styleName": "list-tight",
+            "config": "list_tight_config.json"
+        },
+        {
+            "componentName": "list-item",
+            "styleName": "list-item-tight",
+            "config": "list_item_tight_config.json"
+        },
+        {
+            "componentName": "radio-box",
+            "styleName": "radio-box",
+            "config": "radiobox_config.json"
+        },
+        {
+            "componentName": "switch",
+            "styleName": "switch",
+            "config": "switch_config.json"
+        }
+    ]
+}
