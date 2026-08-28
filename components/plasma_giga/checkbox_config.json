@@ -11,20 +11,20 @@
                                 "focused",
                                 "checked"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.solid-default"
                         },
                         {
                             "state": [
                                 "focused",
                                 "indeterminate"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.solid-default"
                         },
                         {
                             "state": [
                                 "focused"
                             ],
-                            "value": "outline.default.accent"
+                            "value": "outline.default.solid-default"
                         },
                         {
                             "state": [
@@ -48,13 +48,13 @@
                             "state": [
                                 "checked"
                             ],
-                            "value": "surface.default.accent"
+                            "value": "surface.default.solid-default"
                         },
                         {
                             "state": [
                                 "indeterminate"
                             ],
-                            "value": "surface.default.accent"
+                            "value": "surface.default.solid-default"
                         }
                     ]
                 },
@@ -137,6 +137,76 @@
                 {
                     "name": "view",
                     "value": "negative"
+                }
+            ]
+        },
+        "positive": {
+            "props": {
+                "toggleBorderColor": {
+                    "type": "color",
+                    "default": "outline.default.positive",
+                    "states": [
+                        {
+                            "state": [
+                                "focused",
+                                "checked"
+                            ],
+                            "value": "outline.default.positive"
+                        },
+                        {
+                            "state": [
+                                "focused",
+                                "indeterminate"
+                            ],
+                            "value": "outline.default.positive"
+                        },
+                        {
+                            "state": [
+                                "focused"
+                            ],
+                            "value": "outline.default.positive"
+                        },
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "outline.default.clear"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "outline.default.clear"
+                        }
+                    ]
+                },
+                "toggleColor": {
+                    "type": "color",
+                    "default": "surface.default.clear",
+                    "states": [
+                        {
+                            "state": [
+                                "checked"
+                            ],
+                            "value": "surface.default.positive"
+                        },
+                        {
+                            "state": [
+                                "indeterminate"
+                            ],
+                            "value": "surface.default.positive"
+                        }
+                    ]
+                },
+                "toggleIconColor": {
+                    "type": "color",
+                    "default": "text.inverse.primary"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
                 }
             ]
         }
@@ -360,7 +430,7 @@
                 },
                 "textPadding": {
                     "type": "dimension",
-                    "value": 12
+                    "value": 8
                 },
                 "labelStyle": {
                     "type": "typography",
@@ -499,7 +569,8 @@
             "type": "view",
             "values": [
                 "default",
-                "negative"
+                "negative",
+                "positive"
             ],
             "defaultValue": "default"
         }
