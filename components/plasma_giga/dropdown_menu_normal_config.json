@@ -51,8 +51,23 @@
                 },
                 "shape": {
                     "type": "shape",
-                    "value": "round.l",
-                    "adjustment": -2.0
+                    "value": "round.xl"
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 10
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 10
                 },
                 "width": {
                     "type": "dimension",
@@ -65,6 +80,14 @@
                 "scrollBarPaddingBottom": {
                     "type": "dimension",
                     "value": 8
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "strokeColor": {
+                    "type": "color",
+                    "default": "outline.default.transparent-primary"
                 }
             },
             "binding": [
@@ -88,7 +111,24 @@
                 },
                 "shape": {
                     "type": "shape",
-                    "value": "round.m"
+                    "value": "round.xl",
+                    "adjustment": -2.0
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 8
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 8
                 },
                 "width": {
                     "type": "dimension",
@@ -101,6 +141,14 @@
                 "scrollBarPaddingBottom": {
                     "type": "dimension",
                     "value": 8
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "strokeColor": {
+                    "type": "color",
+                    "default": "outline.default.transparent-primary"
                 }
             },
             "binding": [
@@ -124,12 +172,27 @@
                 },
                 "shape": {
                     "type": "shape",
-                    "value": "round.m",
-                    "adjustment": -2.0
+                    "value": "round.l"
                 },
                 "width": {
                     "type": "dimension",
                     "value": 160
+                },
+                "paddingStart": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingEnd": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "paddingBottom": {
+                    "type": "dimension",
+                    "value": 6
                 },
                 "scrollBarPaddingTop": {
                     "type": "dimension",
@@ -138,6 +201,14 @@
                 "scrollBarPaddingBottom": {
                     "type": "dimension",
                     "value": 8
+                },
+                "strokeWidth": {
+                    "type": "dimension",
+                    "value": 1
+                },
+                "strokeColor": {
+                    "type": "color",
+                    "default": "outline.default.transparent-primary"
                 }
             },
             "binding": [
