@@ -7,13 +7,26 @@
         },
         "toggleTrackColor": {
             "type": "color",
-            "default": "surface.default.transparent.tertiary",
+            "default": "surface.default.transparent-tertiary",
             "states": [
                 {
                     "state": [
                         "checked"
                     ],
-                    "value": "surface.default.accent"
+                    "value": "surface.default.solid-default"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.default.transparent-tertiary-hover"
+                },
+                {
+                    "state": [
+                        "hovered",
+                        "checked"
+                    ],
+                    "value": "surface.default.solid-default"
                 }
             ]
         },
@@ -30,16 +43,45 @@
                         "checked"
                     ],
                     "value": "surface.inverse.solid-default"
+                },
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "surface.on-dark.solid-default-hover"
+                },
+                {
+                    "state": [
+                        "checked",
+                        "hovered"
+                    ],
+                    "value": "surface.inverse.solid-default-hover"
                 }
             ]
         },
         "labelColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.default.primary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.primary-hover"
+                }
+            ]
         },
         "descriptionColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.default.secondary",
+            "states": [
+                {
+                    "state": [
+                        "hovered"
+                    ],
+                    "value": "text.default.secondary-hover"
+                }
+            ]
         },
         "toggleTrackShape": {
             "type": "shape",
