@@ -22,6 +22,13 @@
                         },
                         {
                             "state": [
+                                "focused",
+                                "error"
+                            ],
+                            "value": "outline.default.solid-default"
+                        },
+                        {
+                            "state": [
                                 "focused"
                             ],
                             "value": "outline.default.solid-default"
@@ -35,6 +42,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "outline.default.clear"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "outline.default.clear"
                         }
@@ -53,6 +66,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "surface.default.solid-default"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "surface.default.solid-default"
                         }
@@ -92,6 +111,13 @@
                         },
                         {
                             "state": [
+                                "focused",
+                                "error"
+                            ],
+                            "value": "outline.default.negative"
+                        },
+                        {
+                            "state": [
                                 "focused"
                             ],
                             "value": "outline.default.negative"
@@ -105,6 +131,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "outline.default.clear"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "outline.default.clear"
                         }
@@ -123,6 +155,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "surface.default.negative"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "surface.default.negative"
                         }
@@ -162,6 +200,13 @@
                         },
                         {
                             "state": [
+                                "focused",
+                                "error"
+                            ],
+                            "value": "outline.default.positive"
+                        },
+                        {
+                            "state": [
                                 "focused"
                             ],
                             "value": "outline.default.positive"
@@ -175,6 +220,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "outline.default.clear"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "outline.default.clear"
                         }
@@ -193,6 +244,12 @@
                         {
                             "state": [
                                 "indeterminate"
+                            ],
+                            "value": "surface.default.positive"
+                        },
+                        {
+                            "state": [
+                                "error"
                             ],
                             "value": "surface.default.positive"
                         }
