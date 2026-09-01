@@ -49,10 +49,6 @@
             "type": "color",
             "default": "text.default.accent"
         },
-        "shape": {
-            "type": "shape",
-            "value": "round.l"
-        },
         "boxPaddingStart": {
             "type": "dimension",
             "value": 16.0
