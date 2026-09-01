@@ -28,16 +28,16 @@
                             "state": [
                                 "readonly"
                             ],
-                            "value": "surface.default.solid-primary",
-                            "alpha": 0.4
+                            "value": "surface.inverse.transparent-primary",
+                            "alpha": 0.01
                         },
                         {
                             "state": [
                                 "activated",
                                 "readonly"
                             ],
-                            "value": "surface.default.solid-primary",
-                            "alpha": 0.4
+                            "value": "surface.inverse.transparent-primary",
+                            "alpha": 0.01
                         }
                     ]
                 }
@@ -85,7 +85,7 @@
                                 "readonly"
                             ],
                             "value": "surface.default.solid-primary",
-                            "alpha": 0.4
+                            "alpha": 0.01
                         },
                         {
                             "state": [
@@ -93,7 +93,7 @@
                                 "readonly"
                             ],
                             "value": "surface.default.solid-primary",
-                            "alpha": 0.4
+                            "alpha": 0.01
                         }
                     ]
                 }

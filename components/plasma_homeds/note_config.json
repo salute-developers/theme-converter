@@ -92,7 +92,7 @@
         },
         "textColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.default.secondary"
         },
         "shape": {
             "type": "shape",
