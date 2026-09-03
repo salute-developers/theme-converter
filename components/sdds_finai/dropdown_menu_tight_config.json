@@ -1,0 +1,164 @@
+{
+    "view": {},
+    "bindings": [
+        {
+            "name": "size",
+            "type": "enum",
+            "values": [
+                "m",
+                "s",
+                "xs"
+            ],
+            "defaultValue": "m"
+        }
+    ],
+    "variations": [
+        {
+            "id": "m",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "m"
+                }
+            ],
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-tight.m"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.m.has-button"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 195
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "s",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "s"
+                }
+            ],
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-tight.s"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.s.has-button"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.s",
+                    "adjustment": -2.0
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 195
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        },
+        {
+            "id": "xs",
+            "parent": null,
+            "binding": [
+                {
+                    "name": "size",
+                    "value": "xs"
+                }
+            ],
+            "props": {
+                "listStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-menu-list-tight.xs"
+                },
+                "emptyStateStyle": {
+                    "type": "component_style",
+                    "value": "dropdown-empty-state.xs.has-button"
+                },
+                "shape": {
+                    "type": "shape",
+                    "value": "round.xs"
+                },
+                "width": {
+                    "type": "dimension",
+                    "value": 195
+                },
+                "scrollBarPaddingTop": {
+                    "type": "dimension",
+                    "value": 6
+                },
+                "scrollBarPaddingBottom": {
+                    "type": "dimension",
+                    "value": 8
+                }
+            }
+        }
+    ],
+    "props": {
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        },
+        "scrollBarStyle": {
+            "type": "component_style",
+            "value": "scroll-bar"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "offset": {
+            "type": "dimension",
+            "value": 8
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.hard.m"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 2
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 2
+        }
+    }
+}
