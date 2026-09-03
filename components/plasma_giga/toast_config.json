@@ -4,7 +4,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.primary"
+                    "default": "text.inverse.primary"
                 }
             },
             "binding": [
@@ -18,7 +18,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.positive"
+                    "default": "text.inverse.positive"
                 }
             },
             "binding": [
@@ -32,7 +32,7 @@
             "props": {
                 "contentStartColor": {
                     "type": "color",
-                    "default": "text.default.negative"
+                    "default": "text.inverse.negative"
                 }
             },
             "binding": [
@@ -46,15 +46,15 @@
     "props": {
         "backgroundColor": {
             "type": "color",
-            "default": "surface.default.solid-card"
+            "default": "surface.inverse.solid-card"
         },
         "textColor": {
             "type": "color",
-            "default": "text.default.primary"
+            "default": "text.inverse.primary"
         },
         "contentEndColor": {
             "type": "color",
-            "default": "text.default.secondary"
+            "default": "text.inverse.secondary"
         },
         "contentStartSize": {
             "type": "dimension",
