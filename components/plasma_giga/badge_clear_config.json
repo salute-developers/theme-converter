@@ -120,15 +120,15 @@
             "props": {
                 "endContentColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.on-light.primary"
                 },
                 "startContentColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.on-light.primary"
                 },
                 "labelColor": {
                     "type": "color",
-                    "default": "text.on-dark.primary"
+                    "default": "text.on-light.primary"
                 }
             },
             "binding": [

@@ -312,21 +312,21 @@
                             "state": [
                                 "selected"
                             ],
-                            "value": "surface.default.transparent-card"
+                            "value": "surface.default.solid-card"
                         },
                         {
                             "state": [
                                 "selected",
                                 "pressed"
                             ],
-                            "value": "surface.default.transparent-card-active"
+                            "value": "surface.default.solid-card-active"
                         },
                         {
                             "state": [
                                 "selected",
                                 "hovered"
                             ],
-                            "value": "surface.default.transparent-card-hover"
+                            "value": "surface.default.solid-card-hover"
                         }
                     ]
                 }
@@ -520,17 +520,17 @@
             "id": "xl",
             "parent": null,
             "view": {
-                "accent": {
+                "secondary": {
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "segment-item-counter.s.accent"
+                            "value": "segment-item-counter.s.default"
                         }
                     },
                     "binding": [
                         {
                             "name": "view",
-                            "value": "accent"
+                            "value": "secondary"
                         }
                     ]
                 }
@@ -587,7 +587,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "segment-item-counter.s.default"
+                    "value": "segment-item-counter.s.accent"
                 }
             },
             "binding": [
@@ -633,17 +633,17 @@
             "id": "l",
             "parent": null,
             "view": {
-                "accent": {
+                "secondary": {
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "segment-item-counter.s.accent"
+                            "value": "segment-item-counter.s.default"
                         }
                     },
                     "binding": [
                         {
                             "name": "view",
-                            "value": "accent"
+                            "value": "secondary"
                         }
                     ]
                 }
@@ -700,7 +700,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "segment-item-counter.s.default"
+                    "value": "segment-item-counter.s.accent"
                 }
             },
             "binding": [
@@ -746,17 +746,17 @@
             "id": "m",
             "parent": null,
             "view": {
-                "accent": {
+                "secondary": {
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "segment-item-counter.xs.accent"
+                            "value": "segment-item-counter.xs.default"
                         }
                     },
                     "binding": [
                         {
                             "name": "view",
-                            "value": "accent"
+                            "value": "secondary"
                         }
                     ]
                 }
@@ -813,7 +813,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "segment-item-counter.xs.default"
+                    "value": "segment-item-counter.xs.accent"
                 }
             },
             "binding": [
@@ -859,17 +859,17 @@
             "id": "s",
             "parent": null,
             "view": {
-                "accent": {
+                "secondary": {
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "segment-item-counter.xs.accent"
+                            "value": "segment-item-counter.xs.default"
                         }
                     },
                     "binding": [
                         {
                             "name": "view",
-                            "value": "accent"
+                            "value": "secondary"
                         }
                     ]
                 }
@@ -926,7 +926,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "segment-item-counter.xs.default"
+                    "value": "segment-item-counter.xs.accent"
                 }
             },
             "binding": [
@@ -972,17 +972,17 @@
             "id": "xs",
             "parent": null,
             "view": {
-                "accent": {
+                "secondary": {
                     "props": {
                         "counterStyle": {
                             "type": "component_style",
-                            "value": "segment-item-counter.xxs.accent"
+                            "value": "segment-item-counter.xxs.default"
                         }
                     },
                     "binding": [
                         {
                             "name": "view",
-                            "value": "accent"
+                            "value": "secondary"
                         }
                     ]
                 }
@@ -1039,7 +1039,7 @@
                 },
                 "counterStyle": {
                     "type": "component_style",
-                    "value": "segment-item-counter.xxs.default"
+                    "value": "segment-item-counter.xxs.accent"
                 }
             },
             "binding": [
