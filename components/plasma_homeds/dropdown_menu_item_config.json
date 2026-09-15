@@ -1,0 +1,126 @@
+{
+    "view": {
+        "default": {
+            "props": {
+                "titleColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                },
+                "contentStartColor": {
+                    "type": "color",
+                    "default": "text.default.primary"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "default"
+                }
+            ]
+        },
+        "positive": {
+            "props": {
+                "titleColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                },
+                "contentStartColor": {
+                    "type": "color",
+                    "default": "text.default.positive"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "positive"
+                }
+            ]
+        },
+        "negative": {
+            "props": {
+                "titleColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                },
+                "contentStartColor": {
+                    "type": "color",
+                    "default": "text.default.negative"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "negative"
+                }
+            ]
+        }
+    },
+    "props": {
+        "disableAlpha": {
+            "type": "float",
+            "value": 0.4
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.clear",
+            "states": [
+                {
+                    "state": [
+                        "focused"
+                    ],
+                    "value": "surface.default.transparent-secondary"
+                }
+            ]
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.m",
+            "adjustment": -2
+        },
+        "height": {
+            "type": "dimension",
+            "value": 48.0
+        },
+        "contentPaddingEnd": {
+            "type": "dimension",
+            "value": 12.0
+        },
+        "contentPaddingStart": {
+            "type": "dimension",
+            "value": 12.0
+        },
+        "titleStyle": {
+            "type": "typography",
+            "value": "body.m.normal"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 16
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 16
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 9
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 9
+        }
+    },
+    "bindings": [
+        {
+            "name": "view",
+            "type": "view",
+            "values": [
+                "default",
+                "positive",
+                "negative"
+            ],
+            "defaultValue": "default"
+        }
+    ],
+    "variations": []
+}
