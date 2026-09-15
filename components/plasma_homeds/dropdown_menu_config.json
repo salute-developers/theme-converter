@@ -1,0 +1,75 @@
+{
+    "view": {},
+    "bindings": [],
+    "variations": [],
+    "props": {
+        "listStyle": {
+            "type": "component_style",
+            "value": "dropdown-menu-list"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.xl"
+        },
+        "width": {
+            "type": "dimension",
+            "value": 200
+        },
+        "scrollBarPaddingTop": {
+            "type": "dimension",
+            "value": 6
+        },
+        "scrollBarPaddingBottom": {
+            "type": "dimension",
+            "value": 8
+        },
+        "dividerStyle": {
+            "type": "component_style",
+            "value": "divider"
+        },
+        "scrollBarStyle": {
+            "type": "component_style",
+            "value": "scroll-bar.s"
+        },
+        "backgroundColor": {
+            "type": "color",
+            "default": "surface.default.solid-card"
+        },
+        "offset": {
+            "type": "dimension",
+            "value": 8
+        },
+        "shadow": {
+            "type": "shadow",
+            "value": "down.soft.s"
+        },
+        "paddingStart": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingEnd": {
+            "type": "dimension",
+            "value": 0
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 6
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 6
+        },
+        "strokeWidth": {
+            "type": "dimension",
+            "value": 1
+        },
+        "strokeColor": {
+            "type": "color",
+            "default": "outline.default.transparent-primary"
+        },
+        "loadingStateStyle": {
+            "type": "component_style",
+            "value": "dropdown-loading-state"
+        }
+    }
+}
