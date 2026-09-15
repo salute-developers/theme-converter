@@ -1,0 +1,27 @@
+{
+    "view": {},
+    "props": {
+        "thumbColor": {
+            "type": "color",
+            "default": "surface.default.solid-tertiary"
+        },
+        "trackColor": {
+            "type": "color",
+            "default": "surface.default.transparent-primary"
+        },
+        "shape": {
+            "type": "shape",
+            "value": "round.circle"
+        },
+        "hoverExpandFactor": {
+            "type": "float",
+            "value": 1.0
+        },
+        "width": {
+            "type": "dimension",
+            "value": 6.0
+        }
+    },
+    "bindings": [],
+    "variations": []
+}
