@@ -1,0 +1,35 @@
+{
+    "view": {},
+    "props": {
+        "labelColor": {
+            "type": "color",
+            "default": "text.default.primary"
+        },
+        "buttonStyle": {
+            "type": "component_style",
+            "value": "basic-button.m.clear"
+        },
+        "labelStyle": {
+            "type": "typography",
+            "value": "body.m.normal"
+        },
+        "spinnerStyle": {
+            "type": "component_style",
+            "value": "spinner.xs.default"
+        },
+        "paddingTop": {
+            "type": "dimension",
+            "value": 12
+        },
+        "paddingBottom": {
+            "type": "dimension",
+            "value": 12
+        },
+         "gap": {
+            "type": "dimension",
+            "value": 6
+        }
+    },
+    "bindings": [],
+    "variations": []
+}

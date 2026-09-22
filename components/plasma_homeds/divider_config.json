@@ -5,13 +5,17 @@
             "type": "shape",
             "value": "round.circle"
         },
-        "thickness": {
+        "size": {
             "type": "dimension",
             "value": 1
         },
         "backgroundColor": {
             "type": "color",
             "default": "surface.default.transparent-tertiary"
+        },
+         "thickness": {
+            "type": "dimension",
+            "value": 0.5
         }
     },
     "variations": []
