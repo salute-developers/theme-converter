@@ -66,6 +66,22 @@
                     "value": "surface.default.negative"
                 }
             ]
+        },
+        "strokeColor": {
+            "type": "color",
+            "default": "outline.default.solid-primary",
+            "states": [
+                {
+                    "state": [
+                        "error"
+                    ],
+                    "value": "outline.default.transparent-negative"
+                }
+            ]
+        },
+        "strokeWidth": {
+            "type": "dimension",
+            "value": 1
         }
     },
     "variations": [
