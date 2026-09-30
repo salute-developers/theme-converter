@@ -230,9 +230,10 @@
             "name": "shape",
             "type": "enum",
             "values": [
-                "segmented"
+                "segmented",
+                "default"
             ],
-            "defaultValue": "segmented"
+            "defaultValue": "default"
         }
     ]
 }
