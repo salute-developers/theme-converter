@@ -238,7 +238,7 @@
             "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentBeforeArrangement": {
                     "type": "value",
