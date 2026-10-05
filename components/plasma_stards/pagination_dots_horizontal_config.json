@@ -40,8 +40,8 @@
                     "value": 12
                 },
                 "edgeCount": {
-                    "type": "value",
-                    "value": "2"
+                    "type": "integer",
+                    "value": 2
                 }
             },
             "binding": [
@@ -92,8 +92,8 @@
                     "value": 8
                 },
                 "edgeCount": {
-                    "type": "value",
-                    "value": "1"
+                    "type": "integer",
+                    "value": 1
                 }
             },
             "binding": [

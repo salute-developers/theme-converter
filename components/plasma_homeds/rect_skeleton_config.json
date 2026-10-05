@@ -11,7 +11,7 @@
             "value": "round.m"
         },
         "duration": {
-            "type": "float",
+            "type": "integer",
             "value": 700
         }
     }

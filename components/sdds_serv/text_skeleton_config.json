@@ -47,7 +47,7 @@
             "value": "round.xxs"
         },
         "duration": {
-            "type": "float",
+            "type": "integer",
             "value": 5000
         }
     }

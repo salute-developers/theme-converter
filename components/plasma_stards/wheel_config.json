@@ -148,12 +148,12 @@
     ],
     "props": {
         "visibleItemsCount": {
-            "type": "value",
-            "value": "5"
+            "type": "integer",
+            "value": 5
         },
         "wheelCount": {
-            "type": "value",
-            "value": "3"
+            "type": "integer",
+            "value": 3
         },
         "itemSelectorEnabled": {
             "type": "boolean",
