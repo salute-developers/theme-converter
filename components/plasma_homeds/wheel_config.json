@@ -306,12 +306,12 @@
     ],
     "props": {
         "visibleItemsCount": {
-            "type": "value",
-            "value": "3"
+            "type": "integer",
+            "value": 3
         },
         "wheelCount": {
-            "type": "value",
-            "value": "3"
+            "type": "integer",
+            "value": 3
         },
         "itemTextColor": {
             "type": "color",

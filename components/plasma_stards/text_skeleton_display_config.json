@@ -60,7 +60,7 @@
             "default": "surface.default.transparent-secondary"
         },
         "duration": {
-            "type": "float",
+            "type": "integer",
             "value": 700
         }
     },
