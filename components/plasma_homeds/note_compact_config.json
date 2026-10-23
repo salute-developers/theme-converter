@@ -86,6 +86,10 @@
             "type": "color",
             "default": "text.default.secondary"
         },
+        "disclosureColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
         "titleColor": {
             "type": "color",
             "default": "text.default.primary"
@@ -137,6 +141,14 @@
         "closeStartMargin": {
             "type": "dimension",
             "value": 0
+        },
+        "contentAfterStartMargin": {
+            "type": "dimension",
+            "value": 12
+        },
+        "disclosureSize": {
+            "type": "dimension",
+            "value": 24
         }
     },
     "bindings": [
@@ -174,7 +186,7 @@
             "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentBeforeArrangement": {
                     "type": "value",

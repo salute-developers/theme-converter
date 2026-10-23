@@ -86,6 +86,10 @@
             "type": "color",
             "default": "text.default.secondary"
         },
+        "disclosureColor": {
+            "type": "color",
+            "default": "text.default.secondary"
+        },
         "titleColor": {
             "type": "color",
             "default": "text.default.primary"
@@ -139,6 +143,18 @@
             "value": 0
         },
         "closeEndMargin": {
+            "type": "dimension",
+            "value": 0
+        },
+        "disclosureSize": {
+            "type": "dimension",
+            "value": 24
+        },
+        "contentAfterStartMargin": {
+            "type": "dimension",
+            "value": 12
+        },
+        "contentAfterEndMargin": {
             "type": "dimension",
             "value": 0
         }
@@ -219,6 +235,10 @@
                 "closeEndMargin": {
                     "type": "dimension",
                     "value": 10
+                },
+                "contentAfterEndMargin": {
+                    "type": "dimension",
+                    "value": 28
                 }
             },
             "binding": [
@@ -238,7 +258,7 @@
             "props": {
                 "contentBeforeEndMargin": {
                     "type": "dimension",
-                    "value": 8
+                    "value": 12
                 },
                 "contentBeforeArrangement": {
                     "type": "value",
@@ -279,6 +299,10 @@
                 "closeEndMargin": {
                     "type": "dimension",
                     "value": 10
+                },
+                "contentAfterEndMargin": {
+                    "type": "dimension",
+                    "value": 28
                 }
             },
             "binding": [
