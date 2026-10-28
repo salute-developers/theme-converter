@@ -900,19 +900,19 @@
                 },
                 "backgroundColor": {
                     "type": "color",
-                    "default": "surface.on-light.solid-default",
+                    "default": "surface.on-light.solid-contrast",
                     "states": [
                         {
                             "state": [
                                 "pressed"
                             ],
-                            "value": "surface.on-light.solid-default-active"
+                            "value": "surface.on-light.solid-contrast-active"
                         },
                         {
                             "state": [
                                 "hovered"
                             ],
-                            "value": "surface.on-light.solid-default-hover"
+                            "value": "surface.on-light.solid-contrast-hover"
                         }
                     ]
                 },
