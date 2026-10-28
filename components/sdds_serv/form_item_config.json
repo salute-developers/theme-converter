@@ -664,7 +664,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.s.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
@@ -800,7 +800,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.s.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
@@ -1040,7 +1040,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.m.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
@@ -1176,7 +1176,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.m.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
@@ -1416,7 +1416,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.l.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
@@ -1552,7 +1552,7 @@
                 },
                 "optionalStyle": {
                     "type": "typography",
-                    "value": "body.xs.normal"
+                    "value": "body.l.normal"
                 },
                 "hintIcon": {
                     "type": "icon",
