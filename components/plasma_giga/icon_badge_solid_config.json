@@ -126,6 +126,25 @@
                 }
             ]
         }
+        ,
+        "info": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.info"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.on-dark.primary"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
+        }
     },
     "variations": [
         {
