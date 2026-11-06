@@ -159,6 +159,28 @@
                     "value": "light"
                 }
             ]
+        },
+        "info": {
+            "props": {
+                "endContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "variations": [
