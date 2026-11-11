@@ -20,13 +20,13 @@
                             "state": [
                                 "disabled"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "readonly"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
@@ -116,13 +116,13 @@
                             "state": [
                                 "disabled"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "readonly"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
@@ -212,13 +212,13 @@
                             "state": [
                                 "disabled"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "readonly"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
@@ -308,13 +308,13 @@
                             "state": [
                                 "disabled"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "readonly"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
@@ -377,13 +377,13 @@
                             "state": [
                                 "disabled"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "readonly"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },

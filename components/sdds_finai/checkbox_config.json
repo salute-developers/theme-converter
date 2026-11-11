@@ -30,13 +30,13 @@
                             "state": [
                                 "checked"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "indeterminate"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
@@ -100,13 +100,13 @@
                             "state": [
                                 "checked"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         },
                         {
                             "state": [
                                 "indeterminate"
                             ],
-                            "value": "outline.default.clear"
+                            "value": "surface.default.clear"
                         }
                     ]
                 },
