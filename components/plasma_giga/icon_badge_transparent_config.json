@@ -125,6 +125,24 @@
                     "value": "light"
                 }
             ]
+        },
+        "info": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-info"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "variations": [

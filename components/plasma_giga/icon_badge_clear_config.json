@@ -103,6 +103,20 @@
                     "value": "light"
                 }
             ]
+        },
+        "info": {
+            "props": {
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "variations": [

@@ -181,6 +181,32 @@
                     "value": "light"
                 }
             ]
+        },
+        "info": {
+            "props": {
+                "backgroundColor": {
+                    "type": "color",
+                    "default": "surface.default.transparent-info"
+                },
+                "endContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                },
+                "startContentColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                },
+                "labelColor": {
+                    "type": "color",
+                    "default": "text.default.info"
+                }
+            },
+            "binding": [
+                {
+                    "name": "view",
+                    "value": "info"
+                }
+            ]
         }
     },
     "variations": [
